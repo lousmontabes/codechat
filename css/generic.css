@@ -229,7 +229,7 @@ pre::-webkit-scrollbar-thumb:hover {
 	position:fixed;
 	bottom:-170px;
 	height:200px;
-	width:100%;
+	width:800px;
 	text-align:left;
 	background:#F8F8F8;
 	border-top:1px solid lightgrey;
