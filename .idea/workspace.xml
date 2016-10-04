@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4bdde7f8-1dcd-4c07-822c-a06b0766a97e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/header.php" afterPath="$PROJECT_DIR$/header.php" />
     </list>
     <ignored path="codechat.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -89,7 +90,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
@@ -101,19 +102,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sql_retrievemessages.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sql_retrievemessages.php">
+      <file leaf-file-name="header.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="54" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="54" />
+            <state relative-caret-position="0">
+              <caret line="0" column="17" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
               <folding>
-                <marker date="1475575978000" expanded="true" signature="319:357" placeholder="SELECT langu... " />
-                <marker date="1475575978000" expanded="true" signature="569:605" placeholder="SELECT * FRO... messages" />
-                <marker date="1475575978000" expanded="true" signature="569:613" placeholder="SELECT * FRO... messages" />
-                <marker date="1475575978000" expanded="true" signature="569:634" placeholder="SELECT * FRO... messages" />
-                <marker date="1475575978000" expanded="true" signature="569:636" placeholder="SELECT * FRO... messages" />
-                <marker date="1475575978000" expanded="true" signature="569:638" placeholder="SELECT * FRO... messages" />
-                <marker date="1475575978000" expanded="true" signature="1032:1063" placeholder="SELECT * FRO... users" />
+                <element signature="n#style#0;n#a#0;n#b#0;n#span#0;n#div#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -186,6 +181,7 @@
         <option value="$PROJECT_DIR$/sql_updateprofile.php" />
         <option value="$PROJECT_DIR$/databasecheck.php" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/header.php" />
       </list>
     </option>
   </component>
@@ -324,12 +320,12 @@
       <workItem from="1475177301756" duration="15544000" />
       <workItem from="1475231366900" duration="6460000" />
       <workItem from="1475270806875" duration="1257000" />
-      <workItem from="1475571443377" duration="1348000" />
+      <workItem from="1475571443377" duration="1477000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24609000" />
+    <option name="totallyTimeSpent" value="24738000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -766,6 +762,16 @@
           <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
           <folding>
             <element signature="e#6#92#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="17" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#b#0;n#span#0;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
