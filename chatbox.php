@@ -164,7 +164,7 @@ else
 </div>
 
 <div class="centerarea">
-    <textarea id="usercontrols" onclick="toggleBackgroundOpacity(0.5)" onblur="toggleBackgroundOpacity(1)" spellcheck="false" placeholder="Reply in <?php echo $chat_language ?>"></textarea>
+    <textarea id="usercontrols" onclick="blurBackground()" onblur="restoreBackground()" spellcheck="false" placeholder="Reply in <?php echo $chat_language ?>"></textarea>
 </div>
 
 <script type="text/javascript">
@@ -404,11 +404,19 @@ function saveChatroom(){
 
 }
 
-function toggleBackgroundOpacity(opacity){
+    function blurBackground(){
 
-    $("#area").css("opacity", opacity);
+        $("#area").css("opacity", 0.5);
+        $("#area").css("top", "150px");
 
-}
+    }
+
+    function restoreBackground(){
+
+        $("#area").css("opacity", 1);
+        $("#area").css("top", "300px");
+
+    }
 
 </script>
 
