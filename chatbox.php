@@ -159,9 +159,9 @@ else
 
 ?>
 
-</div>
-
     <textarea id="usercontrols" onclick="toggleBackgroundOpacity(0.5)" onblur="toggleBackgroundOpacity(1)" spellcheck="false" placeholder="Reply in <?php echo $chat_language ?>"></textarea>
+
+</div>
 
 </div>
 
