@@ -165,7 +165,7 @@ else
 
 <div class="centerarea">
 
-    <div class="smallavatar" style="margin:0; margin-top:-20px;">
+    <div class="smallavatar" style="position:fixed;">
 
         <?php
         if (file_exists("avatars/".$activeuser_id.".gif")) echo "<img src='avatars/".$activeuser_id .".gif'>";
