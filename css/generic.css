@@ -157,6 +157,12 @@ pre::-webkit-scrollbar-thumb:hover {
 	margin-bottom:40px;
 }
 
+.centerarea{
+	width:800px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
 .message{
 	transition:0.3s;
 	border: 1px solid transparent;
@@ -240,6 +246,7 @@ pre::-webkit-scrollbar-thumb:hover {
 	font-family:droid sans mono;
 	font-size:24px;
 	color:grey;
+	resize: none;
 }
 
 #usercontrols:focus{
