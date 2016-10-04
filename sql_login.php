@@ -1,6 +1,13 @@
 <?php
 
-$con = mysqli_connect("localhost","root","root","codechat");
+$url = parse_url(getenv("CLEARDB_DATABASE_URL"));
+
+$server = $url["host"];
+$username = $url["user"];
+$password = $url["pass"];
+$db = substr($url["path"], 1);
+
+$con = new mysqli($server, $username, $password, $db);
 
 $email = htmlspecialchars(mysqli_real_escape_string($con, $_POST['email']));
 $password = htmlspecialchars(mysqli_real_escape_string($con, $_POST['password']));
