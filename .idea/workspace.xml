@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4bdde7f8-1dcd-4c07-822c-a06b0766a97e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/databasecheck.php" afterPath="$PROJECT_DIR$/databasecheck.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sql_countmessages.php" afterPath="$PROJECT_DIR$/sql_countmessages.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sql_createrelation.php" afterPath="$PROJECT_DIR$/sql_createrelation.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sql_login.php" afterPath="$PROJECT_DIR$/sql_login.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sql_newchat.php" afterPath="$PROJECT_DIR$/sql_newchat.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sql_postcomment.php" afterPath="$PROJECT_DIR$/sql_postcomment.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sql_removerelation.php" afterPath="$PROJECT_DIR$/sql_removerelation.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sql_retrievemessages.php" afterPath="$PROJECT_DIR$/sql_retrievemessages.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sql_updateprofile.php" afterPath="$PROJECT_DIR$/sql_updateprofile.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/verification.php" afterPath="$PROJECT_DIR$/verification.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index.php" />
     </list>
     <ignored path="codechat.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -46,6 +36,22 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="sql_register.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sql_register.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="636">
+              <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="59" selection-end-column="5" />
+              <folding>
+                <marker date="1443894922000" expanded="true" signature="336:393" placeholder="SELECT EXIST... " />
+                <marker date="1443894922000" expanded="true" signature="350:392" placeholder="SELECT * FRO... users" />
+                <marker date="1443894922000" expanded="true" signature="747:822" placeholder="INSERT INTO users... " />
+                <marker date="1443894922000" expanded="true" signature="942:982" placeholder="SELECT * FRO... users" />
+                <marker date="1443894922000" expanded="true" signature="1164:1224" placeholder="INSERT INTO sessions... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="sql_createrelation.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sql_createrelation.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -71,11 +77,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="databasecheck.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="databasecheck.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/databasecheck.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
               <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+              <folding>
+                <element signature="e#6#92#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
               <folding>
                 <element signature="e#6#92#0#PHP" expanded="true" />
               </folding>
@@ -101,18 +119,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sql_updateprofile.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sql_updateprofile.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="54" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
-              <folding>
-                <marker date="1475576088000" expanded="true" signature="959:1057" placeholder="UPDATE `prof... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="sql_postcomment.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sql_postcomment.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -121,19 +127,6 @@
               <folding>
                 <marker date="1475575987000" expanded="true" signature="438:521" placeholder="INSERT INTO messages... " />
                 <marker date="1475575987000" expanded="true" signature="545:641" placeholder="UPDATE user_... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="verification.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/verification.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
-              <folding>
-                <marker date="1475575987000" expanded="true" signature="512:546" placeholder="SELECT * FRO... sessions" />
-                <marker date="1475575987000" expanded="true" signature="779:810" placeholder="SELECT * FRO... users" />
               </folding>
             </state>
           </provider>
@@ -192,6 +185,7 @@
         <option value="$PROJECT_DIR$/sql_createrelation.php" />
         <option value="$PROJECT_DIR$/sql_updateprofile.php" />
         <option value="$PROJECT_DIR$/databasecheck.php" />
+        <option value="$PROJECT_DIR$/index.php" />
       </list>
     </option>
   </component>
@@ -330,12 +324,12 @@
       <workItem from="1475177301756" duration="15544000" />
       <workItem from="1475231366900" duration="6460000" />
       <workItem from="1475270806875" duration="1257000" />
-      <workItem from="1475571443377" duration="1001000" />
+      <workItem from="1475571443377" duration="1348000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24262000" />
+    <option name="totallyTimeSpent" value="24609000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -674,16 +668,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sql_removerelation.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
-          <folding>
-            <marker date="1475576016000" expanded="true" signature="403:478" placeholder="DELETE FROM " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sql_postcomment.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -721,13 +705,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sql_createrelation.php">
+    <entry file="file://$PROJECT_DIR$/databasecheck.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        <state relative-caret-position="285">
+          <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
           <folding>
             <element signature="e#6#92#0#PHP" expanded="true" />
-            <marker date="1475576088000" expanded="true" signature="403:476" placeholder="INSERT INTO `relations`... " />
           </folding>
         </state>
       </provider>
@@ -742,10 +725,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/databasecheck.php">
+    <entry file="file://$PROJECT_DIR$/sql_createrelation.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+        <state relative-caret-position="135">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding>
+            <element signature="e#6#92#0#PHP" expanded="true" />
+            <marker date="1475576088000" expanded="true" signature="403:476" placeholder="INSERT INTO `relations`... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sql_removerelation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+          <folding>
+            <marker date="1475576016000" expanded="true" signature="403:478" placeholder="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sql_register.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="636">
+          <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="59" selection-end-column="5" />
+          <folding>
+            <marker date="1443894922000" expanded="true" signature="336:393" placeholder="SELECT EXIST... " />
+            <marker date="1443894922000" expanded="true" signature="350:392" placeholder="SELECT * FRO... users" />
+            <marker date="1443894922000" expanded="true" signature="747:822" placeholder="INSERT INTO users... " />
+            <marker date="1443894922000" expanded="true" signature="942:982" placeholder="SELECT * FRO... users" />
+            <marker date="1443894922000" expanded="true" signature="1164:1224" placeholder="INSERT INTO sessions... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
           <folding>
             <element signature="e#6#92#0#PHP" expanded="true" />
           </folding>
