@@ -164,6 +164,16 @@ else
 </div>
 
 <div class="centerarea">
+
+    <div class="smallavatar" style="margin:0; margin-top:-20px;">
+
+        <?php
+        if (file_exists("avatars/".$activeuser_id.".gif")) echo "<img src='avatars/".$activeuser_id .".gif'>";
+        else echo "<img src='images/placeholder". $activeuser_id % 5 .".gif'>";
+        ?>
+
+    </div>
+
     <textarea id="usercontrols" onclick="toggleBackgroundOpacity(0.5)" onblur="toggleBackgroundOpacity(1)" spellcheck="false" placeholder="Reply in <?php echo $chat_language ?>"></textarea>
 </div>
 
