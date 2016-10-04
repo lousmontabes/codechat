@@ -227,8 +227,8 @@ pre::-webkit-scrollbar-thumb:hover {
 #usercontrols{
 	transition:0.2s;
 	position:fixed;
-	bottom:-170px;
-	height:200px;
+	bottom:10px;
+	height:50px;
 	width:800px;
 	margin-left:auto;
 	margin-right:auto;
@@ -243,9 +243,9 @@ pre::-webkit-scrollbar-thumb:hover {
 }
 
 #usercontrols:focus{
-	bottom:0px;	
 	outline:none;
 	color:black;
+	height:200px;
 }
 
 #usercontrols::-webkit-input-placeholder {
