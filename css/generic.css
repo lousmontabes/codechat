@@ -247,6 +247,7 @@ pre::-webkit-scrollbar-thumb:hover {
 	font-size:24px;
 	color:grey;
 	resize: none;
+    box-shadow:0 1px 2px #aaa;
 }
 
 #usercontrols:focus{
