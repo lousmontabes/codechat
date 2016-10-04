@@ -1,0 +1,201 @@
+@charset "utf-8";
+/* CSS Document */
+
+::selection{
+	text-shadow: none;
+	background: #b3d4fc;
+}
+
+body{
+	margin:0;	
+}
+
+code{
+	font-family: droid sans mono;
+}
+
+.code{
+	transition:0.5s;
+	background:rgba(239,239,239,1.00);
+	padding:3px 15px;	
+	border:1px solid transparent;
+	display:inline-block;
+}
+
+.code:hover{
+	border:1px solid grey;	
+}
+
+#everything{
+	font-family:open sans;
+	padding-top:100px;
+}
+
+#header{
+	transition:0.4s;
+	height:50px;
+	width:100%;
+	padding:17px;	
+	font-size:36px;
+	font-weight:300;
+	color:white;
+	text-align:left;
+	margin-top:-10px;
+	background:#3e4f71;
+	position:fixed;
+	z-index:900;
+	font-family:open sans;
+}
+
+#header a{
+	transition: color 0.2s;
+	text-decoration:none;
+	color:white;	
+}
+
+#header a:hover{
+	color:#c893e9;	
+}
+
+#area{
+	transition:0.1s;
+	width:800px;
+	top:300px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:250px;
+}
+
+.message{
+	transition:0.3s;
+	border: 1px solid transparent;
+	/*padding: 10px;*/
+	margin: 5px 0px;
+	color:grey;	
+	overflow:hidden;
+}
+
+.message code{
+	
+}
+
+.message:hover{
+	
+}
+
+.message:hover .time{
+	opacity:1;	
+}
+
+.sender{
+	color:black;
+	font-weight:600;
+}
+
+.messagenumber{
+	transition:0.3s;
+	color:lightgrey;
+	border-radius:8px;
+	text-align:center;
+	font-size:12px;
+}
+
+.messagenumber:hover{
+	color:grey;	
+}
+
+.message a{
+	text-decoration:none;	
+}
+
+.time{
+	transition:0.3s;
+	opacity:0;
+	position:relative;
+	float:right;
+	font-size:12px;
+	bottom:10px;
+}
+
+#mine{
+	text-align:right;	
+}
+
+#mine .time{
+	float:left;	
+}
+
+#usercontrols{
+	transition:0.2s;
+	position:fixed;
+	bottom:-170px;
+	height:200px;
+	width:100%;
+	text-align:left;
+	border-top:1px solid #3e4f71;
+	padding:20px;
+	font-family:droid sans mono;
+	font-size:24px;
+	color:grey;
+}
+
+#usercontrols:focus{
+	bottom:0px;	
+	outline:none;
+	color:black;
+}
+
+#usercontrols::-webkit-input-placeholder {
+   font-family:open sans;
+   color:#3e4f71;
+}
+
+#usercontrols:-moz-placeholder { /* Firefox 18- */
+   font-family:open sans;
+   color:#3e4f71;
+}
+
+#usercontrols::-moz-placeholder {  /* Firefox 19+ */
+   font-family:open sans;
+   color:#3e4f71;
+}
+
+#usercontrols:-ms-input-placeholder {  
+   font-family:open sans;
+   color:#3e4f71;
+}
+
+.text{
+	text-decoration:underline;	
+}
+
+#fullcode{
+	display:none;
+	position: fixed;
+	right: 0;
+	width: 490px;
+	height: 100%;
+	z-index: 100;
+	background:rgba(239,239,239,1.00);
+	font-size: 14px;
+
+}
+
+#fullcode::-webkit-scrollbar {
+    width: 15px;
+}
+ 
+#fullcode::-webkit-scrollbar-track {
+
+}
+ 
+#fullcode::-webkit-scrollbar-thumb {
+  background-color: grey;
+  border:5px solid rgba(239,239,239,1.00);
+  border-radius:15px;
+}
+
+#codearea{
+	background:rgba(239,239,239,1.00);
+	padding:20px;
+}
