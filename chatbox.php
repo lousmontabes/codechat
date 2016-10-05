@@ -26,7 +26,7 @@ $chat_language = $row['language'];
 
 <head>
 <meta charset="utf-8">
-<title>Codechat / <?php echo $chat_name?></title>
+<title>Codechat / <?php echo html_entity_decode($chat_name)?></title>
 
 <link href='https://fonts.googleapis.com/css?family=Droid+Sans+Mono' rel='stylesheet' type='text/css'>
 <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic
