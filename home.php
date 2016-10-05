@@ -78,6 +78,7 @@ a{
 
 #header{
 	background:white;
+	border-bottom:1px solid lightgrey;
 }
 
 </style>
