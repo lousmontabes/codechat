@@ -255,7 +255,7 @@ function refreshChat(){
 
 function sendMessage() {                
 		
-		message = nl2br(document.getElementById("usercontrols").value);
+		//message = nl2br(document.getElementById("usercontrols").value);
 		//pre_user_name = "";
 		//user_name = user_name.split(' ').join('+');
 		
