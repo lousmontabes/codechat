@@ -166,6 +166,7 @@ else
 
 <div class="centerarea">
     <textarea id="usercontrols" onclick="blurBackground()" onblur="restoreBackground()" spellcheck="false" placeholder="Reply in <?php echo $chat_language ?>"></textarea>
+    <div id="bottomFade"></div>
 </div>
 
 <script type="text/javascript">

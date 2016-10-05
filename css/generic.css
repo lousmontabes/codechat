@@ -453,3 +453,10 @@ pre::-webkit-scrollbar-thumb:hover {
 #savePrompt{
     margin-left:100px;
 }
+
+#bottomFade{
+    position:fixed;
+    bottom:0;
+    width:100%;
+    background:red;
+}
