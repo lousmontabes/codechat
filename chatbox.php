@@ -287,6 +287,9 @@ function getMessageCount(){
         success: function(response){                    
             if (response > messageCount){
 				refreshChat();
+                if($(this).scrollTop() == $(document).height){
+                    goToBottom();
+                }
 				messageCount = response;
 				
 				// IF TAB IS NOT ACTIVE, SHOW (1) WITH THE NUMBER OF MESSAGES UNATTENDED
