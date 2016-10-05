@@ -429,12 +429,12 @@ function saveChatroom(){
         return matches ? matches[1] : null;
     }
 
-    showPrompt(){
+    function showPrompt(){
         $("#savePrompt").css("opacity",1);
         $("#savePrompt").css("width","500px");
     }
 
-    hidePrompt(){
+    function hidePrompt(){
         $("#savePrompt").css("opacity",0);
         $("#savePrompt").css("width","0px");
     }
