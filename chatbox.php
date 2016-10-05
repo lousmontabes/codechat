@@ -203,24 +203,22 @@ function hasScrolled() {
     // This is necessary so you never see what is "behind" the navbar.
     if (st > lastScrollTop && st > navbarHeight){
         // Scroll Down
-        //$('#header').css("font-size","24px");
-		//$('#header').css("height","24px");
-        $('#header').css("top","-24px");
+        /*$('#header').css("font-size","24px");
+		$('#header').css("height","24px");
 		$('#userinfo').css("padding","7px 20px");
 		$('#userinfo').addClass("userinfo-small");
         $('#saveChatroomButton').css("top", "24px");
-        $("#chatmenu").css("top","38px");
+        $("#chatmenu").css("top","38px");*/
 		
     } else {
         // Scroll Up
         if(st + $(window).height() < $(document).height()) {
-            //$('#header').css("font-size","36px");
-			//$('#header').css("height","50px");
-            $('#header').css("top","0px");
+            /*$('#header').css("font-size","36px");
+			$('#header').css("height","50px");
 			$('#userinfo').css("padding","20px");
 			$('#userinfo').removeClass("userinfo-small");
             $('#saveChatroomButton').css("top", "33px");
-			$("#chatmenu").css("top","68px");
+			$("#chatmenu").css("top","68px");*/
         }
     }
     
