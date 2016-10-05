@@ -76,6 +76,10 @@ a{
 	width:200px;
 }
 
+#header{
+	background:white;
+}
+
 </style>
 
 </head>
