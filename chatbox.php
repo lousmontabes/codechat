@@ -429,13 +429,25 @@ function saveChatroom(){
         return matches ? matches[1] : null;
     }
 
+    showPrompt(){
+        $("#savePrompt").css("opacity",1);
+        $("#savePrompt").css("width","500px");
+    }
+
+    hidePrompt(){
+        $("#savePrompt").css("opacity",0);
+        $("#savePrompt").css("width","0px");
+    }
+
     if(window.location.hash) {
 
         var hash = getHashValue('#');
 
         if (hash == "h"){
-            $("#savePrompt").css("opacity","1");
-            $("#savePrompt").css("width","500px");
+
+            showPrompt();
+            setTimeout("hidePrompt()", 4000);
+
         }
 
     }
