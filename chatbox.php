@@ -445,8 +445,8 @@ function saveChatroom(){
 
         if (hash == "h"){
 
-            showPrompt();
-            setTimeout("hidePrompt()", 4000);
+            setTimeout("showPrompt()", 1000);
+            setTimeout("hidePrompt()", 3000);
 
         }
 
