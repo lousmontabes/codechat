@@ -204,7 +204,8 @@ function hasScrolled() {
     if (st > lastScrollTop && st > navbarHeight){
         // Scroll Down
         //$('#header').css("font-size","24px");
-		$('#header').css("height","24px");
+		//$('#header').css("height","24px");
+        $('#header').css("top","-24px");
 		$('#userinfo').css("padding","7px 20px");
 		$('#userinfo').addClass("userinfo-small");
         $('#saveChatroomButton').css("top", "24px");
@@ -214,7 +215,8 @@ function hasScrolled() {
         // Scroll Up
         if(st + $(window).height() < $(document).height()) {
             //$('#header').css("font-size","36px");
-			$('#header').css("height","50px");
+			//$('#header').css("height","50px");
+            $('#header').css("top","0px");
 			$('#userinfo').css("padding","20px");
 			$('#userinfo').removeClass("userinfo-small");
             $('#saveChatroomButton').css("top", "33px");
