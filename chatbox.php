@@ -407,14 +407,14 @@ function saveChatroom(){
     function blurBackground(){
 
         $("#area").css("opacity", 0.5);
-        $("#area").css("margin-top", "-190px");
+        //$("#area").css("margin-top", "-190px");
 
     }
 
     function restoreBackground(){
 
         $("#area").css("opacity", 1);
-        $("#area").css("margin-top", "0px");
+        //$("#area").css("margin-top", "0px");
 
     }
 
