@@ -448,6 +448,7 @@ function saveChatroom(){
 
             setTimeout("showPrompt()", 500);
             setTimeout("hidePrompt()", 3500);
+            parent.location.hash = ''
 
         }
 
