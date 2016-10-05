@@ -250,6 +250,7 @@ pre::-webkit-scrollbar-thumb:hover {
 	color:grey;
 	resize: none;
     box-shadow:0 1px 2px #aaa;
+    z-index:10;
 }
 
 #usercontrols:focus{
@@ -464,4 +465,5 @@ pre::-webkit-scrollbar-thumb:hover {
     background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%); /* Chrome10-25,Safari5.1-6 */
     background: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+    z-index:0;
 }
