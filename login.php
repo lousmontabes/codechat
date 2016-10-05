@@ -145,6 +145,10 @@ h1{
 	position:absolute;	
 }
 
+#emailinput, #passwordinput{
+	width:320px;
+}
+
 .warning{
 	transition:0.2s;
 	background:#E9797B;
