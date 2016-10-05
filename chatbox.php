@@ -435,7 +435,7 @@ function saveChatroom(){
 
         if (hash == "h"){
             $("#savePrompt").css("opacity","1");
-            $("#savePrompt").css("width","290px");
+            $("#savePrompt").css("width","500px");
         }
 
     }
