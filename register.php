@@ -60,8 +60,8 @@ a{
 	margin-right:10px;
 }
 
-#newchat{
-
+#header{
+	background:white;
 }
 
 #newchat:hover .round{
