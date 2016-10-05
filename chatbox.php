@@ -287,7 +287,7 @@ function getMessageCount(){
         success: function(response){                    
             if (response > messageCount){
 				refreshChat();
-                if($(this).scrollTop() == $(document).height){
+                if($(this).scrollTop() + $(window).height() == $(document).height){
                     goToBottom();
                 }
 				messageCount = response;
