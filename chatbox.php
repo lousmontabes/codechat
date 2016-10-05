@@ -292,6 +292,7 @@ function getMessageCount(){
                     alert("hi");
                 }else{
                     refreshChat();
+                    alert("ho");
                 }
 				messageCount = response;
 				
