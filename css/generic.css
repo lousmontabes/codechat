@@ -434,3 +434,18 @@ pre::-webkit-scrollbar-thumb:hover {
 .codeline{
     color:#2e6da4;
 }
+
+.prompt{
+    transition:0.2s;
+    background:#4cae4c;
+    display:inline-block;
+    padding:5px 10px;
+    border-radius:6px;
+    font-size:16px;
+    font-weight:600;
+    color:white;
+    opacity:0;
+    overflow:hidden;
+    white-space:nowrap;
+    width:0px;
+}

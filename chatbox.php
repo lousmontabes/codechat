@@ -53,7 +53,7 @@ $chat_language = $row['language'];
 <div id="header">
     <a href="home.php">codechat</a> / <a onClick="showMenu()"><?php echo $chat_name ?></a>
     <span id="saveChatroomButton" class="unclicked" onclick="saveChatroom()">save</span>
-    <div id="savePrompt" class="warning">Save this chatroom to access it from the home screen anytime.</div>
+    <div id="savePrompt" class="prompt">Save this chatroom to access it from the home screen anytime.</div>
     <span id="userinfo"><b><a style="border:none; opacity:1;" href="profile.php?u=<?php echo $activeuser_id?>"><?php echo $activeuser_name ?></a></b> (<a href="logout.php">Log out</a>)
 
 <a href="profile.php?u=<?php echo $activeuser_id?>">
