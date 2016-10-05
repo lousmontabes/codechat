@@ -407,7 +407,7 @@ function saveChatroom(){
     function blurBackground(){
 
         $("#area").css("opacity", 0.5);
-        $("#area").css("margin-top", "-220px");
+        $("#area").css("margin-top", "-190px");
 
     }
 
