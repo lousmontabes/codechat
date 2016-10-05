@@ -101,7 +101,7 @@ a{
 
 		<div id="searcharea">
 
-			<form action="chatbox.php" method="get">
+			<form action="chatbox.php#h" method="get">
 				<input type="text" class="bigsearchbar" placeholder="Enter chatroom token" spellcheck="false" name="token">
 			</form>
 

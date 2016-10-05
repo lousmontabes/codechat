@@ -423,6 +423,21 @@ function saveChatroom(){
 
     }
 
+    function getHashValue(key) {
+        var matches = location.hash.match(new RegExp(key+'([^&]*)'));
+        return matches ? matches[1] : null;
+    }
+
+    if(window.location.hash) {
+
+        var hash = getHashValue('#');
+
+        if (hash == "h"){
+            alert("test");
+        }
+        
+    }
+
 </script>
 
 </body>
