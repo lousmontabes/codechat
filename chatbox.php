@@ -289,8 +289,10 @@ function getMessageCount(){
                 if($(this).scrollTop() + $(window).height() == $(document).height()){
                     refreshChat();
                     goToBottom();
+                    alert("hi");
                 }else{
                     refreshChat();
+                    alert("ho");
                 }
 				messageCount = response;
 				
