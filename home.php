@@ -117,7 +117,7 @@ a{
 			echo "<h1 class='nochats'>
                 <span style='color:orange'>alert</span>(<span class='codeline'>'You have no saved chats.'</span>)</h1>
                 <br><br>
-                You can create a new chat clicking the button below or enter a token above to join an existing one.";
+                You can create a new chat by clicking the button below or enter a token above to join an existing one.";
 		}
 
 		while ($relation = mysqli_fetch_array($result)){
