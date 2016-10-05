@@ -286,9 +286,11 @@ function getMessageCount(){
         dataType: "html",   //expect html to be returned                
         success: function(response){                    
             if (response > messageCount){
-				refreshChat();
                 if($(this).scrollTop() + $(window).height() == $(document).height){
+                    refreshChat();
                     goToBottom();
+                }else{
+                    refreshChat();
                 }
 				messageCount = response;
 				
