@@ -314,7 +314,7 @@ function getMessageCount(){
 
 window.onload = function() {
     setInterval(getMessageCount, 100);
-}
+};
 
 $(window).focus(function() {
 	windowBlurred = false;
@@ -443,6 +443,12 @@ function saveChatroom(){
     if(window.location.hash) {
 
         var hash = getHashValue('#');
+
+        if (hash == "c"){
+
+            
+
+        }
 
         if (hash == "h" && !saved){
 

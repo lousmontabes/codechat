@@ -265,7 +265,7 @@ if( isset ($_COOKIE['sUser']) ) {
 <script type="text/javascript">
 
     $("#document").ready(function(){
-       animateChat();
+       setTimeout("animateChat()", 1000);
     });
 
  $("#newchatform").submit(function (e) { 
