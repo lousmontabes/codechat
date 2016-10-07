@@ -235,8 +235,6 @@ if( isset ($_COOKIE['sUser']) ) {
 
 </div>
 
-<div id="cloudsbottom"></div>
-
 <script>
 
 function getHashValue(key) {
