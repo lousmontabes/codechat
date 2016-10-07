@@ -445,17 +445,25 @@ function saveChatroom(){
         var hash = getHashValue('#');
 
         if (hash == "c"){
-
-            
-
+            // The user has accessed this chatroom automatically after creating it.
+            displayMessage("Share this token to invite people to this chat: <?php echo $chat_token ?>");
         }
 
         if (hash == "h" && !saved){
-
-            setTimeout("showPrompt()", 500);
-            setTimeout("hidePrompt()", 3500);
-
+            // The user has accessed this chatroom entering a token on the homescreen.
+            // The chatroom hasn't been saved to the homescreen.
+            displayMessage("Save this chatroom to access it from the home screen anytime.");
         }
+
+    }
+
+
+    function displayMessage(message){
+
+        $("#savePrompt").html(message);
+
+        setTimeout("showPrompt()", 500);
+        setTimeout("hidePrompt()", 3500);
 
     }
 
