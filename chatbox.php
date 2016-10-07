@@ -447,6 +447,7 @@ function saveChatroom(){
         if (hash == "c"){
             // The user has accessed this chatroom automatically after creating it.
             displayMessage("Share this token to invite people to this chat: <?php echo $chat_token ?>");
+            window.location.hash = "";
         }
 
         if (hash == "h" && !saved){
