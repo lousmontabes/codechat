@@ -124,6 +124,7 @@ tr:hover{
 	font-size:24px;
 	line-height:30px;
 	color:grey;
+	padding-top:10px;
 }
 
 #table-images tr{
