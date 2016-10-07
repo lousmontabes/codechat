@@ -18,160 +18,157 @@
 
 <style>
 
-a{
-	text-decoration:none;	
-}
+    a{
+        text-decoration:none;
+    }
 
-.chat{
-	transition:0.2s;
-	width:100%;
-	margin-bottom:10px;
-	font-size:36px;
-	color:grey;
-	cursor:pointer;
-	font-weight:100;
-}
+    .chat{
+        transition:0.2s;
+        width:100%;
+        margin-bottom:10px;
+        font-size:36px;
+        color:grey;
+        cursor:pointer;
+        font-weight:100;
+    }
 
-.chat:hover{
-	color:black;	
-}
+    .chat:hover{
+        color:black;
+    }
 
-.language{
-	font-size:14px;
-	margin-left:1px;	
-	font-weight:400;
-}
+    .language{
+        font-size:14px;
+        margin-left:1px;
+        font-weight:400;
+    }
 
-.round{
-	transition:0.2s;
-	height:50px;
-	width:50px;
-	line-height:50px;
-	text-align:center;
-	font-size:36px;
-	font-weight:100;
-	color:grey;
-	border:1px solid grey;
-	border-radius:25px;
-	display:inline-block;
-	float:left;
-	left:0;
-	top:10px;
-	margin-right:10px;
-}
+    .round{
+        transition:0.2s;
+        height:50px;
+        width:50px;
+        line-height:50px;
+        text-align:center;
+        font-size:36px;
+        font-weight:100;
+        color:grey;
+        border:1px solid grey;
+        border-radius:25px;
+        display:inline-block;
+        float:left;
+        left:0;
+        top:10px;
+        margin-right:10px;
+    }
 
-#header{
-	background:white;
-}
+    #newchat:hover .round{
+        color:black;
+        border-color:black;
+    }
 
-#newchat:hover .round{
-	color:black;
-	border-color:black;	
-}
+    #divisor{
+        content:"";
+        border-top:1px solid grey;
+        margin:30px 0px;
+        width:200px;
+    }
 
-#divisor{
-	content:"";
-	border-top:1px solid grey;
-	margin:30px 0px;
-	width:200px;
-}
+    h1{
+        font-family:open sans;
+        margin:0;
+        padding:0;
+        font-weight:100;
+        font-size:36px;
+    }
 
-h1{
-	font-family:open sans;
-	margin:0;
-	padding:0;
-	font-weight:100;
-	font-size:36px;	
-}
+    #newchatform{
+        font-size:28px;
+        font-weight:100;
+        color:grey;
+        margin-top:20px;
+    }
 
-#newchatform{
-	font-size:28px;
-	font-weight:100;
-	color:grey;	
-	margin-top:20px;
-}
+    #newchatform input, #newchatform select{
+        transition:0.2s;
+        font-family:open sans;
+        margin-bottom:10px;
+    }
 
-#newchatform input, #newchatform select{
-	transition:0.2s;
-	font-family:open sans;
-	margin-bottom:10px;
-}
+    #newchatform select{
+        border-bottom:none;
+        margin-left:-4px;
+    }
 
-#newchatform select{
-	border-bottom:none;	
-	margin-left:-4px;
-}
+    .noborder{
+        border:none;
+        font-size:28px;
+        font-weight:300;
+        color:grey;
+    }
 
-.noborder{
-	border:none;
-	font-size:28px;
-	font-weight:300;
-	color:grey;	
-}
+    #newchatform input:hover, #newchatform select:hover,
+    #newchatform input:focus, #newchatform select:focus{
+        color:black;
+    }
 
-#newchatform input:hover, #newchatform select:hover,
-#newchatform input:focus, #newchatform select:focus{
-	color:black;
-}
+    #newchatform input:focus, #newchatform select{
+        outline:none;
+    }
 
-#newchatform input:focus, #newchatform select{
-	outline:none;
-}
+    #splash{
+        width:1200px;
+        margin-left:auto;
+        margin-right:auto;
+        height:100px;
+        line-height:100px;
+        text-align:center;
+        color: #4d7eb4;
+        font-size:16px;
+        font-family:droid sans mono;
+    }
 
-#splash{
-	width:1200px;
-	margin-left:auto;
-	margin-right:auto;
-	background:url(images/clouds-airplane1.jpg);
-	height:489px;
-	margin-top:-80px;
-	line-height:409px;
-	text-align:center;
-	color:white;
-	font-size:16px;
-	text-shadow: 1px 1px #893e77;
-	font-family:droid sans mono;
-}
+    #splash h1{
+        font-family:open sans;
+        font-size:70px;
+        font-weight:400;
+        margin-bottom:-350px;
+    }
 
-#splash h1{
-	font-family:open sans;
-	font-size:70px;
-	text-shadow: 0px 2px #893e77;
-	-webkit-text-stroke-width: 1px;
-   -webkit-text-stroke-color: #893e77;
-   font-weight:400;
-   margin-bottom:-350px;
-}
+    .greenglow{
+        text-shadow: 1px 2px #54A7FF;
+    }
 
-.greenglow{
-	text-shadow: 1px 2px #54A7FF;
-}
+    .warning{
+        transition:0.2s;
+        background:#E9797B;
+        display:inline-block;
+        padding:5px 10px;
+        border-radius:6px;
+        font-size:16px;
+        font-weight:600;
+        color:white;
+        opacity:0;
+        overflow:hidden;
+        white-space:nowrap;
+        width:0px;
+    }
 
-.warning{
-	transition:0.2s;
-	background:#E9797B;
-	display:inline-block;
-	padding:5px 10px;
-	border-radius:6px;
-	font-size:16px;
-	font-weight:600;
-	color:white;
-	opacity:0;
-	overflow:hidden;
-	white-space:nowrap;
-	width:0px;
-}
+    .warning b{
+        background:white;
+        color:#E9797B;
+        display:inline-block;
+        border-radius:8px;
+        text-align:center;
+        line-height:16px;
+        width:16px;
+        height:16px;
+    }
 
-.warning b{
-	background:white;
-	color:#E9797B;
-	display:inline-block;
-	border-radius:8px;
-	text-align:center;
-	line-height:16px;
-	width:16px;
-	height:16px;
-}
+    #showcase{
+        height: 120px;
+        width: 900px;
+        padding-left: 100px;
+        overflow: hidden;
+    }
 
 </style>
 
@@ -198,9 +195,58 @@ if( isset ($_COOKIE['sUser']) ) {
 <div id="everything">
 
 <div id="splash">
-<h1>Share code in real time</h1>
-print (<span class="greenglow">"Collaborate, share & review without missing a thing. As simple as chatting."</span>)
+    <h1>Share code in real time</h1>
 </div>
+
+    <div class="centerarea" style="margin-bottom:20px" id="showcase">
+
+        <div class="avatar">
+            <img src='avatars/2.gif' style="margin-top:16px">
+        </div>
+        <div class="message" id="message1">
+            <div class="sender">
+                <a href="profile.php?u=1">
+                    Ada Lovelace
+                </a>
+                <a href="#message1"><span class="messagenumber">#1</span></a></div>
+            <div class="code" style="max-width:none">
+                <pre style="margin-top:0; margin-bottom:0;"><code class="language-python">print ("Collaborate, share & review without missing a thing. As simple as chatting.")</code></pre>
+            </div>
+            <br>
+        </div>
+
+        <div class="avatar">
+            <img src='avatars/1.gif'>
+        </div>
+        <div class="message" id="message2">
+            <div class="sender">
+                <a href="profile.php?u=1">
+                    Hank
+                </a>
+                <a href="#message2"><span class="messagenumber">#2</span></a></div>
+            <div class="code" style="max-width:none">
+                <pre style="margin-top:0; margin-bottom:0;"><code class="language-python">Didn't you forget an ;?</code></pre>
+            </div>
+            <br>
+        </div>
+
+        <div class="avatar">
+            <img src='avatars/2.gif'>
+        </div>
+        <div class="message" id="message3">
+            <div class="sender">
+                <a href="profile.php?u=1">
+                    Ada Lovelace
+                </a>
+                <a href="#message3"><span class="messagenumber">#3</span></a></div>
+            <div class="code" style="max-width:none">
+                <pre style="margin-top:0; margin-bottom:0;"><code class="language-python">It's python, Hank.</code></pre>
+            </div>
+            <br>
+
+        </div>
+
+    </div>
 
 <div id="area">
 
@@ -216,7 +262,11 @@ print (<span class="greenglow">"Collaborate, share & review without missing a th
 
 </form>
 
-<script>
+<script type="text/javascript">
+
+    $("#document").ready(function(){
+       animateChat();
+    });
 
  $("#newchatform").submit(function (e) { 
  
@@ -300,6 +350,16 @@ print (<span class="greenglow">"Collaborate, share & review without missing a th
 	  $("#emailinput").keyup(clearWarning);
 	  
 	}
+
+    function animateChat(){
+        setInterval("scrollChat()", 3000);
+    }
+
+    function scrollChat(){
+        $("#showcase").animate({
+            scrollTop: $("#showcase").scrollTop() + 110
+        })
+    }
  
 </script>
 
