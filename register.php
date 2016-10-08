@@ -401,7 +401,7 @@ if( isset ($_COOKIE['sUser']) ) {
 
     function scrollChat(){
         $("#showcase").animate({
-            scrollTop: $("#showcase").scrollTop() + 127
+            scrollTop: $("#showcase").scrollTop() + 115
         })
     }
  
