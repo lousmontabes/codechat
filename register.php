@@ -201,7 +201,7 @@ if( isset ($_COOKIE['sUser']) ) {
     <div class="centerarea" style="margin-bottom:20px" id="showcase">
 
         <div class="avatar">
-            <img src='avatars/2.gif' style="margin-top:16px">
+            <img src='images/placeholder0.gif' style="margin-top:16px">
         </div>
         <div class="message" id="message1">
             <div class="sender">
@@ -216,7 +216,7 @@ if( isset ($_COOKIE['sUser']) ) {
         </div>
 
         <div class="avatar">
-            <img src='avatars/1.gif'>
+            <img src='images/placeholder1.gif'>
         </div>
         <div class="message" id="message2">
             <div class="sender">
@@ -231,7 +231,7 @@ if( isset ($_COOKIE['sUser']) ) {
         </div>
 
         <div class="avatar">
-            <img src='avatars/2.gif'>
+            <img src='images/placeholder0.gif'>
         </div>
         <div class="message" id="message3">
             <div class="sender">
@@ -246,7 +246,7 @@ if( isset ($_COOKIE['sUser']) ) {
         </div>
 
         <div class="avatar">
-            <img src='avatars/1.gif'>
+            <img src='images/placeholder1.gif'>
         </div>
         <div class="message" id="message4">
             <div class="sender">
@@ -261,7 +261,7 @@ if( isset ($_COOKIE['sUser']) ) {
         </div>
 
         <div class="avatar">
-            <img src='avatars/2.gif'>
+            <img src='images/placeholder0.gif'>
         </div>
         <div class="message" id="message3">
             <div class="sender">
