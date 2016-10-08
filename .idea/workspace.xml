@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4bdde7f8-1dcd-4c07-822c-a06b0766a97e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/register.php" afterPath="$PROJECT_DIR$/register.php" />
-    </list>
+    <list default="true" id="4bdde7f8-1dcd-4c07-822c-a06b0766a97e" name="Default" comment="" />
     <ignored path="codechat.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -307,12 +305,12 @@
       <workItem from="1475177301756" duration="15544000" />
       <workItem from="1475231366900" duration="6460000" />
       <workItem from="1475270806875" duration="1257000" />
-      <workItem from="1475571443377" duration="18053000" />
+      <workItem from="1475571443377" duration="18211000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41314000" />
+    <option name="totallyTimeSpent" value="41472000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
