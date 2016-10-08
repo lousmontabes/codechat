@@ -285,7 +285,7 @@ if( isset ($_COOKIE['sUser']) ) {
                 </a>
                 <a href="#message3"><span class="messagenumber">#3</span></a></div>
             <div class="code" style="max-width:none">
-                <pre style="margin-top:0; margin-bottom:0;"><code class="language-python">Swift, Ruby, Pascal, Proessing, Perl...</code></pre>
+                <pre style="margin-top:0; margin-bottom:0;"><code class="language-python">Swift, Ruby, Pascal, Processing, Perl...</code></pre>
             </div>
             <br>
         </div>
@@ -401,7 +401,7 @@ if( isset ($_COOKIE['sUser']) ) {
 
     function scrollChat(){
         $("#showcase").animate({
-            scrollTop: $("#showcase").scrollTop() + 92
+            scrollTop: $("#showcase").scrollTop() + 127
         })
     }
  
