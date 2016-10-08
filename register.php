@@ -270,7 +270,22 @@ if( isset ($_COOKIE['sUser']) ) {
                 </a>
                 <a href="#message3"><span class="messagenumber">#3</span></a></div>
             <div class="code" style="max-width:none">
-                <pre style="margin-top:0; margin-bottom:0;"><code class="language-python">Lots! C, C#, C++, Java, JavaScript, PHP, CSS, SQL, Swift...</code></pre>
+                <pre style="margin-top:0; margin-bottom:0;"><code class="language-python">Lots! C, C#, C++, Java, JavaScript, PHP, HTML, CSS, SQL...</code></pre>
+            </div>
+            <br>
+        </div>
+
+        <div class="avatar">
+            <img src='images/placeholder0.gif'>
+        </div>
+        <div class="message" id="message3">
+            <div class="sender">
+                <a href="profile.php?u=1">
+                    Ada Lovelace
+                </a>
+                <a href="#message3"><span class="messagenumber">#3</span></a></div>
+            <div class="code" style="max-width:none">
+                <pre style="margin-top:0; margin-bottom:0;"><code class="language-python">Swift, Ruby, Pascal, Proessing, Perl...</code></pre>
             </div>
             <br>
         </div>
