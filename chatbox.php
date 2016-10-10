@@ -122,6 +122,20 @@ else echo "<img src='images/placeholder". $author_id % 5 .".gif'>";
 
 <a href="#message<?php echo $i ?>"><span class="messagenumber">#<?php echo $i ?></span></a></div>
 
+<div class="time">
+    <?php
+
+    if ($time >= strtotime("today"))
+        echo "Today, ".$hour.":".$minute;
+
+    else if ($time >= strtotime("yesterday"))
+        echo "Yesterday, ".$hour.":".$minute;
+
+    else
+        echo $month." ".$day.", ".$hour.":".$minute;
+     ?>
+</div>
+
 <?php if (strpos($content,'<br />')) {?>
 
 <div class="code">
@@ -137,20 +151,6 @@ else echo "<img src='images/placeholder". $author_id % 5 .".gif'>";
 <?php } // DISPLAY LINE NUMBERS IF CODE HAS AT LEAST ONE LINE BREAK ?>
 
 <br>
-<div class="time">
-<?php 
-
-if ($time >= strtotime("today"))
-    echo "Today, ".$hour.":".$minute;
-		
-else if ($time >= strtotime("yesterday"))
-    echo "Yesterday, ".$hour.":".$minute;
-	
-else
-	echo $month." ".$day.", ".$hour.":".$minute;
-
-?>
-</div>
 
 </div>
 
