@@ -50,7 +50,7 @@ pre::-webkit-scrollbar-thumb:hover {
 }
 
 .code:hover{
-    background:rgba(249,249,249,1.00);
+	border:1px solid grey;	
 }
 
 #everything{
