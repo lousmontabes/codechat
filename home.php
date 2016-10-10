@@ -62,6 +62,7 @@ a{
 
 #newchat{
 	margin-left:-60px;
+    margin-bottom:200px;
 }
 
 #newchat:hover .round{
