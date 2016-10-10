@@ -482,4 +482,5 @@ pre::-webkit-scrollbar-thumb:hover {
     border-radius: 5px;
     width: 670px;
     color: grey;
+    text-align:center;
 }
