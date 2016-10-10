@@ -254,6 +254,10 @@ pre::-webkit-scrollbar-thumb:hover {
     z-index:10;
 }
 
+#usercontrols:hover{
+    height:80px;
+}
+
 #usercontrols:focus{
 	outline:none;
 	color:black;
