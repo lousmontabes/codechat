@@ -28,7 +28,7 @@ h1.nochats{
 	border:1px solid transparent;	
 	border-radius:4px;
 	display:inline-block;
-	max-width:800px;
+	max-width:730px;
 	overflow:hidden;
 }
 
@@ -50,7 +50,7 @@ pre::-webkit-scrollbar-thumb:hover {
 }
 
 .code:hover{
-	border:1px solid grey;	
+    background:rgba(249,249,249,1.00);
 }
 
 #everything{
