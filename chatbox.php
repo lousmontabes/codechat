@@ -75,7 +75,9 @@ else echo "<img src='images/placeholder". $activeuser_id % 5 .".gif'>";
 
 <div id="area">
 
-    HI
+    <div id="tokenmessage">
+        This chatroom's token is <b><?php echo $chat_token?></b>.
+    </div>
 
 <?php
 
