@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4bdde7f8-1dcd-4c07-822c-a06b0766a97e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chatbox.php" afterPath="$PROJECT_DIR$/chatbox.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/generic.css" afterPath="$PROJECT_DIR$/css/generic.css" />
     </list>
     <ignored path="codechat.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -41,10 +41,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="chatbox.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="chatbox.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chatbox.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
+            <state relative-caret-position="551">
               <caret line="78" column="65" selection-start-line="78" selection-start-column="65" selection-end-line="78" selection-end-column="65" />
               <folding>
                 <element signature="n#style#0;n#pre#0;n#div#2;n#div#2;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -113,11 +113,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="generic.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="generic.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/generic.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="78">
-              <caret line="214" column="8" selection-start-line="214" selection-start-column="0" selection-end-line="214" selection-end-column="8" />
+            <state relative-caret-position="694">
+              <caret line="480" column="18" selection-start-line="480" selection-start-column="18" selection-end-line="480" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -166,8 +166,8 @@
         <option value="$PROJECT_DIR$/profile.php" />
         <option value="$PROJECT_DIR$/sql_newchat.php" />
         <option value="$PROJECT_DIR$/register.php" />
-        <option value="$PROJECT_DIR$/css/generic.css" />
         <option value="$PROJECT_DIR$/chatbox.php" />
+        <option value="$PROJECT_DIR$/css/generic.css" />
       </list>
     </option>
   </component>
@@ -308,12 +308,12 @@
       <workItem from="1475177301756" duration="15544000" />
       <workItem from="1475231366900" duration="6460000" />
       <workItem from="1475270806875" duration="1257000" />
-      <workItem from="1475571443377" duration="21029000" />
+      <workItem from="1475571443377" duration="21406000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44290000" />
+    <option name="totallyTimeSpent" value="44667000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -788,17 +788,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/generic.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="214" column="8" selection-start-line="214" selection-start-column="0" selection-end-line="214" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/chatbox.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
+        <state relative-caret-position="551">
           <caret line="78" column="65" selection-start-line="78" selection-start-column="65" selection-end-line="78" selection-end-column="65" />
           <folding>
             <element signature="n#style#0;n#pre#0;n#div#2;n#div#2;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -812,6 +804,14 @@
             <marker date="1476116346000" expanded="true" signature="9157:9194" placeholder="SELECT * FRO... relations" />
             <marker date="1476116346000" expanded="true" signature="9157:9208" placeholder="SELECT * FRO... relations" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/generic.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="694">
+          <caret line="480" column="18" selection-start-line="480" selection-start-column="18" selection-end-line="480" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>

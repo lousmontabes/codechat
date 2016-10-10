@@ -475,3 +475,11 @@ pre::-webkit-scrollbar-thumb:hover {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
     z-index:0;
 }
+
+#tokenmessage{
+    background: rgba(239, 239, 239, 1.00);
+    padding: 15px;
+    border-radius: 5px;
+    width: 670px;
+    color: grey;
+}
