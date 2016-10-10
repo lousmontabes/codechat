@@ -75,6 +75,8 @@ else echo "<img src='images/placeholder". $activeuser_id % 5 .".gif'>";
 
 <div id="area">
 
+    HI
+
 <?php
 
 $result = mysqli_query($con, "SELECT * FROM messages WHERE chat = $chat_id");
