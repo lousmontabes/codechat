@@ -50,7 +50,7 @@ pre::-webkit-scrollbar-thumb:hover {
 }
 
 .code:hover{
-	border:1px solid grey;	
+	border:1px solid grey;
 }
 
 #everything{
@@ -483,4 +483,5 @@ pre::-webkit-scrollbar-thumb:hover {
     width: 640px;
     color: grey;
     text-align:center;
+    margin-bottom:40px;
 }
