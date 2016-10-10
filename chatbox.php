@@ -116,32 +116,32 @@ else echo "<img src='images/placeholder". $author_id % 5 .".gif'>";
 <div class="message" id="message<?php echo $i ?>">
 <div class="sender">
 
-<a href="profile.php?u=<?php echo $author_id?>">
-<?php echo $author_name ?> 
-</a>
+    <a href="profile.php?u=<?php echo $author_id?>">
+    <?php echo $author_name ?>
+    </a>
 
-<a href="#message<?php echo $i ?>"><span class="messagenumber">#<?php echo $i ?></span></a>
+    <a href="#message<?php echo $i ?>"><span class="messagenumber">#<?php echo $i ?></span></a>
 
-<div class="time">
-    <?php
+    <div class="time">
+        <?php
 
-    if ($time >= strtotime("today"))
-        echo "Today, ".$hour.":".$minute;
+        if ($time >= strtotime("today"))
+            echo "Today, ".$hour.":".$minute;
 
-    else if ($time >= strtotime("yesterday"))
-        echo "Yesterday, ".$hour.":".$minute;
+        else if ($time >= strtotime("yesterday"))
+            echo "Yesterday, ".$hour.":".$minute;
 
-    else
-        echo $month." ".$day.", ".$hour.":".$minute;
-    ?>
+        else
+            echo $month." ".$day.", ".$hour.":".$minute;
+        ?>
+    </div>
+
 </div>
 
-</div>
-
-<?php if (strpos(htmlspecialchars($content),'<br />')) {?>
+<?php if (strpos($content,'<br />')) {?>
 
 <div class="code">
-<pre class="line-numbers" style="margin-top:0; margin-bottom:0;"><code class="language-<?php echo strtolower ($chat_language) ?>"><?php echo htmlspecialchars($content) ?></code></pre>
+<pre class="line-numbers" style="margin-top:0; margin-bottom:0;"><code class="language-<?php echo strtolower ($chat_language) ?>"><?php echo ($content) ?></code></pre>
 </div>
 
 <?php }else{ ?>
