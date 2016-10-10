@@ -157,6 +157,7 @@ pre::-webkit-scrollbar-thumb:hover {
 	top:300px;
 	margin-left:auto;
 	margin-right:auto;
+    padding-left:170px;
 }
 
 .centerarea{
