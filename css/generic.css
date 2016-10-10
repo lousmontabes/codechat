@@ -222,7 +222,8 @@ pre::-webkit-scrollbar-thumb:hover {
 	position:relative;
 	float:right;
 	font-size:12px;
-	bottom:5px;
+	bottom:-2px;
+    color:grey;
 }
 
 #mine{
