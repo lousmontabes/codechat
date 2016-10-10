@@ -138,7 +138,7 @@ else echo "<img src='images/placeholder". $author_id % 5 .".gif'>";
 
 </div>
 
-<?php if (strpos($content,'<br />')) {?>
+<?php if (strpos(htmlspecialchars($content),'<br />')) {?>
 
 <div class="code">
 <pre class="line-numbers" style="margin-top:0; margin-bottom:0;"><code class="language-<?php echo strtolower ($chat_language) ?>"><?php echo htmlspecialchars($content) ?></code></pre>
