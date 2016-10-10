@@ -138,10 +138,10 @@ else echo "<img src='images/placeholder". $author_id % 5 .".gif'>";
 
 </div>
 
-<?php if (strpos($content,'<br />')) {?>
+<?php if (strpos($content,"\n")) {?>
 
 <div class="code">
-<pre class="line-numbers" style="margin-top:0; margin-bottom:0;"><code class="language-<?php echo strtolower ($chat_language) ?>"><?php echo ($content) ?></code></pre>
+<pre class="line-numbers" style="margin-top:0; margin-bottom:0;"><code class="language-<?php echo strtolower ($chat_language) ?>"><?php echo htmlspecialchars($content) ?></code></pre>
 </div>
 
 <?php }else{ ?>
