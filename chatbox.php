@@ -120,7 +120,7 @@ else echo "<img src='images/placeholder". $author_id % 5 .".gif'>";
 <?php echo $author_name ?> 
 </a>
 
-<a href="#message<?php echo $i ?>"><span class="messagenumber">#<?php echo $i ?></span></a></div>
+<a href="#message<?php echo $i ?>"><span class="messagenumber">#<?php echo $i ?></span></a>
 
 <div class="time">
     <?php
@@ -133,7 +133,9 @@ else echo "<img src='images/placeholder". $author_id % 5 .".gif'>";
 
     else
         echo $month." ".$day.", ".$hour.":".$minute;
-     ?>
+    ?>
+</div>
+
 </div>
 
 <?php if (strpos($content,'<br />')) {?>
