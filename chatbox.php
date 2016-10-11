@@ -79,6 +79,8 @@ else echo "<img src='images/placeholder". $activeuser_id % 5 .".gif'>";
         This chatroom's token is <b><?php echo $chat_token?></b>. Share it with whoever you want to invite them in.
     </div>
 
+    <div class="spacer" style="height:60px"></div>
+
 <?php
 
 $result = mysqli_query($con, "SELECT * FROM messages WHERE chat = $chat_id");
@@ -186,15 +188,24 @@ var didScroll;
 var lastScrollTop = 0;
 var delta = 5;
 var navbarHeight = $('#header').outerHeight();
+var menuActive = false;
 
 $(window).scroll(function(event){
+
     didScroll = true;
 
     if ($(window).scrollTop() < 20){
+
+        // Token message appears at the top of the chat
         $("#tokenmessage").css("opacity",1);
+        menuActive = true;
+
     }else{
+
         // Token message disappearance effect
         $("#tokenmessage").css("opacity",  -($(window).scrollTop()) / 15 + 1);
+        menuActive = false;
+
     }
 
 });
@@ -339,8 +350,6 @@ $(window).focus(function() {
 $(window).blur(function() {
     windowBlurred = true;
 });
-
-var menuActive = false;
 
 function showMenu(){
 	
