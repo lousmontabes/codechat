@@ -194,7 +194,7 @@ $(window).scroll(function(event){
 
     didScroll = true;
 
-    if ($(window).scrollTop() < 20){
+    if ($(window).scrollTop() == 0){
 
         menuActive = true;
 
