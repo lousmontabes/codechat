@@ -81,7 +81,8 @@ pre::-webkit-scrollbar-thumb:hover {
 #header a{
 	transition: color 0.2s;
 	text-decoration:none;
-	color:grey;	
+	color:grey;
+    cursor:pointer;
 }
 
 #header a:hover{
