@@ -197,7 +197,7 @@ $(window).scroll(function(event){
         $("#tokenmessage").css("opacity",1);
     }else{
         alert("hi");
-        $("#tokenmessage").css("opacity",  -($(window).scrollTop()) / 50 + 50);
+        $("#tokenmessage").css("opacity",  -($(window).scrollTop()) / 50 + 1);
     }
 
 });
