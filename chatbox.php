@@ -196,6 +196,7 @@ $(window).scroll(function(event){
         console.log("hi");
         $("#tokenmessage").css("opacity",1);
     }else{
+        alert("hi");
         $("#tokenmessage").css("opacity",  -($(window).scrollTop()) / 50 + 50);
     }
 
