@@ -195,7 +195,7 @@ $(window).scroll(function(event){
     if ($(window).scrollTop() < 20){
         $("#tokenmessage").css("opacity",1);
     }else{
-        $("#tokenmessage").css("opacity", 40 / $(window).scrollTop());
+        $("#tokenmessage").css("opacity", 40 / $(window).scrollTop() + 20);
     }
 
 });

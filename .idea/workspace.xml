@@ -45,19 +45,19 @@
         <entry file="file://$PROJECT_DIR$/chatbox.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="296">
-              <caret line="197" column="43" selection-start-line="197" selection-start-column="43" selection-end-line="197" selection-end-column="43" />
+              <caret line="197" column="73" selection-start-line="197" selection-start-column="73" selection-end-line="197" selection-end-column="73" />
               <folding>
                 <element signature="n#style#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#pre#0;n#div#2;n#div#3;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1476177530000" expanded="true" signature="263:297" placeholder="SELECT * FRO... chats" />
-                <marker date="1476177530000" expanded="true" signature="263:298" placeholder="SELECT * FRO... chats" />
-                <marker date="1476177530000" expanded="true" signature="263:309" placeholder="SELECT * FRO... chats" />
-                <marker date="1476177530000" expanded="true" signature="263:310" placeholder="SELECT * FRO... chats" />
-                <marker date="1476177530000" expanded="true" signature="2472:2508" placeholder="SELECT * FRO... messages" />
-                <marker date="1476177530000" expanded="true" signature="2960:2991" placeholder="SELECT * FRO... users" />
-                <marker date="1476177530000" expanded="true" signature="9431:9445" placeholder="SELECT * FRO... relations" />
-                <marker date="1476177530000" expanded="true" signature="9431:9468" placeholder="SELECT * FRO... relations" />
-                <marker date="1476177530000" expanded="true" signature="9431:9482" placeholder="SELECT * FRO... relations" />
+                <marker date="1476177974000" expanded="true" signature="263:297" placeholder="SELECT * FRO... chats" />
+                <marker date="1476177974000" expanded="true" signature="263:298" placeholder="SELECT * FRO... chats" />
+                <marker date="1476177974000" expanded="true" signature="263:309" placeholder="SELECT * FRO... chats" />
+                <marker date="1476177974000" expanded="true" signature="263:310" placeholder="SELECT * FRO... chats" />
+                <marker date="1476177974000" expanded="true" signature="2472:2508" placeholder="SELECT * FRO... messages" />
+                <marker date="1476177974000" expanded="true" signature="2960:2991" placeholder="SELECT * FRO... users" />
+                <marker date="1476177974000" expanded="true" signature="9436:9450" placeholder="SELECT * FRO... relations" />
+                <marker date="1476177974000" expanded="true" signature="9436:9473" placeholder="SELECT * FRO... relations" />
+                <marker date="1476177974000" expanded="true" signature="9436:9487" placeholder="SELECT * FRO... relations" />
               </folding>
             </state>
           </provider>
@@ -309,12 +309,12 @@
       <workItem from="1475177301756" duration="15544000" />
       <workItem from="1475231366900" duration="6460000" />
       <workItem from="1475270806875" duration="1257000" />
-      <workItem from="1475571443377" duration="24500000" />
+      <workItem from="1475571443377" duration="24943000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47761000" />
+    <option name="totallyTimeSpent" value="48204000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -377,15 +377,15 @@
           <folding>
             <element signature="n#style#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#pre#0;n#div#2;n#div#3;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1476177530000" expanded="true" signature="263:297" placeholder="SELECT * FRO... chats" />
-            <marker date="1476177530000" expanded="true" signature="263:298" placeholder="SELECT * FRO... chats" />
-            <marker date="1476177530000" expanded="true" signature="263:309" placeholder="SELECT * FRO... chats" />
-            <marker date="1476177530000" expanded="true" signature="263:310" placeholder="SELECT * FRO... chats" />
-            <marker date="1476177530000" expanded="true" signature="2472:2508" placeholder="SELECT * FRO... messages" />
-            <marker date="1476177530000" expanded="true" signature="2960:2991" placeholder="SELECT * FRO... users" />
-            <marker date="1476177530000" expanded="true" signature="9431:9445" placeholder="SELECT * FRO... relations" />
-            <marker date="1476177530000" expanded="true" signature="9431:9468" placeholder="SELECT * FRO... relations" />
-            <marker date="1476177530000" expanded="true" signature="9431:9482" placeholder="SELECT * FRO... relations" />
+            <marker date="1476177974000" expanded="true" signature="263:297" placeholder="SELECT * FRO... chats" />
+            <marker date="1476177974000" expanded="true" signature="263:298" placeholder="SELECT * FRO... chats" />
+            <marker date="1476177974000" expanded="true" signature="263:309" placeholder="SELECT * FRO... chats" />
+            <marker date="1476177974000" expanded="true" signature="263:310" placeholder="SELECT * FRO... chats" />
+            <marker date="1476177974000" expanded="true" signature="2472:2508" placeholder="SELECT * FRO... messages" />
+            <marker date="1476177974000" expanded="true" signature="2960:2991" placeholder="SELECT * FRO... users" />
+            <marker date="1476177974000" expanded="true" signature="9436:9450" placeholder="SELECT * FRO... relations" />
+            <marker date="1476177974000" expanded="true" signature="9436:9473" placeholder="SELECT * FRO... relations" />
+            <marker date="1476177974000" expanded="true" signature="9436:9487" placeholder="SELECT * FRO... relations" />
           </folding>
         </state>
       </provider>
@@ -422,15 +422,15 @@
           <folding>
             <element signature="n#style#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#pre#0;n#div#2;n#div#3;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1476177530000" expanded="true" signature="263:297" placeholder="SELECT * FRO... chats" />
-            <marker date="1476177530000" expanded="true" signature="263:298" placeholder="SELECT * FRO... chats" />
-            <marker date="1476177530000" expanded="true" signature="263:309" placeholder="SELECT * FRO... chats" />
-            <marker date="1476177530000" expanded="true" signature="263:310" placeholder="SELECT * FRO... chats" />
-            <marker date="1476177530000" expanded="true" signature="2472:2508" placeholder="SELECT * FRO... messages" />
-            <marker date="1476177530000" expanded="true" signature="2960:2991" placeholder="SELECT * FRO... users" />
-            <marker date="1476177530000" expanded="true" signature="9431:9445" placeholder="SELECT * FRO... relations" />
-            <marker date="1476177530000" expanded="true" signature="9431:9468" placeholder="SELECT * FRO... relations" />
-            <marker date="1476177530000" expanded="true" signature="9431:9482" placeholder="SELECT * FRO... relations" />
+            <marker date="1476177974000" expanded="true" signature="263:297" placeholder="SELECT * FRO... chats" />
+            <marker date="1476177974000" expanded="true" signature="263:298" placeholder="SELECT * FRO... chats" />
+            <marker date="1476177974000" expanded="true" signature="263:309" placeholder="SELECT * FRO... chats" />
+            <marker date="1476177974000" expanded="true" signature="263:310" placeholder="SELECT * FRO... chats" />
+            <marker date="1476177974000" expanded="true" signature="2472:2508" placeholder="SELECT * FRO... messages" />
+            <marker date="1476177974000" expanded="true" signature="2960:2991" placeholder="SELECT * FRO... users" />
+            <marker date="1476177974000" expanded="true" signature="9436:9450" placeholder="SELECT * FRO... relations" />
+            <marker date="1476177974000" expanded="true" signature="9436:9473" placeholder="SELECT * FRO... relations" />
+            <marker date="1476177974000" expanded="true" signature="9436:9487" placeholder="SELECT * FRO... relations" />
           </folding>
         </state>
       </provider>
@@ -457,15 +457,15 @@
           <folding>
             <element signature="n#style#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#pre#0;n#div#2;n#div#3;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1476177530000" expanded="true" signature="263:297" placeholder="SELECT * FRO... chats" />
-            <marker date="1476177530000" expanded="true" signature="263:298" placeholder="SELECT * FRO... chats" />
-            <marker date="1476177530000" expanded="true" signature="263:309" placeholder="SELECT * FRO... chats" />
-            <marker date="1476177530000" expanded="true" signature="263:310" placeholder="SELECT * FRO... chats" />
-            <marker date="1476177530000" expanded="true" signature="2472:2508" placeholder="SELECT * FRO... messages" />
-            <marker date="1476177530000" expanded="true" signature="2960:2991" placeholder="SELECT * FRO... users" />
-            <marker date="1476177530000" expanded="true" signature="9431:9445" placeholder="SELECT * FRO... relations" />
-            <marker date="1476177530000" expanded="true" signature="9431:9468" placeholder="SELECT * FRO... relations" />
-            <marker date="1476177530000" expanded="true" signature="9431:9482" placeholder="SELECT * FRO... relations" />
+            <marker date="1476177974000" expanded="true" signature="263:297" placeholder="SELECT * FRO... chats" />
+            <marker date="1476177974000" expanded="true" signature="263:298" placeholder="SELECT * FRO... chats" />
+            <marker date="1476177974000" expanded="true" signature="263:309" placeholder="SELECT * FRO... chats" />
+            <marker date="1476177974000" expanded="true" signature="263:310" placeholder="SELECT * FRO... chats" />
+            <marker date="1476177974000" expanded="true" signature="2472:2508" placeholder="SELECT * FRO... messages" />
+            <marker date="1476177974000" expanded="true" signature="2960:2991" placeholder="SELECT * FRO... users" />
+            <marker date="1476177974000" expanded="true" signature="9436:9450" placeholder="SELECT * FRO... relations" />
+            <marker date="1476177974000" expanded="true" signature="9436:9473" placeholder="SELECT * FRO... relations" />
+            <marker date="1476177974000" expanded="true" signature="9436:9487" placeholder="SELECT * FRO... relations" />
           </folding>
         </state>
       </provider>
@@ -803,19 +803,19 @@
     <entry file="file://$PROJECT_DIR$/chatbox.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="296">
-          <caret line="197" column="43" selection-start-line="197" selection-start-column="43" selection-end-line="197" selection-end-column="43" />
+          <caret line="197" column="73" selection-start-line="197" selection-start-column="73" selection-end-line="197" selection-end-column="73" />
           <folding>
             <element signature="n#style#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#pre#0;n#div#2;n#div#3;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1476177530000" expanded="true" signature="263:297" placeholder="SELECT * FRO... chats" />
-            <marker date="1476177530000" expanded="true" signature="263:298" placeholder="SELECT * FRO... chats" />
-            <marker date="1476177530000" expanded="true" signature="263:309" placeholder="SELECT * FRO... chats" />
-            <marker date="1476177530000" expanded="true" signature="263:310" placeholder="SELECT * FRO... chats" />
-            <marker date="1476177530000" expanded="true" signature="2472:2508" placeholder="SELECT * FRO... messages" />
-            <marker date="1476177530000" expanded="true" signature="2960:2991" placeholder="SELECT * FRO... users" />
-            <marker date="1476177530000" expanded="true" signature="9431:9445" placeholder="SELECT * FRO... relations" />
-            <marker date="1476177530000" expanded="true" signature="9431:9468" placeholder="SELECT * FRO... relations" />
-            <marker date="1476177530000" expanded="true" signature="9431:9482" placeholder="SELECT * FRO... relations" />
+            <marker date="1476177974000" expanded="true" signature="263:297" placeholder="SELECT * FRO... chats" />
+            <marker date="1476177974000" expanded="true" signature="263:298" placeholder="SELECT * FRO... chats" />
+            <marker date="1476177974000" expanded="true" signature="263:309" placeholder="SELECT * FRO... chats" />
+            <marker date="1476177974000" expanded="true" signature="263:310" placeholder="SELECT * FRO... chats" />
+            <marker date="1476177974000" expanded="true" signature="2472:2508" placeholder="SELECT * FRO... messages" />
+            <marker date="1476177974000" expanded="true" signature="2960:2991" placeholder="SELECT * FRO... users" />
+            <marker date="1476177974000" expanded="true" signature="9436:9450" placeholder="SELECT * FRO... relations" />
+            <marker date="1476177974000" expanded="true" signature="9436:9473" placeholder="SELECT * FRO... relations" />
+            <marker date="1476177974000" expanded="true" signature="9436:9487" placeholder="SELECT * FRO... relations" />
           </folding>
         </state>
       </provider>
