@@ -196,7 +196,7 @@ $(window).scroll(function(event){
         console.log("hi");
         $("#tokenmessage").css("opacity",1);
     }else{
-        $("#tokenmessage").css("opacity", 40 / $(window).scrollTop() + 20);
+        $("#tokenmessage").css("opacity",  -($(window).scrollTop()) / 50 + 50);
     }
 
 });
