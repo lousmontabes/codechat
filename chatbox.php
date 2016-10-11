@@ -360,7 +360,7 @@ function showMenu(){
         toggleBackgroundOpacity(1);*/
 
         $("#tokenmessage").css("opacity", 0);
-        $("#tokenmessage").removeClass("floating");
+        setTimeout('$("#tokenmessage").removeClass("floating")', 400);
 
 	}
 		
