@@ -194,7 +194,7 @@ $(window).scroll(function(event){
         $("#tokenmessage").css("opacity",1);
     }else{
         // Token message disappearance effect
-        $("#tokenmessage").css("opacity",  -($(window).scrollTop()) / 100 + 1);
+        $("#tokenmessage").css("opacity",  -($(window).scrollTop()) / 80 + 1);
     }
 
 });
