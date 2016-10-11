@@ -194,7 +194,7 @@ $(window).scroll(function(event){
         $("#tokenmessage").css("opacity",1);
     }else{
         // Token message disappearance effect
-        $("#tokenmessage").css("opacity",  -($(window).scrollTop()) / 80 + 1);
+        $("#tokenmessage").css("opacity",  -($(window).scrollTop()) / 15 + 1);
     }
 
 });
@@ -346,14 +346,20 @@ function showMenu(){
 	
 	if (menuActive){
 		menuActive = false
-		$("#chatmenu").css("height","0px");
-        toggleBackgroundOpacity(1);
+
+        /*$("#chatmenu").css("height","0px");
+        toggleBackgroundOpacity(1);*/
+
+        $("#tokenmessage").css("opacity", 0);
 	}
 		
 	else{
 		menuActive = true
-		$("#chatmenu").css("height","100px");
-        toggleBackgroundOpacity(0.5);
+
+        /*$("#chatmenu").css("height","100px");
+        toggleBackgroundOpacity(0.5);*/
+
+        $("#tokenmessage").css("opacity", 1);
 	}
 		
 }

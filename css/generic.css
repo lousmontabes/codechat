@@ -484,4 +484,5 @@ pre::-webkit-scrollbar-thumb:hover {
     color: grey;
     text-align:center;
     margin-bottom:40px;
+    position: fixed;
 }
