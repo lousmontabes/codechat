@@ -196,15 +196,18 @@ $(window).scroll(function(event){
 
     if ($(window).scrollTop() < 20){
 
+        menuActive = true;
+
         // Token message appears at the top of the chat
         $("#tokenmessage").css("opacity",1);
-        menuActive = true;
+        setTimeout('$("#tokenmessage").removeClass("floating")', 400);
 
     }else{
 
+        menuActive = false;
+
         // Token message disappearance effect
         $("#tokenmessage").css("opacity",  -($(window).scrollTop()) / 35 + 1);
-        menuActive = false;
 
     }
 
