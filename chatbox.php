@@ -192,7 +192,12 @@ var navbarHeight = $('#header').outerHeight();
 $(window).scroll(function(event){
     didScroll = true;
 
-    $("#tokenmessage").css("opacity", 50 / $(window).scrollTop())
+    if ($(window).scrollTop() < 20){
+        $("#tokenmessage").css("opacity",1);
+    }else{
+        $("#tokenmessage").css("opacity", $(window).scrollTop() + 20 / $(window).scrollTop());
+    }
+
 });
 
 setInterval(function() {
