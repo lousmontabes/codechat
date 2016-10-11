@@ -193,10 +193,8 @@ $(window).scroll(function(event){
     didScroll = true;
 
     if ($(window).scrollTop() < 20){
-        console.log("hi");
         $("#tokenmessage").css("opacity",1);
     }else{
-        alert("hi");
         $("#tokenmessage").css("opacity",  -($(window).scrollTop()) / 50 + 1);
     }
 
