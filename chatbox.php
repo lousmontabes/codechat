@@ -203,7 +203,7 @@ $(window).scroll(function(event){
     }else{
 
         // Token message disappearance effect
-        $("#tokenmessage").css("opacity",  -($(window).scrollTop()) / 15 + 1);
+        $("#tokenmessage").css("opacity",  -($(window).scrollTop()) / 35 + 1);
         menuActive = false;
 
     }
@@ -360,6 +360,8 @@ function showMenu(){
         toggleBackgroundOpacity(1);*/
 
         $("#tokenmessage").css("opacity", 0);
+        $("#tokenmessage").removeClass("floating");
+
 	}
 		
 	else{
@@ -369,6 +371,8 @@ function showMenu(){
         toggleBackgroundOpacity(0.5);*/
 
         $("#tokenmessage").css("opacity", 1);
+        $("#tokenmessage").removeClass("floating");
+        
 	}
 		
 }
