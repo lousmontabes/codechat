@@ -371,8 +371,8 @@ function showMenu(){
         toggleBackgroundOpacity(0.5);*/
 
         $("#tokenmessage").css("opacity", 1);
-        $("#tokenmessage").removeClass("floating");
-        
+        $("#tokenmessage").addClass("floating");
+
 	}
 		
 }
