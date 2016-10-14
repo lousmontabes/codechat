@@ -356,7 +356,7 @@ $(window).blur(function() {
 
 function showMenu(){
 
-    if ($(window.scrollTop() > 20)){
+    if ($(window).scrollTop() > 20){
 
         if (menuActive) {
             menuActive = false
