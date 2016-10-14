@@ -492,4 +492,6 @@ pre::-webkit-scrollbar-thumb:hover {
 
 .floating{
     transition:0.4s;
+    background: #606c88;
+    color:white;
 }
