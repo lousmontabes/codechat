@@ -355,28 +355,32 @@ $(window).blur(function() {
 });
 
 function showMenu(){
-	
-	if (menuActive){
-		menuActive = false
 
-        /*$("#chatmenu").css("height","0px");
-        toggleBackgroundOpacity(1);*/
+    if ($(window.scrollTop() > 20){
 
-        $("#tokenmessage").css("opacity", 0);
-        setTimeout('$("#tokenmessage").removeClass("floating")', 400);
+        if (menuActive) {
+            menuActive = false
 
-	}
-		
-	else{
-		menuActive = true
+            /*$("#chatmenu").css("height","0px");
+             toggleBackgroundOpacity(1);*/
 
-        /*$("#chatmenu").css("height","100px");
-        toggleBackgroundOpacity(0.5);*/
+            $("#tokenmessage").css("opacity", 0);
+            setTimeout('$("#tokenmessage").removeClass("floating")', 400);
 
-        $("#tokenmessage").css("opacity", 1);
-        $("#tokenmessage").addClass("floating");
+        }
 
-	}
+        else {
+            menuActive = true
+
+            /*$("#chatmenu").css("height","100px");
+             toggleBackgroundOpacity(0.5);*/
+
+            $("#tokenmessage").css("opacity", 1);
+            $("#tokenmessage").addClass("floating");
+
+        }
+
+    }
 		
 }
 
