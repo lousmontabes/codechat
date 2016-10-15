@@ -202,16 +202,20 @@ $(window).scroll(function(event){
         $("#tokenmessage").css("opacity",1);
         setTimeout('$("#tokenmessage").removeClass("floating")', 400);
 
-    }else{
+    }else if ($(window).scrollTop() <= 35){
 
         menuActive = false;
 
+        // Parallax effect
         $("#tokenmessage").css("margin-top", -($(window).scrollTop() / 2));
-        console.log("Offset: " + $('#tokenmessage').offset().top);
-        console.log("Scroll: " + ($(window).scrollTop() / 2));
 
         // Token message disappearance effect
         $("#tokenmessage").css("opacity",  -($(window).scrollTop()) / 35 + 1);
+
+    }else if ($(window).scrollTop() > 35){
+
+        // Restore message back to original position
+        $("#tokenmessage").css("margin-top", 0);
 
     }
 
