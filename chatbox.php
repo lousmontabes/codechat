@@ -375,7 +375,7 @@ function toggleTokenMessage(){
             menuActive = false;
 
             $("#tokenmessage").css("opacity", 0);
-            setTimeout('$("#tokenmessage").removeClass("floating")', 400);
+            setTimeout('$("#tokenmessage").removeClass("bouncyEntranceFromTop")', 400);
 
         }
 
@@ -383,7 +383,7 @@ function toggleTokenMessage(){
             menuActive = true;
 
             $("#tokenmessage").css("opacity", 1);
-            $("#tokenmessage").addClass("floating");
+            $("#tokenmessage").addClass("bouncyEntranceFromTop");
 
         }
 
