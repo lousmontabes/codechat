@@ -214,10 +214,12 @@ $(window).scroll(function(event){
 
     }else if ($(window).scrollTop() > 35){
 
+        menuActive = false;
+
         // Restore message back to original position
         $("#tokenmessage").css("margin-top", 0);
 
-        // Hide message
+        // Hide message every time the user scrolls after 36px from the top
         $("#tokenmessage").css("opacity", 0);
 
     }
