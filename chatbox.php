@@ -69,15 +69,13 @@ else echo "<img src='images/placeholder". $activeuser_id % 5 .".gif'>";
 
 </span></div>
 
-<div id="chatmenu">Token: <?php echo $chat_token?></div>
+<div id="tokenmessage">
+    This chatroom's token is <b><?php echo $chat_token?></b>. Share it with whoever you want to invite them in.
+</div>
 
 <div id="everything">
 
 <div id="area">
-
-    <div id="tokenmessage">
-        This chatroom's token is <b><?php echo $chat_token?></b>. Share it with whoever you want to invite them in.
-    </div>
 
     <div class="spacer" style="height:60px"></div>
 
@@ -373,7 +371,6 @@ function toggleTokenMessage(){
 
         if (menuActive) {
             menuActive = false;
-
             restoreBackground();
 
             $("#tokenmessage").css("opacity", 0);
@@ -383,7 +380,6 @@ function toggleTokenMessage(){
 
         else {
             menuActive = true;
-
             blurBackground();
 
             $("#tokenmessage").css("opacity", 1);
