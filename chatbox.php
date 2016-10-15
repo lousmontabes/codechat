@@ -372,10 +372,9 @@ function showMenu(){
     if ($(window).scrollTop() > 35){
 
         if (menuActive) {
-            menuActive = false
+            menuActive = false;
 
-            /*$("#chatmenu").css("height","0px");
-             toggleBackgroundOpacity(1);*/
+            blurBackground();
 
             $("#tokenmessage").css("opacity", 0);
             setTimeout('$("#tokenmessage").removeClass("floating")', 400);
@@ -383,10 +382,9 @@ function showMenu(){
         }
 
         else {
-            menuActive = true
+            menuActive = true;
 
-            /*$("#chatmenu").css("height","100px");
-             toggleBackgroundOpacity(0.5);*/
+            restoreBackground();
 
             $("#tokenmessage").css("opacity", 1);
             $("#tokenmessage").addClass("floating");
