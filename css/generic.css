@@ -86,17 +86,17 @@ pre::-webkit-scrollbar-thumb:hover {
 }
 
 #header a:hover{
-	color:black;	
+	color:black;
 }
 
 #header::selection, #header a::selection{
-	background:transparent;	
+	background:transparent;
 }
 
 #logo{
 	padding:0;
 	margin:0;
-	height:40px;	
+	height:40px;
 	margin-bottom:-10px;
 	margin-right:15px;
 }
@@ -132,12 +132,12 @@ pre::-webkit-scrollbar-thumb:hover {
 }
 
 #userinfo b{
-	font-weight:500;	
+	font-weight:500;
 }
 
 #userinfo a{
 	transition:0.3s;
-	border-bottom: 1px solid lightgrey;	
+	border-bottom: 1px solid lightgrey;
 }
 
 .userinfo-small{
@@ -145,11 +145,11 @@ pre::-webkit-scrollbar-thumb:hover {
 }
 
 .userinfo-small:hover{
-	opacity:1;	
+	opacity:1;
 }
 
 #userinfo a:hover{
-	border-bottom: 1px solid grey;	
+	border-bottom: 1px solid grey;
 }
 
 #area{
@@ -172,19 +172,19 @@ pre::-webkit-scrollbar-thumb:hover {
 	border: 1px solid transparent;
 	/*padding: 10px;*/
 	margin: 15px 0px;
-	color:grey;	
+	color:grey;
 }
 
 .message code{
-	
+
 }
 
 .message:hover{
-	
+
 }
 
 .message:hover .time{
-	opacity:1;	
+	opacity:1;
 }
 
 .sender{
@@ -194,7 +194,7 @@ pre::-webkit-scrollbar-thumb:hover {
 
 .sender a{
 	transition:0.2s;
-	color:black;	
+	color:black;
 }
 
 .sender a:hover{
@@ -210,11 +210,11 @@ pre::-webkit-scrollbar-thumb:hover {
 }
 
 .messagenumber:hover{
-	color:grey;	
+	color:grey;
 }
 
 .message a{
-	text-decoration:none;	
+	text-decoration:none;
 }
 
 .time{
@@ -229,11 +229,11 @@ pre::-webkit-scrollbar-thumb:hover {
 }
 
 #mine{
-	text-align:right;	
+	text-align:right;
 }
 
 #mine .time{
-	float:left;	
+	float:left;
 }
 
 #usercontrols{
@@ -279,12 +279,12 @@ pre::-webkit-scrollbar-thumb:hover {
    font-family:open sans;
 }
 
-#usercontrols:-ms-input-placeholder {  
+#usercontrols:-ms-input-placeholder {
    font-family:open sans;
 }
 
 .text{
-	text-decoration:underline;	
+	text-decoration:underline;
 }
 
 #fullcode{
@@ -302,11 +302,11 @@ pre::-webkit-scrollbar-thumb:hover {
 #fullcode::-webkit-scrollbar {
     width: 15px;
 }
- 
+
 #fullcode::-webkit-scrollbar-track {
 
 }
- 
+
 #fullcode::-webkit-scrollbar-thumb {
   background-color: grey;
   border:5px solid rgba(239,239,239,1.00);
@@ -335,7 +335,7 @@ pre::-webkit-scrollbar-thumb:hover {
 }
 
 .footer:hover{
-	color:grey;	
+	color:grey;
 }
 
 .bigbutton{
@@ -354,7 +354,7 @@ pre::-webkit-scrollbar-thumb:hover {
 }
 
 .bigbutton:hover{
-	border-color:grey;	
+	border-color:grey;
 }
 
 #searcharea{
@@ -368,10 +368,10 @@ pre::-webkit-scrollbar-thumb:hover {
   background:     -ms-linear-gradient(90deg, #606c88 10%, #3f4c6b 90%); /* IE10 */
   background:      -o-linear-gradient(90deg, #606c88 10%, #3f4c6b 90%); /* Opera 11.10+ */
   background:         linear-gradient(90deg, #606c88 10%, #3f4c6b 90%); /* W3C */
-        
+
 	color:white;
 	text-align:center;
-	line-height:120px; 
+	line-height:120px;
 }
 
 .bigsearchbar{
@@ -488,7 +488,6 @@ pre::-webkit-scrollbar-thumb:hover {
     position: fixed;
     box-shadow:0 1px 2px #aaa;
     z-index:10;
-    font-weight:100;
 }
 
 #tokenmessage.floating{
