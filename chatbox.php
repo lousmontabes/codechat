@@ -217,6 +217,9 @@ $(window).scroll(function(event){
         // Restore message back to original position
         $("#tokenmessage").css("margin-top", 0);
 
+        // Hide message
+        $("#tokenmessage").css("opacity", 0);
+
     }
 
 });
