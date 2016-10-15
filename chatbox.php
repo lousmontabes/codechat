@@ -223,7 +223,7 @@ $(window).scroll(function(event){
         $("#tokenmessage").css("opacity", 0);
 
         // Remove animations
-        $("#tokenmessage").removeClass("bouncyEntranceFromTop");
+        setTimeout('$("#tokenmessage").removeClass("bouncyEntranceFromTop")',400);
 
     }
 
