@@ -51,7 +51,7 @@ $chat_language = $row['language'];
 <script src="scripts/prism.js"></script>
 
 <div id="header">
-    <a href="home.php">codechat</a> / <a onClick="showMenu()"><?php echo $chat_name ?></a>
+    <a href="home.php">codechat</a> / <a onClick="toggleTokenMessage()"><?php echo $chat_name ?></a>
     <span id="saveChatroomButton" class="unclicked" onclick="saveChatroom()">save</span>
     <div id="savePrompt" class="prompt">Save this chatroom to access it from the home screen anytime.</div>
     <span id="userinfo"><b><a style="border:none; opacity:1;" href="profile.php?u=<?php echo $activeuser_id?>"><?php echo $activeuser_name ?></a></b> (<a href="logout.php">Log out</a>)
@@ -367,14 +367,14 @@ $(window).blur(function() {
     windowBlurred = true;
 });
 
-function showMenu(){
+function toggleTokenMessage(){
 
     if ($(window).scrollTop() > 35){
 
         if (menuActive) {
             menuActive = false;
 
-            blurBackground();
+            restoreBackground();
 
             $("#tokenmessage").css("opacity", 0);
             setTimeout('$("#tokenmessage").removeClass("floating")', 400);
@@ -384,7 +384,7 @@ function showMenu(){
         else {
             menuActive = true;
 
-            restoreBackground();
+            blurBackground();
 
             $("#tokenmessage").css("opacity", 1);
             $("#tokenmessage").addClass("floating");
