@@ -36,6 +36,8 @@ $chat_language = $row['language'];
 <link href="css/codemirror.css" rel="stylesheet" />
 <link rel="stylesheet" href="css/3024-day.css">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+
 <style>
 
 #area{opacity:0; margin-bottom:250px;}
@@ -386,6 +388,10 @@ function toggleTokenMessage(){
             $("#tokenmessage").addClass("floating");
 
         }
+
+    }else{
+
+        $("#tokenmessage").addClass("animated bounce");
 
     }
 		
