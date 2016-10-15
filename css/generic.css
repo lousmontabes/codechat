@@ -483,7 +483,6 @@ pre::-webkit-scrollbar-thumb:hover {
     padding: 15px;
     border-radius: 5px;
     width: 640px;
-    color: grey;
     text-align:center;
     margin-bottom:40px;
     position: fixed;
