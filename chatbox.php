@@ -391,8 +391,8 @@ function toggleTokenMessage(){
 
     }else{
 
-        $("#tokenmessage").addClass("animated bounce");
-        setTimeout('$("#tokenmessage").removeClass("animated bounce")', 1000);
+        $("#tokenmessage").addClass("bouncy");
+        setTimeout('$("#tokenmessage").removeClass("bouncy")', 1000);
 
     }
 		
