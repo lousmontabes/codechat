@@ -206,7 +206,7 @@ $(window).scroll(function(event){
 
         menuActive = false;
 
-        $("#tokenmessage").css("margin-bottom", $('#tokenmessage').offset().top - ($(window).scrollTop() / 2));
+        $("#tokenmessage").css("top", $('#tokenmessage').offset().top + ($(window).scrollTop() / 2));
 
         // Token message disappearance effect
         $("#tokenmessage").css("opacity",  -($(window).scrollTop()) / 35 + 1);
