@@ -222,6 +222,9 @@ $(window).scroll(function(event){
         // Hide message every time the user scrolls after 36px from the top
         $("#tokenmessage").css("opacity", 0);
 
+        // Remove animations
+        $("#tokenmessage").removeClass("bouncyEntranceFromTop");
+
     }
 
 });
