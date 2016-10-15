@@ -495,8 +495,8 @@ pre::-webkit-scrollbar-thumb:hover {
 }
 
 .jumpy {
-    -webkit-animation: bounce 1000ms linear both;
-    animation: bounce 1000ms linear both;
+    -webkit-animation: jump 1000ms linear both;
+    animation: jump 1000ms linear both;
 }
 
 @-webkit-keyframes jump {
