@@ -216,11 +216,11 @@ $(window).scroll(function(event){
 
         menuActive = false;
 
+        // Restore message back to original position
+        $("#tokenmessage").css("margin-top", 0);
+
         // Hide message every time the user scrolls after 36px from the top
         $("#tokenmessage").css("opacity", 0);
-
-        // Restore message back to original position
-        setTimeout('$("#tokenmessage").css("margin-top", 0)', 400);
 
     }
 
