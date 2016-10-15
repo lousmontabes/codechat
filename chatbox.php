@@ -501,8 +501,9 @@ function saveChatroom(){
 
         if (hash == "c"){
             // The user has accessed this chatroom automatically after creating it.
-            displayMessage("Click on the name of the chatroom to reveal the token.");
-            window.location.hash = "";
+
+            /*displayMessage("Click on the name of the chatroom to reveal the token.");
+            window.location.hash = "";*/
         }
 
         if (hash == "h" && !saved){
