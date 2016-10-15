@@ -389,8 +389,8 @@ function toggleTokenMessage(){
 
     }else{
 
-        $("#tokenmessage").addClass("jumpy");
-        setTimeout('$("#tokenmessage").removeClass("jumpy")', 1000);
+        $("#tokenmessage").addClass("bouncy");
+        setTimeout('$("#tokenmessage").removeClass("bouncy")', 1000);
 
     }
 		
