@@ -216,16 +216,11 @@ $(window).scroll(function(event){
 
         menuActive = false;
 
-        // Parallax effect
-        $("#sticky").css("margin-top", -($(window).scrollTop() / 2));
+        // Restore message back to original position
+        $("#tokenmessage").css("margin-top", 0);
 
-        // Sticky message disappearance effect
-        $("#sticky").css("opacity",  - Math.abs(($(window).scrollTop() / 100)) + 1);
-
-        if($("#sticky").css("opacity") == 0){
-            $("#sticky").hide();
-            $("#tokenmessage").css("margin-top", 0);
-        }
+        // Hide message every time the user scrolls after 36px from the top
+        $("#tokenmessage").css("opacity", 0);
 
         // Remove animations
         setTimeout('$("#tokenmessage").removeClass("bouncyEntranceFromTop")',400);
