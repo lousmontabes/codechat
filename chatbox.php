@@ -218,9 +218,9 @@ $(window).scroll(function(event){
         menuActive = false;
 
         // Parallax effect
-        $("#tokenmessage").css("margin-top",  anchor - ($(window).scrollTop()/ 2));
+        //$("#tokenmessage").css("margin-top",  anchor - ($(window).scrollTop()/ 2));
 
-        /*
+
         // Restore message back to original position
         $("#tokenmessage").css("margin-top", 0);
 
@@ -229,7 +229,6 @@ $(window).scroll(function(event){
 
         // Remove animations
         setTimeout('$("#tokenmessage").removeClass("bouncyEntranceFromTop")',400);
-        */
 
     }
 
