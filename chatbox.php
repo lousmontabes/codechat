@@ -216,6 +216,10 @@ $(window).scroll(function(event){
 
         menuActive = false;
 
+        // Parallax effect
+        $("#sticky").css("margin-top", -($(window).scrollTop() / 2));
+
+        /*
         // Restore message back to original position
         $("#tokenmessage").css("margin-top", 0);
 
@@ -224,6 +228,7 @@ $(window).scroll(function(event){
 
         // Remove animations
         setTimeout('$("#tokenmessage").removeClass("bouncyEntranceFromTop")',400);
+        */
 
     }
 
