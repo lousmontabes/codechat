@@ -217,7 +217,7 @@ $(window).scroll(function(event){
         menuActive = false;
 
         // Parallax effect
-        $("#tokenmessage").css("margin-top", -($(window).scrollTop() / 2));
+        $("#tokenmessage").css("margin-top", $(window).scrollTop() - ($(window).scrollTop() / 2));
 
         /*
         // Restore message back to original position
