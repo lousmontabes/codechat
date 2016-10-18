@@ -217,12 +217,8 @@ $(window).scroll(function(event){
 
         menuActive = false;
 
-        if (anchor != 0){
-            anchor = $(window).scrollTop();
-        }
-
         // Parallax effect
-        $("#tokenmessage").css("margin-top",  100 - ($(window).scrollTop()/ 2));
+        $("#tokenmessage").css("margin-top",  anchor - ($(window).scrollTop()/ 2));
 
         /*
         // Restore message back to original position
@@ -394,6 +390,7 @@ function toggleTokenMessage(){
 
         else {
             menuActive = true;
+            anchor = $(window).scrollTop();
 
             $("#tokenmessage").css("opacity", 1);
             $("#tokenmessage").addClass("bouncyEntranceFromTop");
