@@ -506,16 +506,22 @@ function saveChatroom(){
         var hash = getHashValue('#');
 
         if (hash == "c"){
+
             // The user has accessed this chatroom automatically after creating it.
 
             /*displayMessage("Click on the name of the chatroom to reveal the token.");
             window.location.hash = "";*/
+            
         }
 
         if (hash == "h" && !saved){
+
             // The user has accessed this chatroom entering a token on the homescreen.
             // The chatroom hasn't been saved to the homescreen.
+
             displayMessage("Save this chatroom to access it from the home screen anytime.");
+            window.location.hash = "";
+
         }
 
     }
