@@ -89,6 +89,14 @@ pre::-webkit-scrollbar-thumb:hover {
 	color:black;
 }
 
+#chatTitle{
+	max-width: 60vw;
+	display: inline-block;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
 #header::selection, #header a::selection{
 	background:transparent;
 }
