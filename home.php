@@ -1,6 +1,13 @@
 <?
+$server = $url["host"];
+$username = $url["user"];
+$password = $url["pass"];
+$db = substr($url["path"], 1);
+
+$con = new mysqli($server, $username, $password, $db);
+
 // Collect the posted search query
-$q = strtolower(mysqli_real_escape_string($_POST['token']));
+$q = strtolower(mysqli_real_escape_string($con, $_POST['token']));
 
 // Clean up by removing unwanted characters
 $qclean = preg_replace("[^0-9a-zA-Z]", "", $q);
