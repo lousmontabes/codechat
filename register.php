@@ -2,6 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
+<meta name="description" content="Share code in real time. Fast & effortless - as easy as chatting. Create something today!" />
 <title>Codechat</title>
 
 <link href='https://fonts.googleapis.com/css?family=Droid+Sans+Mono' rel='stylesheet' type='text/css'>
