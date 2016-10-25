@@ -1,6 +1,6 @@
 <?
 // Collect the posted search query
-$q = strtolower(mysqli_real_escape_string($_POST['q']));
+$q = strtolower(mysqli_real_escape_string($_POST['token']));
 
 // Clean up by removing unwanted characters
 $qclean = preg_replace("[^ 0-9a-zA-Z]", " ", $q);
