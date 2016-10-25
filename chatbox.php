@@ -25,7 +25,7 @@ $chat_language = $row['language'];
 ?>
 
 <head>
-    <base href="www.codechat.co/"; />
+<base href="www.codechat.co/"; />
 <meta charset="utf-8">
 <title>Codechat / <?php echo html_entity_decode($chat_name)?></title>
 
