@@ -16,9 +16,8 @@ $qclean = str_replace(" ", "+", $qclean);
 // If validation has passed, redirect to the URL rewritten search page
 if ($q != '') {
     header( 'Location: http://www.codechat.co/c/'.$q );
+    echo "hi";
 }
-
-echo "hi";
 ?>
 
 <!doctype html>
