@@ -17,6 +17,8 @@ $qclean = str_replace(" ", "+", $qclean);
 if ($q != '') {
     header( 'Location: http://www.codechat.co/c/'.$q );
 }
+
+echo "hi";
 ?>
 
 <!doctype html>
