@@ -1,2 +1,4 @@
 RewriteEngine On    # Turn on the rewriting engine
 RewriteRule    ^c\/([A-Za-z0-9]+)\/?$    chatbox.php?token=$1    [NC,L]    # Handle requests for "pet-care"
+RewriteCond %{HTTP_HOST} ^www\.(.+) [NC]
+RewriteRule ^ http://%1%{REQUEST_URI} [L,R=301]
