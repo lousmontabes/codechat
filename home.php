@@ -135,7 +135,7 @@ a{
 
 		?>
 
-		<a href="chatbox.php?token=<?php echo $chat_token ?>">
+		<a href="c/<?php echo $chat_token ?>">
 			<div class="chat">
 				<div class="title"><?php echo $chat_name ?></div>
 				<div class="language"><?php echo $chat_language ?></div>
