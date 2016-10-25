@@ -1,20 +1,13 @@
 <?
-$server = $url["host"];
-$username = $url["user"];
-$password = $url["pass"];
-$db = substr($url["path"], 1);
-
-$con = new mysqli($server, $username, $password, $db);
-
 // Collect the posted search query
-$q = strtolower(mysqli_real_escape_string($con, $_POST['token']));
+$token = $_POST['token'];
 
 // Clean up by removing unwanted characters
-$qclean = preg_replace("[^0-9a-zA-Z]", "", $q);
+$tokenClean = preg_replace("[^0-9a-zA-Z]", "", $token);
 
 // If validation has passed, redirect to the URL rewritten search page
-if ($q != '') {
-    header( 'Location: http://www.codechat.co/c/'.$q );
+if ($tokenClean != '') {
+    header( 'Location: http://www.codechat.co/c/'.$tokenClean );
 }
 ?>
 
