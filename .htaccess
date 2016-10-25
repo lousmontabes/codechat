@@ -1,2 +1,2 @@
 RewriteEngine On    # Turn on the rewriting engine
-RewriteRule    ^products/([0-9]+)/?$    pet_care_info_01_02_2008.php    [NC,L]    # Handle requests for "pet-care"
+RewriteRule    ^room\/([A-Za-z0-9]+)\/?$    pet_care_info_01_02_2008.php    [NC,L]    # Handle requests for "pet-care"
