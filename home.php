@@ -1,3 +1,24 @@
+<?
+// Collect the posted search query
+$q = strtolower(mysqli_real_escape_string($_POST['q']));
+
+// Clean up by removing unwanted characters
+$qclean = preg_replace("[^ 0-9a-zA-Z]", " ", $q);
+
+// Remove multiple adjacent spaces
+while (strstr($qclean, "  ")) {
+    $qclean = str_replace("  ", " ", $qclean);
+}
+
+// Replace single spaces with a URL friendly plus sign
+$qclean = str_replace(" ", "+", $qclean);
+
+// If validation has passed, redirect to the URL rewritten search page
+if ($q != '') {
+    header( 'Location: http://www.codechat.co/c/'.$q );
+}
+?>
+
 <!doctype html>
 <html>
 <head>
@@ -102,7 +123,7 @@ a{
 
 		<div id="searcharea">
 
-			<form action="chatbox.php#h" method="get">
+			<form action="" method="post">
 				<input type="text" class="bigsearchbar" placeholder="Enter chatroom token" spellcheck="false" name="token">
 			</form>
 
