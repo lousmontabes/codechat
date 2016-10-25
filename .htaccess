@@ -2,4 +2,4 @@
 RewriteEngine On
 
 #Rewrite rule for chatrooms:
-Rewrit­eRule ^([A-Z­a-z­0-9­-]+)/?$ chatbox.p­hp?token=$1 [L]
+Rewrit­eRule ^room/([A-Z­a-z­0-9­-]+)/?$ chatbox.p­hp?token=$1 [L]
