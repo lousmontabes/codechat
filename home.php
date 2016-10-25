@@ -15,7 +15,6 @@ $qclean = preg_replace("[^0-9a-zA-Z]", "", $q);
 // If validation has passed, redirect to the URL rewritten search page
 if ($q != '') {
     header( 'Location: http://www.codechat.co/c/'.$q );
-    echo "hi";
 }
 ?>
 
