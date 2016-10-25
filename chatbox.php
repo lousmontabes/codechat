@@ -52,7 +52,7 @@ $chat_language = $row['language'];
 <script src="scripts/prism.js"></script>
 
 <div id="header">
-    <a href="home.php" id="chatTitle">codechat</a> / <a onClick="toggleTokenMessage()"><?php echo $chat_name ?></a>
+    <span id="chatTitle"><a href="home.php">codechat</a> / <a onClick="toggleTokenMessage()"><?php echo $chat_name ?></a></span>
     <span id="saveChatroomButton" class="unclicked" onclick="saveChatroom()">save</span>
     <div id="savePrompt" class="prompt">Save this chatroom to access it from the home screen anytime.</div>
     <span id="userinfo"><b><a style="border:none; opacity:1;" href="profile.php?u=<?php echo $activeuser_id?>"><?php echo $activeuser_name ?></a></b> (<a href="logout.php">Log out</a>)
