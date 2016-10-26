@@ -6,7 +6,7 @@
 <?php
 
 if(!isset($_GET['token']) or ($_GET['token'] == "")) {
-    header('Location: home.php');
+    header('Location: /home.php');
 }else{
     // IMPORTANT! The token is user input.
     // Escape token string before using it to access the database.
@@ -18,7 +18,7 @@ $row = mysqli_fetch_array($result);
 
 if (mysqli_num_rows($result) == 0){
     // No chatroom matches the given token.
-    header('Location: home.php#wrongtoken');
+    header('Location: /home.php#wrongtoken');
 }
 
 //print_r($row);
