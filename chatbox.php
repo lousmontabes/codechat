@@ -8,12 +8,18 @@
 if(!isset($_GET['token']) or ($_GET['token'] == "")) {
     header('Location: home.php');
 }else{
-    $chat_token = $_GET['token'];
-	//$chat_id = $_GET['id'];
+    // IMPORTANT! The token is user input.
+    // Escape token string before using it to access the database.
+    $chat_token = mysqli_real_escape_string($con, $_GET['token']);
 }
 
 $result = mysqli_query($con, "SELECT * FROM chats WHERE token = '$chat_token'");
 $row = mysqli_fetch_array($result);
+
+if (mysqli_num_rows($result) == 0){
+    // No chatroom matches the given token.
+    header('Location: home.php#wrongtoken');
+}
 
 //print_r($row);
 

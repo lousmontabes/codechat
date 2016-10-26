@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Codechat v2</title>
+
+    <style>
+
+        *{
+            font-family:Helvetica;
+        }
+
+        body{
+            margin:0;
+        }
+
+        #leftcolumn{
+            min-height:100vh;
+            width:25vw;
+            background: white;
+            float:left;
+            left:0;
+            display:block;
+        }
+
+        #centercolumn{
+            min-height:100vh;
+            width:75vw;
+            background:lightgray;
+            float:left;
+            display:block;
+        }
+
+        .centered{
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        #leftcolumn .centered{
+            width:20vw;
+        }
+
+        #leftcolumn a{
+            cursor:pointer;
+            transition:0.5s;
+            color:rosybrown;
+        }
+
+        #leftcolumn a:hover{
+            opacity:0.5;
+        }
+
+        nav a{
+            font-size:20px;
+        }
+
+        #logo{
+            margin:40px auto;
+            width:20vw;
+            font-size:32px;
+            text-align: center;
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <!-- LEFT COLUMN: User bar, navigation, etc. -->
+    <div id="leftcolumn">
+
+        <div class="centered" id="logo">app name</div>
+        <div class="centered" id="userbar">Lluís Montabes<br><a>Settings</a> · <a>Log out</a></div>
+
+        <div class="centered" id="chatrooms">
+            <h2>Saved chatrooms:</h2>
+            <nav>
+                <li><a>Levenshtein</a></li>
+                <li><a>Codechat collaborators</a></li>
+                <li><a>Indie game</a></li>
+            </nav>
+        </div>
+
+    </div>
+
+    <!-- CENTER COLUMN: AJAX zone -->
+    <div id="centercolumn">
+
+    </div>
+
+</body>
+</html>
