@@ -4,9 +4,9 @@
         <div class="tag"><?php echo $chat['language'] ?></div>
     </div>
     <div class="stats">
-        <li class="highlighted">4 new messages</li>
-        <li>78 messages</li>
-        <li>4 users</li>
-        <li>2 active right now</li>
+        <!--<li class="highlighted">[AMOUNT] new messages</li>-->
+        <li><?php echo $chat['messages'] ?> messages</li>
+        <!--<li>[AMOUNT] users</li>-->
+        <!--<li>[AMOUNT] active right now</li>-->
     </div>
 </div>
