@@ -151,13 +151,6 @@ else echo "<img src='images/placeholder". $author_id % 5 .".gif'>";
         setInterval(getMessageCount, 100);
     });
 
-    var didScroll;
-    var lastScrollTop = 0;
-    var delta = 5;
-    var navbarHeight = $('#header').outerHeight();
-    var menuActive = false;
-    var anchor = 0;
-
     $(window).scroll(function(event){
 
         didScroll = true;
