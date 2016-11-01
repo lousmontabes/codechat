@@ -138,191 +138,191 @@ else echo "<img src='images/placeholder". $author_id % 5 .".gif'>";
 
 <script type="text/javascript">
 
-$(document).ready(function() {
-    document.title = 'Codechat / <?php echo html_entity_decode($chat_name)?>';
-    setTimeout(Prism.highlightAll,1);
-	setTimeout('$("#area").css("opacity",1)',20);
-    setInterval(getMessageCount, 100);
-});
+    var currentChat = <?php echo $chat_id ?>;
+    var messageCount[currentChat] = <?php echo $messagecount ?>;
+    var missedMessages[currentChat] = 0;
+    var windowBlurred = false;
+    var saved[currentChat] = false;
 
-var didScroll;
-var lastScrollTop = 0;
-var delta = 5;
-var navbarHeight = $('#header').outerHeight();
-var menuActive = false;
-var anchor = 0;
-
-$(window).scroll(function(event){
-
-    didScroll = true;
-
-    if ($(window).scrollTop() == 0){
-
-        menuActive = true;
-
-        // Token message appears at the top of the chat
-        $("#tokenmessage").css("opacity",1);
-        setTimeout('$("#tokenmessage").removeClass("floating")', 400);
-
-    }else if ($(window).scrollTop() <= 35){
-
-        menuActive = false;
-
-        // Parallax effect
-        $("#tokenmessage").css("margin-top", -($(window).scrollTop() / 2));
-
-        // Token message disappearance effect
-        $("#tokenmessage").css("opacity",  -($(window).scrollTop()) / 35 + 1);
-
-    }else if ($(window).scrollTop() > 35){
-
-        menuActive = false;
-
-        // Parallax effect
-        //$("#tokenmessage").css("margin-top",  anchor - ($(window).scrollTop()/ 2));
-
-
-        // Restore message back to original position
-        $("#tokenmessage").css("margin-top", 0);
-
-        // Hide message every time the user scrolls after 36px from the top
-        $("#tokenmessage").css("opacity", 0);
-
-        // Remove animations
-        setTimeout('$("#tokenmessage").removeClass("bouncyEntranceFromTop")',400);
-
-    }
-
-});
-
-function nl2br (str, is_xhtml) {
-    var breakTag = (is_xhtml || typeof is_xhtml === 'undefined') ? '<br />' : '<br>';
-    return (str + '').replace(/([^>\r\n]?)(\r\n|\n\r|\r|\n)/g, '$1' + breakTag + '$2');
-}
-
-$('#usercontrols').keydown(function(e) {
-    if(e.which == 13) {
-        sendMessage();
-    }
-});
-
-function goToBottom(){
-	$('html, body').animate({scrollTop:$(document).height()}, 'slow');
-}
-
-function refreshChat(){
-
-	$.ajax({
-        type: "GET",
-        url: "sql_retrievemessages.php?chat_id=" + <?php echo $chat_id ?> + "&lastMessage=" + messageCount,
-        dataType: "html",   //expect html to be returned                
-        success: function(response){                    
-            $("#area").append(response);
-			setTimeout(Prism.highlightAll,1);
-        }
-
+    $(document).ready(function() {
+        document.title = 'Codechat / <?php echo html_entity_decode($chat_name)?>';
+        setTimeout(Prism.highlightAll,1);
+        setTimeout('$("#area").css("opacity",1)',20);
+        setInterval(getMessageCount, 100);
     });
 
-}
+    var didScroll;
+    var lastScrollTop = 0;
+    var delta = 5;
+    var navbarHeight = $('#header').outerHeight();
+    var menuActive = false;
+    var anchor = 0;
 
-function sendMessage() {                
-		
-		message = document.getElementById("usercontrols").value;
-		//pre_user_name = "";
-		//user_name = user_name.split(' ').join('+');
-		
-      $.ajax({
-        type: "GET",
-        url: "sql_postcomment.php?message=" + encodeURIComponent(message) + "&chat_id=" + <?php echo $chat_id ?> + "&user_id=<?php echo $activeuser_id ?>",             
-        dataType: "html",   //expect html to be returned                
-        success: function(response){                    
-            //$("#responsecontainer").html(response); 
-			$('#usercontrols').val('')
-            //refreshChat();
-			setTimeout(goToBottom,100);
+    $(window).scroll(function(event){
 
-        }
+        didScroll = true;
 
-    });
-}
+        if ($(window).scrollTop() == 0){
 
-messageCount = <?php echo $messagecount ?>;
-var missedMessages = 0;
-var windowBlurred = false;
+            menuActive = true;
 
-function getMessageCount(){
+            // Token message appears at the top of the chat
+            $("#tokenmessage").css("opacity",1);
+            setTimeout('$("#tokenmessage").removeClass("floating")', 400);
 
-	$.ajax({
-        type: "GET",
-        url: "sql_countmessages.php?chat_id=" + <?php echo $chat_id ?>,             
-        dataType: "html",   //expect html to be returned                
-        success: function(response){                    
-            if (response > messageCount){
-                if($(this).scrollTop() + $(window).height() < $(document).height()){
-                    refreshChat();
-                }else{
-                    refreshChat();
-                    goToBottom();
-                }
-				messageCount = response;
-				
-				// IF TAB IS NOT ACTIVE, SHOW (1) WITH THE NUMBER OF MESSAGES UNATTENDED
-				if (windowBlurred){
-					missedMessages++;
-					document.title = '(' + missedMessages + ') Codechat / <?php echo html_entity_decode($chat_name)?>';
-				}
-				
-			}
-			else{
-				messageCount = response;
-			}
-        }
+        }else if ($(window).scrollTop() <= 35){
 
-    });	
-
-}
-
-$(window).focus(function() {
-	windowBlurred = false;
-    missedMessages = 0;
-	document.title = 'Codechat / <?php echo $chat_name?>';
-});
-
-$(window).blur(function() {
-    windowBlurred = true;
-});
-
-function toggleTokenMessage(){
-
-    if ($(window).scrollTop() > 35){
-
-        if (menuActive) {
             menuActive = false;
 
+            // Parallax effect
+            $("#tokenmessage").css("margin-top", -($(window).scrollTop() / 2));
+
+            // Token message disappearance effect
+            $("#tokenmessage").css("opacity",  -($(window).scrollTop()) / 35 + 1);
+
+        }else if ($(window).scrollTop() > 35){
+
+            menuActive = false;
+
+            // Parallax effect
+            //$("#tokenmessage").css("margin-top",  anchor - ($(window).scrollTop()/ 2));
+
+
+            // Restore message back to original position
+            $("#tokenmessage").css("margin-top", 0);
+
+            // Hide message every time the user scrolls after 36px from the top
             $("#tokenmessage").css("opacity", 0);
-            setTimeout('$("#tokenmessage").removeClass("bouncyEntranceFromTop")', 400);
+
+            // Remove animations
+            setTimeout('$("#tokenmessage").removeClass("bouncyEntranceFromTop")',400);
 
         }
 
-        else {
-            menuActive = true;
-            anchor = $(window).scrollTop();
+    });
 
-            $("#tokenmessage").css("opacity", 1);
-            $("#tokenmessage").addClass("bouncyEntranceFromTop");
+    function nl2br (str, is_xhtml) {
+        var breakTag = (is_xhtml || typeof is_xhtml === 'undefined') ? '<br />' : '<br>';
+        return (str + '').replace(/([^>\r\n]?)(\r\n|\n\r|\r|\n)/g, '$1' + breakTag + '$2');
+    }
 
+    $('#usercontrols').keydown(function(e) {
+        if(e.which == 13) {
+            sendMessage();
         }
+    });
 
-    }else{
+    function goToBottom(){
+        $('html, body').animate({scrollTop:$(document).height()}, 'slow');
+    }
 
-        $("#tokenmessage").addClass("bouncy");
-        setTimeout('$("#tokenmessage").removeClass("bouncy")', 1000);
+    function refreshChat(){
+
+        $.ajax({
+            type: "GET",
+            url: "sql_retrievemessages.php?chat_id=" + <?php echo $chat_id ?> + "&lastMessage=" + messageCount[currentChat],
+            dataType: "html",   //expect html to be returned
+            success: function(response){
+                $("#area").append(response);
+                setTimeout(Prism.highlightAll,1);
+            }
+
+        });
 
     }
-		
-}
 
-var saved = false;
+    function sendMessage() {
+
+            message = document.getElementById("usercontrols").value;
+            //pre_user_name = "";
+            //user_name = user_name.split(' ').join('+');
+
+          $.ajax({
+            type: "GET",
+            url: "sql_postcomment.php?message=" + encodeURIComponent(message) + "&chat_id=" + <?php echo $chat_id ?> + "&user_id=<?php echo $activeuser_id ?>",
+            dataType: "html",   //expect html to be returned
+            success: function(response){
+                //$("#responsecontainer").html(response);
+                $('#usercontrols').val('')
+                //refreshChat();
+                setTimeout(goToBottom,100);
+
+            }
+
+        });
+    }
+
+    function getMessageCount(){
+
+        $.ajax({
+            type: "GET",
+            url: "sql_countmessages.php?chat_id=" + <?php echo $chat_id ?>,
+            dataType: "html",   //expect html to be returned
+            success: function(response){
+                if (response > messageCount[currentChat]){
+                    if($(this).scrollTop() + $(window).height() < $(document).height()){
+                        refreshChat();
+                    }else{
+                        refreshChat();
+                        goToBottom();
+                    }
+                    messageCount[currentChat] = response;
+
+                    // IF TAB IS NOT ACTIVE, SHOW (1) WITH THE NUMBER OF MESSAGES UNATTENDED
+                    if (windowBlurred){
+                        missedMessages[currentChat]++;
+                        document.title = '(' + missedMessages[currentChat] + ') Codechat / <?php echo html_entity_decode($chat_name)?>';
+                    }
+
+                }
+                else{
+                    messageCount[currentChat] = response;
+                }
+            }
+
+        });
+
+    }
+
+    $(window).focus(function() {
+        windowBlurred = false;
+        missedMessages[currentChat] = 0;
+        document.title = 'Codechat / <?php echo $chat_name?>';
+    });
+
+    $(window).blur(function() {
+        windowBlurred = true;
+    });
+
+    function toggleTokenMessage(){
+
+        if ($(window).scrollTop() > 35){
+
+            if (menuActive) {
+                menuActive = false;
+
+                $("#tokenmessage").css("opacity", 0);
+                setTimeout('$("#tokenmessage").removeClass("bouncyEntranceFromTop")', 400);
+
+            }
+
+            else {
+                menuActive = true;
+                anchor = $(window).scrollTop();
+
+                $("#tokenmessage").css("opacity", 1);
+                $("#tokenmessage").addClass("bouncyEntranceFromTop");
+
+            }
+
+        }else{
+
+            $("#tokenmessage").addClass("bouncy");
+            setTimeout('$("#tokenmessage").removeClass("bouncy")', 1000);
+
+        }
+
+    }
 
 <?php
 
@@ -330,7 +330,7 @@ var saved = false;
     while($row = mysqli_fetch_array($result)){
         if ($row['chat'] == $chat_id){
             ?>
-saved = true;
+saved[currentChat] = true;
 $("#saveChatroomButton").html("remove");
 $("#saveChatroomButton").addClass("clicked");
             <?php
@@ -339,55 +339,55 @@ $("#saveChatroomButton").addClass("clicked");
 
 ?>
 
-function saveChatroom(){
+    function saveChatroom(){
 
-    if(!saved){
+        if(!saved[currentChat]){
 
-        $("#saveChatroomButton").html("saving...");
+            $("#saveChatroomButton").html("saving...");
 
-        $.ajax({
-            type: "GET",
-            url: "sql_createrelation.php?chat_id=" + <?php echo $chat_id ?>,
-            dataType: "html",   //expect html to be returned
-            success: function(successful){
-                if(successful == "1"){
-                    saved = true;
-                    $("#saveChatroomButton").html("remove");
-                    $("#saveChatroomButton").removeClass("clicked");
-                    $("#saveChatroomButton").addClass("clicked");
+            $.ajax({
+                type: "GET",
+                url: "sql_createrelation.php?chat_id=" + <?php echo $chat_id ?>,
+                dataType: "html",   //expect html to be returned
+                success: function(successful){
+                    if(successful == "1"){
+                        saved[currentChat] = true;
+                        $("#saveChatroomButton").html("remove");
+                        $("#saveChatroomButton").removeClass("clicked");
+                        $("#saveChatroomButton").addClass("clicked");
+                    }
+                    else{
+                        console.log("There was an error saving the chatroom.")
+                    }
                 }
-                else{
-                    console.log("There was an error saving the chatroom.")
+
+            });
+
+        }else{
+
+            $("#saveChatroomButton").html("removing...");
+
+            $.ajax({
+                type: "GET",
+                url: "sql_removerelation.php?chat_id=" + <?php echo $chat_id ?>,
+                dataType: "html",   //expect html to be returned
+                success: function(successful){
+                    if(successful == "1"){
+                        saved[currentChat] = false;
+                        $("#saveChatroomButton").html("save");
+                        $("#saveChatroomButton").addClass("unclicked");
+                        $("#saveChatroomButton").removeClass("clicked");
+                    }
+                    else{
+                        console.log("There was an error removing the chatroom.")
+                    }
                 }
-            }
 
-        });
+            });
 
-    }else{
-
-        $("#saveChatroomButton").html("removing...");
-
-        $.ajax({
-            type: "GET",
-            url: "sql_removerelation.php?chat_id=" + <?php echo $chat_id ?>,
-            dataType: "html",   //expect html to be returned
-            success: function(successful){
-                if(successful == "1"){
-                    saved = false;
-                    $("#saveChatroomButton").html("save");
-                    $("#saveChatroomButton").addClass("unclicked");
-                    $("#saveChatroomButton").removeClass("clicked");
-                }
-                else{
-                    console.log("There was an error removing the chatroom.")
-                }
-            }
-
-        });
+        }
 
     }
-
-}
 
     function blurBackground(){
 
@@ -431,7 +431,7 @@ function saveChatroom(){
             
         }
 
-        if (hash == "h" && !saved){
+        if (hash == "h" && !saved[currentChat]){
 
             // The user has accessed this chatroom entering a token on the homescreen.
             // The chatroom hasn't been saved to the homescreen.
