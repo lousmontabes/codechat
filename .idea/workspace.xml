@@ -135,7 +135,7 @@
         <entry file="file://$PROJECT_DIR$/modules/chatview.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="113" selection-start-line="0" selection-start-column="113" selection-end-line="0" selection-end-column="113" />
+              <caret line="0" column="114" selection-start-line="0" selection-start-column="114" selection-end-line="0" selection-end-column="114" />
               <folding />
             </state>
           </provider>
@@ -359,12 +359,12 @@
       <workItem from="1477411730473" duration="804000" />
       <workItem from="1477433021711" duration="1888000" />
       <workItem from="1477500178893" duration="2129000" />
-      <workItem from="1477852948210" duration="12399000" />
+      <workItem from="1477852948210" duration="12483000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85206000" />
+    <option name="totallyTimeSpent" value="85290000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -913,7 +913,7 @@
     <entry file="file://$PROJECT_DIR$/modules/chatview.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="113" selection-start-line="0" selection-start-column="113" selection-end-line="0" selection-end-column="113" />
+          <caret line="0" column="114" selection-start-line="0" selection-start-column="114" selection-end-line="0" selection-end-column="114" />
           <folding />
         </state>
       </provider>
