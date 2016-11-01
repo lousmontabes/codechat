@@ -256,6 +256,7 @@
 
     <script type="text/javascript">
 
+        var currentChat = 0;
         var messageCount = {};
         var missedMessages = {};
         var saved = {};
@@ -276,6 +277,7 @@
         }
 
         function showChat(token){
+            currentChat = 0;
             updateAjax("ajaxchatbox.php?token=" + token);
         }
 

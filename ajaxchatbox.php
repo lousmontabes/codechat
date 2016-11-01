@@ -138,7 +138,7 @@ else echo "<img src='images/placeholder". $author_id % 5 .".gif'>";
 
 <script type="text/javascript">
 
-    var currentChat = <?php echo $chat_id ?>;
+    currentChat = <?php echo $chat_id ?>;
     messageCount[currentChat] = <?php echo $messagecount ?>;
     missedMessages[currentChat] = 0;
     windowBlurred = false;
