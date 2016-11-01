@@ -147,7 +147,7 @@ else echo "<img src='images/placeholder". $author_id % 5 .".gif'>";
 <script type="text/javascript">
 
 $(document).load(function() {
-    document.title = 'blah';
+    document.title = 'Codechat / <?php echo html_entity_decode($chat_name)?>';
 	setTimeout('$("#area").css("opacity",1)',20);
 	setTimeout(Prism.highlightAll,1);
 });
