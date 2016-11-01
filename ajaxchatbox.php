@@ -28,7 +28,7 @@ $chat_language = $row['language'];
 
 <style>
 
-#area{margin-bottom:250px;}
+#area{opacity:0; margin-bottom:250px;}
 
 </style>
 
