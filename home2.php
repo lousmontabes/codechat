@@ -266,7 +266,6 @@
                 url: source,
                 success: function(result){
                     ajaxZone.html(result);
-                    Prism.highlightAll();
                 }
             });
 
