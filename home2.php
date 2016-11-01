@@ -209,9 +209,11 @@
         }
 
         #loadingPage {
-            background: url(images/spinner.gif) no - repeat center center;
-            height: 100%;
-            width: 100%;
+            background: url(images/spinner.gif);
+            background-repeat: no-repeat;
+            background-position: center center;
+            height: 100vh;
+            width: 75vw;
         }
 
     </style>
