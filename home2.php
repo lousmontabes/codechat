@@ -49,7 +49,6 @@
             position:fixed;
             height:100%;
             overflow-y: scroll;
-            padding-top:60px;
         }
 
         #leftcolumn::-webkit-scrollbar {
@@ -107,6 +106,10 @@
             border-radius:3px;
             box-shadow:0 1px 2px #aaa;
             transition:.5s, margin-bottom .15s;
+        }
+
+        #userbar{
+            margin-top:70px;
         }
 
         #userbar i{
