@@ -138,11 +138,11 @@ else echo "<img src='images/placeholder". $author_id % 5 .".gif'>";
 
 <script type="text/javascript">
 
-    currentChat = <?php echo $chat_id ?>;
-    messageCount[currentChat] = <?php echo $messagecount ?>;
-    missedMessages[currentChat] = 0;
-    windowBlurred = false;
-    saved[currentChat] = false;
+    var currentChat = <?php echo $chat_id ?>;
+    var messageCount = <?php echo $messagecount ?>;
+    var missedMessages = 0;
+    var windowBlurred = false;
+    var saved = false;
 
     $(document).ready(function() {
         document.title = 'Codechat / <?php echo html_entity_decode($chat_name)?>';

@@ -256,10 +256,10 @@
 
     <script type="text/javascript">
 
-        var currentChat = 0;
+        /*var currentChat = 0;
         var messageCount = {};
         var missedMessages = {};
-        var saved = {};
+        var saved = {};*/
 
         function updateAjax(source){
 
