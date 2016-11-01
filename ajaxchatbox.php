@@ -282,10 +282,6 @@ function getMessageCount(){
 
 }
 
-window.onload = function() {
-    setInterval(getMessageCount, 100);
-};
-
 $(window).focus(function() {
 	windowBlurred = false;
     missedMessages = 0;
