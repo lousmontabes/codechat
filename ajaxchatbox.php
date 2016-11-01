@@ -26,21 +26,13 @@ $chat_language = $row['language'];
 
 ?>
 
-<style>
-
-#area{opacity:0; margin-bottom:250px;}
-
-</style>
-
-</head>
-
 <body>
 
 <div id="chatmenu">Token: <?php echo $chat_token?></div>
 
 <div id="everything">
 
-<div id="area">
+<div id="area" style="opacity:0; margin-bottom:250px;">
 
     <div id="tokenmessage">
         This chatroom's token is <b><?php echo $chat_token?></b>. Share it with whoever you want to invite them in.
@@ -148,8 +140,9 @@ else echo "<img src='images/placeholder". $author_id % 5 .".gif'>";
 
 $(document).ready(function() {
     document.title = 'Codechat / <?php echo html_entity_decode($chat_name)?>';
+    setTimeout(Prism.highlightAll,1);
 	setTimeout('$("#area").css("opacity",1)',20);
-	setTimeout(Prism.highlightAll,1);
+    setInterval(getMessageCount, 100);
 });
 
 var didScroll;
@@ -201,46 +194,6 @@ $(window).scroll(function(event){
     }
 
 });
-
-setInterval(function() {
-    if (didScroll) {
-        hasScrolled();
-        didScroll = false;
-    }
-}, 250);
-
-function hasScrolled() {
-    var st = $(this).scrollTop();
-    
-    // Make sure they scroll more than delta
-    if(Math.abs(lastScrollTop - st) <= delta)
-        return;
-    
-    // If they scrolled down and are past the navbar, add class .nav-up.
-    // This is necessary so you never see what is "behind" the navbar.
-    if (st > lastScrollTop && st > navbarHeight){
-        // Scroll Down
-        /*$('#header').css("font-size","24px");
-		$('#header').css("height","24px");
-		$('#userinfo').css("padding","7px 20px");
-		$('#userinfo').addClass("userinfo-small");
-        $('#saveChatroomButton').css("top", "24px");
-        $("#chatmenu").css("top","38px");*/
-		
-    } else {
-        // Scroll Up
-        if(st + $(window).height() < $(document).height()) {
-            /*$('#header').css("font-size","36px");
-			$('#header').css("height","50px");
-			$('#userinfo').css("padding","20px");
-			$('#userinfo').removeClass("userinfo-small");
-            $('#saveChatroomButton').css("top", "33px");
-			$("#chatmenu").css("top","68px");*/
-        }
-    }
-    
-    lastScrollTop = st;
-}
 
 function nl2br (str, is_xhtml) {
     var breakTag = (is_xhtml || typeof is_xhtml === 'undefined') ? '<br />' : '<br>';
