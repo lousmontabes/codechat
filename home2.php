@@ -276,6 +276,22 @@
             showChat(id);
         }
 
+        $(window).scroll(function(event){
+
+            if ($(window).scrollTop() == 0){
+
+                $("#topbanner").css("background", "transparent");
+                $("#topbanner").css("color", "#2e6da4");
+
+            }else{
+
+                $("#topbanner").css("background", "#2e6da4");
+                $("#topbanner").css("color", "white");
+
+            }
+
+        }
+
     </script>
 
 </body>
