@@ -259,13 +259,16 @@ else echo "<img src='images/placeholder". $author_id % 5 .".gif'>";
             url: "sql_countmessages.php?chat_id=" + <?php echo $chat_id ?>,
             dataType: "html",   //expect html to be returned
             success: function(response){
+
                 if (response > messageCount[currentChat]){
+
                     if($(this).scrollTop() + $(window).height() < $(document).height()){
                         refreshChat();
                     }else{
                         refreshChat();
                         goToBottom();
                     }
+
                     messageCount[currentChat] = response;
 
                     // IF TAB IS NOT ACTIVE, SHOW (1) WITH THE NUMBER OF MESSAGES UNATTENDED
@@ -276,7 +279,7 @@ else echo "<img src='images/placeholder". $author_id % 5 .".gif'>";
 
                 }
                 else{
-                    //messageCount[currentChat] = response;
+                    messageCount[currentChat] = response;
                 }
             }
 
