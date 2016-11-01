@@ -28,11 +28,15 @@ if (password_verify($row['user_id'], $_COOKIE['sUser'])
 		
 	$user_id = $row['user_id'];
 	
-	$userrow = mysqli_query($con,"SELECT * FROM users WHERE id = $user_id");
-	$row = mysqli_fetch_array($userrow);
-	
+	$userresult = mysqli_query($con,"SELECT id, name, email FROM users WHERE id = $user_id");
+	$row = mysqli_fetch_array($userresult);
+
+		// DEPRECATED
 		$activeuser_name = $row['name'];
 		$activeuser_id = $row['id'];
+
+		// NEW
+		$activeUser = $row;
 
 }
 else{
