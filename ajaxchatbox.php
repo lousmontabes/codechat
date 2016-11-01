@@ -247,7 +247,7 @@ else echo "<img src='images/placeholder". $author_id % 5 .".gif'>";
 
     function getMessageCount(){
 
-        $.ajax({
+        /*$.ajax({
             type: "GET",
             url: "sql_countmessages.php?chat_id=" + <?php echo $chat_id ?>,
             dataType: "html",   //expect html to be returned
@@ -274,7 +274,7 @@ else echo "<img src='images/placeholder". $author_id % 5 .".gif'>";
 
             }
 
-        });
+        });*/
 
     }
 
