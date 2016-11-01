@@ -249,7 +249,7 @@ else echo "<img src='images/placeholder". $author_id % 5 .".gif'>";
 
         $.ajax({
             type: "GET",
-            url: "sql_countmessages.php?chat_id=" + <?php echo $chat_id ?>,
+            url: "sql_countmessages.php?chat_id=" + currentChat,
             dataType: "html",   //expect html to be returned
             success: function(response){
 
