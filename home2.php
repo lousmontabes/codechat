@@ -256,6 +256,10 @@
 
     <script type="text/javascript">
 
+        var messageCount = new Array();
+        var missedMessages = new Array();
+        var saved = new Array();
+
         function updateAjax(source){
 
             var ajaxZone = $("#centercolumn");
