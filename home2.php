@@ -172,6 +172,23 @@
             font-weight: bold;
         }
 
+        #newChatCard{
+            cursor: pointer;
+            transition:0.2s;
+            background:transparent;
+            box-shadow: none;
+            border: 1px solid lightgray;
+            text-align: center;
+            font-size:22px;
+            font-weight: 100;
+            color:grey;
+        }
+
+        #newChatCard:hover{
+            border-color: rgba(46, 109, 164, 0.51);
+            color: #2e6da4;
+        }
+
         .sender{
             font-family:open sans;
         }
@@ -194,7 +211,7 @@
 
     <?php include "modules/userview.php" ?>
 
-    <input type="text" class="centered" id="tokenbar" placeholder="Enter token"></input>
+    <input type="text" class="centered" id="tokenbar" placeholder="Enter token"/>
     <div class="centered" id="createbutton">or <a>create a new chat</a></div>
 
     <div class="centered">
@@ -203,6 +220,7 @@
 
     <div id="chatrooms">
         <?php include "modules/userchatlistview.php" ?>
+        <div class="card" id="newChatCard">+ New chat</div>
     </div>
 
 </div>
