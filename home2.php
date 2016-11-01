@@ -256,9 +256,9 @@
 
     <script type="text/javascript">
 
-        var messageCount = new Array();
-        var missedMessages = new Array();
-        var saved = new Array();
+        var messageCount = {};
+        var missedMessages = {};
+        var saved = {};
 
         function updateAjax(source){
 
