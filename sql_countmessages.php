@@ -11,9 +11,9 @@ $con = new mysqli($server, $username, $password, $db);
 
 $chat_id = $_GET['chat_id'];
 
-$result = mysqli_query($con, "SELECT * FROM messages WHERE chat = $chat_id");
-$messagecount = mysqli_num_rows($result);
+$result = mysqli_query($con, "SELECT messages FROM chats WHERE id = $chat_id");
+$messagecount = mysqli_fetch_array($result);
 
-echo $messagecount;
+echo $messagecount[0];
 
 ?>

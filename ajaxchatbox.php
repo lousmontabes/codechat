@@ -269,7 +269,7 @@ function getMessageCount(){
 				// IF TAB IS NOT ACTIVE, SHOW (1) WITH THE NUMBER OF MESSAGES UNATTENDED
 				if (windowBlurred){
 					missedMessages++;
-					document.title = '(' + missedMessages + ') Codechat / <?php echo $chat_name?>';
+					document.title = '(' + missedMessages + ') Codechat / <?php echo html_entity_decode($chat_name)?>';
 				}
 				
 			}
