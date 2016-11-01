@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4bdde7f8-1dcd-4c07-822c-a06b0766a97e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MOCKUP-codechat-v2.html" afterPath="$PROJECT_DIR$/MOCKUP-codechat-v2.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home2.php" afterPath="$PROJECT_DIR$/home2.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/userbox.php" afterPath="$PROJECT_DIR$/modules/userbox.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/verification.php" afterPath="$PROJECT_DIR$/verification.php" />
     </list>
     <ignored path="codechat.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -61,8 +57,8 @@
       <file leaf-file-name="home2.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/home2.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="20" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
+            <state relative-caret-position="456">
+              <caret line="186" column="18" selection-start-line="186" selection-start-column="18" selection-end-line="186" selection-end-column="18" />
               <folding>
                 <element signature="n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -297,12 +293,12 @@
       <workItem from="1477411730473" duration="804000" />
       <workItem from="1477433021711" duration="1888000" />
       <workItem from="1477500178893" duration="2129000" />
-      <workItem from="1477852948210" duration="6967000" />
+      <workItem from="1477852948210" duration="7149000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79774000" />
+    <option name="totallyTimeSpent" value="79956000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -856,8 +852,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/home2.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="20" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
+        <state relative-caret-position="456">
+          <caret line="186" column="18" selection-start-line="186" selection-start-column="18" selection-end-line="186" selection-end-column="18" />
           <folding>
             <element signature="n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />

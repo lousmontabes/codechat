@@ -184,7 +184,7 @@
 <!-- LEFT COLUMN: User bar, navigation, etc. -->
 <div id="leftcolumn">
 
-    <?php include"/modules/userbox.php" ?>
+    <?php include"modules/userbox.php" ?>
 
     <input type="text" class="centered" id="tokenbar" placeholder="Enter token"></input>
     <div class="centered" id="createbutton">or <a>create a new chat</a></div>
