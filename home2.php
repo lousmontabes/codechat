@@ -259,8 +259,8 @@
 
         }
 
-        function showChat(id){
-            updateAjax("sql_retrievemessages.php?chat_id=" + id + "&lastMessage=0");
+        function showChat(token){
+            updateAjax("chatbox.php?token=" + token);
         }
 
         function highlightCard(i){
