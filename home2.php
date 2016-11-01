@@ -250,7 +250,7 @@
         function updateAjax(source){
 
             var ajaxZone = $("#centercolumn");
-            ajaxZone.html("<img src='images/spinner.gif'>");
+            ajaxZone.html("loading");
 
             $.ajax({
                 type: "GET",
