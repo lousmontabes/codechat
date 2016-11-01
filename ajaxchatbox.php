@@ -213,7 +213,7 @@ else echo "<img src='images/placeholder". $author_id % 5 .".gif'>";
 
         $.ajax({
             type: "GET",
-            url: "sql_retrievemessages.php?chat_id=" + <?php echo $chat_id ?> + "&lastMessage=" + messageCount[currentChat],
+            url: "sql_retrievemessages.php?chat_id=" + <?php echo $chat_id ?> + "&lastMessage=" + messageCount,
             dataType: "html",   //expect html to be returned
             success: function(response){
                 $("#area").append(response);
