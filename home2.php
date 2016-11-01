@@ -256,8 +256,9 @@
 
     <script type="text/javascript">
 
-        /*var currentChat = 0;
         var messageCount = {};
+
+        /*var currentChat = 0;
         var missedMessages = {};
         var saved = {};*/
 
