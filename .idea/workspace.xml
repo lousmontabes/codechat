@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4bdde7f8-1dcd-4c07-822c-a06b0766a97e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/chatview.php" afterPath="$PROJECT_DIR$/modules/chatview.php" />
-    </list>
+    <list default="true" id="4bdde7f8-1dcd-4c07-822c-a06b0766a97e" name="Default" comment="" />
     <ignored path="codechat.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -131,12 +129,27 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="chatview.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="chatview.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/modules/chatview.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="115" selection-start-line="0" selection-start-column="115" selection-end-line="0" selection-end-column="115" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="chatbox-old.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/chatbox-old.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="57" column="40" selection-start-line="57" selection-start-column="40" selection-end-line="57" selection-end-column="40" />
+              <folding>
+                <marker date="1478016822000" expanded="true" signature="380:427" placeholder="SELECT * FRO... chats" />
+                <marker date="1478016822000" expanded="true" signature="1925:1961" placeholder="SELECT * FRO... messages" />
+                <marker date="1478016822000" expanded="true" signature="2413:2444" placeholder="SELECT * FRO... users" />
+                <marker date="1478016822000" expanded="true" signature="10190:10227" placeholder="SELECT * FRO... relations" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -148,19 +161,6 @@
               <caret line="1" column="56" selection-start-line="1" selection-start-column="56" selection-end-line="1" selection-end-column="56" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="verification.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/verification.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="38" column="27" selection-start-line="38" selection-start-column="27" selection-end-line="38" selection-end-column="27" />
-              <folding>
-                <marker date="1478000079000" expanded="true" signature="512:546" placeholder="SELECT * FRO... sessions" />
-                <marker date="1478000079000" expanded="true" signature="782:827" placeholder="SELECT id, n... users" />
               </folding>
             </state>
           </provider>
@@ -209,6 +209,7 @@
         <option value="$PROJECT_DIR$/chatboxid.php" />
         <option value="$PROJECT_DIR$/home2.php" />
         <option value="$PROJECT_DIR$/modules/chatview.php" />
+        <option value="$PROJECT_DIR$/chatbox-old.php" />
       </list>
     </option>
   </component>
@@ -359,12 +360,12 @@
       <workItem from="1477411730473" duration="804000" />
       <workItem from="1477433021711" duration="1888000" />
       <workItem from="1477500178893" duration="2129000" />
-      <workItem from="1477852948210" duration="12735000" />
+      <workItem from="1477852948210" duration="12919000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85542000" />
+    <option name="totallyTimeSpent" value="85726000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -407,13 +408,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/register.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6045">
-          <caret line="403" column="55" selection-start-line="403" selection-start-column="55" selection-end-line="403" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/login.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3525">
@@ -915,6 +909,19 @@
         <state relative-caret-position="0">
           <caret line="0" column="115" selection-start-line="0" selection-start-column="115" selection-end-line="0" selection-end-column="115" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chatbox-old.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="57" column="40" selection-start-line="57" selection-start-column="40" selection-end-line="57" selection-end-column="40" />
+          <folding>
+            <marker date="1478016822000" expanded="true" signature="380:427" placeholder="SELECT * FRO... chats" />
+            <marker date="1478016822000" expanded="true" signature="1925:1961" placeholder="SELECT * FRO... messages" />
+            <marker date="1478016822000" expanded="true" signature="2413:2444" placeholder="SELECT * FRO... users" />
+            <marker date="1478016822000" expanded="true" signature="10190:10227" placeholder="SELECT * FRO... relations" />
+          </folding>
         </state>
       </provider>
     </entry>
