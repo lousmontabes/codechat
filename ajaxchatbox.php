@@ -36,10 +36,6 @@ $chat_language = $row['language'];
 
 <body>
 
-<script src="scripts/jquery-1.7.1.min.js"></script>
-<script src="libraries/Semantic-UI-CSS-master/semantic.min.js"></script>
-<script src="scripts/prism.js"></script>
-
 <div id="chatmenu">Token: <?php echo $chat_token?></div>
 
 <div id="everything">
