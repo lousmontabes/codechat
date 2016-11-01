@@ -27,6 +27,7 @@
         }
 
         #topbanner{
+            transition:0.5s;
             width:25vw;
             text-align: center;
             height:60px;
@@ -278,7 +279,7 @@
 
         $("#leftcolumn").scroll(function(event) {
 
-            if ($("#leftcolumn").scrollTop() == 0) {
+            if ($("#leftcolumn").scrollTop() <= 0) {
 
                 $("#topbanner").css("background", "transparent");
                 $("#topbanner").css("color", "#2e6da4");
