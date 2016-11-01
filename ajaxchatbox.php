@@ -253,7 +253,7 @@ else echo "<img src='images/placeholder". $author_id % 5 .".gif'>";
             dataType: "html",   //expect html to be returned
             success: function(response){
 
-                if (response > messageCount[currentChat]){
+                if (response > messageCount){
 
                     if($(this).scrollTop() + $(window).height() < $(document).height()){
                         refreshChat();
@@ -270,7 +270,7 @@ else echo "<img src='images/placeholder". $author_id % 5 .".gif'>";
 
                 }
 
-                messageCount[currentChat] = response;
+                messageCount = response;
 
             }
 
