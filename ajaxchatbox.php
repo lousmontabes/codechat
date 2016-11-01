@@ -256,21 +256,21 @@ else echo "<img src='images/placeholder". $author_id % 5 .".gif'>";
                 if (response > messageCount[currentChat]){
 
                     if($(this).scrollTop() + $(window).height() < $(document).height()){
-                        //refreshChat();
+                        refreshChat();
                     }else{
-                        //refreshChat();
+                        refreshChat();
                         goToBottom();
                     }
 
                     // IF TAB IS NOT ACTIVE, SHOW (1) WITH THE NUMBER OF MESSAGES UNATTENDED
                     if (windowBlurred){
-                        //missedMessages[currentChat]++;
+                        missedMessages[currentChat]++;
                         document.title = '(' + missedMessages[currentChat] + ') Codechat / <?php echo html_entity_decode($chat_name)?>';
                     }
 
                 }
 
-                messageCount[currentChat] = response;
+                //messageCount[currentChat] = response;
 
             }
 
