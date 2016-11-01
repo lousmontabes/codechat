@@ -214,6 +214,7 @@
             background-position: center center;
             height: 100vh;
             width: 75vw;
+            opacity: 0.5;
         }
 
     </style>
@@ -250,7 +251,7 @@
 
     <!-- CENTER COLUMN: AJAX zone -->
     <div id="centercolumn">
-        <div id="loadingPage"></div>
+        
     </div>
 
     <script type="text/javascript">
