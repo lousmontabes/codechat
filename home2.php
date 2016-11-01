@@ -33,7 +33,7 @@
             line-height: 68px;
             font-size: 18px;
             color:#2e6da4;
-            background:white;
+            background:transparent;
             position:fixed;
             font-family: geometos;
             z-index:10;
@@ -49,7 +49,7 @@
             position:fixed;
             height:100%;
             overflow-y: scroll;
-            padding-top:70px;
+            padding-top:60px;
         }
 
         #leftcolumn::-webkit-scrollbar {
