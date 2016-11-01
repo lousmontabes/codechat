@@ -269,8 +269,6 @@ else echo "<img src='images/placeholder". $author_id % 5 .".gif'>";
                         goToBottom();
                     }
 
-                    messageCount[currentChat] = response;
-
                     // IF TAB IS NOT ACTIVE, SHOW (1) WITH THE NUMBER OF MESSAGES UNATTENDED
                     if (windowBlurred){
                         missedMessages[currentChat]++;
@@ -278,9 +276,9 @@ else echo "<img src='images/placeholder". $author_id % 5 .".gif'>";
                     }
 
                 }
-                else{
-                    messageCount[currentChat] = response;
-                }
+
+                messageCount[currentChat] = response;
+                
             }
 
         });
