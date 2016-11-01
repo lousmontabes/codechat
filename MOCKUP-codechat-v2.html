@@ -246,7 +246,7 @@
                 </div>
             </div>
 
-            <div class="bold card">
+            <div class="bold card" onclick="showChat()">
                 <div class="row">
                     <span class="chatTitle">Codechat backend  🖥</span>
                     <div class="tag">PHP</div><div class="tag">Ruby</div>
@@ -294,6 +294,28 @@
     <div id="centercolumn">
 
     </div>
+
+    <script type="text/javascript">
+
+        function updateAjax(source){
+
+            var ajaxZone = $("#centercolumn");
+
+            $.ajax({
+                type: get,
+                url: source,
+                success: function(result){
+                    ajaxZone.html(result);
+                }
+            });
+
+        }
+
+        function showChat(id){
+            updateAjax("sql_retrievemessages.php?chat_id=" + id + "&lastMessage=0");
+        }
+
+    </script>
 
 </body>
 </html>

@@ -214,34 +214,56 @@
 </head>
 <body>
 
-<script src="scripts/jquery-1.7.1.min.js"></script>
-<script src="scripts/prism.js"></script>
+    <script src="scripts/jquery-1.7.1.min.js"></script>
+    <script src="scripts/prism.js"></script>
 
-<div id="topbanner">codechat</div>
+    <div id="topbanner">codechat</div>
 
-<!-- LEFT COLUMN: User bar, navigation, etc. -->
-<div id="leftcolumn">
+    <!-- LEFT COLUMN: User bar, navigation, etc. -->
+    <div id="leftcolumn">
 
-    <?php include "modules/userview.php" ?>
+        <?php include "modules/userview.php" ?>
 
-    <input type="text" class="centered" id="tokenbar" placeholder="Enter token"/>
-    <div class="centered" id="createbutton">or <a>create a new chat</a></div>
+        <input type="text" class="centered" id="tokenbar" placeholder="Enter token"/>
+        <div class="centered" id="createbutton">or <a>create a new chat</a></div>
 
-    <div class="centered">
-        <h2>Saved chatrooms:</h2>
+        <div class="centered">
+            <h2>Saved chatrooms:</h2>
+        </div>
+
+        <div id="chatrooms">
+            <?php include "modules/userchatlistview.php" ?>
+            <div class="card" id="newChatCard">+ New chat</div>
+        </div>
+
     </div>
 
-    <div id="chatrooms">
-        <?php include "modules/userchatlistview.php" ?>
-        <div class="card" id="newChatCard">+ New chat</div>
+    <!-- CENTER COLUMN: AJAX zone -->
+    <div id="centercolumn">
+
     </div>
 
-</div>
+    <script type="text/javascript">
 
-<!-- CENTER COLUMN: AJAX zone -->
-<div id="centercolumn">
+        function updateAjax(source){
 
-</div>
+            var ajaxZone = $("#centercolumn");
+
+            $.ajax({
+                type: get,
+                url: source,
+                success: function(result){
+                    ajaxZone.html(result);
+                }
+            });
+
+        }
+
+        function showChat(id){
+            updateAjax("sql_retrievemessages.php?chat_id=" + id + "&lastMessage=0");
+        }
+
+    </script>
 
 </body>
 </html>

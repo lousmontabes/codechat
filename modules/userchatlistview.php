@@ -9,6 +9,7 @@ if (mysqli_num_rows($result) == 0){
                 You can create a new chat by clicking the button below or enter a token above to join an existing one.";
 }
 
+$i = 0;
 while ($relation = mysqli_fetch_array($result)) {
 
     $relation_chat = $relation['chat'];
@@ -27,6 +28,7 @@ while ($relation = mysqli_fetch_array($result)) {
 
     include "chatview.php";
 
+    $i++;
 }
 
 ?>
