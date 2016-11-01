@@ -270,7 +270,7 @@ else echo "<img src='images/placeholder". $author_id % 5 .".gif'>";
 
                 }
 
-                //messageCount[currentChat] = response;
+                messageCount[currentChat] = response;
 
             }
 

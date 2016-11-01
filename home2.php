@@ -264,7 +264,6 @@
         function updateAjax(source){
 
             var ajaxZone = $("#centercolumn");
-            ajaxZone.html("");
             ajaxZone.html("<div id='loadingPage'></div>");
 
             $.ajax({
