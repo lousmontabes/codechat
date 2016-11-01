@@ -123,6 +123,11 @@
             user-select:none;
             animation:fly-in-from-left .5s 1s ease both;
             transform-origin:top left;
+            cursor:pointer;
+        }
+
+        .card:hover .chatTitle{
+            color: rgba(46, 109, 164, 1);
         }
 
         .tag{
@@ -162,6 +167,10 @@
             color:#2e6da4;
         }
 
+        .card.highlighted{
+            cursor:default;
+        }
+
         .card.highlighted .chatTitle{
             color: #2e6da4;
         }
@@ -183,7 +192,7 @@
         }
 
         #newChatCard:hover{
-            border-color: rgba(46, 109, 164, 0.51);
+            border-color: rgba(46, 109, 164, 0.5);
             color: #2e6da4;
         }
 

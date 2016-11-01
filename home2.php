@@ -125,6 +125,11 @@
             user-select:none;
             animation:fly-in-from-left .5s 1s ease both;
             transform-origin:top left;
+            cursor:pointer;
+        }
+
+        .card:hover .chatTitle{
+            color: #2e6da4;
         }
 
         .tag{
@@ -162,6 +167,10 @@
 
         li.highlighted{
             color:#2e6da4;
+        }
+
+        .card.highlighted{
+            cursor:default;
         }
 
         .card.highlighted .chatTitle{
