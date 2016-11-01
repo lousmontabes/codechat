@@ -1,4 +1,8 @@
 <?php require_once "verification.php" ?>
+
+<!doctype html>
+<html>
+
 <?php
 
 if(!isset($_GET['token']) or ($_GET['token'] == "")) {
@@ -26,9 +30,22 @@ $chat_language = $row['language'];
 
 ?>
 
+<head>
+<base href="http://www.codechat.co/" />
+<meta charset="utf-8">
+<title>Codechat / <?php echo html_entity_decode($chat_name)?></title>
+
+<link href='https://fonts.googleapis.com/css?family=Droid+Sans+Mono' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic
+&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+<link href="css/generic.css" rel="stylesheet" />
+<link href="css/prism.css" rel="stylesheet" />
+<link href="css/codemirror.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/3024-day.css">
+
 <style>
 
-#area{margin-bottom:250px;}
+#area{opacity:0; margin-bottom:250px;}
 
 </style>
 
@@ -39,6 +56,25 @@ $chat_language = $row['language'];
 <script src="scripts/jquery-1.7.1.min.js"></script>
 <script src="libraries/Semantic-UI-CSS-master/semantic.min.js"></script>
 <script src="scripts/prism.js"></script>
+
+<div id="header">
+    <span id="chatTitle"><a href="home.php">codechat</a> / <a onClick="toggleTokenMessage()"><?php echo $chat_name ?></a></span>
+    <span id="saveChatroomButton" class="unclicked" onclick="saveChatroom()">save</span>
+    <div id="savePrompt" class="prompt">Save this chatroom to access it from the home screen anytime.</div>
+    <span id="userinfo"><b><a style="border:none; opacity:1;" href="profile.php?u=<?php echo $activeuser_id?>"><?php echo $activeuser_name ?></a></b> (<a href="logout.php">Log out</a>)
+
+<a href="profile.php?u=<?php echo $activeuser_id?>">
+<div class="smallavatar" style="margin:0; margin-top:-20px;">
+
+<?php 
+if (file_exists("avatars/".$activeuser_id.".gif")) echo "<img src='avatars/".$activeuser_id .".gif'>";
+else echo "<img src='images/placeholder". $activeuser_id % 5 .".gif'>";
+?>
+
+</div>
+</a>
+
+</span></div>
 
 <div id="chatmenu">Token: <?php echo $chat_token?></div>
 

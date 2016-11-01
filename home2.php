@@ -208,6 +208,12 @@
             font-family:open sans;
         }
 
+        #loadingPage {
+            background: url(images/spinner.gif) no - repeat center center;
+            height: 100%;
+            width: 100%;
+        }
+
     </style>
 
     <link href="css/generic.css" rel="stylesheet" />
@@ -250,7 +256,7 @@
         function updateAjax(source){
 
             var ajaxZone = $("#centercolumn");
-            ajaxZone.html("loading");
+            ajaxZone.html("<div id='loadingPage'></div>");
 
             $.ajax({
                 type: "GET",
@@ -264,7 +270,7 @@
         }
 
         function showChat(token){
-            updateAjax("chatbox.php?token=" + token);
+            updateAjax("ajaxchatbox.php?token=" + token);
 
         }
 

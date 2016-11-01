@@ -193,7 +193,7 @@ $chat_id = $_GET['id'];
 
 <h1>Entering group chat</h1>
 
-<form id="newchatform" action="chatbox.php" method="get">
+<form id="newchatform" action="ajaxchatbox.php" method="get">
 
 <input type="hidden" name="id" value="<?php echo $_GET['id'] ?>">
 <input id="nameinput" type="text" spellcheck="false" class="noborder" placeholder="Enter your name" name="name"><br>
