@@ -159,6 +159,10 @@
             background: linear-gradient(to right, rgba(255,255,255,0) 75%, rgba(255,255,255,1) 100%);
         }
 
+        .chatTitle{
+            transition:0.1s;
+        }
+
         .stats{
             font-size: 14px;
             list-style: none;
