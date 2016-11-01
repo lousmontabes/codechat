@@ -214,7 +214,7 @@
             background-position: center center;
             height: 100vh;
             width: 75vw;
-            opacity: 0.5;
+            opacity: 0.8;
         }
 
     </style>
@@ -251,7 +251,7 @@
 
     <!-- CENTER COLUMN: AJAX zone -->
     <div id="centercolumn">
-        
+
     </div>
 
     <script type="text/javascript">
