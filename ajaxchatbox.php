@@ -233,11 +233,11 @@ else echo "<img src='images/placeholder". $author_id % 5 .".gif'>";
 
     function sendMessage() {
 
-            message = document.getElementById("usercontrols").value;
-            //pre_user_name = "";
-            //user_name = user_name.split(' ').join('+');
+        message = document.getElementById("usercontrols").value;
+        //pre_user_name = "";
+        //user_name = user_name.split(' ').join('+');
 
-          $.ajax({
+        $.ajax({
             type: "GET",
             url: "sql_postcomment.php?message=" + encodeURIComponent(message) + "&chat_id=" + <?php echo $chat_id ?> + "&user_id=<?php echo $activeuser_id ?>",
             dataType: "html",   //expect html to be returned
@@ -271,14 +271,14 @@ else echo "<img src='images/placeholder". $author_id % 5 .".gif'>";
 
                     // IF TAB IS NOT ACTIVE, SHOW (1) WITH THE NUMBER OF MESSAGES UNATTENDED
                     if (windowBlurred){
-                        missedMessages[currentChat]++;
+                        //missedMessages[currentChat]++;
                         document.title = '(' + missedMessages[currentChat] + ') Codechat / <?php echo html_entity_decode($chat_name)?>';
                     }
 
                 }
 
                 messageCount[currentChat] = response;
-                
+
             }
 
         });
