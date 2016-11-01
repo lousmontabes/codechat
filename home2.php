@@ -164,6 +164,14 @@
             color:#2e6da4;
         }
 
+        .card.highlighted .chatTitle{
+            color: #2e6da4;
+        }
+
+        .card.bold .chatTitle{
+            font-weight: bold;
+        }
+
         .sender{
             font-family:open sans;
         }

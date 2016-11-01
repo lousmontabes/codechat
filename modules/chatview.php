@@ -1,6 +1,6 @@
 <div class="card">
     <div class="row">
-        <b style="color:#2e6da4"><?php echo $chat['name'] ?></b>
+        <span class="chatTitle"><?php echo $chat['name'] ?></span>
         <div class="tag"><?php echo $chat['language'] ?></div>
     </div>
     <div class="stats">
