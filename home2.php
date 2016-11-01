@@ -263,6 +263,15 @@
             updateAjax("sql_retrievemessages.php?chat_id=" + id + "&lastMessage=0");
         }
 
+        function highlightCard(i){
+            $("#card" + i).addClass("highlighted");
+        }
+
+        function cardClicked(i, id){
+            highlightCard(i);
+            showChat(id);
+        }
+
     </script>
 
 </body>
