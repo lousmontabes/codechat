@@ -248,7 +248,7 @@
 
     <!-- CENTER COLUMN: AJAX zone -->
     <div id="centercolumn">
-
+        <div id="loadingPage"></div>
     </div>
 
     <script type="text/javascript">
