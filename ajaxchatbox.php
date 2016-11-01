@@ -148,7 +148,6 @@ else echo "<img src='images/placeholder". $author_id % 5 .".gif'>";
         document.title = 'Codechat / <?php echo html_entity_decode($chat_name)?>';
         setTimeout(Prism.highlightAll,1);
         setTimeout('$("#area").css("opacity",1)',20);
-        $(window).scrollTop = $(document).height;
         setInterval(getMessageCount, 100);
     });
 
