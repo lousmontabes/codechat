@@ -217,7 +217,7 @@ else echo "<img src='images/placeholder". $author_id % 5 .".gif'>";
             dataType: "html",   //expect html to be returned
             success: function(response){
                 $("#area").append(response);
-                setTimeout(Prism.highlightAll,1);
+                setTimeout(Prism.highlightAll, 1);
             }
 
         });
