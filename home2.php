@@ -250,7 +250,7 @@
             var ajaxZone = $("#centercolumn");
 
             $.ajax({
-                type: get,
+                type: "GET",
                 url: source,
                 success: function(result){
                     ajaxZone.html(result);
