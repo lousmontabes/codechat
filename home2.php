@@ -27,13 +27,13 @@
         }
 
         #topbanner{
-            width:100%;
+            width:25vw;
             text-align: center;
             height:60px;
             line-height: 68px;
             font-size: 18px;
-            background:#2e6da4;
-            color:white;
+            color:#2e6da4;
+            background:white;
             position:fixed;
             font-family: geometos;
             z-index:10;
@@ -49,6 +49,7 @@
             position:fixed;
             height:100%;
             overflow-y: scroll;
+            padding-top:70px;
         }
 
         #leftcolumn::-webkit-scrollbar {
@@ -106,10 +107,6 @@
             border-radius:3px;
             box-shadow:0 1px 2px #aaa;
             transition:.5s, margin-bottom .15s;
-        }
-
-        #userbar{
-            margin-top:90px;
         }
 
         #userbar i{
