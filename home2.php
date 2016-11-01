@@ -274,7 +274,6 @@
 
         function showChat(token){
             updateAjax("ajaxchatbox.php?token=" + token);
-
         }
 
         function highlightCard(i){

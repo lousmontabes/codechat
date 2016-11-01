@@ -146,7 +146,8 @@ else echo "<img src='images/placeholder". $author_id % 5 .".gif'>";
 
 <script type="text/javascript">
 
-$(window).load(function() {
+$(document).load(function() {
+    document.title = 'blah';
 	setTimeout('$("#area").css("opacity",1)',20);
 	setTimeout(Prism.highlightAll,1);
 });
