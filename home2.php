@@ -8,6 +8,7 @@
 
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Droid+Sans+Mono' rel='stylesheet' type='text/css'>
+    <link href="css/prism.css" rel="stylesheet" />
 
     <style>
 
@@ -254,6 +255,7 @@
                 url: source,
                 success: function(result){
                     ajaxZone.html(result);
+                    Prism.highlightAll();
                 }
             });
 
@@ -261,6 +263,7 @@
 
         function showChat(token){
             updateAjax("chatbox.php?token=" + token);
+
         }
 
         function highlightCard(i){
