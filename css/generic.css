@@ -160,7 +160,7 @@ pre::-webkit-scrollbar-thumb:hover {
 }
 
 #area{
-	transition:0.1s;
+	transition:0.4s;
 	top:300px;
 	margin-left:auto;
 	margin-right:auto;

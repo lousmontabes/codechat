@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4bdde7f8-1dcd-4c07-822c-a06b0766a97e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ajaxchatbox.php" afterPath="$PROJECT_DIR$/ajaxchatbox.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/generic.css" afterPath="$PROJECT_DIR$/css/generic.css" />
     </list>
     <ignored path="codechat.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -55,7 +55,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ajaxchatbox.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ajaxchatbox.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ajaxchatbox.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
@@ -110,11 +110,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="generic.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="generic.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/generic.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-351">
-              <caret line="263" column="16" selection-start-line="263" selection-start-column="16" selection-end-line="263" selection-end-column="16" />
+            <state relative-caret-position="264">
+              <caret line="162" column="18" selection-start-line="162" selection-start-column="18" selection-end-line="162" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -196,9 +196,9 @@
         <option value="$PROJECT_DIR$/chatbox-old.php" />
         <option value="$PROJECT_DIR$/chatbox.php" />
         <option value="$PROJECT_DIR$/chatboxid.php" />
-        <option value="$PROJECT_DIR$/css/generic.css" />
         <option value="$PROJECT_DIR$/home2.php" />
         <option value="$PROJECT_DIR$/ajaxchatbox.php" />
+        <option value="$PROJECT_DIR$/css/generic.css" />
       </list>
     </option>
   </component>
@@ -381,12 +381,12 @@
       <workItem from="1477411730473" duration="804000" />
       <workItem from="1477433021711" duration="1888000" />
       <workItem from="1477500178893" duration="2129000" />
-      <workItem from="1477852948210" duration="17959000" />
+      <workItem from="1477852948210" duration="18042000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="90766000" />
+    <option name="totallyTimeSpent" value="90849000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -887,14 +887,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/generic.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-351">
-          <caret line="263" column="16" selection-start-line="263" selection-start-column="16" selection-end-line="263" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/home2.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="576">
@@ -933,6 +925,14 @@
             <marker date="1478028265000" expanded="true" signature="9473:9510" placeholder="SELECT * FRO... relations" />
             <marker date="1478028265000" expanded="true" signature="9473:9524" placeholder="SELECT * FRO... relations" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/generic.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="162" column="18" selection-start-line="162" selection-start-column="18" selection-end-line="162" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>
