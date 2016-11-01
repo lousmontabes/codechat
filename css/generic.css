@@ -485,7 +485,7 @@ pre::-webkit-scrollbar-thumb:hover {
     z-index:0;
 }
 
-#tokenmessage{
+#tokenmessage_OLD{
     background: #606c88;
     color:white;
     padding: 15px;
@@ -496,6 +496,18 @@ pre::-webkit-scrollbar-thumb:hover {
     position: fixed;
     box-shadow:0 1px 2px #aaa;
     z-index:10;
+}
+
+#tokenmessage{
+	color: #2e6da4;
+	width: 75vw;
+	left: 25vw;
+	text-align: center;
+	margin-bottom: 40px;
+	position: fixed;
+	z-index: 10;
+	height:60px;
+	line-height: 68px;
 }
 
 #tokenmessage.floating{
