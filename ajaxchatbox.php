@@ -139,7 +139,7 @@ else echo "<img src='images/placeholder". $author_id % 5 .".gif'>";
 <script type="text/javascript">
 
     var currentChat = <?php echo $chat_id ?>;
-    messageCount[currentChat] = <?php echo $messagecount ?>;
+    var messageCount = <?php echo $messagecount ?>;
     var missedMessages = 0;
     var windowBlurred = false;
     var saved = false;
@@ -213,7 +213,7 @@ else echo "<img src='images/placeholder". $author_id % 5 .".gif'>";
 
         $.ajax({
             type: "GET",
-            url: "sql_retrievemessages.php?chat_id=" + <?php echo $chat_id ?> + "&lastMessage=" + messageCount[currentChat],
+            url: "sql_retrievemessages.php?chat_id=" + <?php echo $chat_id ?> + "&lastMessage=" + messageCount,
             dataType: "html",   //expect html to be returned
             success: function(response){
                 $("#area").append(response);
@@ -253,7 +253,7 @@ else echo "<img src='images/placeholder". $author_id % 5 .".gif'>";
             dataType: "html",   //expect html to be returned
             success: function(response){
 
-                if (response > messageCount[currentChat]){
+                if (response > messageCount){
 
                     if($(this).scrollTop() + $(window).height() < $(document).height()){
                         refreshChat();
@@ -264,13 +264,13 @@ else echo "<img src='images/placeholder". $author_id % 5 .".gif'>";
 
                     // IF TAB IS NOT ACTIVE, SHOW (1) WITH THE NUMBER OF MESSAGES UNATTENDED
                     if (windowBlurred){
-                        missedMessages++;
+                        missedMessages[currentChat]++;
                         document.title = '(' + missedMessages[currentChat] + ') Codechat / <?php echo html_entity_decode($chat_name)?>';
                     }
 
                 }
 
-                messageCount[currentChat] = response;
+                messageCount = response;
 
             }
 
