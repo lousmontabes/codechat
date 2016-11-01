@@ -202,60 +202,7 @@
     </div>
 
     <div id="chatrooms">
-
         <?php include "modules/userchatlistview.php" ?>
-
-        <div class="card">
-            <div class="row">
-                <b style="color:#2e6da4">Codechat devs 🔥</b>
-                <div class="tag">CSS</div><div class="tag">HTML</div><div class="tag">JavaScript</div>
-            </div>
-            <div class="stats">
-                <li class="highlighted">4 new messages</li>
-                <li>78 messages</li>
-                <li>4 users</li>
-                <li>2 active right now</li>
-            </div>
-        </div>
-
-        <div class="card">
-            <div class="row">
-                <b>Codechat backend  🖥</b>
-                <div class="tag">PHP</div><div class="tag">Ruby</div>
-            </div>
-            <div class="stats">
-                <li class="highlighted">1 new message</li>
-                <li>34 messages</li>
-                <li>4 users</li>
-                <li>1 active right now</li>
-            </div>
-        </div>
-
-        <div class="card">
-            <div class="row">
-                Levenshtein
-                <div class="tag">Python</div>
-            </div>
-            <div class="stats">
-                <li>5 messages</li>
-                <li>2 users</li>
-                <li>0 active right now</li>
-            </div>
-
-        </div>
-
-        <div class="card">
-            <div class="row">
-                Algorísmica Avançada for Quim-senpai
-                <div class="tag">Python</div>
-            </div>
-            <div class="stats">
-                <li>8 messages</li>
-                <li>4 users</li>
-                <li>0 active right now</li>
-            </div>
-        </div>
-
     </div>
 
 </div>
