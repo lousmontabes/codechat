@@ -264,7 +264,8 @@
         }
 
         function highlightCard(i){
-            $("#card" + i).addClass("highlighted");
+            $(".card.highlighted").removeClass("highlighted"); // Remove highlight from previous highlighted card,
+            $("#card" + i).addClass("highlighted"); // Highlight new card.
         }
 
         function cardClicked(i, id){
