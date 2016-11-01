@@ -1,7 +1,7 @@
 <div class="card">
     <div class="row">
         <b style="color:#2e6da4"><?php echo $chat['name'] ?></b>
-        <div class="tag">CSS</div><div class="tag">HTML</div><div class="tag"><?php echo $chat['language'] ?></div>
+        <div class="tag"><?php echo $chat['language'] ?></div>
     </div>
     <div class="stats">
         <li class="highlighted">4 new messages</li>
