@@ -161,7 +161,6 @@ pre::-webkit-scrollbar-thumb:hover {
 
 #area{
 	transition:0.1s;
-	width:800px;
 	top:300px;
 	margin-left:auto;
 	margin-right:auto;
@@ -244,24 +243,25 @@ pre::-webkit-scrollbar-thumb:hover {
 }
 
 #usercontrols{
-	transition:0.2s;
-	position:fixed;
-	bottom:10px;
-	height:50px;
-	width:800px;
-	margin-left:auto;
-	margin-right:auto;
-	text-align:left;
-	background:#F8F8F8;
-	border:none;
-	border-radius:4px;
-	padding:20px;
-	font-family:droid sans mono;
-	font-size:24px;
-	color:grey;
+	transition: 0.2s;
+	position: fixed;
+	bottom: 10px;
+	height: 50px;
+	width: 64vw;
+	left: 29vw;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+	background: #F8F8F8;
+	border: none;
+	border-radius: 4px;
+	padding: 20px;
+	font-family: droid sans mono;
+	font-size: 24px;
+	color: grey;
 	resize: none;
-    box-shadow:0 1px 2px #aaa;
-    z-index:10;
+	box-shadow: 0 1px 2px #aaa;
+	z-index: 10;
 }
 
 #usercontrols:hover{
@@ -505,8 +505,7 @@ pre::-webkit-scrollbar-thumb:hover {
 	margin-bottom: 40px;
 	position: fixed;
 	z-index: 10;
-	height:60px;
-	line-height: 68px;
+	padding-top: 30px;
 }
 
 #tokenmessage.floating{
