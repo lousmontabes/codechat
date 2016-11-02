@@ -6,6 +6,7 @@
     <meta charset="UTF-8">
     <title>Codechat v2</title>
 
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Droid+Sans+Mono' rel='stylesheet' type='text/css'>
     <link href="css/prism.css" rel="stylesheet" />
@@ -36,7 +37,7 @@
             color:#2e6da4;
             background:transparent;
             position:fixed;
-            font-family: geometos;
+            font-family: varela round; /* GEOMETOS */
             z-index:10;
         }
 

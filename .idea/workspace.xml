@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4bdde7f8-1dcd-4c07-822c-a06b0766a97e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ajaxnewchat.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home2.php" afterPath="$PROJECT_DIR$/home2.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/chatview.php" afterPath="$PROJECT_DIR$/modules/chatview.php" />
     </list>
     <ignored path="codechat.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -120,11 +117,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home2.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="home2.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/home2.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="549">
-              <caret line="294" column="28" selection-start-line="294" selection-start-column="28" selection-end-line="294" selection-end-column="28" />
+            <state relative-caret-position="585">
+              <caret line="39" column="37" selection-start-line="39" selection-start-column="37" selection-end-line="39" selection-end-column="37" />
               <folding>
                 <element signature="n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
@@ -142,7 +139,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ajaxnewchat.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ajaxnewchat.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ajaxnewchat.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
@@ -380,12 +377,12 @@
       <workItem from="1477411730473" duration="804000" />
       <workItem from="1477433021711" duration="1888000" />
       <workItem from="1477500178893" duration="2129000" />
-      <workItem from="1477852948210" duration="26677000" />
+      <workItem from="1477852948210" duration="27042000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="99484000" />
+    <option name="totallyTimeSpent" value="99849000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -884,19 +881,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chatbox.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-582">
-          <caret line="187" column="0" selection-start-line="187" selection-start-column="0" selection-end-line="187" selection-end-column="0" />
-          <folding>
-            <marker date="1478026074000" expanded="true" signature="380:427" placeholder="SELECT * FRO... chats" />
-            <marker date="1478026074000" expanded="true" signature="2796:2832" placeholder="SELECT * FRO... messages" />
-            <marker date="1478026074000" expanded="true" signature="3284:3315" placeholder="SELECT * FRO... users" />
-            <marker date="1478026074000" expanded="true" signature="11061:11098" placeholder="SELECT * FRO... relations" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ajaxchatbox.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="993">
@@ -924,21 +908,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/home2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="549">
-          <caret line="294" column="28" selection-start-line="294" selection-start-column="28" selection-end-line="294" selection-end-column="28" />
-          <folding>
-            <element signature="n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ajaxnewchat.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="98" column="8" selection-start-line="98" selection-start-column="8" selection-end-line="98" selection-end-column="8" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chatbox.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-582">
+          <caret line="187" column="0" selection-start-line="187" selection-start-column="0" selection-end-line="187" selection-end-column="0" />
+          <folding>
+            <marker date="1478026074000" expanded="true" signature="380:427" placeholder="SELECT * FRO... chats" />
+            <marker date="1478026074000" expanded="true" signature="2796:2832" placeholder="SELECT * FRO... messages" />
+            <marker date="1478026074000" expanded="true" signature="3284:3315" placeholder="SELECT * FRO... users" />
+            <marker date="1478026074000" expanded="true" signature="11061:11098" placeholder="SELECT * FRO... relations" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="39" column="37" selection-start-line="39" selection-start-column="37" selection-end-line="39" selection-end-column="37" />
+          <folding>
+            <element signature="n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
