@@ -209,21 +209,6 @@ else echo "<img src='images/placeholder". $author_id % 5 .".gif'>";
         $('html, body').animate({scrollTop:$(document).height()}, 'slow');
     }
 
-    function refreshChat(){
-
-        $.ajax({
-            type: "GET",
-            url: "sql_retrievemessages.php?chat_id=" + <?php echo $chat_id ?> + "&lastMessage=" + messageCount,
-            dataType: "html",   //expect html to be returned
-            success: function(response){
-                $("#area").append(response);
-                setTimeout(Prism.highlightAll, 1);
-            }
-
-        });
-
-    }
-
     function sendMessage() {
 
         message = document.getElementById("usercontrols").value;
@@ -256,9 +241,9 @@ else echo "<img src='images/placeholder". $author_id % 5 .".gif'>";
                 if (response > messageCount){
 
                     if($(this).scrollTop() + $(window).height() < $(document).height()){
-                        refreshChat();
+                        refreshChat(currentChat);
                     }else{
-                        refreshChat();
+                        refreshChat(currentChat);
                         goToBottom();
                     }
 

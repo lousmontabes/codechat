@@ -270,7 +270,6 @@
                 type: "GET",
                 url: source,
                 success: function(result){
-                    messageCount = 1000;
                     ajaxZone.html(result);
                 }
             });
@@ -307,6 +306,21 @@
             }
 
         });
+
+        function refreshChat(id){
+
+            $.ajax({
+                type: "GET",
+                url: "sql_retrievemessages.php?chat_id=" + id + "&lastMessage=" + messageCount,
+                dataType: "html",   //expect html to be returned
+                success: function(response){
+                    $("#area").append(response);
+                    setTimeout(Prism.highlightAll, 1);
+                }
+
+            });
+
+        }
 
     </script>
 
