@@ -270,6 +270,7 @@
                 type: "GET",
                 url: source,
                 success: function(result){
+                    messageCount = 1000;
                     ajaxZone.html(result);
                 }
             });
