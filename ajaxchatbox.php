@@ -148,7 +148,7 @@ else echo "<img src='images/placeholder". $author_id % 5 .".gif'>";
         document.title = 'Codechat / <?php echo html_entity_decode($chat_name)?>';
         setTimeout(Prism.highlightAll,1);
         setTimeout('$("#area").css("opacity",1)',20);
-        setTimeout('setInterval(getMessageCount, 100)', 4000);
+        //setInterval(getMessageCount, 100);
     });
 
     $(window).scroll(function(event){
@@ -209,6 +209,21 @@ else echo "<img src='images/placeholder". $author_id % 5 .".gif'>";
         $('html, body').animate({scrollTop:$(document).height()}, 'slow');
     }
 
+    function refreshChat(id){
+
+        $.ajax({
+            type: "GET",
+            url: "sql_retrievemessages.php?chat_id=" + id + "&lastMessage=" + messageCount,
+            dataType: "html",   //expect html to be returned
+            success: function(response){
+                $("#area").append(response);
+                setTimeout(Prism.highlightAll, 1);
+            }
+
+        });
+
+    }
+
     function sendMessage() {
 
         message = document.getElementById("usercontrols").value;
@@ -241,9 +256,9 @@ else echo "<img src='images/placeholder". $author_id % 5 .".gif'>";
                 if (response > messageCount){
 
                     if($(this).scrollTop() + $(window).height() < $(document).height()){
-                        refreshChat(currentChat);
+                        refreshChat();
                     }else{
-                        refreshChat(currentChat);
+                        refreshChat();
                         goToBottom();
                     }
 
