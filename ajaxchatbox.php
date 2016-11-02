@@ -148,7 +148,7 @@ else echo "<img src='images/placeholder". $author_id % 5 .".gif'>";
         document.title = 'Codechat / <?php echo html_entity_decode($chat_name)?>';
         setTimeout(Prism.highlightAll,1);
         setTimeout('$("#area").css("opacity",1)',20);
-        //setInterval(getMessageCount, 100);
+        setInterval(getMessageCount, 100);
     });
 
     $(window).scroll(function(event){
@@ -268,9 +268,9 @@ else echo "<img src='images/placeholder". $author_id % 5 .".gif'>";
                         document.title = '(' + missedMessages[currentChat] + ') Codechat / <?php echo html_entity_decode($chat_name)?>';
                     }
 
-                }
+                    messageCount = response;
 
-                messageCount = response;
+                }
 
             }
 
