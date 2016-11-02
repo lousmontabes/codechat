@@ -264,8 +264,8 @@ else echo "<img src='images/placeholder". $author_id % 5 .".gif'>";
 
                     // IF TAB IS NOT ACTIVE, SHOW (1) WITH THE NUMBER OF MESSAGES UNATTENDED
                     if (windowBlurred){
-                        missedMessages[currentChat]++;
-                        document.title = '(' + missedMessages[currentChat] + ') Codechat / <?php echo html_entity_decode($chat_name)?>';
+                        missedMessages++;
+                        document.title = '(' + missedMessages + ') Codechat / <?php echo html_entity_decode($chat_name)?>';
                     }
 
                     messageCount = response;
@@ -280,7 +280,7 @@ else echo "<img src='images/placeholder". $author_id % 5 .".gif'>";
 
     $(window).focus(function() {
         windowBlurred = false;
-        missedMessages[currentChat] = 0;
+        missedMessages = 0;
         document.title = 'Codechat / <?php echo $chat_name?>';
     });
 
