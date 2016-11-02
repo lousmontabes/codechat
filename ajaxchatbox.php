@@ -209,11 +209,11 @@ else echo "<img src='images/placeholder". $author_id % 5 .".gif'>";
         $('html, body').animate({scrollTop:$(document).height()}, 'slow');
     }
 
-    function refreshChat(id){
+    function refreshChat(){
 
         $.ajax({
             type: "GET",
-            url: "sql_retrievemessages.php?chat_id=" + id + "&lastMessage=" + messageCount,
+            url: "sql_retrievemessages.php?chat_id=" + currentChat + "&lastMessage=" + messageCount,
             dataType: "html",   //expect html to be returned
             success: function(response){
                 $("#area").append(response);
