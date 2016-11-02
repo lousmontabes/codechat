@@ -244,7 +244,7 @@
 
         <div id="chatrooms">
             <?php include "modules/userchatlistview.php" ?>
-            <div class="card" id="newChatCard">+ New chat</div>
+            <div class="card" id="newChatCard" onclick="newChatClicked()">+ New chat</div>
         </div>
 
     </div>
@@ -289,6 +289,10 @@
         function cardClicked(i, id){
             highlightCard(i);
             showChat(id);
+        }
+
+        function newChatClicked(){
+            updateAjax("newchat.php");
         }
 
         $("#leftcolumn").scroll(function(event) {
