@@ -292,7 +292,7 @@
         }
 
         function newChatClicked(){
-            updateAjax("newchat.php");
+            updateAjax("ajaxnewchat.php");
         }
 
         $("#leftcolumn").scroll(function(event) {
