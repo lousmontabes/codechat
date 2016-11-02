@@ -43,7 +43,7 @@
         #leftcolumn{
             min-height:100vh;
             width:25vw;
-            background: background: rgba(239, 239, 239, 1.00); /* #ebebeb */
+            background: rgba(239, 239, 239, 1.00); /* #ebebeb */
             float:left;
             left:0;
             display:block;
