@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4bdde7f8-1dcd-4c07-822c-a06b0766a97e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ajaxnewchat.php" afterPath="$PROJECT_DIR$/ajaxnewchat.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home2.php" afterPath="$PROJECT_DIR$/home2.php" />
     </list>
     <ignored path="codechat.iws" />
@@ -67,14 +65,14 @@
       <file leaf-file-name="generic.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/generic.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
+            <state relative-caret-position="774">
               <caret line="528" column="18" selection-start-line="520" selection-start-column="4" selection-end-line="528" selection-end-column="18" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home2.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="home2.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/home2.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="309">
@@ -86,7 +84,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ajaxnewchat.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ajaxnewchat.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ajaxnewchat.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="546">
@@ -140,8 +138,8 @@
         <option value="$PROJECT_DIR$/modules/chatview.php" />
         <option value="$PROJECT_DIR$/sql_retrievemessages.php" />
         <option value="$PROJECT_DIR$/css/generic.css" />
-        <option value="$PROJECT_DIR$/home2.php" />
         <option value="$PROJECT_DIR$/ajaxnewchat.php" />
+        <option value="$PROJECT_DIR$/home2.php" />
       </list>
     </option>
   </component>
@@ -325,12 +323,12 @@
       <workItem from="1477411730473" duration="804000" />
       <workItem from="1477433021711" duration="1888000" />
       <workItem from="1477500178893" duration="2129000" />
-      <workItem from="1477852948210" duration="29782000" />
+      <workItem from="1477852948210" duration="30058000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="102589000" />
+    <option name="totallyTimeSpent" value="102865000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -868,9 +866,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ajaxnewchat.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="105" column="106" selection-start-line="105" selection-start-column="106" selection-end-line="105" selection-end-column="106" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/generic.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
+        <state relative-caret-position="774">
           <caret line="528" column="18" selection-start-line="520" selection-start-column="4" selection-end-line="528" selection-end-column="18" />
           <folding />
         </state>
@@ -883,14 +889,6 @@
           <folding>
             <element signature="n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ajaxnewchat.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="105" column="106" selection-start-line="105" selection-start-column="106" selection-end-line="105" selection-end-column="106" />
-          <folding />
         </state>
       </provider>
     </entry>
