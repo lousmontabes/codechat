@@ -11,10 +11,11 @@ h1{
 }
 
 #newchatform{
+    width:300px;
+    height:300px;
 	font-size:28px;
 	font-weight:100;
-	color:grey;	
-	margin-top:20px;
+	color:grey;
 }
 
 #newchatform input, #newchatform select{
@@ -96,50 +97,55 @@ option{
 
 <div id="everything">
 
-<div id="area">
+    <div id="area">
 
-<h1>Create a new chat</h1>
+        <div class="inthemiddle" id="newchatform">
 
-<form id="newchatform" action="sql_newchat.php" method="post">
+        <h1>Create a new chat</h1>
 
-<input id="nameinput" type="text" spellcheck="false" class="noborder" placeholder="Enter chat name" name="name"><div id="namewarning" class="warning"><b>!</b> Please choose a name for the chat</div><br>
-<select class="noborder" name="language">
-	<option value="Python">Python</option>
-    <option value="Markup">Markup</option>
-    <option value="clike">C-like</option>
-    <option value="JavaScript">JavaScript</option>
-    <option value="AppleScript">AppleScript</option>
-    <option value="BASIC">BASIC</option>
-    <option value="C">C</option>
-    <option value="csharp">C#</option>
-    <option value="cpp">C++</option>
-    <option value="CSS">CSS</option>
-    <option value="Fortran">Fortran</option>
-    <option value="Git">Git</option>
-    <option value="HTTP">HTTP</option>
-    <option value="Java">Java</option>
-    <option value="LaTeX">LaTeX</option>
-    <option value="MATLAB">MATLAB</option>
-    <option value="objectivec">Objective-C</option>
-    <option value="Pascal">Pascal</option>
-    <option value="Perl">Perl</option>
-    <option value="PHP">PHP</option>
-    <option value="Processing">Processing</option>
-    <option value="Ruby">Ruby</option>
-    <option value="SASS">SASS</option>
-    <option value="SCSS">SCSS</option>
-    <option value="Smalltalk">Smalltalk</option>
-    <option value="SQL">SQL</option>
-    <option value="Swift">Swift</option>
-    <option value="VHDL">VHDL</option>
-    <option value="vim">vim</option>
-</select>
+            <form id="newchatform" action="sql_newchat.php" method="post">
 
-<input type="submit" class="bigbutton" value="Done">
+                <input id="nameinput" type="text" spellcheck="false" class="noborder" placeholder="Enter chat name" name="name"><div id="namewarning" class="warning"><b>!</b> Please choose a name for the chat</div><br>
 
-</form>
+                <select class="noborder" name="language">
+                    <option value="Python">Python</option>
+                    <option value="Markup">Markup</option>
+                    <option value="clike">C-like</option>
+                    <option value="JavaScript">JavaScript</option>
+                    <option value="AppleScript">AppleScript</option>
+                    <option value="BASIC">BASIC</option>
+                    <option value="C">C</option>
+                    <option value="csharp">C#</option>
+                    <option value="cpp">C++</option>
+                    <option value="CSS">CSS</option>
+                    <option value="Fortran">Fortran</option>
+                    <option value="Git">Git</option>
+                    <option value="HTTP">HTTP</option>
+                    <option value="Java">Java</option>
+                    <option value="LaTeX">LaTeX</option>
+                    <option value="MATLAB">MATLAB</option>
+                    <option value="objectivec">Objective-C</option>
+                    <option value="Pascal">Pascal</option>
+                    <option value="Perl">Perl</option>
+                    <option value="PHP">PHP</option>
+                    <option value="Processing">Processing</option>
+                    <option value="Ruby">Ruby</option>
+                    <option value="SASS">SASS</option>
+                    <option value="SCSS">SCSS</option>
+                    <option value="Smalltalk">Smalltalk</option>
+                    <option value="SQL">SQL</option>
+                    <option value="Swift">Swift</option>
+                    <option value="VHDL">VHDL</option>
+                    <option value="vim">vim</option>
+                </select>
 
-</div>
+                <input type="submit" class="bigbutton" value="Done">
+
+            </form>
+
+        </div>
+
+    </div>
 
 </div>
 
