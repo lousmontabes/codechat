@@ -200,8 +200,12 @@
         }
 
         #newChatCard:hover, #newChatCard.highlighted{
-            border-color: rgba(46, 109, 164, 0.51);
+            border-color: rgba(46, 109, 164, 0.5);
             color: #2e6da4;
+        }
+
+        #newChatCard.highlighted{
+            background: rgba(46, 109, 164, 0.05);
         }
 
         .sender{
