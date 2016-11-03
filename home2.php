@@ -205,7 +205,7 @@
         }
 
         #newChatCard.highlighted{
-            background: rgba(46, 109, 164, 0.05);
+            background: rgba(46, 109, 164, 0.2);
         }
 
         .sender{

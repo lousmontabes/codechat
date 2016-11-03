@@ -101,11 +101,10 @@ option{
 
         <div class="inthemiddle" id="newchatform">
 
-        <h1>Create a new chat</h1>
-
             <form id="newchatform" action="sql_newchat.php" method="post">
 
-                <input id="nameinput" type="text" spellcheck="false" class="noborder" placeholder="Enter chat name" name="name"><div id="namewarning" class="warning"><b>!</b> Please choose a name for the chat</div><br>
+                <div id="namewarning" class="warning"><b>!</b> Please choose a name for the chat</div><br>
+                <input id="nameinput" type="text" spellcheck="false" class="noborder" placeholder="Enter chat name" name="name">
 
                 <select class="noborder" name="language">
                     <option value="Python">Python</option>
