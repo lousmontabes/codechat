@@ -199,7 +199,7 @@
             color:grey;
         }
 
-        #newChatCard:hover{
+        #newChatCard:hover, #newChatCard.highlighted{
             border-color: rgba(46, 109, 164, 0.51);
             color: #2e6da4;
         }
@@ -282,7 +282,7 @@
         }
 
         function highlightCard(i){
-            $(".card.highlighted").removeClass("highlighted"); // Remove highlight from previous highlighted card,
+            $(".card.highlighted").removeClass("highlighted"); // Remove highlight from previous highlighted card.
             $("#card" + i).addClass("highlighted"); // Highlight new card.
         }
 
@@ -292,6 +292,8 @@
         }
 
         function newChatClicked(){
+            $(".card.highlighted").removeClass("highlighted"); // Remove highlight from previous highlighted card.
+            $("#newChatCard").addClass("highlighted"); // Highlight new card.
             updateAjax("ajaxnewchat.php");
         }
 
