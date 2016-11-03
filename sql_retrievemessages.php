@@ -61,7 +61,7 @@ while ($message = mysqli_fetch_array($result)){
     <a href="#message<?php echo $i ?>"><span class="messagenumber">#<?php echo $i ?></span></a>
     </div>
    
-<?php if (strpos($content,'<br />')) {?>
+<?php if (strpos($content,"\n")) {?>
 
     <div class="code">
     <pre class="line-numbers" style="margin-top:0; margin-bottom:0;"><code class="language-<?php echo strtolower ($chat_language) ?>"><?php echo htmlspecialchars($content) ?></code></pre>
