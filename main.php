@@ -317,6 +317,42 @@
 
         });
 
+        // CHAT AND AJAX NAVIGATION FUNCTIONS
+
+        function isValidToken(str){
+            return /^\w+$/.test(str);
+        }
+
+        if(window.location.hash) {
+
+            var hash = getHashValue('#');
+
+            if (hash.length == 7 && isValidToken(hash)){
+
+                // The hash contains a valid token.
+                showChat(hash);
+
+            }
+
+            /*if (hash == "h" && !saved[currentChat]){
+
+                // The user has accessed this chatroom entering a token on the homescreen.
+                // The chatroom hasn't been saved to the homescreen.
+
+                displayMessage("Save this chatroom to access it from the home screen anytime.");
+                window.location.hash = "";
+
+            }*/
+
+        }
+
+        // GENERIC FUNCTIONS - SHOULD BE IN SEPERATE LIBRARY
+
+        function getHashValue(key) {
+            var matches = location.hash.match(new RegExp(key+'([^&]*)'));
+            return matches ? matches[1] : null;
+        }
+
     </script>
 
 </body>

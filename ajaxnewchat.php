@@ -97,7 +97,7 @@ option{
 
 <div id="everything">
 
-    <div id="area">
+    <div id="area" style="overflow:hidden">
 
         <div class="inthemiddle" id="newchatform">
 

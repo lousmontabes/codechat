@@ -397,11 +397,6 @@ $("#saveChatroomButton").addClass("clicked");
 
     }
 
-    function getHashValue(key) {
-        var matches = location.hash.match(new RegExp(key+'([^&]*)'));
-        return matches ? matches[1] : null;
-    }
-
     function showPrompt(){
         $("#savePrompt").css("opacity",1);
         $("#savePrompt").css("width","500px");
