@@ -1,6 +1,2 @@
-RewriteEngine On
- 
-RewriteCond %{SCRIPT_FILENAME} !-d
-RewriteCond %{SCRIPT_FILENAME} !-f
-
-RewriteRule ^(\d+)*$ ./main.php
+RewriteEngine On    # Turn on the rewriting engine
+RewriteRule    ^c\/([A-Za-z0-9]+)\/?$    main.php#$1    [NC,L]    # Handle requests for chatrooms
