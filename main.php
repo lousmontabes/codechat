@@ -319,6 +319,10 @@
 
         // CHAT AND AJAX NAVIGATION FUNCTIONS
 
+        function updateURL(token){
+            window.location.hash = token;
+        }
+
         function isValidToken(str){
             return /^\w+$/.test(str);
         }
