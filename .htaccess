@@ -1,2 +1,4 @@
 RewriteEngine On    # Turn on the rewriting engine
-RewriteRule    ^c\/([A-Za-z0-9]+)\/?$    chatbox.php?token=$1    [NC,L]    # Handle requests for chatrooms
+RewriteRule    ^c\/([A-Za-z0-9]+)\/?$    chatbox.php?token=$1    [NC,L]    # OLD UI Handle requests for chatrooms
+RewriteRule ^#([A-Za-z0-9]+)\/?$    main.php?token=$1
+[NC,L]    # NEW UI handle requests for chatrooms
