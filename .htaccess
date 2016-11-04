@@ -1,3 +1,6 @@
-RewriteBase /
-RewriteCond %{THE_REQUEST} ^GET.*main\.php [NC]
-RewriteRule (.*?)main\.php/*(.*) /$1$2 [R=301,NE,L]
+RewriteEngine On
+ 
+RewriteCond %{SCRIPT_FILENAME} !-d
+RewriteCond %{SCRIPT_FILENAME} !-f
+
+RewriteRule ^(\d+)*$ ./main.php
