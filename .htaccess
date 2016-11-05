@@ -1,13 +1,13 @@
 RewriteEngine On    # Turn on the rewriting engine
 
 RewriteCond %{HTTP_HOST} ^codechat\.co$
-RewriteRule ^(.*)$ http://www.example.co/$1 [R=301]
+RewriteRule ^(.*)$ http://www.codechat.co/$1 [R=301]
 
 RewriteRule    ^([A-Za-z0-9]+)\/?$    chatbox.php?token=$1    [NC,L]    # Handle requests for chatrooms
 
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^(.*)$ index.php?$1 [L,QSA]
+RewriteRule ^(.*)$ home.php?$1 [L,QSA]
 
-RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s(.*)/index\.php [NC]
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s(.*)/home\.php [NC]
 RewriteRule ^ %1 [R=301,L]
