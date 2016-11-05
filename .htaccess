@@ -1,6 +1,3 @@
 RewriteEngine On    # Turn on the rewriting engine
 
-RewriteCond %{HTTP_HOST} ^codechat\.co$
-RewriteRule ^(.*)$ http://www.codechat.co/$1 [R=301]
-
 RewriteRule    ^([A-Za-z0-9]+)\/?$    chatbox.php?token=$1    [NC,L]    # Handle requests for chatrooms
