@@ -1,5 +1,5 @@
 RewriteEngine On    # Turn on the rewriting engine
 RewriteRule    ^([A-Za-z0-9]+)\/?$    chatbox.php?token=$1    [NC,L]    # Handle requests for chatrooms
 
-RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /(.*)home\.php($|\ |\?)
-RewriteRule ^ /%1 [R=301,L]
+RewriteCond %{THE_REQUEST} ^GET.*home\.php [NC]
+RewriteRule (.*?)index\.php/*(.*) /$1$2 [R=301,NE,L]
