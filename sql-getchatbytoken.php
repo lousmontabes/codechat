@@ -19,7 +19,6 @@ $result = mysqli_query($con, "SELECT * FROM chats WHERE token = '{$_GET['token']
 $row = mysqli_fetch_array($result);
 
 $chat = $row;
-print_r($chat);
 
 $i = 0;
 
