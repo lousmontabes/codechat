@@ -8,7 +8,7 @@
 
         #tokenbar{
             display:block;
-            width:26rem;
+            width:100%;
             margin:1.5rem 1rem 0.25rem;
             border:0;
             font-size:1.2rem;
@@ -89,12 +89,14 @@
 
         #tokenResult{
             transition: opacity 0.5s;
-            opacity:0;
-            width: 26rem;
+            width: 100%;
+        }
+
+        #tokenArea{
+            width:20vw;
         }
 
         .bounceDown {
-            opacity:1;
             -webkit-animation: animation 1000ms linear both;
             animation: animation 1000ms linear both;
         }
@@ -139,9 +141,10 @@
 
     <script src="scripts/jquery-1.7.1.min.js"></script>
 
-    <input type="text" class="centered" id="tokenbar" placeholder="Enter token" onkeyup="updateResults(this.value)"/>
-
-    <div id="tokenResult"></div>
+    <div id="tokenArea">
+        <input type="text" class="centered" id="tokenbar" placeholder="Enter token" onkeyup="updateResults(this.value)"/>
+        <div id="tokenResult"></div>
+    </div>
 
     <script>
 
