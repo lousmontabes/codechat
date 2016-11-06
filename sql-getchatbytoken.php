@@ -24,7 +24,7 @@ $i = 0;
 if (mysqli_num_rows($result) > 0){
     include "modules/chatview.php";
 }else{
-    echo "<div class='card'>No chat matched this token</div>";
+    echo "<div class='card'>No chat matches this token</div>";
 }
 
 ?>

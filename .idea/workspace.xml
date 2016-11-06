@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4bdde7f8-1dcd-4c07-822c-a06b0766a97e" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/tokensearchview.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/generic.css" afterPath="$PROJECT_DIR$/css/generic.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.php" afterPath="$PROJECT_DIR$/main.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sql-getchatbytoken.php" afterPath="$PROJECT_DIR$/sql-getchatbytoken.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testajaxfinder.html" afterPath="$PROJECT_DIR$/testajaxfinder.html" />
     </list>
     <ignored path="codechat.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,11 +28,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="111" />
+            <state relative-caret-position="327">
+              <caret line="241" column="32" selection-start-line="241" selection-start-column="32" selection-end-line="241" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -47,11 +51,31 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="generic.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/generic.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="542" column="1" selection-start-line="542" selection-start-column="1" selection-end-line="542" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="testajaxfinder.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testajaxfinder.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="152" column="156" selection-start-line="152" selection-start-column="156" selection-end-line="152" selection-end-column="156" />
+            <state relative-caret-position="717">
+              <caret line="180" column="13" selection-start-line="151" selection-start-column="4" selection-end-line="180" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tokensearchview.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/tokensearchview.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -83,16 +107,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sql-getchatbytoken.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="sql-getchatbytoken.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sql-getchatbytoken.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="390">
-              <caret line="26" column="62" selection-start-line="26" selection-start-column="62" selection-end-line="26" selection-end-column="62" />
+              <caret line="26" column="43" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="43" />
               <folding>
                 <element signature="e#6#91#0#PHP" expanded="true" />
-                <marker date="1478398700000" expanded="true" signature="338:373" placeholder="SELECT * FRO... chats" />
-                <marker date="1478398700000" expanded="true" signature="338:389" placeholder="SELECT * FRO... chats" />
-                <marker date="1478398700000" expanded="true" signature="338:390" placeholder="SELECT * FRO... chats" />
+                <marker date="1478398786000" expanded="true" signature="338:373" placeholder="SELECT * FRO... chats" />
+                <marker date="1478398786000" expanded="true" signature="338:389" placeholder="SELECT * FRO... chats" />
+                <marker date="1478398786000" expanded="true" signature="338:390" placeholder="SELECT * FRO... chats" />
               </folding>
             </state>
           </provider>
@@ -140,14 +164,15 @@
         <option value="$PROJECT_DIR$/sql_countmessages.php" />
         <option value="$PROJECT_DIR$/modules/chatview.php" />
         <option value="$PROJECT_DIR$/sql_retrievemessages.php" />
-        <option value="$PROJECT_DIR$/css/generic.css" />
         <option value="$PROJECT_DIR$/home2.php" />
         <option value="$PROJECT_DIR$/ajaxchatbox.php" />
         <option value="$PROJECT_DIR$/ajaxnewchat.php" />
-        <option value="$PROJECT_DIR$/main.php" />
         <option value="$PROJECT_DIR$/testajaxfinder.php" />
-        <option value="$PROJECT_DIR$/testajaxfinder.html" />
         <option value="$PROJECT_DIR$/sql-getchatbytoken.php" />
+        <option value="$PROJECT_DIR$/css/generic.css" />
+        <option value="$PROJECT_DIR$/testajaxfinder.html" />
+        <option value="$PROJECT_DIR$/modules/tokensearchview.php" />
+        <option value="$PROJECT_DIR$/main.php" />
       </list>
     </option>
   </component>
@@ -218,6 +243,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="codechat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="codechat" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -304,12 +343,12 @@
       <workItem from="1477433021711" duration="1888000" />
       <workItem from="1477500178893" duration="2129000" />
       <workItem from="1477852948210" duration="32031000" />
-      <workItem from="1478396254065" duration="2314000" />
+      <workItem from="1478396254065" duration="2613000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107152000" />
+    <option name="totallyTimeSpent" value="107451000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -352,13 +391,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sql_removerelation.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="12" column="104" selection-start-line="12" selection-start-column="104" selection-end-line="12" selection-end-column="104" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ajaxchatbox.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5040">
@@ -561,6 +593,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -680,14 +713,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/generic.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="771">
-          <caret line="528" column="18" selection-start-line="520" selection-start-column="4" selection-end-line="528" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sql_retrievemessages.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="186">
@@ -734,17 +759,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/verification.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="54" selection-start-line="2" selection-start-column="0" selection-end-line="9" selection-end-column="54" />
-          <folding>
-            <marker date="1478000079000" expanded="true" signature="512:546" placeholder="SELECT * FRO... sessions" />
-            <marker date="1478000079000" expanded="true" signature="782:827" placeholder="SELECT id, n... users" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/modules/userchatlistview.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -759,32 +773,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.php">
+    <entry file="file://$PROJECT_DIR$/sql-getchatbytoken.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="111" />
+        <state relative-caret-position="390">
+          <caret line="26" column="43" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="43" />
+          <folding>
+            <element signature="e#6#91#0#PHP" expanded="true" />
+            <marker date="1478398786000" expanded="true" signature="338:373" placeholder="SELECT * FRO... chats" />
+            <marker date="1478398786000" expanded="true" signature="338:389" placeholder="SELECT * FRO... chats" />
+            <marker date="1478398786000" expanded="true" signature="338:390" placeholder="SELECT * FRO... chats" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/generic.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="542" column="1" selection-start-line="542" selection-start-column="1" selection-end-line="542" selection-end-column="1" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/verification.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="54" selection-start-line="2" selection-start-column="0" selection-end-line="9" selection-end-column="54" />
+          <folding>
+            <marker date="1478000079000" expanded="true" signature="512:546" placeholder="SELECT * FRO... sessions" />
+            <marker date="1478000079000" expanded="true" signature="782:827" placeholder="SELECT id, n... users" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/testajaxfinder.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="152" column="156" selection-start-line="152" selection-start-column="156" selection-end-line="152" selection-end-column="156" />
+        <state relative-caret-position="717">
+          <caret line="180" column="13" selection-start-line="151" selection-start-column="4" selection-end-line="180" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sql-getchatbytoken.php">
+    <entry file="file://$PROJECT_DIR$/modules/tokensearchview.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="62" selection-start-line="26" selection-start-column="62" selection-end-line="26" selection-end-column="62" />
-          <folding>
-            <element signature="e#6#91#0#PHP" expanded="true" />
-            <marker date="1478398700000" expanded="true" signature="338:373" placeholder="SELECT * FRO... chats" />
-            <marker date="1478398700000" expanded="true" signature="338:389" placeholder="SELECT * FRO... chats" />
-            <marker date="1478398700000" expanded="true" signature="338:390" placeholder="SELECT * FRO... chats" />
-          </folding>
+        <state relative-caret-position="225">
+          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="241" column="32" selection-start-line="241" selection-start-column="32" selection-end-line="241" selection-end-column="32" />
+          <folding />
         </state>
       </provider>
     </entry>
