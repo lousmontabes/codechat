@@ -36,6 +36,8 @@
         }
         else{
 
+            $("#tokenbar").css("color","black");
+
             tokenResult.css("height", "0");
             tokenResult.css("opacity", 0);
             tokenResult.removeClass("bounceDown");
