@@ -16,6 +16,7 @@
 
     var tokenBar = $("#tokenbar");
     var tokenResult = $("#tokenResult");
+    var correctToken = false;
 
     function updateResults(str){
 
@@ -30,6 +31,9 @@
                 url: "/sql-getchatbytoken.php?token=" + str,
                 success: function(result){
                     tokenResult.html(result);
+                    if (result != "<div class='card'>No chat matches this token</div>"){
+                        correctToken = true;
+                    }
                 }
             });
 
@@ -49,7 +53,7 @@
 
     tokenBar.bind("enterKey", function(e){
 
-        if(str.length == 7) {
+        if(str.length == 7 && correctToken) {
             tokenBar.css("color", "lightgray");
             tokenBar.blur();
             cardClicked(-1, tokenBar.val());
