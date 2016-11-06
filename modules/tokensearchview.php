@@ -19,6 +19,8 @@
 
         if(str.length == 7){
 
+            $("#tokenbar").css("color","gray");
+
             tokenResult.css("height", "90px");
             tokenResult.css("opacity", 1);
             tokenResult.addClass("bounceDown");
