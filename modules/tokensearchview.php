@@ -49,10 +49,10 @@
 
     }
 
-    tokenBar.bind("enterKey",function(e){
+    tokenBar.bind("enterKey", function(e){
 
         tokenBar.blur();
-        cardClicked(-1, tokenBar.value);
+        cardClicked(-1, tokenBar.val());
 
     });
 
