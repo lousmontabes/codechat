@@ -6,9 +6,11 @@
  * Time: 2:45
  */
 
-$result = mysqli_query($con, "SELECT * FROM chats WHERE token = {$_GET['token']}");
-$row = mysqli_fetch_array($result);
-print_r($row);
+$result = mysqli_query($con, "SELECT * FROM chats WHERE token = '{$_GET['token']}'");
+while($row = mysqli_fetch_array($result)){
+    print_r($row);
+}
+
 $chat = $row[0];
 $i = 0;
 
