@@ -112,7 +112,7 @@
 
         #tokenbar:focus{
             outline:none;
-            box-shadow:0 3px 2px #aaa;
+            box-shadow:0 2px 3px #aaa;
         }
 
         #userbar{
