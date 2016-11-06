@@ -106,7 +106,7 @@
             padding:.75rem 1rem;
             border-radius:3px;
             box-shadow:0 1px 2px #aaa;
-            transition:.5s, margin-bottom .15s;
+            transition:0.2s;
             font-family: open sans;
         }
 
