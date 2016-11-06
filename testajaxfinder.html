@@ -18,6 +18,75 @@
             transition:.5s, margin-bottom .15s;
         }
 
+        .card {
+            padding:1.5rem;
+            box-shadow:0 1px 2px #aaa;
+            background:white;
+            margin:0 1rem 1rem;
+            border-radius:3px;
+            user-select:none;
+            animation:fly-in-from-left .5s 1s ease both;
+            transform-origin:top left;
+            cursor:pointer;
+        }
+
+        .card:hover .chatTitle{
+            color: #2e6da4;
+        }
+
+        .tag{
+            display:inline-block;
+            background:lightgray;
+            border-radius:3px;
+            padding:3px 6px;
+            font-size:10px;
+            font-weight: 700;
+            color:gray;
+            margin:0px 4px;
+        }
+
+        .row{
+            position:relative;
+            white-space: nowrap;
+            overflow:hidden;
+        }
+
+        .row:after {
+            content:"";
+            position:absolute;
+            top:0;
+            left:0;
+            height:40px;
+            width:100%;
+            background: linear-gradient(to right, rgba(255,255,255,0) 75%, rgba(255,255,255,1) 100%);
+        }
+
+        .chatTitle{
+            transition:0.1s;
+        }
+
+        .stats{
+            font-size: 14px;
+            list-style: none;
+            color:grey;
+        }
+
+        li.highlighted{
+            color:#2e6da4;
+        }
+
+        .card.highlighted{
+            cursor:default;
+        }
+
+        .card.highlighted .chatTitle{
+            color: #2e6da4;
+        }
+
+        .card.bold .chatTitle{
+            font-weight: bold;
+        }
+
     </style>
 
 </head>
@@ -32,6 +101,8 @@
     <script>
 
         function updateResults(str){
+
+            console.log("updating");
 
             if(str.length() == 7){
 
