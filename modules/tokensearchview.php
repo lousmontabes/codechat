@@ -22,16 +22,17 @@
 
         if(str.length == 7){
 
-            tokenResult.css("height", "90px");
-            tokenResult.css("opacity", 1);
-            tokenResult.addClass("bounceDown");
-            setTimeout('tokenResult.removeClass("bounceDown")', 1000);
-
             $.ajax({
                 type: "GET",
                 url: "/sql-getchatbytoken.php?token=" + str,
                 success: function(result){
+
                     tokenResult.html(result);
+                    tokenResult.css("height", "90px");
+                    tokenResult.css("opacity", 1);
+                    tokenResult.addClass("bounceDown");
+                    setTimeout('tokenResult.removeClass("bounceDown")', 1000);
+
                     if (result != "<div class='card'>No chat matches this token</div>"){
                         correctToken = true;
                     }else{
