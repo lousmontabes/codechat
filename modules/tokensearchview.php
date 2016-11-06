@@ -1,5 +1,5 @@
 <div id="tokenArea">
-    <input type="search"
+    <input type="text"
            class="centered"
            id="tokenbar"
            placeholder="Enter token"

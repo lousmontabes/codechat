@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4bdde7f8-1dcd-4c07-822c-a06b0766a97e" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/tokensearchview.php" afterPath="$PROJECT_DIR$/modules/tokensearchview.php" />
     </list>
     <ignored path="codechat.iws" />
@@ -71,7 +72,7 @@
         <entry file="file://$PROJECT_DIR$/modules/tokensearchview.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
-              <caret line="1" column="23" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
+              <caret line="1" column="21" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -339,12 +340,12 @@
       <workItem from="1477433021711" duration="1888000" />
       <workItem from="1477500178893" duration="2129000" />
       <workItem from="1477852948210" duration="32031000" />
-      <workItem from="1478396254065" duration="5559000" />
+      <workItem from="1478396254065" duration="5792000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="110397000" />
+    <option name="totallyTimeSpent" value="110630000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -801,14 +802,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/generic.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2691">
-          <caret line="650" column="38" selection-start-line="650" selection-start-column="38" selection-end-line="650" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="303">
@@ -817,10 +810,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/generic.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2691">
+          <caret line="650" column="38" selection-start-line="650" selection-start-column="38" selection-end-line="650" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/modules/tokensearchview.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
-          <caret line="1" column="23" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
+          <caret line="1" column="21" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="21" />
           <folding />
         </state>
       </provider>
