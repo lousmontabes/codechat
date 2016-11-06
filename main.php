@@ -243,9 +243,10 @@
     <!-- LEFT COLUMN: User bar, navigation, etc. -->
     <div id="leftcolumn">
 
-        <?php include "modules/userview.php" ?>
-
-        <?php include "modules/tokensearchview.php" ?>
+        <div id="columnheader">
+            <?php include "modules/userview.php" ?>
+            <?php include "modules/tokensearchview.php" ?>
+        </div>
 
         <div class="centered">
             <h2>Saved chatrooms:</h2>
