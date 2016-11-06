@@ -105,14 +105,19 @@
             font-size:1.2rem;
             padding:.75rem 1rem;
             border-radius:3px;
-            box-shadow:0 1px 2px #aaa;
+            box-shadow:0 1px 2px #1a3d5c;
             transition:0.2s;
             font-family: open sans;
         }
 
         #tokenbar:focus{
             outline:none;
-            box-shadow:0 2px 3px #aaa;
+            box-shadow:0 2px 3px #12293e;
+        }
+
+        #tokenArea .card{
+            color:black;
+            box-shadow:0 1px 2px #1a3d5c;
         }
 
         #userbar{
