@@ -57,6 +57,9 @@
             tokenBar.css("color", "lightgray");
             tokenBar.blur();
             cardClicked(-1, tokenBar.val());
+        }else{
+            tokenResult.addClass("shake");
+            setTimeout('tokenResult.removeClass("shake")',1000);
         }
 
     });
