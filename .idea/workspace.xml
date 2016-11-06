@@ -50,8 +50,8 @@
       <file leaf-file-name="testajaxfinder.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/testajaxfinder.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="91" column="25" selection-start-line="91" selection-start-column="25" selection-end-line="91" selection-end-column="25" />
+            <state relative-caret-position="531">
+              <caret line="90" column="37" selection-start-line="90" selection-start-column="37" selection-end-line="90" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -304,12 +304,12 @@
       <workItem from="1477433021711" duration="1888000" />
       <workItem from="1477500178893" duration="2129000" />
       <workItem from="1477852948210" duration="32031000" />
-      <workItem from="1478396254065" duration="1570000" />
+      <workItem from="1478396254065" duration="1685000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="106408000" />
+    <option name="totallyTimeSpent" value="106523000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -782,8 +782,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/testajaxfinder.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="91" column="25" selection-start-line="91" selection-start-column="25" selection-end-line="91" selection-end-column="25" />
+        <state relative-caret-position="531">
+          <caret line="90" column="37" selection-start-line="90" selection-start-column="37" selection-end-line="90" selection-end-column="37" />
           <folding />
         </state>
       </provider>
