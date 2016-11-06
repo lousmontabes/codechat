@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test Ajax Finder</title>
+
+    <style>
+
+        #tokenbar{
+            display:block;
+            width:26rem;
+            margin:1.5rem 1rem 0.25rem;
+            border:0;
+            font-size:1.2rem;
+            padding:.75rem 1rem;
+            border-radius:3px;
+            box-shadow:0 1px 2px #aaa;
+            transition:.5s, margin-bottom .15s;
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <script src="scripts/jquery-1.7.1.min.js"></script>
+
+    <input type="text" class="centered" id="tokenbar" placeholder="Enter token" onkeyup="updateResults(this.value)"/>
+
+    <div id="tokenResult"></div>
+
+    <script>
+
+        function updateResults(str){
+
+            if(str.length() == 7){
+
+                $.ajax({
+                    type: "GET",
+                    url: "sql-getchatbytoken.php?token=" + str,
+                    success: function(result){
+                        tokenResult.html(result);
+                    }
+                });
+
+            }
+
+        }
+
+    </script>
+
+</body>
+</html>
