@@ -87,6 +87,11 @@
             font-weight: bold;
         }
 
+        #tokenResult{
+            display: none;
+            width: 26rem;
+        }
+
     </style>
 
 </head>
@@ -105,7 +110,7 @@
             var tokenResult = $("#tokenResult");
 
             if(str.length == 7){
-
+                tokenResult.show();
                 $.ajax({
                     type: "GET",
                     url: "sql-getchatbytoken.php?token=" + str,
@@ -114,6 +119,10 @@
                     }
                 });
 
+            }
+            else{
+                tokenResult.html("");
+                tokenResult.hide();
             }
 
         }
