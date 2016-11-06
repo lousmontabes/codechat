@@ -60,7 +60,6 @@
 
         #centercolumn{
             min-height:100vh;
-            min-width:300px;
             width:75vw;
             margin-left:25vw;
             background:white;
@@ -74,6 +73,7 @@
         }
 
         #leftcolumn .centered{
+            min-width:300px;
             width:20vw;
         }
 
