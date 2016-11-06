@@ -297,9 +297,9 @@
             $("#card" + i).addClass("highlighted"); // Highlight new card.
         }
 
-        function cardClicked(i, id){
+        function cardClicked(i, token){
             highlightCard(i);
-            showChat(id);
+            showChat(token);
         }
 
         function newChatClicked(){

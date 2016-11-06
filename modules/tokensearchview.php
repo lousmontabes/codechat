@@ -4,6 +4,7 @@
            id="tokenbar"
            placeholder="Enter token"
            oninput="updateResults(this.value)"
+           onsubmit="submitToken(this.value)"
            spellcheck="false"
            autocomplete="off"
            maxlength="7"
@@ -13,15 +14,14 @@
 
 <script>
 
-    function updateResults(str){
+    var tokenBar = $("#tokenbar");
+    var tokenResult = $("#tokenResult");
 
-        var tokenBar = $("#tokenbar");
-        var tokenResult = $("#tokenResult");
+    function updateResults(str){
 
         if(str.length == 7){
 
             tokenBar.css("color","lightgray");
-            tokenBar.blur();
 
             tokenResult.css("height", "90px");
             tokenResult.css("opacity", 1);
@@ -47,6 +47,13 @@
 
         }
 
+    }
+    
+    function submitToken(str){
+
+        tokenBar.blur();
+        cardClicked(-1, str);
+        
     }
 
 </script>
