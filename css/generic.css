@@ -544,6 +544,21 @@ pre::-webkit-scrollbar-thumb:hover {
 
 }
 
+#columnheader{
+	background: #2e6da4;
+	padding-top: 5px;
+	padding-bottom: 30px;
+	color: white;
+}
+
+#columnheader .card{
+	color:black;
+}
+
+#columnheader a{
+	color:white;
+}
+
 /* ANIMATED CLASSES */
 
 .bouncy {

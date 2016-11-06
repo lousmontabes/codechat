@@ -33,8 +33,8 @@
             height:60px;
             line-height: 68px;
             font-size: 18px;
-            color:#2e6da4;
-            background:transparent;
+            color:white;
+            background:#2e6da4;
             position:fixed;
             font-family: geometos;
             z-index:10;
@@ -312,13 +312,13 @@
 
             if ($("#leftcolumn").scrollTop() <= 0) {
 
-                $("#topbanner").css("background", "transparent");
-                $("#topbanner").css("color", "#2e6da4");
+                //$("#topbanner").css("background", "transparent");
+                //$("#topbanner").css("color", "#2e6da4");
 
             } else {
 
-                $("#topbanner").css("background", "#2e6da4");
-                $("#topbanner").css("color", "white");
+                //$("#topbanner").css("background", "#2e6da4");
+                //$("#topbanner").css("color", "white");
 
             }
 
