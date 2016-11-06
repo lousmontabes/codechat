@@ -8,7 +8,7 @@
 
 $result = mysqli_query($con, "SELECT * FROM chats WHERE token = {$_GET['token']}");
 $row = mysqli_fetch_array($result);
-
+print_r($row);
 $chat = $row[0];
 $i = 0;
 
