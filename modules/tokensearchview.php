@@ -34,6 +34,8 @@
                     tokenResult.html(result);
                     if (result != "<div class='card'>No chat matches this token</div>"){
                         correctToken = true;
+                    }else{
+                        correctToken = false;
                     }
                 }
             });
