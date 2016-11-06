@@ -38,7 +38,7 @@
 
             tokenBar.css("color","black");
 
-            tokenResult.css("height", "0");
+            tokenResult.css("height", 0);
             tokenResult.css("opacity", 0);
             tokenResult.removeClass("bounceDown");
             tokenResult.html("");
@@ -49,9 +49,11 @@
 
     tokenBar.bind("enterKey", function(e){
 
-        tokenBar.css("color","lightgray");
-        tokenBar.blur();
-        cardClicked(-1, tokenBar.val());
+        if(str.length == 7) {
+            tokenBar.css("color", "lightgray");
+            tokenBar.blur();
+            cardClicked(-1, tokenBar.val());
+        }
 
     });
 
