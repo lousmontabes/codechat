@@ -73,4 +73,8 @@
         }
     });
 
+    tokenBar.mouseup(function(e) {
+        $(tokenBar).select();
+    });
+
 </script>
