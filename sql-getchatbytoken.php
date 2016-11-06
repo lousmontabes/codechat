@@ -21,6 +21,8 @@ while($row = mysqli_fetch_array($result)){
 }
 
 $chat = $row[0];
+print_r($chat);
+
 $i = 0;
 
 include "modules/chatview.php"
