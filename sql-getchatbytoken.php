@@ -16,11 +16,9 @@ $db = substr($url["path"], 1);
 $con = new mysqli($server, $username, $password, $db);
 
 $result = mysqli_query($con, "SELECT * FROM chats WHERE token = '{$_GET['token']}'");
-while($row = mysqli_fetch_array($result)){
-    print_r($row);
-}
+$row = mysqli_fetch_array($result);
 
-$chat = $row[0];
+$chat = $row;
 print_r($chat);
 
 $i = 0;
