@@ -109,6 +109,11 @@
             transition:.5s, margin-bottom .15s;
         }
 
+        #tokenbar:focus{
+            outline:none;
+            box-shadow:0 1px 2px #929292;
+        }
+
         #userbar{
             margin-top:70px;
         }
