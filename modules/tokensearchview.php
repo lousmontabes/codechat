@@ -48,12 +48,12 @@
         }
 
     }
-    
-    function submitToken(str){
+
+    tokenBar.bind("enterKey",function(e){
 
         tokenBar.blur();
         cardClicked(-1, str);
-        
-    }
+
+    });
 
 </script>
