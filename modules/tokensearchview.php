@@ -25,6 +25,7 @@
             tokenResult.css("height", "90px");
             tokenResult.css("opacity", 1);
             tokenResult.addClass("bounceDown");
+            setTimeout('tokenResult.removeClass("bounceDown")', 1000);
 
             $.ajax({
                 type: "GET",
