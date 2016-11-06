@@ -52,7 +52,7 @@
     tokenBar.bind("enterKey",function(e){
 
         tokenBar.blur();
-        cardClicked(-1, str);
+        cardClicked(-1, tokenBar.value);
 
     });
 
