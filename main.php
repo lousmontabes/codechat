@@ -28,6 +28,7 @@
 
         #topbanner{
             transition:0.5s;
+            min-width:332px;
             width:25vw;
             text-align: center;
             height:60px;
@@ -42,6 +43,7 @@
 
         #leftcolumn{
             min-height:100vh;
+            min-width:332px;
             width:25vw;
             background: rgba(239, 239, 239, 1.00); /* #ebebeb */
             float:left;
@@ -58,6 +60,7 @@
 
         #centercolumn{
             min-height:100vh;
+            min-width:300px;
             width:75vw;
             margin-left:25vw;
             background:white;
