@@ -234,6 +234,14 @@
             opacity: 0.8;
         }
 
+        #footer{
+            font-size:11px;
+        }
+
+        #footer img{
+            height:1em;
+        }
+
     </style>
 
     <link href="css/generic.css" rel="stylesheet" />
@@ -262,6 +270,10 @@
         <div id="chatrooms">
             <?php include "modules/userchatlistview.php" ?>
             <div class="card" id="newChatCard" onclick="newChatClicked()">+ New chat</div>
+        </div>
+
+        <div id="footer">
+            Send your <img src="images/pixelheart.svg">
         </div>
 
     </div>
