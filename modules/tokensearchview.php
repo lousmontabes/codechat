@@ -21,8 +21,6 @@
 
         if(str.length == 7){
 
-            tokenBar.css("color","lightgray");
-
             tokenResult.css("height", "90px");
             tokenResult.css("opacity", 1);
             tokenResult.addClass("bounceDown");
@@ -51,6 +49,7 @@
 
     tokenBar.bind("enterKey", function(e){
 
+        tokenBar.css("color","lightgray");
         tokenBar.blur();
         cardClicked(-1, tokenBar.val());
 
