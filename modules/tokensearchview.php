@@ -15,11 +15,13 @@
 
     function updateResults(str){
 
+        var tokenBar = $("#tokenbar");
         var tokenResult = $("#tokenResult");
 
         if(str.length == 7){
 
-            $("#tokenbar").css("color","lightgray");
+            tokenBar.css("color","lightgray");
+            tokenBar.blur();
 
             tokenResult.css("height", "90px");
             tokenResult.css("opacity", 1);
@@ -36,7 +38,7 @@
         }
         else{
 
-            $("#tokenbar").css("color","black");
+            tokenBar.css("color","black");
 
             tokenResult.css("height", "0");
             tokenResult.css("opacity", 0);
