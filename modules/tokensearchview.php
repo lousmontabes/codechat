@@ -19,7 +19,7 @@
 
         if(str.length == 7){
 
-            $("#tokenbar").css("color","gray");
+            $("#tokenbar").css("color","lightgray");
 
             tokenResult.css("height", "90px");
             tokenResult.css("opacity", 1);
