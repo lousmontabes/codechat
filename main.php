@@ -246,7 +246,6 @@
         <?php include "modules/userview.php" ?>
 
         <?php include "modules/tokensearchview.php" ?>
-        <div class="centered" id="createbutton">or <a>create a new chat</a></div>
 
         <div class="centered">
             <h2>Saved chatrooms:</h2>
