@@ -11,7 +11,7 @@
 
         if(str.length == 7){
 
-            tokenResult.css("height", "110px");
+            tokenResult.css("height", "90px");
             tokenResult.css("opacity", 1);
             tokenResult.addClass("bounceDown");
 
