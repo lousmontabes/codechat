@@ -53,7 +53,7 @@
 
     tokenBar.bind("enterKey", function(e){
 
-        if(str.length == 7 && correctToken) {
+        if(tokenBar.val().length == 7 && correctToken) {
             tokenBar.css("color", "lightgray");
             tokenBar.blur();
             cardClicked(-1, tokenBar.val());
