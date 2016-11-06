@@ -1,5 +1,5 @@
 <div id="tokenArea">
-    <input type="text" class="centered" id="tokenbar" placeholder="Enter token" onchange="updateResults(this.value)" spellcheck="false" autocomplete="off"/>
+    <input type="text" class="centered" id="tokenbar" placeholder="Enter token" oninput="updateResults(this.value)" spellcheck="false" autocomplete="off"/>
     <div id="tokenResult"></div>
 </div>
 
@@ -11,7 +11,7 @@
 
         if(str.length == 7){
 
-            tokenResult.css("height", "90px");
+            tokenResult.css("height", "110px");
             tokenResult.css("opacity", 1);
             tokenResult.addClass("bounceDown");
 
