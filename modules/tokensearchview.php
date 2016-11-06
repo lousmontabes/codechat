@@ -1,5 +1,13 @@
 <div id="tokenArea">
-    <input type="text" class="centered" id="tokenbar" placeholder="Enter token" oninput="updateResults(this.value)" spellcheck="false" autocomplete="off"/>
+    <input type="text"
+           class="centered"
+           id="tokenbar"
+           placeholder="Enter token"
+           oninput="updateResults(this.value)"
+           spellcheck="false"
+           autocomplete="off"
+           maxlength="7"
+    />
     <div id="tokenResult"></div>
 </div>
 
