@@ -87,12 +87,12 @@
         <entry file="file://$PROJECT_DIR$/sql-getchatbytoken.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="390">
-              <caret line="26" column="60" selection-start-line="26" selection-start-column="60" selection-end-line="26" selection-end-column="60" />
+              <caret line="26" column="62" selection-start-line="26" selection-start-column="62" selection-end-line="26" selection-end-column="62" />
               <folding>
                 <element signature="e#6#91#0#PHP" expanded="true" />
-                <marker date="1478398685000" expanded="true" signature="338:373" placeholder="SELECT * FRO... chats" />
-                <marker date="1478398685000" expanded="true" signature="338:389" placeholder="SELECT * FRO... chats" />
-                <marker date="1478398685000" expanded="true" signature="338:390" placeholder="SELECT * FRO... chats" />
+                <marker date="1478398700000" expanded="true" signature="338:373" placeholder="SELECT * FRO... chats" />
+                <marker date="1478398700000" expanded="true" signature="338:389" placeholder="SELECT * FRO... chats" />
+                <marker date="1478398700000" expanded="true" signature="338:390" placeholder="SELECT * FRO... chats" />
               </folding>
             </state>
           </provider>
@@ -304,12 +304,12 @@
       <workItem from="1477433021711" duration="1888000" />
       <workItem from="1477500178893" duration="2129000" />
       <workItem from="1477852948210" duration="32031000" />
-      <workItem from="1478396254065" duration="2273000" />
+      <workItem from="1478396254065" duration="2314000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107111000" />
+    <option name="totallyTimeSpent" value="107152000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -778,12 +778,12 @@
     <entry file="file://$PROJECT_DIR$/sql-getchatbytoken.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
-          <caret line="26" column="60" selection-start-line="26" selection-start-column="60" selection-end-line="26" selection-end-column="60" />
+          <caret line="26" column="62" selection-start-line="26" selection-start-column="62" selection-end-line="26" selection-end-column="62" />
           <folding>
             <element signature="e#6#91#0#PHP" expanded="true" />
-            <marker date="1478398685000" expanded="true" signature="338:373" placeholder="SELECT * FRO... chats" />
-            <marker date="1478398685000" expanded="true" signature="338:389" placeholder="SELECT * FRO... chats" />
-            <marker date="1478398685000" expanded="true" signature="338:390" placeholder="SELECT * FRO... chats" />
+            <marker date="1478398700000" expanded="true" signature="338:373" placeholder="SELECT * FRO... chats" />
+            <marker date="1478398700000" expanded="true" signature="338:389" placeholder="SELECT * FRO... chats" />
+            <marker date="1478398700000" expanded="true" signature="338:390" placeholder="SELECT * FRO... chats" />
           </folding>
         </state>
       </provider>
