@@ -557,8 +557,6 @@ pre::-webkit-scrollbar-thumb:hover {
 }
 
 .bounceDown {
-	opacity: 1;
-    height: 90px;
 	-webkit-animation: bounceDownAnimation 1000ms linear both;
 	animation: bounceDownAnimation 1000ms linear both;
 }
