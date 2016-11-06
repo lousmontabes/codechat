@@ -19,7 +19,7 @@ $result = mysqli_query($con, "SELECT * FROM chats WHERE token = '{$_GET['token']
 $row = mysqli_fetch_array($result);
 
 $chat = $row;
-$i = 0;
+$i = -1;
 
 if (mysqli_num_rows($result) > 0){
     include "modules/chatview.php";
