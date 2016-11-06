@@ -105,7 +105,7 @@
             margin:1.5rem 1rem 0.25rem;
             border:0;
             font-size:1.2rem;
-            padding:.75rem 1rem;
+            padding:0.75rem 1.25rem;
             border-radius:3px;
             box-shadow:0 1px 2px #1a3d5c;
             transition:0.2s;
