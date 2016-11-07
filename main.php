@@ -317,7 +317,6 @@
                 </ol>
                 <p>That's it!</p>
                 <p>Happy collaborating!</p>
-                <p>- Codechat</p>
             </div>
         </div>
 
