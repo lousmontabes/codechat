@@ -245,6 +245,7 @@
         }
 
         #footer a{
+            transition:0.1s;
             color: #2e6da4;
             font-weight: bold;
             text-decoration: none;
@@ -303,7 +304,7 @@
         </div>
 
         <div id="footer">
-            <a href="https://cash.me/$Codechat">
+            <a target="_blank" href="https://cash.me/$Codechat">
                 Send your <img src="images/pixelheart.svg">
             </a>
         </div>
