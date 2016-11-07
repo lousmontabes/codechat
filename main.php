@@ -247,6 +247,22 @@
             margin-bottom:-0.1em;
         }
 
+        #emptystatecontainer{
+            display:flex;
+            justify-content: center;
+        }
+
+        #emptystate{
+            align-self: center;
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+            color: #2e6da4;
+            width:640px;
+        }
+
+        #emptystate h2{
+            color: #2e6da4;
+        }
+
     </style>
 
     <link href="css/generic.css" rel="stylesheet" />
@@ -285,18 +301,20 @@
 
     <!-- CENTER COLUMN: AJAX zone -->
     <div id="centercolumn">
-        <div id="emptystate">
-            <h1>The more the merrier</h1>
-            <p>Start collaborating in your projects now!</p>
-            <h2>How does it work?</h2>
-            <ol>
-                <li>Create a chatroom. Choose the name and language.</li>
-                <li>Share the token with whoever you want to have access to your chatroom.</li>
-                <li>When you receive a token, enter it onto the field at the top of the page and get started.</li>
-            </ol>
-            <p>That's it!</p>
-            <p>Happy collaborating!</p>
-            <p>- Codechat</p>
+        <div id="emptystatecontainer">
+            <div id="emptystate">
+                <h1>The more the merrier</h1>
+                <p>Start collaborating in your projects now!</p>
+                <h2>How does it work?</h2>
+                <ol>
+                    <li>Create a chatroom. Choose the name and language.</li>
+                    <li>Share the token with whoever you want to have access to your chatroom.</li>
+                    <li>When you receive a token, enter it onto the field at the top of the page and get started.</li>
+                </ol>
+                <p>That's it!</p>
+                <p>Happy collaborating!</p>
+                <p>- Codechat</p>
+            </div>
         </div>
     </div>
 
