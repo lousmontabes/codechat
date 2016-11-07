@@ -239,6 +239,7 @@
             text-align:center;
             font-size:12px;
             color: #2e6da4;
+            padding: 1rem 0;
         }
 
         #footer img{
