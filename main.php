@@ -123,6 +123,7 @@
         #tokenArea .card{
             color:black;
             box-shadow:0 1px 2px #1a3d5c;
+            margin:0;
         }
 
         #userbar{
