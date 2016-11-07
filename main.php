@@ -241,9 +241,13 @@
             width:100%;
             text-align:center;
             font-size:12px;
-            color: #2e6da4;
             padding-bottom: 1rem;
+        }
+
+        #footer a{
+            color: #2e6da4;
             font-weight: bold;
+            text-decoration: none;
         }
 
         #footer img{
@@ -299,7 +303,9 @@
         </div>
 
         <div id="footer">
-            Send your <img src="images/pixelheart.svg">
+            <a href="https://cash.me/$Codechat">
+                Send your <img src="images/pixelheart.svg">
+            </a>
         </div>
 
     </div>
