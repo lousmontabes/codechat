@@ -257,7 +257,7 @@
             align-self: center;
             font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
             color: #2e6da4;
-            width:640px;
+            width:590px;
         }
 
         #emptystate h2{
