@@ -8,7 +8,6 @@
 
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Droid+Sans+Mono' rel='stylesheet' type='text/css'>
-    <link href="css/prism.css" rel="stylesheet" />
 
     <style>
 
@@ -244,6 +243,7 @@
             font-size:12px;
             color: #2e6da4;
             padding-bottom: 1rem;
+            font-weight: bold;
         }
 
         #footer img{
