@@ -305,7 +305,7 @@
 
         <div id="footer">
             <a>
-                With <img src="images/pixelheart.svg"> from Barcelona
+                Send your <img src="images/pixelheart.svg">
             </a>
         </div>
 
