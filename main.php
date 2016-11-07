@@ -235,11 +235,13 @@
         }
 
         #footer{
-            font-size:11px;
+            font-size:12px;
+            color: #2e6da4;
         }
 
         #footer img{
-            height:1em;
+            height:0.8em;
+            margin-bottom:-0.1em;
         }
 
     </style>
