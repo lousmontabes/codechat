@@ -100,14 +100,14 @@
         }
 
         #tokenbar{
-            display:block;
-            width:26rem;
-            margin:1.5rem 1rem 0.25rem;
-            border:0;
-            font-size:1.2rem;
-            padding:0.75rem 1.25rem;
-            border-radius:3px;
-            box-shadow:0 1px 2px #1a3d5c;
+            display: block;
+            margin: 1.5rem 1rem 1rem;
+            margin-bottom: 0.25rem;
+            border: 0;
+            font-size: 1.2rem;
+            padding: 0.75rem 1.25rem;
+            border-radius: 3px;
+            box-shadow: 0 1px 2px #1a3d5c;
             transition:0.2s;
             font-family: open sans;
         }

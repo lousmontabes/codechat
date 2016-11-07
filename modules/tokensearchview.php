@@ -1,6 +1,5 @@
 <div id="tokenArea">
     <input type="text"
-           class="centered"
            id="tokenbar"
            placeholder="Enter token"
            oninput="updateResults(this.value)"
