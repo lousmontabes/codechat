@@ -285,7 +285,19 @@
 
     <!-- CENTER COLUMN: AJAX zone -->
     <div id="centercolumn">
-        <?php echo $_GET['token'] ?>
+        <div id="emptystate">
+            <h1>The more the merrier</h1>
+            <p>Start collaborating in your projects now!</p>
+            <h2>How does it work?</h2>
+            <ol>
+                <li>Create a chatroom. Choose the name and language.</li>
+                <li>Share the token with whoever you want to have access to your chatroom.</li>
+                <li>When you receive a token, enter it onto the field at the top of the page and get started.</li>
+            </ol>
+            <p>That's it!</p>
+            <p>Happy collaborating!</p>
+            <p>- Codechat</p>
+        </div>
     </div>
 
     <script type="text/javascript">
