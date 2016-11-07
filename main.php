@@ -304,7 +304,7 @@
         </div>
 
         <div id="footer">
-            <a target="_blank" href="https://cash.me/$Codechat">
+            <a>
                 Send your <img src="images/pixelheart.svg">
             </a>
         </div>
