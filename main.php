@@ -99,10 +99,13 @@
             font-size:20px;
         }
 
+        #tokenArea{
+            margin: 1rem 1rem 0;
+        }
+
         #tokenbar{
-            display: block;
-            margin: 1.5rem 1rem 1rem;
-            margin-bottom: 0.25rem;
+            box-sizing: border-box;
+            width: 100%;
             border: 0;
             font-size: 1.2rem;
             padding: 0.75rem 1.25rem;
