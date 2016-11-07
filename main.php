@@ -248,6 +248,7 @@
         }
 
         #emptystatecontainer{
+            height:90vh;
             display:flex;
             justify-content: center;
         }
@@ -301,6 +302,9 @@
 
     <!-- CENTER COLUMN: AJAX zone -->
     <div id="centercolumn">
+
+        <!-- Empty state screen -->
+
         <div id="emptystatecontainer">
             <div id="emptystate">
                 <h1>The more the merrier</h1>
@@ -316,6 +320,7 @@
                 <p>- Codechat</p>
             </div>
         </div>
+
     </div>
 
     <script type="text/javascript">
