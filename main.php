@@ -235,10 +235,6 @@
         }
 
         #footer{
-            position: absolute;
-            right: 0;
-            bottom: 0;
-            left: 0;
             width:100%;
             text-align:center;
             font-size:12px;
