@@ -1,3 +1,5 @@
+<?php include "updatestats.php" ?>
+
 <!doctype html>
 <html>
 <head>
