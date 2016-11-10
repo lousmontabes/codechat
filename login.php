@@ -201,9 +201,9 @@ if( isset ($_COOKIE['sUser']) ) {
 
 <div id="header">codechat</div>
 
-<div id="everything">
+<div id="everything" style="padding-top:90px">
 
-<div id="area">
+<div id="area" style="width:900px">
 
 <div id="formarea">
 

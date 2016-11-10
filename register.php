@@ -195,7 +195,7 @@ if( isset ($_COOKIE['sUser']) ) {
 
 <div id="header">codechat</div>
 
-<div id="everything">
+<div id="everything" style="padding-top:90px">
 
 <div id="splash">
     <h1>Share code in real time</h1>
@@ -295,7 +295,7 @@ if( isset ($_COOKIE['sUser']) ) {
 
     </div>
 
-<div id="area">
+<div id="area" style="width:900px">
 
 <h1>Register</h1>
 
