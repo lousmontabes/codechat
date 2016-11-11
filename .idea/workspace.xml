@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4bdde7f8-1dcd-4c07-822c-a06b0766a97e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/login.php" afterPath="$PROJECT_DIR$/login.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/register.php" afterPath="$PROJECT_DIR$/register.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/updatestats.php" afterPath="$PROJECT_DIR$/updatestats.php" />
     </list>
     <ignored path="codechat.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -74,11 +74,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="login.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/login.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="203" column="45" selection-start-line="203" selection-start-column="45" selection-end-line="203" selection-end-column="45" />
+            <state relative-caret-position="360">
+              <caret line="206" column="0" selection-start-line="206" selection-start-column="0" selection-end-line="206" selection-end-column="0" />
               <folding>
                 <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -87,17 +87,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="updatestats.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="updatestats.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/updatestats.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="83" selection-start-line="19" selection-start-column="83" selection-end-line="19" selection-end-column="83" />
+            <state relative-caret-position="600">
+              <caret line="40" column="29" selection-start-line="40" selection-start-column="29" selection-end-line="40" selection-end-column="29" />
               <folding>
                 <element signature="e#6#92#0#PHP" expanded="true" />
-                <marker date="1478687027000" expanded="true" signature="365:402" placeholder="INSERT INTO visits... " />
-                <marker date="1478687027000" expanded="true" signature="365:415" placeholder="INSERT INTO visits... " />
-                <marker date="1478687027000" expanded="true" signature="365:419" placeholder="INSERT INTO visits... " />
-                <marker date="1478687027000" expanded="true" signature="365:431" placeholder="INSERT INTO visits... " />
+                <marker date="1478869066000" expanded="true" signature="1292:1362" placeholder="INSERT INTO visits... " />
+                <marker date="1478869066000" expanded="true" signature="1292:1375" placeholder="INSERT INTO visits... " />
+                <marker date="1478869066000" expanded="true" signature="1292:1379" placeholder="INSERT INTO visits... " />
+                <marker date="1478869066000" expanded="true" signature="1292:1444" placeholder="INSERT INTO visits... " />
               </folding>
             </state>
           </provider>
@@ -189,9 +189,9 @@
         <option value="$PROJECT_DIR$/about.html" />
         <option value="$PROJECT_DIR$/modules/tokensearchview.php" />
         <option value="$PROJECT_DIR$/main.php" />
-        <option value="$PROJECT_DIR$/updatestats.php" />
         <option value="$PROJECT_DIR$/register.php" />
         <option value="$PROJECT_DIR$/login.php" />
+        <option value="$PROJECT_DIR$/updatestats.php" />
       </list>
     </option>
   </component>
@@ -335,12 +335,12 @@
       <workItem from="1477500178893" duration="2129000" />
       <workItem from="1477852948210" duration="32031000" />
       <workItem from="1478396254065" duration="9127000" />
-      <workItem from="1478470314227" duration="7059000" />
+      <workItem from="1478470314227" duration="7908000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="121024000" />
+    <option name="totallyTimeSpent" value="121873000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -751,20 +751,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/updatestats.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="83" selection-start-line="19" selection-start-column="83" selection-end-line="19" selection-end-column="83" />
-          <folding>
-            <element signature="e#6#92#0#PHP" expanded="true" />
-            <marker date="1478687027000" expanded="true" signature="365:402" placeholder="INSERT INTO visits... " />
-            <marker date="1478687027000" expanded="true" signature="365:415" placeholder="INSERT INTO visits... " />
-            <marker date="1478687027000" expanded="true" signature="365:419" placeholder="INSERT INTO visits... " />
-            <marker date="1478687027000" expanded="true" signature="365:431" placeholder="INSERT INTO visits... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/register.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
@@ -778,11 +764,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/login.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="203" column="45" selection-start-line="203" selection-start-column="45" selection-end-line="203" selection-end-column="45" />
+        <state relative-caret-position="360">
+          <caret line="206" column="0" selection-start-line="206" selection-start-column="0" selection-end-line="206" selection-end-column="0" />
           <folding>
             <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/updatestats.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="40" column="29" selection-start-line="40" selection-start-column="29" selection-end-line="40" selection-end-column="29" />
+          <folding>
+            <element signature="e#6#92#0#PHP" expanded="true" />
+            <marker date="1478869066000" expanded="true" signature="1292:1362" placeholder="INSERT INTO visits... " />
+            <marker date="1478869066000" expanded="true" signature="1292:1375" placeholder="INSERT INTO visits... " />
+            <marker date="1478869066000" expanded="true" signature="1292:1379" placeholder="INSERT INTO visits... " />
+            <marker date="1478869066000" expanded="true" signature="1292:1444" placeholder="INSERT INTO visits... " />
           </folding>
         </state>
       </provider>
