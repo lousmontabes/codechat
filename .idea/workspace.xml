@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4bdde7f8-1dcd-4c07-822c-a06b0766a97e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/updatestats.php" afterPath="$PROJECT_DIR$/updatestats.php" />
     </list>
     <ignored path="codechat.iws" />
@@ -84,14 +83,14 @@
       <file leaf-file-name="updatestats.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/updatestats.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="681">
-              <caret line="47" column="193" selection-start-line="47" selection-start-column="193" selection-end-line="47" selection-end-column="193" />
+            <state relative-caret-position="651">
+              <caret line="45" column="60" selection-start-line="45" selection-start-column="60" selection-end-line="45" selection-end-column="60" />
               <folding>
                 <element signature="e#6#92#0#PHP" expanded="true" />
-                <marker date="1478970452000" expanded="true" signature="1353:1433" placeholder="INSERT INTO visits... " />
-                <marker date="1478970452000" expanded="true" signature="1353:1446" placeholder="INSERT INTO visits... " />
-                <marker date="1478970452000" expanded="true" signature="1353:1450" placeholder="INSERT INTO visits... " />
-                <marker date="1478970452000" expanded="true" signature="1353:1530" placeholder="INSERT INTO visits... " />
+                <marker date="1478970573000" expanded="true" signature="1358:1438" placeholder="INSERT INTO visits... " />
+                <marker date="1478970573000" expanded="true" signature="1358:1451" placeholder="INSERT INTO visits... " />
+                <marker date="1478970573000" expanded="true" signature="1358:1455" placeholder="INSERT INTO visits... " />
+                <marker date="1478970573000" expanded="true" signature="1358:1535" placeholder="INSERT INTO visits... " />
               </folding>
             </state>
           </provider>
@@ -330,12 +329,12 @@
       <workItem from="1477852948210" duration="32031000" />
       <workItem from="1478396254065" duration="9127000" />
       <workItem from="1478470314227" duration="7908000" />
-      <workItem from="1478970204786" duration="125000" />
+      <workItem from="1478970204786" duration="212000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="121998000" />
+    <option name="totallyTimeSpent" value="122085000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -708,14 +707,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/updatestats.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="681">
-          <caret line="47" column="193" selection-start-line="47" selection-start-column="193" selection-end-line="47" selection-end-column="193" />
+        <state relative-caret-position="651">
+          <caret line="45" column="60" selection-start-line="45" selection-start-column="60" selection-end-line="45" selection-end-column="60" />
           <folding>
             <element signature="e#6#92#0#PHP" expanded="true" />
-            <marker date="1478970452000" expanded="true" signature="1353:1433" placeholder="INSERT INTO visits... " />
-            <marker date="1478970452000" expanded="true" signature="1353:1446" placeholder="INSERT INTO visits... " />
-            <marker date="1478970452000" expanded="true" signature="1353:1450" placeholder="INSERT INTO visits... " />
-            <marker date="1478970452000" expanded="true" signature="1353:1530" placeholder="INSERT INTO visits... " />
+            <marker date="1478970573000" expanded="true" signature="1358:1438" placeholder="INSERT INTO visits... " />
+            <marker date="1478970573000" expanded="true" signature="1358:1451" placeholder="INSERT INTO visits... " />
+            <marker date="1478970573000" expanded="true" signature="1358:1455" placeholder="INSERT INTO visits... " />
+            <marker date="1478970573000" expanded="true" signature="1358:1535" placeholder="INSERT INTO visits... " />
           </folding>
         </state>
       </provider>
