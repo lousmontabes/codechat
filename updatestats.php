@@ -43,6 +43,8 @@ $region = $details->region;
 $city = $details->city;
 $location = $details->loc;
 
-mysqli_query($con,"INSERT INTO visits(page, ip, country, region, city, location) VALUES ('register.php', '{$user_ip}', '{$country}', '{$region}', '{$city}', '{$location}')");
+$referrer = mysqli_real_escape_string($_SERVER['referer']);
+
+mysqli_query($con,"INSERT INTO visits(page, ip, country, region, city, location, referrer) VALUES ('register.php', '{$user_ip}', '{$country}', '{$region}', '{$city}', '{$location}', '{$referrer}')");
 
 ?>
