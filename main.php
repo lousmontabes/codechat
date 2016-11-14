@@ -144,6 +144,7 @@
             animation:fly-in-from-left .5s 1s ease both;
             transform-origin:top left;
             cursor:pointer;
+            display:flex;
         }
 
         .card:hover .chatTitle{

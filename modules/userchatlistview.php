@@ -25,6 +25,7 @@ while ($relation = mysqli_fetch_array($result)) {
 
     // NEW
     $chat = $chatrow;
+    $isSaved = True;
 
     include "chatview.php";
 
