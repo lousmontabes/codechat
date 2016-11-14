@@ -37,7 +37,7 @@ mysqli_query($con, "UPDATE user_stats SET chats = chats + 1 WHERE user_id = $act
 
 mysqli_query($con, "INSERT INTO `relations`(`user`, `chat`) VALUES ($activeuser_id, $newchat_id)");
 
-header('Location: ajaxchatbox.php?token='.$token.'#c');
+header('Location: main.php#'.$token);
 die();
 
 ?>
