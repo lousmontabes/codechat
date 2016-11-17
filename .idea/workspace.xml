@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4bdde7f8-1dcd-4c07-822c-a06b0766a97e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ajaxchatbox.php" afterPath="$PROJECT_DIR$/ajaxchatbox.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.php" afterPath="$PROJECT_DIR$/main.php" />
     </list>
     <ignored path="codechat.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,11 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1476">
-              <caret line="146" column="25" selection-start-line="146" selection-start-column="25" selection-end-line="146" selection-end-column="25" />
+            <state relative-caret-position="18">
+              <caret line="207" column="26" selection-start-line="207" selection-start-column="26" selection-end-line="207" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -85,10 +86,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ajaxchatbox.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ajaxchatbox.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ajaxchatbox.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
+            <state relative-caret-position="528">
               <caret line="134" column="71" selection-start-line="134" selection-start-column="71" selection-end-line="134" selection-end-column="71" />
               <folding>
                 <marker date="1479425150000" expanded="true" signature="355:402" placeholder="SELECT * FRO... chats" />
@@ -139,8 +140,8 @@
       <file leaf-file-name="generic.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/generic.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="568" column="22" selection-start-line="568" selection-start-column="22" selection-end-line="568" selection-end-column="22" />
+            <state relative-caret-position="276">
+              <caret line="571" column="5" selection-start-line="571" selection-start-column="4" selection-end-line="571" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -196,9 +197,9 @@
         <option value="$PROJECT_DIR$/modules/chatview.php" />
         <option value="$PROJECT_DIR$/modules/userchatlistview.php" />
         <option value="$PROJECT_DIR$/css/generic.css" />
-        <option value="$PROJECT_DIR$/main.php" />
         <option value="$PROJECT_DIR$/sql_newchat.php" />
         <option value="$PROJECT_DIR$/ajaxchatbox.php" />
+        <option value="$PROJECT_DIR$/main.php" />
       </list>
     </option>
   </component>
@@ -372,12 +373,12 @@
       <workItem from="1478396254065" duration="9127000" />
       <workItem from="1478470314227" duration="7908000" />
       <workItem from="1478970204786" duration="565000" />
-      <workItem from="1479124345400" duration="1594000" />
+      <workItem from="1479124345400" duration="1694000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="124032000" />
+    <option name="totallyTimeSpent" value="124132000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -742,14 +743,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/generic.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="568" column="22" selection-start-line="568" selection-start-column="22" selection-end-line="568" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sql_newchat.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="585">
@@ -761,14 +754,6 @@
             <marker date="1479128054000" expanded="true" signature="1156:1212" placeholder="UPDATE user_... " />
             <marker date="1479128054000" expanded="true" signature="1251:1327" placeholder="INSERT INTO `relations`... " />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1476">
-          <caret line="146" column="25" selection-start-line="146" selection-start-column="25" selection-end-line="146" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -803,7 +788,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ajaxchatbox.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
+        <state relative-caret-position="528">
           <caret line="134" column="71" selection-start-line="134" selection-start-column="71" selection-end-line="134" selection-end-column="71" />
           <folding>
             <marker date="1479425150000" expanded="true" signature="355:402" placeholder="SELECT * FRO... chats" />
@@ -811,6 +796,22 @@
             <marker date="1479425150000" expanded="true" signature="1586:1617" placeholder="SELECT * FRO... users" />
             <marker date="1479425150000" expanded="true" signature="8691:8728" placeholder="SELECT * FRO... relations" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/generic.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="571" column="5" selection-start-line="571" selection-start-column="4" selection-end-line="571" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="207" column="26" selection-start-line="207" selection-start-column="26" selection-end-line="207" selection-end-column="26" />
+          <folding />
         </state>
       </provider>
     </entry>

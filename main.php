@@ -205,6 +205,7 @@
         }
 
         #newChatCard{
+            display:block;
             cursor: pointer;
             transition:0.2s;
             background:transparent;
