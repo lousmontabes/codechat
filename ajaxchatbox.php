@@ -132,7 +132,7 @@ else echo "<img src='images/placeholder". $author_id % 5 .".gif'>";
 </div>
 
 <div class="centerarea">
-    <textarea id="usercontrols" onclick="blurBackground()" onblur="restoreBackground()" spellcheck="false" placeholder="Reply in <?php echo $chat_language ?>"></textarea>
+    <textarea id="usercontrols" onclick="//blurBackground()" onblur="//restoreBackground()" spellcheck="false" placeholder="Reply in <?php echo $chat_language ?>"></textarea>
     <div id="bottomFade"></div>
 </div>
 
@@ -230,19 +230,25 @@ else echo "<img src='images/placeholder". $author_id % 5 .".gif'>";
         //pre_user_name = "";
         //user_name = user_name.split(' ').join('+');
 
-        $.ajax({
-            type: "GET",
-            url: "sql_postcomment.php?message=" + encodeURIComponent(message) + "&chat_id=" + <?php echo $chat_id ?> + "&user_id=<?php echo $activeuser_id ?>",
-            dataType: "html",   //expect html to be returned
-            success: function(response){
-                //$("#responsecontainer").html(response);
-                $('#usercontrols').val('')
-                //refreshChat();
-                setTimeout(goToBottom,100);
+        // Don't send message if text box is empty.
+        if (message != "") {
 
-            }
+            $.ajax({
+                type: "GET",
+                url: "sql_postcomment.php?message=" + encodeURIComponent(message) + "&chat_id=" + <?php echo $chat_id ?> +"&user_id=<?php echo $activeuser_id ?>",
+                dataType: "html",   //expect html to be returned
+                success: function (response) {
+                    //$("#responsecontainer").html(response);
+                    $('#usercontrols').val('')
+                    //refreshChat();
+                    setTimeout(goToBottom, 100);
 
-        });
+                }
+
+            });
+
+        }
+
     }
 
     function getMessageCount(){
