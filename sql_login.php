@@ -36,7 +36,7 @@ if (password_verify($password, $hash)) {
 	setcookie("sSession", $rand_hash, 0);
 	echo "welcome ".$_COOKIE['session_id'];
 
-	header('Location: home.php');
+	header('Location: main.php');
 	exit;
 	
 } else {
