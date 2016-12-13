@@ -176,41 +176,39 @@ $chat_language = $row['language'];
     </div>
 
     <div id="messageArea">
-        <div class="message">
-            <div class="avatar">
 
-            </div>
-            <div class="author">
-                lousmontabes:
-            </div>
-            <div class="content">
-                This is a message
-            </div>
-        </div>
+        <?php
 
-        <div class="message">
-            <div class="avatar">
+        $result = mysqli_query($con, "SELECT * FROM messages WHERE chat = $chat_id");
+        $messagecount = mysqli_num_rows($result);
+        $i = 0;
+        $lastMessage = 0;
 
-            </div>
-            <div class="author">
-                Ralph Wiggum:
-            </div>
-            <div class="content">
-                Hola
-            </div>
-        </div>
+        while ($message = mysqli_fetch_array($result)) {
 
-        <div class="message">
-            <div class="avatar">
+            $i++;
+            $lastMessage = $i;
 
-            </div>
-            <div class="author">
-                Pedoro-chan:
-            </div>
-            <div class="content">
-                K te rajo
-            </div>
-        </div>
+            $author_id = $message['author'];
+            $content = $message['content'];
+            $time = strtotime($message['time']);
+
+            $month = date("F", $time);
+            $week = date("D", $time);
+            $day = date("d", $time);
+            $hour = date("H", $time);
+            $minute = date("i", $time);
+
+            $result2 = mysqli_query($con, "SELECT name FROM users WHERE id = $author_id");
+            $author = mysqli_fetch_array($result2);
+
+            $author_name = $author['name'];
+
+            include "modules/messageview.php";
+
+        }
+
+        ?>
 
     </div>
 
