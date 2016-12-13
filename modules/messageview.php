@@ -10,6 +10,7 @@
     </div>
     <div class="time">
         <?php
+        /*
         if ($time >= strtotime("today"))
             echo "Today, ".$hour.":".$minute;
 
@@ -18,6 +19,7 @@
 
         else
             echo $month." ".$day.", ".$hour.":".$minute;
+        */
         ?>
     </div>
 </div>

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4bdde7f8-1dcd-4c07-822c-a06b0766a97e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/live.php" afterPath="$PROJECT_DIR$/live.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/messageview.php" afterPath="$PROJECT_DIR$/modules/messageview.php" />
     </list>
     <ignored path="codechat.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -47,17 +47,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="messageview.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="messageview.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/modules/messageview.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
-              <folding />
+            <state relative-caret-position="315">
+              <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+              <folding>
+                <element signature="e#242#514#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="live.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="live.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/live.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="621">
@@ -200,8 +202,8 @@
         <option value="$PROJECT_DIR$/main.php" />
         <option value="$PROJECT_DIR$/sql_login.php" />
         <option value="$PROJECT_DIR$/mockup-liveediting.html" />
-        <option value="$PROJECT_DIR$/modules/messageview.php" />
         <option value="$PROJECT_DIR$/live.php" />
+        <option value="$PROJECT_DIR$/modules/messageview.php" />
       </list>
     </option>
   </component>
@@ -377,12 +379,12 @@
       <workItem from="1478970204786" duration="565000" />
       <workItem from="1479124345400" duration="2507000" />
       <workItem from="1480274089747" duration="5536000" />
-      <workItem from="1481634935141" duration="1827000" />
+      <workItem from="1481634935141" duration="1963000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="132308000" />
+    <option name="totallyTimeSpent" value="132444000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -772,14 +774,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/messageview.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mockup-liveediting.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
@@ -814,6 +808,16 @@
             <marker date="1481659510000" expanded="true" signature="348:395" placeholder="SELECT * FRO... chats" />
             <marker date="1481659510000" expanded="true" signature="4564:4600" placeholder="SELECT * FRO... messages" />
             <marker date="1481659510000" expanded="true" signature="5248:5282" placeholder="SELECT * FRO... users" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/messageview.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+          <folding>
+            <element signature="e#242#514#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
