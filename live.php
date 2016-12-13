@@ -99,7 +99,8 @@ $chat_language = $row['language'];
             left:0;
             bottom:0;
             width:100%;
-            height:10vh;
+            height:6em; /* 10vh (shade) */
+            overflow:hidden;
             font-family:open sans;
             font-size:14px;
             color:white;
@@ -108,8 +109,14 @@ $chat_language = $row['language'];
             background: linear-gradient(to top, rgba(0,0,0,0.75), rgba(0,0,0,0)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
         }
 
-        .message{
+        #messages{
+            width:18%;
+            position:absolute;
+            bottom:10px;
+        }
 
+        .message{
+            margin-bottom:5px;
         }
 
         .message .avatar{
@@ -202,7 +209,7 @@ $chat_language = $row['language'];
 
                 $result2 = mysqli_query($con, "SELECT name FROM users WHERE id = $author_id");
                 $author = mysqli_fetch_array($result2);
-    
+
                 $author_name = $author['name'];
 
                 include "modules/messageview.php";
