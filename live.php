@@ -176,40 +176,42 @@ $chat_language = $row['language'];
     </div>
 
     <div id="messageArea">
+        <div id="messages">
 
-        <?php
+            <?php
 
-        $result = mysqli_query($con, "SELECT * FROM messages WHERE chat = $chat_id");
-        $messagecount = mysqli_num_rows($result);
-        $i = 0;
-        $lastMessage = 0;
+            $result = mysqli_query($con, "SELECT * FROM messages WHERE chat = $chat_id");
+            $messagecount = mysqli_num_rows($result);
+            $i = 0;
+            $lastMessage = 0;
 
-        while ($message = mysqli_fetch_array($result)) {
+            while ($message = mysqli_fetch_array($result)) {
 
-            $i++;
-            $lastMessage = $i;
+                $i++;
+                $lastMessage = $i;
 
-            $author_id = $message['author'];
-            $content = $message['content'];
-            $time = strtotime($message['time']);
+                $author_id = $message['author'];
+                $content = $message['content'];
+                $time = strtotime($message['time']);
 
-            $month = date("F", $time);
-            $week = date("D", $time);
-            $day = date("d", $time);
-            $hour = date("H", $time);
-            $minute = date("i", $time);
+                $month = date("F", $time);
+                $week = date("D", $time);
+                $day = date("d", $time);
+                $hour = date("H", $time);
+                $minute = date("i", $time);
 
-            $result2 = mysqli_query($con, "SELECT name FROM users WHERE id = $author_id");
-            $author = mysqli_fetch_array($result2);
+                $result2 = mysqli_query($con, "SELECT name FROM users WHERE id = $author_id");
+                $author = mysqli_fetch_array($result2);
+    
+                $author_name = $author['name'];
 
-            $author_name = $author['name'];
+                include "modules/messageview.php";
 
-            include "modules/messageview.php";
+            }
 
-        }
+            ?>
 
-        ?>
-
+        </div>
     </div>
 
 </div>
