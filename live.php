@@ -258,6 +258,8 @@ $chat_language = $row['language'];
 
 <script type="text/javascript">
 
+    // The base code is the main code, preformatted, without syntax highlighting.
+    var baseCode = $("#maincode").html();
     Prism.highlightAll();
 
 </script>
@@ -278,14 +280,19 @@ $chat_language = $row['language'];
             // Make the code editable.
 
             editButton.html("Save");
-            mainCode.html("<textarea id='codeinput'>" + currentCode + "</textarea>")
+            mainCode.html("<textarea id='codeinput'>" + baseCode + "</textarea>")
             mainCode.focus();
 
         }else{
             // Make the code uneditable.
 
+            var newCode = $("#codeinput").val();
+
             editButton.html("Edit");
-            mainCode.html($("#codeinput").val());
+            mainCode.html();
+
+            // Ser the new code as the base code BEFORE highlighting it.
+            baseCode = newCode;
 
             Prism.highlightAll();
         }
