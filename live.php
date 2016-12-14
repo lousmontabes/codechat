@@ -183,7 +183,7 @@ $chat_language = $row['language'];
         ← New UI
     </div>
 
-    <div id="editbutton" onclick="function(toggleEditable())">
+    <div id="editbutton">
         Edit
     </div>
 
@@ -270,6 +270,11 @@ $chat_language = $row['language'];
         editable = !editable;
 
     }
+
+    var editButton = $("#editbutton");
+    editButton.addEventListener("click", function{
+        toggleEditable();
+    })
 
 </script>
 
