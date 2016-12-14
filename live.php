@@ -92,6 +92,16 @@ $chat_language = $row['language'];
             font-size:22px;
         }
 
+        #editbutton{
+            position:fixed;
+            height:14px;
+            font-size:14px;
+            padding:1em;
+            font-family:open sans;
+            color:white;
+            background:rgba(255,255,255,0.4);
+        }
+
         #messageArea{
             position:fixed;
             z-index:10;
@@ -161,6 +171,10 @@ $chat_language = $row['language'];
 
     <div id="overheader">
         ← New UI
+    </div>
+
+    <div id="editbutton">
+        Edit
     </div>
 
     <div class="page">
