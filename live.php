@@ -278,7 +278,7 @@ $chat_language = $row['language'];
             // Make the code editable.
 
             editButton.html("Save");
-            mainCode.html("<textarea id='codeinput'></textarea>")
+            mainCode.html("<textarea id='codeinput'>" + currentCode + "</textarea>")
             mainCode.focus();
 
         }else{
