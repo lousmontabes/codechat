@@ -93,13 +93,22 @@ $chat_language = $row['language'];
         }
 
         #editbutton{
-            position:fixed;
-            height:14px;
-            font-size:14px;
-            padding:1em;
-            font-family:open sans;
-            color:white;
-            background:rgba(255,255,255,0.4);
+            transition:0.2s;
+            position: fixed;
+            right: 10px;
+            bottom: 10px;
+            z-index: 100;
+            font-size: 14px;
+            padding: .8em 1.5em;
+            border-radius: 2px;
+            font-family: open sans;
+            color: white;
+            background: rgba(255, 255, 255, 0.4);
+            opacity: 0.5;
+        }
+
+        #editbutton:hover{
+            opacity:1;
         }
 
         #messageArea{
