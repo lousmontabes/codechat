@@ -183,7 +183,7 @@ $chat_language = $row['language'];
         ← New UI
     </div>
 
-    <div id="editbutton">
+    <div id="editbutton" onclick="toggleEditable()">
         Edit
     </div>
 
