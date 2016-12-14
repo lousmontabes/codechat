@@ -247,6 +247,8 @@ $chat_language = $row['language'];
 
 </div>
 
+</body>
+
 <script type="text/javascript">
 
     var editable = false;
@@ -278,5 +280,4 @@ $chat_language = $row['language'];
 
 </script>
 
-</body>
 </html>
