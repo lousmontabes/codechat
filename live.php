@@ -259,7 +259,7 @@ $chat_language = $row['language'];
             // Make the code editable.
 
             $("#editbutton").html("Save");
-            $("#maincode").html("<textarea><?php echo htmlspecialchars($chat_code) ?></textarea>")
+            $("#maincode").html("<textarea><?php echo //htmlspecialchars($chat_code) ?></textarea>")
 
         }else{
             // Make the code uneditable.
