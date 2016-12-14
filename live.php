@@ -273,7 +273,7 @@ $chat_language = $row['language'];
             // Make the code uneditable.
 
             $("#editbutton").html("Edit");
-            $("#maincode").html = $("#condeinput").val();
+            $("#maincode").html = $("#codeinput").val();
 
             Prism.highlightAll();
         }
