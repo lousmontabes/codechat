@@ -168,6 +168,13 @@ $chat_language = $row['language'];
             background: #336287;
         }
 
+        #codeinput{
+            width:100%;
+            height:100%;
+            resize:none;
+            border:none;
+        }
+
     </style>
 
 </head>
