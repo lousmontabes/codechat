@@ -95,8 +95,8 @@ $chat_language = $row['language'];
         #editbutton{
             transition:0.2s;
             position: fixed;
-            right: 10px;
-            bottom: 10px;
+            right: 15px;
+            bottom: 15px;
             z-index: 100;
             font-size: 14px;
             padding: .8em 1.5em;
@@ -105,6 +105,7 @@ $chat_language = $row['language'];
             color: white;
             background: rgba(255, 255, 255, 0.4);
             opacity: 0.5;
+            cursor:pointer;
         }
 
         #editbutton:hover{
