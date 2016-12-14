@@ -277,7 +277,7 @@ $chat_language = $row['language'];
 
             editButton.html("Save");
             mainCode.html("<textarea id='codeinput'></textarea>")
-            mainCode.focusin();
+            mainCode.focus();
 
         }else{
             // Make the code uneditable.
