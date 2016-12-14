@@ -183,7 +183,7 @@ $chat_language = $row['language'];
         ← New UI
     </div>
 
-    <div id="editbutton">
+    <div id="editbutton" onclick="toggleEditable()">
         Edit
     </div>
 
@@ -249,7 +249,27 @@ $chat_language = $row['language'];
 
 <script type="text/javascript">
 
+    var editable = false;
+
     Prism.highlightAll();
+
+    function toggleEditable(){
+
+        if (!editable){
+            // Make the code editable.
+
+            $("#editbutton").html("Save");
+            $("#maincode").html("<textarea><?php echo $chat_code ?></textarea>")
+
+        }else{
+            // Make the code uneditable.
+
+            $("#editbutton").html("Edit");
+        }
+
+        editable = !editable;
+
+    }
 
 </script>
 
