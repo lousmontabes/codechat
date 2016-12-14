@@ -265,6 +265,8 @@ $chat_language = $row['language'];
 <script type="text/javascript">
 
     var editable = false;
+    var mainCode = $("#maincode");
+    var editButton = $("#editbutton");
 
     function toggleEditable(){
 
@@ -273,14 +275,15 @@ $chat_language = $row['language'];
         if (!editable){
             // Make the code editable.
 
-            $("#editbutton").html("Save");
-            $("#maincode").html("<textarea id='codeinput'></textarea>")
+            editButton.html("Save");
+            mainCode.html("<textarea id='codeinput'></textarea>")
+            mainCode.focusin();
 
         }else{
             // Make the code uneditable.
 
-            $("#editbutton").html("Edit");
-            $("#maincode").html($("#codeinput").val());
+            editButton.html("Edit");
+            mainCode.html($("#codeinput").val());
 
             Prism.highlightAll();
         }
