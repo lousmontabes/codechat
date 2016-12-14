@@ -64,13 +64,13 @@
         <entry file="file://$PROJECT_DIR$/live.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="636">
-              <caret line="274" column="63" selection-start-line="274" selection-start-column="63" selection-end-line="274" selection-end-column="63" />
+              <caret line="274" column="14" selection-start-line="274" selection-start-column="14" selection-end-line="274" selection-end-column="14" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#td#0;n#tr#0;n#table#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#td#1;n#tr#0;n#table#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1481711873000" expanded="true" signature="348:395" placeholder="SELECT * FRO... chats" />
-                <marker date="1481711873000" expanded="true" signature="5307:5343" placeholder="SELECT * FRO... messages" />
-                <marker date="1481711873000" expanded="true" signature="5991:6025" placeholder="SELECT * FRO... users" />
+                <marker date="1481711957000" expanded="true" signature="348:395" placeholder="SELECT * FRO... chats" />
+                <marker date="1481711957000" expanded="true" signature="5307:5343" placeholder="SELECT * FRO... messages" />
+                <marker date="1481711957000" expanded="true" signature="5991:6025" placeholder="SELECT * FRO... users" />
               </folding>
             </state>
           </provider>
@@ -380,12 +380,12 @@
       <workItem from="1478970204786" duration="565000" />
       <workItem from="1479124345400" duration="2507000" />
       <workItem from="1480274089747" duration="5536000" />
-      <workItem from="1481634935141" duration="4909000" />
+      <workItem from="1481634935141" duration="5040000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="135390000" />
+    <option name="totallyTimeSpent" value="135521000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -812,13 +812,13 @@
     <entry file="file://$PROJECT_DIR$/live.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="636">
-          <caret line="274" column="63" selection-start-line="274" selection-start-column="63" selection-end-line="274" selection-end-column="63" />
+          <caret line="274" column="14" selection-start-line="274" selection-start-column="14" selection-end-line="274" selection-end-column="14" />
           <folding>
             <element signature="n#style#0;n#div#0;n#td#0;n#tr#0;n#table#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#td#1;n#tr#0;n#table#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1481711873000" expanded="true" signature="348:395" placeholder="SELECT * FRO... chats" />
-            <marker date="1481711873000" expanded="true" signature="5307:5343" placeholder="SELECT * FRO... messages" />
-            <marker date="1481711873000" expanded="true" signature="5991:6025" placeholder="SELECT * FRO... users" />
+            <marker date="1481711957000" expanded="true" signature="348:395" placeholder="SELECT * FRO... chats" />
+            <marker date="1481711957000" expanded="true" signature="5307:5343" placeholder="SELECT * FRO... messages" />
+            <marker date="1481711957000" expanded="true" signature="5991:6025" placeholder="SELECT * FRO... users" />
           </folding>
         </state>
       </provider>

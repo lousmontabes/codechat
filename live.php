@@ -272,7 +272,7 @@ $chat_language = $row['language'];
     }
 
     var editButton = $("#editbutton");
-    $("#editbutton").addEventListener("click", toggleEditable());
+    editButton.addEventListener("click", toggleEditable());
 
 </script>
 
