@@ -286,7 +286,7 @@ $chat_language = $row['language'];
         }else{
             // Make the code uneditable.
 
-            var newCode = $("#codeinput").val();
+            var newCode = $("#codeinput").html();
 
             editButton.html("Edit");
             mainCode.html();
