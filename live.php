@@ -272,6 +272,8 @@ $chat_language = $row['language'];
 
         console.log("Toggling editability");
 
+        var currentCode = mainCode.html();
+
         if (!editable){
             // Make the code editable.
 
