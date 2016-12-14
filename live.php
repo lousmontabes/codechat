@@ -251,13 +251,17 @@ $chat_language = $row['language'];
 
 <script type="text/javascript">
 
-    var editable = false;
-
     Prism.highlightAll();
+
+</script>
+
+<script type="text/javascript">
+
+    var editable = false;
 
     function toggleEditable(){
 
-        console.log("hi");
+        console.log("Toggling editability");
 
         if (!editable){
             // Make the code editable.
