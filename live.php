@@ -262,6 +262,21 @@ $chat_language = $row['language'];
     var baseCode = $("#maincode").html();
     Prism.highlightAll();
 
+    // Applied globally on all textareas with the "autoExpand" class
+    $(document)
+        .one('focus.autoExpand', 'textarea.autoExpand', function(){
+            var savedValue = this.value;
+            this.value = '';
+            this.baseScrollHeight = this.scrollHeight;
+            this.value = savedValue;
+        })
+        .on('input.autoExpand', 'textarea.autoExpand', function(){
+            var minRows = this.getAttribute('data-min-rows')|0, rows;
+            this.rows = minRows;
+            rows = Math.ceil((this.scrollHeight - this.baseScrollHeight) / 17);
+            this.rows = minRows + rows;
+        });
+
 </script>
 
 <script type="text/javascript">
@@ -280,7 +295,7 @@ $chat_language = $row['language'];
             // Make the code editable.
 
             editButton.html("Save");
-            mainCode.html("<textarea id='codeinput'>" + baseCode + "</textarea>")
+            mainCode.html("<textarea id='codeinput' class='autoExpand'>" + baseCode + "</textarea>")
             mainCode.focus();
 
         }else{
