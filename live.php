@@ -169,10 +169,18 @@ $chat_language = $row['language'];
         }
 
         #codeinput{
-            width:100%;
-            height:100%;
-            resize:none;
-            border:none;
+            width: 100%;
+            height: 100%;
+            resize: none;
+            border: none;
+            font-family: "droid sans mono";
+            font-size: 14px;
+            background: white;
+            width: 60em;
+            min-height: 80vh;
+            color: black;
+            margin-left: auto;
+            margin-right: auto;
         }
 
     </style>
