@@ -295,13 +295,13 @@ $chat_language = $row['language'];
             // Make the code editable.
 
             editButton.html("Save");
-            mainCode.html("<textarea id='codeinput' class='autoExpand'>" + baseCode + "</textarea>")
+            mainCode.html("<textarea id='codeinput' class='autoExpand'>" + baseCode + "</textarea>");
             mainCode.focus();
 
         }else{
             // Make the code uneditable.
 
-            var newCode = $("#codeinput").value;
+            var newCode = $("#codeinput").val();
 
             editButton.html("Edit");
             mainCode.html();
