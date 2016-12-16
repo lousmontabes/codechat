@@ -174,6 +174,7 @@ $chat_language = $row['language'];
         }
 
         #codeinput{
+            transition:0.2s;
             height: 100%;
             resize: none;
             border: none;
@@ -185,6 +186,12 @@ $chat_language = $row['language'];
             color: black;
             margin-left: auto;
             margin-right: auto;
+            color: rgb(54, 54, 54);
+        }
+
+        #codeinput:focus{
+            outline:none;
+            color:black;
         }
 
     </style>

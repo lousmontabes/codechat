@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4bdde7f8-1dcd-4c07-822c-a06b0766a97e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/updatecode.php" afterPath="$PROJECT_DIR$/backend/updatecode.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/live.php" afterPath="$PROJECT_DIR$/live.php" />
     </list>
     <ignored path="codechat.iws" />
@@ -28,8 +28,8 @@
       <file leaf-file-name="main.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="286" column="44" selection-start-line="285" selection-start-column="4" selection-end-line="286" selection-end-column="44" />
+            <state relative-caret-position="675">
+              <caret line="275" column="9" selection-start-line="275" selection-start-column="9" selection-end-line="275" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -47,23 +47,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="live.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="live.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/live.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="531">
-              <caret line="348" column="42" selection-start-line="348" selection-start-column="42" selection-end-line="348" selection-end-column="42" />
+            <state relative-caret-position="186">
+              <caret line="176" column="28" selection-start-line="176" selection-start-column="28" selection-end-line="176" selection-end-column="28" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#td#0;n#tr#0;n#table#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#td#1;n#tr#0;n#table#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1481892859000" expanded="true" signature="348:395" placeholder="SELECT * FRO... chats" />
-                <marker date="1481892859000" expanded="true" signature="5830:5866" placeholder="SELECT * FRO... messages" />
-                <marker date="1481892859000" expanded="true" signature="6514:6548" placeholder="SELECT * FRO... users" />
+                <marker date="1481893083000" expanded="true" signature="348:395" placeholder="SELECT * FRO... chats" />
+                <marker date="1481893083000" expanded="true" signature="5983:6019" placeholder="SELECT * FRO... messages" />
+                <marker date="1481893083000" expanded="true" signature="6667:6701" placeholder="SELECT * FRO... users" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="updatecode.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="updatecode.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/backend/updatecode.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="390">
@@ -205,8 +205,8 @@
         <option value="$PROJECT_DIR$/sql_login.php" />
         <option value="$PROJECT_DIR$/mockup-liveediting.html" />
         <option value="$PROJECT_DIR$/modules/messageview.php" />
-        <option value="$PROJECT_DIR$/live.php" />
         <option value="$PROJECT_DIR$/backend/updatecode.php" />
+        <option value="$PROJECT_DIR$/live.php" />
       </list>
     </option>
   </component>
@@ -396,12 +396,12 @@
       <workItem from="1478970204786" duration="565000" />
       <workItem from="1479124345400" duration="2507000" />
       <workItem from="1480274089747" duration="5536000" />
-      <workItem from="1481634935141" duration="13303000" />
+      <workItem from="1481634935141" duration="13509000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="143784000" />
+    <option name="totallyTimeSpent" value="143990000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -746,14 +746,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="286" column="44" selection-start-line="285" selection-start-column="4" selection-end-line="286" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/modules/messageview.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -826,20 +818,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/live.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="531">
-          <caret line="348" column="42" selection-start-line="348" selection-start-column="42" selection-end-line="348" selection-end-column="42" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#td#0;n#tr#0;n#table#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#td#1;n#tr#0;n#table#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1481892859000" expanded="true" signature="348:395" placeholder="SELECT * FRO... chats" />
-            <marker date="1481892859000" expanded="true" signature="5830:5866" placeholder="SELECT * FRO... messages" />
-            <marker date="1481892859000" expanded="true" signature="6514:6548" placeholder="SELECT * FRO... users" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/backend/updatecode.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -847,6 +825,28 @@
           <folding>
             <element signature="e#7#143#0#PHP" expanded="true" />
             <marker date="1481892875000" expanded="true" signature="585:630" placeholder="UPDATE chats... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="275" column="9" selection-start-line="275" selection-start-column="9" selection-end-line="275" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/live.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="176" column="28" selection-start-line="176" selection-start-column="28" selection-end-line="176" selection-end-column="28" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#td#0;n#tr#0;n#table#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#td#1;n#tr#0;n#table#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1481893083000" expanded="true" signature="348:395" placeholder="SELECT * FRO... chats" />
+            <marker date="1481893083000" expanded="true" signature="5983:6019" placeholder="SELECT * FRO... messages" />
+            <marker date="1481893083000" expanded="true" signature="6667:6701" placeholder="SELECT * FRO... users" />
           </folding>
         </state>
       </provider>
