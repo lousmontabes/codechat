@@ -182,7 +182,7 @@ $chat_language = $row['language'];
             font-size: 14px;
             background: white;
             width: 55em;
-            min-height: 80vh;
+            min-height: 62vh;
             color: black;
             margin-left: auto;
             margin-right: auto;
@@ -206,7 +206,7 @@ $chat_language = $row['language'];
 <div id="everything">
 
     <div id="overheader">
-        ← New UI
+        ← <?php echo $chat_name ?>
     </div>
 
     <div id="editbutton" onclick="toggleEditable()">
@@ -223,8 +223,8 @@ $chat_language = $row['language'];
             </tr>
         </table>
 
-            <!-- CODE IS SHOWN HERE -->
-            <pre class="line-numbers"><code id="maincode" class="language-python"><?php echo htmlspecialchars($chat_code) ?></code></pre>
+        <!-- CODE IS SHOWN HERE -->
+        <pre class="line-numbers"><code id="maincode" class="language-python"><?php echo htmlspecialchars($chat_code) ?></code></pre>
 
     </div>
 
