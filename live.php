@@ -234,7 +234,7 @@ $chat_language = $row['language'];
         </table>
 
         <!-- CODE IS SHOWN HERE -->
-        <pre class="line-numbers"><code id="maincode" class="language-<?php echo $chat_language?>"><?php echo htmlspecialchars($chat_code) ?></code></pre>
+        <pre class="line-numbers"><code id="maincode" class="language-<?php echo strtolower($chat_language)?>"><?php echo htmlspecialchars($chat_code) ?></code></pre>
 
     </div>
 
