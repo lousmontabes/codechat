@@ -338,7 +338,7 @@ $chat_language = $row['language'];
                 // Highlight the new code.
                 Prism.highlightAll();
             }else{
-                alert("There was an error updating the code");
+                //alert("There was an error updating the code");
             }
 
         }
@@ -354,7 +354,7 @@ $chat_language = $row['language'];
         $.ajax({
             type: "POST",
             url: "backend/updatecode.php",
-            async: false,
+            async: true,
             data: {
                 'chat_id': <?php echo $chat_id ?>,
                 'code': newCode
