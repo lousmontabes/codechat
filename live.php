@@ -321,7 +321,7 @@ $chat_language = $row['language'];
 
             editButton.html("Edit");
 
-            if(updateCode){
+            if(updateCode(newCode)){
                 // Code update to server was successful.
                 mainCode.html(newCode);
 
