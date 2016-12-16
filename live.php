@@ -345,8 +345,9 @@ $chat_language = $row['language'];
         var successful = false;
 
         $.ajax({
-            type: "GET",
-            url: "backend/updatecode.php?chat_id=<?php echo $chat_id ?>&code=" + newCode,
+            type: "POST",
+            url: "backend/updatecode.php",
+            async: false,
             data: {
                 'chat_id': <?php echo $chat_id ?>,
                 'code': newCode
