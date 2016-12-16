@@ -65,7 +65,7 @@ $chat_language = $row['language'];
             color:black;
             margin-left:auto;
             margin-right:auto;
-            margin-top:50px;
+            margin-top:75px;
             box-shadow: 2px 2px 3px rgba(0,0,0,0.5);
         }
 
