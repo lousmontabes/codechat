@@ -320,12 +320,20 @@ $chat_language = $row['language'];
             console.log(newCode);
 
             editButton.html("Edit");
-            mainCode.html(newCode);
 
-            // Ser the new code as the base code BEFORE highlighting it.
-            baseCode = newCode;
+            if(updateCode){
+                // Code update to server was successful.
+                mainCode.html(newCode);
 
-            Prism.highlightAll();
+                // Set the new code as the base code BEFORE highlighting it.
+                baseCode = newCode;
+
+                // Highlight the new code.
+                Prism.highlightAll();
+            }else{
+                alert("There was an error updating the code");
+            }
+
         }
 
         editable = !editable;
@@ -333,6 +341,8 @@ $chat_language = $row['language'];
     }
 
     function updateCode(newCode) {
+
+        var successful = false;
 
         $.ajax({
             type: "POST",
@@ -343,10 +353,13 @@ $chat_language = $row['language'];
             },
             dataType: "html", //expect html to be returned
             success: function (response) {
-                console.log("Update was successful.")
+                console.log("Update was successful.");
+                successful = true;
             }
 
         });
+
+        return successful;
 
     }
 
