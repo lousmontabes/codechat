@@ -349,7 +349,21 @@ $chat_language = $row['language'];
             },
             dataType: "html", //expect html to be returned
             success: function (response) {
-                updateSuccessful();
+                // Gets called asynchronously when the AJAX of updateCode() was successful.
+                // Therefore, code update to server was successful.
+                console.log("Update was successful.");
+
+                // Update the code in the main code div:
+                mainCode.html(newCode);
+
+                // Set the new code as the base code BEFORE highlighting it.
+                baseCode = newCode;
+
+                // Highlight the new code.
+                Prism.highlightAll();
+
+                // Restore edit button.
+                editButton.html("Edit");
             }
 
         });
@@ -357,21 +371,7 @@ $chat_language = $row['language'];
     }
 
     function updateSuccessful(){
-        // Gets called asynchronously when the AJAX of updateCode() was successful.
-        // Therefore, code update to server was successful.
-        console.log("Update was successful.");
 
-        // Update the code in the main code div:
-        mainCode.html(newCode);
-
-        // Set the new code as the base code BEFORE highlighting it.
-        baseCode = newCode;
-
-        // Highlight the new code.
-        Prism.highlightAll();
-
-        // Restore edit button.
-        editButton.html("Edit");
     }
 
 </script>
