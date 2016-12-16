@@ -93,7 +93,7 @@ $chat_language = $row['language'];
         }
 
         #editbutton{
-            transition:0.2s;
+            transition:0.2s cubic-bezier(.05,.29,0,1.43);
             position: fixed;
             right: 15px;
             bottom: 15px;
@@ -106,6 +106,10 @@ $chat_language = $row['language'];
             background: rgba(255, 255, 255, 0.4);
             opacity: 0.5;
             cursor:pointer;
+        }
+
+        #editbutton:active{
+            transtion:0.2s ease-out;
         }
 
         #editbutton:hover{
