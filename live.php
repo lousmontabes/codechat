@@ -318,7 +318,7 @@ $chat_language = $row['language'];
             console.log(newCode);
 
             editButton.html("Edit");
-            mainCode.html();
+            mainCode.html(newCode);
 
             // Ser the new code as the base code BEFORE highlighting it.
             baseCode = newCode;
