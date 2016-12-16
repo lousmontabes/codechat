@@ -186,7 +186,7 @@ $chat_language = $row['language'];
             color: black;
             margin-left: auto;
             margin-right: auto;
-            color: rgb(54, 54, 54);
+            color: grey;
         }
 
         #codeinput:focus{
