@@ -21,6 +21,9 @@ $chat_id = $_GET['chat_id'];
 //$user_id = $_POST['user_id'];
 $code = mysqli_real_escape_string($con, $_GET['code']);
 
+echo $chat_id;
+echo $code;
+
 $code_lines = substr_count( $_GET['code'], "\n" ) + 1;
 
 mysqli_query($con, "UPDATE chats SET code = {$code} WHERE id = {$chat_id}");
