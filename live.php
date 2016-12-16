@@ -326,7 +326,7 @@ $chat_language = $row['language'];
 
             console.log(newCode);
 
-            editButton.html("Edit");
+            editButton.html("Saving...");
 
             if(updateCode(newCode)){
                 // Code update to server was successful.
@@ -362,6 +362,7 @@ $chat_language = $row['language'];
             dataType: "html", //expect html to be returned
             success: function (response) {
                 console.log("Update was successful.");
+                editButton.html("Edit");
                 successful = true;
             }
 
