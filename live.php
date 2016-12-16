@@ -332,6 +332,24 @@ $chat_language = $row['language'];
 
     }
 
+    function updateCode(newCode) {
+
+        $.ajax({
+            type: "POST",
+            url: "backend/updatecode.php",
+            data: {
+                'chat_id': <?php echo $chat_id ?>,
+                'code': newCode
+            },
+            dataType: "html", //expect html to be returned
+            success: function (response) {
+                console.log("Update was successful.")
+            }
+
+        });
+
+    }
+
 </script>
 
 </html>
