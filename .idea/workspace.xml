@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4bdde7f8-1dcd-4c07-822c-a06b0766a97e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/live.php" afterPath="$PROJECT_DIR$/live.php" />
     </list>
     <ignored path="codechat.iws" />
@@ -38,15 +37,15 @@
       <file leaf-file-name="live.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/live.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="236" column="107" selection-start-line="236" selection-start-column="107" selection-end-line="236" selection-end-column="107" />
+            <state relative-caret-position="270">
+              <caret line="130" column="25" selection-start-line="130" selection-start-column="25" selection-end-line="130" selection-end-column="25" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#td#0;n#tr#0;n#table#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#td#1;n#tr#0;n#table#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1481897495000" expanded="true" signature="348:395" placeholder="SELECT * FRO... chats" />
-                <marker date="1481897495000" expanded="true" signature="5597:5624" placeholder="..." />
-                <marker date="1481897495000" expanded="true" signature="6259:6295" placeholder="SELECT * FRO... messages" />
-                <marker date="1481897495000" expanded="true" signature="6943:6977" placeholder="SELECT * FRO... users" />
+                <marker date="1481897634000" expanded="true" signature="348:395" placeholder="SELECT * FRO... chats" />
+                <marker date="1481897634000" expanded="true" signature="5623:5650" placeholder="..." />
+                <marker date="1481897634000" expanded="true" signature="6285:6321" placeholder="SELECT * FRO... messages" />
+                <marker date="1481897634000" expanded="true" signature="6969:7003" placeholder="SELECT * FRO... users" />
               </folding>
             </state>
           </provider>
@@ -395,12 +394,12 @@
       <workItem from="1478970204786" duration="565000" />
       <workItem from="1479124345400" duration="2507000" />
       <workItem from="1480274089747" duration="5536000" />
-      <workItem from="1481634935141" duration="15891000" />
+      <workItem from="1481634935141" duration="15990000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="146372000" />
+    <option name="totallyTimeSpent" value="146471000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -846,15 +845,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/live.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="236" column="107" selection-start-line="236" selection-start-column="107" selection-end-line="236" selection-end-column="107" />
+        <state relative-caret-position="270">
+          <caret line="130" column="25" selection-start-line="130" selection-start-column="25" selection-end-line="130" selection-end-column="25" />
           <folding>
             <element signature="n#style#0;n#div#0;n#td#0;n#tr#0;n#table#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#td#1;n#tr#0;n#table#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1481897495000" expanded="true" signature="348:395" placeholder="SELECT * FRO... chats" />
-            <marker date="1481897495000" expanded="true" signature="5597:5624" placeholder="..." />
-            <marker date="1481897495000" expanded="true" signature="6259:6295" placeholder="SELECT * FRO... messages" />
-            <marker date="1481897495000" expanded="true" signature="6943:6977" placeholder="SELECT * FRO... users" />
+            <marker date="1481897634000" expanded="true" signature="348:395" placeholder="SELECT * FRO... chats" />
+            <marker date="1481897634000" expanded="true" signature="5623:5650" placeholder="..." />
+            <marker date="1481897634000" expanded="true" signature="6285:6321" placeholder="SELECT * FRO... messages" />
+            <marker date="1481897634000" expanded="true" signature="6969:7003" placeholder="SELECT * FRO... users" />
           </folding>
         </state>
       </provider>

@@ -128,6 +128,7 @@ $chat_language = $row['language'];
         }
 
         #messageArea{
+            display:none;
             position:fixed;
             z-index:10;
             padding:0 1.5em;
