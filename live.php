@@ -110,6 +110,7 @@ $chat_language = $row['language'];
 
         #editbutton:active{
             transtion:0.2s ease-out;
+            transform:scale(0.9);
         }
 
         #editbutton:hover{
