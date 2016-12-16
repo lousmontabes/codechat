@@ -513,6 +513,17 @@ pre::-webkit-scrollbar-thumb:hover {
 	padding-top: 30px;
 }
 
+#tokenmessage a{
+	transition:0.2s;
+	color: #2e6da4;
+	opacity:0.7;
+	text-decoration: none;
+}
+
+#tokenmessage a:hover{
+	opacity:1;
+}
+
 #tokenmessage.floating{
     transition:0.4s;
 }
