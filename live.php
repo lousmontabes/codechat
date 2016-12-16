@@ -315,6 +315,8 @@ $chat_language = $row['language'];
 
             var newCode = $("#codeinput").val();
 
+            console.log(newCode);
+
             editButton.html("Edit");
             mainCode.html();
 
