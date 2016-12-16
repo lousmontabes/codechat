@@ -326,20 +326,10 @@ $chat_language = $row['language'];
 
             console.log(newCode);
 
+            // Change edit button to reflect asynchronous process.
             editButton.html("Saving...");
 
-            if(updateCode(newCode)){
-                // Code update to server was successful.
-                mainCode.html(newCode);
-
-                // Set the new code as the base code BEFORE highlighting it.
-                baseCode = newCode;
-
-                // Highlight the new code.
-                Prism.highlightAll();
-            }else{
-                //alert("There was an error updating the code");
-            }
+            updateCode(newCode);
 
         }
 
@@ -348,8 +338,6 @@ $chat_language = $row['language'];
     }
 
     function updateCode(newCode) {
-
-        var successful = false;
 
         $.ajax({
             type: "POST",
@@ -361,15 +349,29 @@ $chat_language = $row['language'];
             },
             dataType: "html", //expect html to be returned
             success: function (response) {
-                console.log("Update was successful.");
-                editButton.html("Edit");
-                successful = true;
+                updateSuccessful();
             }
 
         });
 
-        return successful;
+    }
 
+    function updateSuccessful(){
+        // Gets called asynchronously when the AJAX of updateCode() was successful.
+        // Therefore, code update to server was successful.
+        console.log("Update was successful.");
+
+        // Update the code in the main code div:
+        mainCode.html(newCode);
+
+        // Set the new code as the base code BEFORE highlighting it.
+        baseCode = newCode;
+
+        // Highlight the new code.
+        Prism.highlightAll();
+
+        // Restore edit button.
+        editButton.html("Edit");
     }
 
 </script>
