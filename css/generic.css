@@ -507,7 +507,7 @@ pre::-webkit-scrollbar-thumb:hover {
 	width: 75vw;
 	left: 25vw;
 	text-align: center;
-	margin-bottom: 40px;
+	margin-bottom: 50px;
 	position: fixed;
 	z-index: 10;
 	padding-top: 30px;
@@ -516,7 +516,7 @@ pre::-webkit-scrollbar-thumb:hover {
 #tokenmessage a{
 	transition:0.2s;
 	color: #2e6da4;
-	opacity:0.7;
+	opacity:0.6;
 	text-decoration: none;
 }
 

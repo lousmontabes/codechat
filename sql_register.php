@@ -63,7 +63,7 @@ if (password_verify($password, $hash)) {
     echo 'Invalid password.';
 }
 
-header('Location: home.php');
+header('Location: main.php');
 exit;
 
 mysqli_close($con);
