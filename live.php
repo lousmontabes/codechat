@@ -306,8 +306,10 @@ $chat_language = $row['language'];
         if (!editable){
             // Make the code editable.
 
+            var inputHtml = "<textarea id='codeinput' class='autoExpand' spellcheck='false'>" + baseCode + "</textarea>";
+
             editButton.html("Save");
-            mainCode.html("<textarea id='codeinput' class='autoExpand'>" + baseCode + "</textarea>");
+            mainCode.html(inputHtml);
             mainCode.focus();
 
         }else{
