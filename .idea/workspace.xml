@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4bdde7f8-1dcd-4c07-822c-a06b0766a97e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/live.php" afterPath="$PROJECT_DIR$/live.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ajaxchatbox.php" afterPath="$PROJECT_DIR$/ajaxchatbox.php" />
     </list>
     <ignored path="codechat.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -46,7 +47,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="live.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="live.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/live.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
@@ -86,16 +87,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ajaxchatbox.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ajaxchatbox.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ajaxchatbox.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2445">
-              <caret line="224" column="5" selection-start-line="224" selection-start-column="5" selection-end-line="224" selection-end-column="5" />
+            <state relative-caret-position="273">
+              <caret line="38" column="77" selection-start-line="38" selection-start-column="77" selection-end-line="38" selection-end-column="77" />
               <folding>
-                <marker date="1479425150000" expanded="true" signature="355:402" placeholder="SELECT * FRO... chats" />
-                <marker date="1479425150000" expanded="true" signature="1098:1134" placeholder="SELECT * FRO... messages" />
-                <marker date="1479425150000" expanded="true" signature="1586:1617" placeholder="SELECT * FRO... users" />
-                <marker date="1479425150000" expanded="true" signature="8691:8728" placeholder="SELECT * FRO... relations" />
+                <marker date="1481896848000" expanded="true" signature="355:402" placeholder="SELECT * FRO... chats" />
+                <marker date="1481896848000" expanded="true" signature="1184:1220" placeholder="SELECT * FRO... messages" />
+                <marker date="1481896848000" expanded="true" signature="1672:1703" placeholder="SELECT * FRO... users" />
+                <marker date="1481896848000" expanded="true" signature="8777:8814" placeholder="SELECT * FRO... relations" />
               </folding>
             </state>
           </provider>
@@ -104,7 +105,7 @@
       <file leaf-file-name="newchat.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/newchat.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
+            <state relative-caret-position="546">
               <caret line="176" column="2" selection-start-line="176" selection-start-column="1" selection-end-line="176" selection-end-column="2" />
               <folding />
             </state>
@@ -200,13 +201,13 @@
         <option value="$PROJECT_DIR$/modules/userchatlistview.php" />
         <option value="$PROJECT_DIR$/css/generic.css" />
         <option value="$PROJECT_DIR$/sql_newchat.php" />
-        <option value="$PROJECT_DIR$/ajaxchatbox.php" />
         <option value="$PROJECT_DIR$/main.php" />
         <option value="$PROJECT_DIR$/sql_login.php" />
         <option value="$PROJECT_DIR$/mockup-liveediting.html" />
         <option value="$PROJECT_DIR$/modules/messageview.php" />
         <option value="$PROJECT_DIR$/backend/updatecode.php" />
         <option value="$PROJECT_DIR$/live.php" />
+        <option value="$PROJECT_DIR$/ajaxchatbox.php" />
       </list>
     </option>
   </component>
@@ -396,12 +397,12 @@
       <workItem from="1478970204786" duration="565000" />
       <workItem from="1479124345400" duration="2507000" />
       <workItem from="1480274089747" duration="5536000" />
-      <workItem from="1481634935141" duration="15193000" />
+      <workItem from="1481634935141" duration="15309000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="145674000" />
+    <option name="totallyTimeSpent" value="145790000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -768,14 +769,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/newchat.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="176" column="2" selection-start-line="176" selection-start-column="1" selection-end-line="176" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/chatbox.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-435">
@@ -816,19 +809,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ajaxchatbox.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2445">
-          <caret line="224" column="5" selection-start-line="224" selection-start-column="5" selection-end-line="224" selection-end-column="5" />
-          <folding>
-            <marker date="1479425150000" expanded="true" signature="355:402" placeholder="SELECT * FRO... chats" />
-            <marker date="1479425150000" expanded="true" signature="1098:1134" placeholder="SELECT * FRO... messages" />
-            <marker date="1479425150000" expanded="true" signature="1586:1617" placeholder="SELECT * FRO... users" />
-            <marker date="1479425150000" expanded="true" signature="8691:8728" placeholder="SELECT * FRO... relations" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="675">
@@ -848,6 +828,27 @@
             <marker date="1481896732000" expanded="true" signature="5597:5624" placeholder="..." />
             <marker date="1481896732000" expanded="true" signature="6226:6262" placeholder="SELECT * FRO... messages" />
             <marker date="1481896732000" expanded="true" signature="6910:6944" placeholder="SELECT * FRO... users" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newchat.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="176" column="2" selection-start-line="176" selection-start-column="1" selection-end-line="176" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajaxchatbox.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="38" column="77" selection-start-line="38" selection-start-column="77" selection-end-line="38" selection-end-column="77" />
+          <folding>
+            <marker date="1481896848000" expanded="true" signature="355:402" placeholder="SELECT * FRO... chats" />
+            <marker date="1481896848000" expanded="true" signature="1184:1220" placeholder="SELECT * FRO... messages" />
+            <marker date="1481896848000" expanded="true" signature="1672:1703" placeholder="SELECT * FRO... users" />
+            <marker date="1481896848000" expanded="true" signature="8777:8814" placeholder="SELECT * FRO... relations" />
           </folding>
         </state>
       </provider>
