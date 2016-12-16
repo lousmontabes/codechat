@@ -92,6 +92,11 @@ $chat_language = $row['language'];
             font-size:22px;
         }
 
+        #overheader a{
+            color:white;
+            text-decoration: none;
+        }
+
         #editbutton{
             transition:0.2s cubic-bezier(.05,.29,0,1.43);
             position: fixed;

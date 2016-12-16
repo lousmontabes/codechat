@@ -46,18 +46,18 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="live.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="live.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/live.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="208" column="82" selection-start-line="208" selection-start-column="82" selection-end-line="208" selection-end-column="82" />
+            <state relative-caret-position="438">
+              <caret line="96" column="33" selection-start-line="96" selection-start-column="33" selection-end-line="96" selection-end-column="33" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#td#0;n#tr#0;n#table#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#td#1;n#tr#0;n#table#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1481896339000" expanded="true" signature="348:395" placeholder="SELECT * FRO... chats" />
-                <marker date="1481896339000" expanded="true" signature="5401:5428" placeholder="..." />
-                <marker date="1481896339000" expanded="true" signature="6030:6066" placeholder="SELECT * FRO... messages" />
-                <marker date="1481896339000" expanded="true" signature="6714:6748" placeholder="SELECT * FRO... users" />
+                <marker date="1481896423000" expanded="true" signature="348:395" placeholder="SELECT * FRO... chats" />
+                <marker date="1481896423000" expanded="true" signature="5495:5522" placeholder="..." />
+                <marker date="1481896423000" expanded="true" signature="6124:6160" placeholder="SELECT * FRO... messages" />
+                <marker date="1481896423000" expanded="true" signature="6808:6842" placeholder="SELECT * FRO... users" />
               </folding>
             </state>
           </provider>
@@ -86,10 +86,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ajaxchatbox.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ajaxchatbox.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ajaxchatbox.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
+            <state relative-caret-position="2445">
               <caret line="224" column="5" selection-start-line="224" selection-start-column="5" selection-end-line="224" selection-end-column="5" />
               <folding>
                 <marker date="1479425150000" expanded="true" signature="355:402" placeholder="SELECT * FRO... chats" />
@@ -396,12 +396,12 @@
       <workItem from="1478970204786" duration="565000" />
       <workItem from="1479124345400" duration="2507000" />
       <workItem from="1480274089747" duration="5536000" />
-      <workItem from="1481634935141" duration="14840000" />
+      <workItem from="1481634935141" duration="14909000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="145321000" />
+    <option name="totallyTimeSpent" value="145390000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -824,30 +824,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/live.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="208" column="82" selection-start-line="208" selection-start-column="82" selection-end-line="208" selection-end-column="82" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#td#0;n#tr#0;n#table#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#td#1;n#tr#0;n#table#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1481896339000" expanded="true" signature="348:395" placeholder="SELECT * FRO... chats" />
-            <marker date="1481896339000" expanded="true" signature="5401:5428" placeholder="..." />
-            <marker date="1481896339000" expanded="true" signature="6030:6066" placeholder="SELECT * FRO... messages" />
-            <marker date="1481896339000" expanded="true" signature="6714:6748" placeholder="SELECT * FRO... users" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ajaxchatbox.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
+        <state relative-caret-position="2445">
           <caret line="224" column="5" selection-start-line="224" selection-start-column="5" selection-end-line="224" selection-end-column="5" />
           <folding>
             <marker date="1479425150000" expanded="true" signature="355:402" placeholder="SELECT * FRO... chats" />
             <marker date="1479425150000" expanded="true" signature="1098:1134" placeholder="SELECT * FRO... messages" />
             <marker date="1479425150000" expanded="true" signature="1586:1617" placeholder="SELECT * FRO... users" />
             <marker date="1479425150000" expanded="true" signature="8691:8728" placeholder="SELECT * FRO... relations" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/live.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="438">
+          <caret line="96" column="33" selection-start-line="96" selection-start-column="33" selection-end-line="96" selection-end-column="33" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#td#0;n#tr#0;n#table#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#td#1;n#tr#0;n#table#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1481896423000" expanded="true" signature="348:395" placeholder="SELECT * FRO... chats" />
+            <marker date="1481896423000" expanded="true" signature="5495:5522" placeholder="..." />
+            <marker date="1481896423000" expanded="true" signature="6124:6160" placeholder="SELECT * FRO... messages" />
+            <marker date="1481896423000" expanded="true" signature="6808:6842" placeholder="SELECT * FRO... users" />
           </folding>
         </state>
       </provider>
