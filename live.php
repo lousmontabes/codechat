@@ -206,7 +206,7 @@ $chat_language = $row['language'];
 <div id="everything">
 
     <div id="overheader">
-        ← <?php echo $chat_name ?>
+        <a href="main.php#<?php echo $chat_token?>">← <?php echo $chat_name ?></a>
     </div>
 
     <div id="editbutton" onclick="toggleEditable()">
