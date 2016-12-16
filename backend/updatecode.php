@@ -26,6 +26,6 @@ echo $code;
 
 $code_lines = substr_count( $_GET['code'], "\n" ) + 1;
 
-mysqli_query($con, "UPDATE chats SET code = {$code} WHERE id = {$chat_id}");
+mysqli_query($con, "UPDATE chats SET code = '{$code}' WHERE id = {$chat_id}");
 
 ?>
