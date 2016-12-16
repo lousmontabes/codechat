@@ -43,9 +43,9 @@ $chat_language = $row['language'];
             margin:0;
             background-size: cover;
             background-attachment: fixed;
-            background: #141E30; /* fallback for old browsers */
-            background: -webkit-linear-gradient(to top, #141E30 , #243B55); /* Chrome 10-25, Safari 5.1-6 */
-            background: linear-gradient(to top, #141E30 , #243B55); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            background: #1a2b43; /* fallback for old browsers */
+            /*background: -webkit-linear-gradient(to top, #141E30 , #243B55);*/ /* Chrome 10-25, Safari 5.1-6 */
+            /*background: linear-gradient(to top, #141E30 , #243B55);*/ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
         }
 
         #everything{
