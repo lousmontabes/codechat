@@ -93,8 +93,13 @@ $chat_language = $row['language'];
         }
 
         #overheader a{
+            transition:0.2s;
             color:white;
             text-decoration: none;
+        }
+
+        #overheader a:hover{
+            opacity:0.7;
         }
 
         #editbutton{
