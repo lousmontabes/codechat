@@ -13,9 +13,13 @@
     </div>
     <div class="rightside">
         <?php if ($isSaved){ ?>
-            <img src="/images/remove.svg" width="15">
+            <a href="/sql_removerelation.php?chat_id=<?php echo $chat['id']?>">
+                <img src="/images/remove.svg" width="15">
+            </a>
         <? }else{ ?>
-            <img src="/images/add.svg" width="15">
+            <a href="/sql_createrelation.php?chat_id=<?php echo $chat['id']?>">
+                <img src="/images/add.svg" width="15">
+            </a>
         <?php } ?>
     </div>
 </div>
