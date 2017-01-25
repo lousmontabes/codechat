@@ -13,9 +13,9 @@
     </div>
     <div class="rightside">
         <?php if ($isSaved){ ?>
-            <img src="/images/remove.svg" width="20">
+            <img src="/images/remove.svg" width="10">
         <? }else{ ?>
-            <img src="/images/add.svg" width="20">
+            <img src="/images/add.svg" width="10">
         <?php } ?>
     </div>
 </div>
