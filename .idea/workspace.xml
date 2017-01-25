@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4bdde7f8-1dcd-4c07-822c-a06b0766a97e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/generic.css" afterPath="$PROJECT_DIR$/css/generic.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/userchatlistview.php" afterPath="$PROJECT_DIR$/modules/userchatlistview.php" />
     </list>
     <ignored path="codechat.iws" />
@@ -39,10 +39,10 @@
         <entry file="file://$PROJECT_DIR$/modules/userchatlistview.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
-              <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
               <folding>
-                <marker date="1485362417000" expanded="true" signature="37:110" placeholder="SELECT * FRO... relations" />
-                <marker date="1485362417000" expanded="true" signature="514:545" placeholder="SELECT * FRO... chats" />
+                <marker date="1485362522000" expanded="true" signature="37:110" placeholder="SELECT * FRO... relations" />
+                <marker date="1485362522000" expanded="true" signature="514:545" placeholder="SELECT * FRO... chats" />
               </folding>
             </state>
           </provider>
@@ -407,12 +407,12 @@
       <workItem from="1481634935141" duration="16493000" />
       <workItem from="1485109322204" duration="65000" />
       <workItem from="1485117228709" duration="218000" />
-      <workItem from="1485356129515" duration="4149000" />
+      <workItem from="1485356129515" duration="4254000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="151406000" />
+    <option name="totallyTimeSpent" value="151511000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -834,10 +834,10 @@
     <entry file="file://$PROJECT_DIR$/modules/userchatlistview.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
           <folding>
-            <marker date="1485362417000" expanded="true" signature="37:110" placeholder="SELECT * FRO... relations" />
-            <marker date="1485362417000" expanded="true" signature="514:545" placeholder="SELECT * FRO... chats" />
+            <marker date="1485362522000" expanded="true" signature="37:110" placeholder="SELECT * FRO... relations" />
+            <marker date="1485362522000" expanded="true" signature="514:545" placeholder="SELECT * FRO... chats" />
           </folding>
         </state>
       </provider>
