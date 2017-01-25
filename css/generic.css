@@ -578,6 +578,8 @@ pre::-webkit-scrollbar-thumb:hover {
 .rightside{
 	display:inline-block;
 	align-self:center;
+	position:absolute;
+	right:45px;
 }
 
 /* ANIMATED CLASSES */
