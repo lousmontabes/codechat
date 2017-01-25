@@ -400,7 +400,7 @@
 
             $.ajax({
                 type: "GET",
-                url: "sql_createrelation.php?chat_id" + chatId,
+                url: "sql_createrelation.php?chat_id=" + chatId,
                 success: function(result){
                     console.log("Chat saved successfully");
                 }
@@ -412,7 +412,7 @@
 
             $.ajax({
                 type: "GET",
-                url: "sql_removerelation.php?chat_id" + chatId,
+                url: "sql_removerelation.php?chat_id=" + chatId,
                 success: function(result){
                     console.log("Chat removed successfully");
                 }
