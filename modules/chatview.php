@@ -13,13 +13,9 @@
     </div>
     <div class="rightside">
         <?php if ($isSaved){ ?>
-            <a href="/sql_removerelation.php?chat_id=<?php echo $chat['id']?>">
-                <img src="/images/remove.svg" width="15">
-            </a>
+            <img src="/images/remove.svg" width="15" onclick="removeChat(<?php echo $chat['id'] ?>)">
         <? }else{ ?>
-            <a href="/sql_createrelation.php?chat_id=<?php echo $chat['id']?>">
-                <img src="/images/add.svg" width="15">
-            </a>
+            <img src="/images/add.svg" width="15" onclick="saveChat(<?php $chat['id']?>)">
         <?php } ?>
     </div>
 </div>

@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4bdde7f8-1dcd-4c07-822c-a06b0766a97e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/generic.css" afterPath="$PROJECT_DIR$/css/generic.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.php" afterPath="$PROJECT_DIR$/main.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/chatview.php" afterPath="$PROJECT_DIR$/modules/chatview.php" />
     </list>
     <ignored path="codechat.iws" />
@@ -25,6 +26,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="main.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="681">
+              <caret line="416" column="45" selection-start-line="416" selection-start-column="45" selection-end-line="416" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="ajaxchatbox.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ajaxchatbox.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -43,8 +54,8 @@
       <file leaf-file-name="chatview.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/modules/chatview.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
+            <state relative-caret-position="255">
+              <caret line="17" column="87" selection-start-line="17" selection-start-column="87" selection-end-line="17" selection-end-column="87" />
               <folding />
             </state>
           </provider>
@@ -77,16 +88,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="newchat.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/newchat.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2640">
-              <caret line="176" column="2" selection-start-line="176" selection-start-column="1" selection-end-line="176" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -188,7 +189,6 @@
         <option value="$PROJECT_DIR$/updatestats.php" />
         <option value="$PROJECT_DIR$/modules/userchatlistview.php" />
         <option value="$PROJECT_DIR$/sql_newchat.php" />
-        <option value="$PROJECT_DIR$/main.php" />
         <option value="$PROJECT_DIR$/sql_login.php" />
         <option value="$PROJECT_DIR$/mockup-liveediting.html" />
         <option value="$PROJECT_DIR$/modules/messageview.php" />
@@ -197,6 +197,7 @@
         <option value="$PROJECT_DIR$/sql_register.php" />
         <option value="$PROJECT_DIR$/live.php" />
         <option value="$PROJECT_DIR$/css/generic.css" />
+        <option value="$PROJECT_DIR$/main.php" />
         <option value="$PROJECT_DIR$/modules/chatview.php" />
       </list>
     </option>
@@ -404,12 +405,12 @@
       <workItem from="1481634935141" duration="16493000" />
       <workItem from="1485109322204" duration="65000" />
       <workItem from="1485117228709" duration="218000" />
-      <workItem from="1485356129515" duration="2058000" />
+      <workItem from="1485356129515" duration="2827000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="149315000" />
+    <option name="totallyTimeSpent" value="150084000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -699,14 +700,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4125">
-          <caret line="275" column="9" selection-start-line="275" selection-start-column="9" selection-end-line="275" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/live.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="795">
@@ -780,19 +773,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ajaxchatbox.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1965">
-          <caret line="38" column="77" selection-start-line="38" selection-start-column="77" selection-end-line="38" selection-end-column="77" />
-          <folding>
-            <marker date="1481896848000" expanded="true" signature="355:402" placeholder="SELECT * FRO... chats" />
-            <marker date="1481896848000" expanded="true" signature="1184:1220" placeholder="SELECT * FRO... messages" />
-            <marker date="1481896848000" expanded="true" signature="1672:1703" placeholder="SELECT * FRO... users" />
-            <marker date="1481896848000" expanded="true" signature="8777:8814" placeholder="SELECT * FRO... relations" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/generic-old.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -827,10 +807,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ajaxchatbox.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1965">
+          <caret line="38" column="77" selection-start-line="38" selection-start-column="77" selection-end-line="38" selection-end-column="77" />
+          <folding>
+            <marker date="1481896848000" expanded="true" signature="355:402" placeholder="SELECT * FRO... chats" />
+            <marker date="1481896848000" expanded="true" signature="1184:1220" placeholder="SELECT * FRO... messages" />
+            <marker date="1481896848000" expanded="true" signature="1672:1703" placeholder="SELECT * FRO... users" />
+            <marker date="1481896848000" expanded="true" signature="8777:8814" placeholder="SELECT * FRO... relations" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="681">
+          <caret line="416" column="45" selection-start-line="416" selection-start-column="45" selection-end-line="416" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/modules/chatview.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
+        <state relative-caret-position="255">
+          <caret line="17" column="87" selection-start-line="17" selection-start-column="87" selection-end-line="17" selection-end-column="87" />
           <folding />
         </state>
       </provider>

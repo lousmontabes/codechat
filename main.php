@@ -342,9 +342,10 @@
         var missedMessages = {};
         var saved = {};*/
 
+        var ajaxZone = $("#centercolumn");
+
         function updateAjax(source){
 
-            var ajaxZone = $("#centercolumn");
             ajaxZone.html("<div id='loadingPage'></div>");
 
             $.ajax({
@@ -395,6 +396,30 @@
 
         });
 
+        function saveChat(chatId){
+
+            $.ajax({
+                type: "GET",
+                url: "sql_createrelation.php?chat_id" + chatId,
+                success: function(result){
+                    console.log("Chat saved successfully");
+                }
+            });
+
+        }
+
+        function removeChat(chatId){
+
+            $.ajax({
+                type: "GET",
+                url: "sql_removerelation.php?chat_id" + chatId,
+                success: function(result){
+                    console.log("Chat removed successfully");
+                }
+            });
+
+        }
+
         // CHAT AND AJAX NAVIGATION FUNCTIONS
 
         function updateURL(token){
@@ -428,10 +453,10 @@
 
         }
 
-        // GENERIC FUNCTIONS - SHOULD BE IN SEPERATE LIBRARY
+        // GENERIC FUNCTIONS - SHOULD BE IN SEPARATE LIBRARY
 
         function getHashValue(key) {
-            var matches = location.hash.match(new RegExp(key+'([^&]*)'));
+            var matches = location.hash.match(new RegExp(key + '([^&]*)'));
             return matches ? matches[1] : null;
         }
 
