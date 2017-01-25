@@ -15,7 +15,7 @@
         <?php if ($isSaved){ ?>
             <img src="/images/remove.svg" width="15" onclick="removeChat(<?php echo $chat['id'] ?>)">
         <? }else{ ?>
-            <img src="/images/add.svg" width="15" onclick="saveChat(<?php $chat['id']?>)">
+            <img src="/images/add.svg" width="20" onclick="saveChat(<?php $chat['id']?>)">
         <?php } ?>
     </div>
 </div>
