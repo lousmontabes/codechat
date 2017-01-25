@@ -423,6 +423,8 @@
                 }
             });
 
+            updateChatrooms();
+
         }
 
         function removeChat(chatId){
@@ -434,6 +436,8 @@
                     console.log("Chat removed successfully");
                 }
             });
+
+            updateChatrooms();
 
         }
 
