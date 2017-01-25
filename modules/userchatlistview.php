@@ -1,6 +1,6 @@
 <?php
 
-require_once "verification.php";
+require_once "/verification.php";
 
 $result = mysqli_query($con, "SELECT * FROM relations WHERE user = {$activeUser['id']} ORDER BY id DESC");
 

@@ -363,8 +363,6 @@
         
         function updateChatrooms(){
 
-            chatListView.html("<div id='loadingPage'></div>");
-
             $.ajax({
                 type: "GET",
                 url: "modules/userchatlistview.php",
