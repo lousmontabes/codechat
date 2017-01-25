@@ -13,7 +13,7 @@
     </div>
     <div class="rightside">
         <?php if ($isSaved){ ?>
-            remove
+            x
         <? }else{ ?>
             save
         <?php } ?>
