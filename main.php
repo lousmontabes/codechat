@@ -301,7 +301,9 @@
         </div>
 
         <div id="chatrooms">
-            <?php include "modules/userchatlistview.php" ?>
+            <div id="chatListView">
+                <?php include "modules/userchatlistview.php" ?>
+            </div>
             <div class="card" id="newChatCard" onclick="newChatClicked()">+ New chat</div>
         </div>
 
@@ -343,6 +345,7 @@
         var saved = {};*/
 
         var ajaxZone = $("#centercolumn");
+        var chatListView = $("#chatListView");
 
         function updateAjax(source){
 
@@ -356,6 +359,20 @@
                 }
             });
 
+        }
+        
+        function updateChatrooms(){
+
+            chatListView.html("<div id='loadingPage'></div>");
+
+            $.ajax({
+                type: "GET",
+                url: "modules/userchatlistview.php",
+                success: function(result){
+                    chatListView.html(result);
+                }
+            });
+            
         }
 
         function showChat(token){

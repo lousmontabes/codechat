@@ -3,10 +3,7 @@
 $result = mysqli_query($con, "SELECT * FROM relations WHERE user = {$activeUser['id']} ORDER BY id DESC");
 
 if (mysqli_num_rows($result) == 0){
-    echo "<h1 class='nochats'>
-                <span style='color:orange'>alert</span>(<span class='codeline'>'You have no saved chats.'</span>)</h1>
-                <br><br>
-                You can create a new chat by clicking the button below or enter a token above to join an existing one.";
+    echo "You have no saved chats. You can create a new chat pressing the button below or access an existing one entering the token above.";
 }
 
 $i = 0;
