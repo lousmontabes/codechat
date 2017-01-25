@@ -19,11 +19,9 @@ code{
 	font-family: droid sans mono;
 }
 
-h1.nochats{
-    font-family:droid sans mono;
-    font-weight:normal;
-    height:0;
+nochats{
     color:grey;
+	margin:1.5em;
 }
 
 .code{

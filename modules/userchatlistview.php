@@ -3,7 +3,9 @@
 $result = mysqli_query($con, "SELECT * FROM relations WHERE user = {$activeUser['id']} ORDER BY id DESC");
 
 if (mysqli_num_rows($result) == 0){
+    echo "<div class='nochats'>";
     echo "You have no saved chats. You can create a new chat pressing the button below or access an existing one entering the token above.";
+    echo "</div>";
 }
 
 $i = 0;
