@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4bdde7f8-1dcd-4c07-822c-a06b0766a97e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/chatview.php" afterPath="$PROJECT_DIR$/modules/chatview.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/userchatlistview.php" afterPath="$PROJECT_DIR$/modules/userchatlistview.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/live.php" afterPath="$PROJECT_DIR$/live.php" />
     </list>
     <ignored path="codechat.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,7 +35,36 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="userchatlistview.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="live.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/live.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="471">
+              <caret line="63" column="25" selection-start-line="63" selection-start-column="25" selection-end-line="63" selection-end-column="25" />
+              <folding>
+                <marker date="1486383485000" expanded="true" signature="348:395" placeholder="SELECT * FRO... chats" />
+                <marker date="1486383485000" expanded="true" signature="5621:5648" placeholder="..." />
+                <marker date="1486383485000" expanded="true" signature="6283:6319" placeholder="SELECT * FRO... messages" />
+                <marker date="1486383485000" expanded="true" signature="6967:7001" placeholder="SELECT * FRO... users" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="live_old.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/live_old.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1486378886000" expanded="true" signature="348:395" placeholder="SELECT * FRO... chats" />
+                <marker date="1486378886000" expanded="true" signature="6285:6321" placeholder="SELECT * FRO... messages" />
+                <marker date="1486378886000" expanded="true" signature="6969:7003" placeholder="SELECT name users" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="userchatlistview.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/modules/userchatlistview.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
@@ -115,35 +144,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sql_login.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sql_login.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="38" column="33" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="33" />
-              <folding>
-                <marker date="1481634953000" expanded="true" signature="449:489" placeholder="SELECT * FRO... users" />
-                <marker date="1481634953000" expanded="true" signature="671:747" placeholder="INSERT INTO sessions... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sql_register.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sql_register.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-              <folding>
-                <marker date="1481897094000" expanded="true" signature="490:547" placeholder="SELECT EXIST... " />
-                <marker date="1481897094000" expanded="true" signature="504:546" placeholder="SELECT * FRO... users" />
-                <marker date="1481897094000" expanded="true" signature="901:976" placeholder="INSERT INTO users... " />
-                <marker date="1481897094000" expanded="true" signature="1096:1136" placeholder="SELECT * FRO... users" />
-                <marker date="1481897094000" expanded="true" signature="1318:1378" placeholder="INSERT INTO sessions... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -196,11 +196,11 @@
         <option value="$PROJECT_DIR$/backend/updatecode.php" />
         <option value="$PROJECT_DIR$/ajaxchatbox.php" />
         <option value="$PROJECT_DIR$/sql_register.php" />
-        <option value="$PROJECT_DIR$/live.php" />
         <option value="$PROJECT_DIR$/css/generic.css" />
         <option value="$PROJECT_DIR$/main.php" />
         <option value="$PROJECT_DIR$/modules/chatview.php" />
         <option value="$PROJECT_DIR$/modules/userchatlistview.php" />
+        <option value="$PROJECT_DIR$/live.php" />
       </list>
     </option>
   </component>
@@ -262,20 +262,6 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="codechat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="codechat" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -290,13 +276,13 @@
     <property name="FullScreen" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/images" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/fonts" />
       <recent name="$PROJECT_DIR$/css" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/images" />
     </key>
   </component>
   <component name="RunManager">
@@ -365,12 +351,12 @@
       <workItem from="1481634935141" duration="16493000" />
       <workItem from="1485109322204" duration="65000" />
       <workItem from="1485117228709" duration="218000" />
-      <workItem from="1485356129515" duration="4625000" />
+      <workItem from="1485356129515" duration="5220000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="151882000" />
+    <option name="totallyTimeSpent" value="152477000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -413,13 +399,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sql_retrievemessages.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sql_postcomment.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -653,19 +632,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/live.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="795">
-          <caret line="62" column="23" selection-start-line="62" selection-start-column="23" selection-end-line="62" selection-end-column="23" />
-          <folding>
-            <marker date="1481897744000" expanded="true" signature="348:395" placeholder="SELECT * FRO... chats" />
-            <marker date="1481897744000" expanded="true" signature="5623:5650" placeholder="..." />
-            <marker date="1481897744000" expanded="true" signature="6285:6321" placeholder="SELECT * FRO... messages" />
-            <marker date="1481897744000" expanded="true" signature="6969:7003" placeholder="SELECT * FRO... users" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/backend/updatecode.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -796,6 +762,31 @@
           <folding>
             <marker date="1485362894000" expanded="true" signature="67:140" placeholder="SELECT * FRO... relations" />
             <marker date="1485362894000" expanded="true" signature="544:575" placeholder="SELECT * FRO... chats" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/live_old.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1486378886000" expanded="true" signature="348:395" placeholder="SELECT * FRO... chats" />
+            <marker date="1486378886000" expanded="true" signature="6285:6321" placeholder="SELECT * FRO... messages" />
+            <marker date="1486378886000" expanded="true" signature="6969:7003" placeholder="SELECT name users" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/live.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="471">
+          <caret line="63" column="25" selection-start-line="63" selection-start-column="25" selection-end-line="63" selection-end-column="25" />
+          <folding>
+            <marker date="1486383485000" expanded="true" signature="348:395" placeholder="SELECT * FRO... chats" />
+            <marker date="1486383485000" expanded="true" signature="5621:5648" placeholder="..." />
+            <marker date="1486383485000" expanded="true" signature="6283:6319" placeholder="SELECT * FRO... messages" />
+            <marker date="1486383485000" expanded="true" signature="6967:7001" placeholder="SELECT * FRO... users" />
           </folding>
         </state>
       </provider>

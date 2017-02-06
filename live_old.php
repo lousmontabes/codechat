@@ -56,20 +56,17 @@ $chat_language = $row['language'];
             height:100%;
         }
 
-        #codeArea{
-            position:absolute;
-            top:0;
-            right:0;
-            width:75vw;
-            height:100vh;
-        }
-
         .page{
             font-family:"droid sans mono";
             font-size: 14px;
             background:white;
-            min-height:100%;
+            width:60em;
+            min-height:80vh;
             color:black;
+            margin-left:auto;
+            margin-right:auto;
+            margin-top:75px;
+            box-shadow: 2px 2px 3px rgba(0,0,0,0.5);
         }
 
         .page code{
@@ -227,7 +224,7 @@ $chat_language = $row['language'];
         Edit
     </div>
 
-    <div class="page" id="codeArea">
+    <div class="page">
 
         <table id="pageheader">
             <tr>
