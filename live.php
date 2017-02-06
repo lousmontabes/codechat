@@ -137,7 +137,7 @@ $chat_language = $row['language'];
             left:0;
             bottom:0;
             width:25vw;
-            height:6em; /* 10vh (shade) */
+            height:100%; /* 10vh (shade) */
             overflow:hidden;
             font-family:open sans;
             font-size:14px;
@@ -145,7 +145,6 @@ $chat_language = $row['language'];
         }
 
         #messages{
-            width:18%;
             position:absolute;
             bottom:10px;
         }
