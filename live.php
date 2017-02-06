@@ -136,7 +136,7 @@ $chat_language = $row['language'];
             padding:0 1.5em;
             left:0;
             bottom:0;
-            width:25vw;
+            width:22vw;
             height:100%; /* 10vh (shade) */
             overflow:hidden;
             font-family:open sans;
