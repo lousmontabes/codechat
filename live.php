@@ -211,6 +211,7 @@ $chat_language = $row['language'];
 <!-- REQUIRED SCRIPTS -->
 <script src="scripts/jquery-1.7.1.min.js"></script>
 <script src="scripts/prism.js"></script>
+<script src="libraries/Ace-highlighter/ace.js"></script>
 
 <div id="everything">
 

@@ -136,8 +136,8 @@
 
         .card {
             padding:1.5rem;
-            box-shadow:0 1px 2px #aaa;
-            background:white;
+            /*box-shadow:0 1px 2px #aaa;*/
+            /*background:white;*/
             margin:0 1rem 1rem;
             border-radius:3px;
             user-select:none;
