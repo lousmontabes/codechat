@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4bdde7f8-1dcd-4c07-822c-a06b0766a97e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/userchatlistview.php" afterPath="$PROJECT_DIR$/modules/userchatlistview.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.php" afterPath="$PROJECT_DIR$/main.php" />
     </list>
     <ignored path="codechat.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,11 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="249">
-              <caret line="369" column="37" selection-start-line="369" selection-start-column="37" selection-end-line="369" selection-end-column="37" />
+            <state relative-caret-position="219">
+              <caret line="367" column="47" selection-start-line="367" selection-start-column="47" selection-end-line="367" selection-end-column="47" />
               <folding />
             </state>
           </provider>
@@ -63,7 +64,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="userchatlistview.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="userchatlistview.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/modules/userchatlistview.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
@@ -198,8 +199,8 @@
         <option value="$PROJECT_DIR$/css/generic.css" />
         <option value="$PROJECT_DIR$/modules/chatview.php" />
         <option value="$PROJECT_DIR$/live.php" />
-        <option value="$PROJECT_DIR$/main.php" />
         <option value="$PROJECT_DIR$/modules/userchatlistview.php" />
+        <option value="$PROJECT_DIR$/main.php" />
       </list>
     </option>
   </component>
@@ -350,12 +351,12 @@
       <workItem from="1481634935141" duration="16493000" />
       <workItem from="1485109322204" duration="65000" />
       <workItem from="1485117228709" duration="218000" />
-      <workItem from="1485356129515" duration="7868000" />
+      <workItem from="1485356129515" duration="7928000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="155125000" />
+    <option name="totallyTimeSpent" value="155185000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -771,14 +772,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="369" column="37" selection-start-line="369" selection-start-column="37" selection-end-line="369" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/modules/userchatlistview.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -787,6 +780,14 @@
             <marker date="1486497698000" expanded="true" signature="92:165" placeholder="SELECT * FRO... relations" />
             <marker date="1486497698000" expanded="true" signature="569:600" placeholder="SELECT * FRO... chats" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="367" column="47" selection-start-line="367" selection-start-column="47" selection-end-line="367" selection-end-column="47" />
+          <folding />
         </state>
       </provider>
     </entry>

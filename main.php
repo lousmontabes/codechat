@@ -365,6 +365,8 @@
         
         function updateChatrooms(){
 
+            alert(<?php $activeUser['id']; ?>);
+
             $.ajax({
                 type: "GET",
                 url: "modules/userchatlistview.php",
