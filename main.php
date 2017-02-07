@@ -300,8 +300,6 @@
             <?php include "modules/tokensearchview.php" ?>
         </div>
 
-        <br>
-
         <div id="chatrooms">
             <div id="chatListView">
                 <?php include "modules/userchatlistview.php" ?>
