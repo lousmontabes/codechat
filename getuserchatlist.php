@@ -1,5 +1,7 @@
 <?php
 
+include "/verification.php";
+
 $userId = $_GET['user_id'];
 echo $userId;
 
@@ -30,7 +32,7 @@ while ($relation = mysqli_fetch_array($result)) {
     $chat = $chatrow;
     $isSaved = True;
 
-    include "chatview.php";
+    include "modules/chatview.php";
 
     $i++;
 }
