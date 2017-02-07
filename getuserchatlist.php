@@ -1,6 +1,6 @@
 <?php
 
-include "/verification.php";
+include "verification.php";
 
 $userId = $_GET['user_id'];
 echo $userId;
