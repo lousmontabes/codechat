@@ -215,6 +215,9 @@
             font-size:22px;
             font-weight: 100;
             color:grey;
+            padding:1.5rem;
+            position:absolute;
+            bottom:0;
         }
 
         #newChatCard:hover, #newChatCard.highlighted{
