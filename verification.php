@@ -15,33 +15,33 @@ if( isset ($_COOKIE['sUser']) == false ) {
 
 if( isset ($_COOKIE['sUser']) ){
 
-$pre_sUser = htmlspecialchars($_COOKIE['sUser']);
-$sUser = mysqli_real_escape_string($con,$pre_sUser);
+	$pre_sUser = htmlspecialchars($_COOKIE['sUser']);
+	$sUser = mysqli_real_escape_string($con,$pre_sUser);
 
+	$session_id = $_COOKIE['session_id'];
+	$result = mysqli_query($con,"SELECT * FROM sessions WHERE id = $session_id");
+	$row = mysqli_fetch_array($result);
 
-$session_id = $_COOKIE['session_id'];
-$result = mysqli_query($con,"SELECT * FROM sessions WHERE id = $session_id");
-$row = mysqli_fetch_array($result);
+	if (password_verify($row['user_id'], $_COOKIE['sUser'])
+		and password_verify($row['rand'], $_COOKIE['sSession'])) {
 
-if (password_verify($row['user_id'], $_COOKIE['sUser'])
-	and password_verify($row['rand'], $_COOKIE['sSession'])) {
-		
-	$user_id = $row['user_id'];
-	
-	$userresult = mysqli_query($con,"SELECT id, name, email FROM users WHERE id = $user_id");
-	$row = mysqli_fetch_array($userresult);
+		$user_id = $row['user_id'];
 
-		// DEPRECATED
-		$activeuser_name = $row['name'];
-		$activeuser_id = $row['id'];
+		$userresult = mysqli_query($con,"SELECT id, name, email FROM users WHERE id = $user_id");
+		$row = mysqli_fetch_array($userresult);
 
-		// NEW
-		$activeUser = $row;
+			// DEPRECATED
+			$activeuser_name = $row['name'];
+			$activeuser_id = $row['id'];
 
+			// NEW
+			$activeUser = $row;
+
+	}
+	else{
+		header('Location: logout.php');
+		exit;
+	}
 }
-else{
-	header('Location: logout.php');
-	exit;
-}}
 
 ?>

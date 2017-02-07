@@ -1,8 +1,8 @@
 <?php
 
-include "/verification.php";
+$userId = $_GET['user_id'];
 
-$result = mysqli_query($con, "SELECT * FROM relations WHERE user = {$activeUser['id']} ORDER BY id DESC");
+$result = mysqli_query($con, "SELECT * FROM relations WHERE user = {$userId} ORDER BY id DESC");
 
 if (mysqli_num_rows($result) == 0){
     echo "<div class='nochats'>";
