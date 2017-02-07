@@ -135,7 +135,7 @@
         }
 
         .card {
-            padding:1.5rem;
+            padding:1em .5rem;
             /*box-shadow:0 1px 2px #aaa;*/
             /*background:white;*/
             margin:0 1rem 1rem;
