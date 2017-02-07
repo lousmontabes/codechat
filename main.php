@@ -175,7 +175,7 @@
             left:0;
             height:40px;
             width:100%;
-            background: linear-gradient(to right, rgba(255,255,255,0) 75%, rgba(255,255,255,1) 100%);
+            /*background: linear-gradient(to right, rgba(255,255,255,0) 75%, rgba(255,255,255,1) 100%);*/
         }
 
         .chatTitle{
