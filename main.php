@@ -302,6 +302,7 @@
 
         <div id="chatrooms">
             <div id="chatListView">
+                <br>
                 <?php include "modules/userchatlistview.php" ?>
             </div>
             <div class="card" id="newChatCard" onclick="newChatClicked()">+ New chat</div>
