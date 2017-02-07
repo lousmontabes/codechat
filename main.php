@@ -218,6 +218,7 @@
             padding:1.5rem;
             position:absolute;
             bottom:0;
+            width:
         }
 
         #newChatCard:hover, #newChatCard.highlighted{
@@ -297,10 +298,6 @@
         <div id="columnheader">
             <?php include "modules/userview.php" ?>
             <?php include "modules/tokensearchview.php" ?>
-        </div>
-
-        <div class="centered">
-            <h2>Saved chatrooms:</h2>
         </div>
 
         <div id="chatrooms">
