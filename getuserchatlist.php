@@ -1,6 +1,7 @@
 <?php
 
 $userId = $_GET['user_id'];
+echo $userId;
 
 $result = mysqli_query($con, "SELECT * FROM relations WHERE user = {$userId} ORDER BY id DESC");
 
