@@ -218,7 +218,7 @@
             padding:1.5rem;
             position:absolute;
             bottom:0;
-            width:20.3vw;
+            width:19.3vw;
         }
 
         #newChatCard:hover, #newChatCard.highlighted{
