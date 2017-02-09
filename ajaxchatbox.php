@@ -138,11 +138,25 @@ else echo "<img src='images/placeholder". $author_id % 5 .".gif'>";
 
 <script type="text/javascript">
 
+    ChatStatus = {
+        UP_TO_DATE: 0,
+        DELAYED: 1
+    };
+
+    MessageStatus = {
+        AVAILABLE: 0,
+        ENTER_PRESSED: 1,
+        SENDING: 2,
+        SENT_SUCCESSFULLY: 3,
+        COOLDOWN: 4
+    };
+
     var currentChat = <?php echo $chat_id ?>;
     var messageCount = <?php echo $messagecount ?>;
     var missedMessages = 0;
     var windowBlurred = false;
     var saved = false;
+    var status = MessageStatus.AVAILABLE;
 
     $(document).ready(function() {
         document.title = 'Codechat / <?php echo html_entity_decode($chat_name)?>';
@@ -199,9 +213,11 @@ else echo "<img src='images/placeholder". $author_id % 5 .".gif'>";
         return (str + '').replace(/([^>\r\n]?)(\r\n|\n\r|\r|\n)/g, '$1' + breakTag + '$2');
     }
 
+    // User pressed enter while focused on the input textarea.
     $('#usercontrols').keydown(function(e) {
-        if(e.which == 13) {
+        if(e.which == 13 && status != MessageStatus.COOLDOWN) {
             sendMessage();
+            status = MessageStatus.COOLDOWN;
         }
     });
 
@@ -233,15 +249,22 @@ else echo "<img src='images/placeholder". $author_id % 5 .".gif'>";
         // Don't send message if text box is empty.
         if (message != "") {
 
+            status = MessageStatus.SENDING;
+
             $.ajax({
                 type: "GET",
                 url: "sql_postcomment.php?message=" + encodeURIComponent(message) + "&chat_id=" + <?php echo $chat_id ?> +"&user_id=<?php echo $activeuser_id ?>",
                 dataType: "html",   //expect html to be returned
                 success: function (response) {
                     //$("#responsecontainer").html(response);
-                    $('#usercontrols').val('')
+                    $('#usercontrols').val('');
                     //refreshChat();
+
+                    // Move view to bottom of the chat
                     setTimeout(goToBottom, 100);
+
+                    // Set message status to available after a cooldown of 100ms
+                    setTimeout('status = MessageStatus.AVAILABLE', 100);
 
                 }
 
