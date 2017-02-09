@@ -558,7 +558,8 @@ pre::-webkit-scrollbar-thumb:hover {
 #columnheader{
 	background: #2e6da4;
 	padding-top: 5px;
-	padding-bottom: 30px;
+	padding-bottom: 20px;
+    margin-bottom: 14px;
 	color: white;
 }
 
