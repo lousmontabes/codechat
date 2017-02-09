@@ -150,6 +150,10 @@
             background:rgba(46,109,164,0.1);
         }
 
+        .card:active{
+            transform:scale(0.9);
+        }
+
         .card:hover .chatTitle{
             color: #2e6da4;
         }
