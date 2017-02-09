@@ -36,7 +36,6 @@ $chat_language = $row['language'];
 
     <div id="tokenmessage">
         This chatroom's token is <b><?php echo $chat_token?></b>. Share it with whoever you want to invite them in.<br>
-        <a href="live.php?token=<?php echo $chat_token?>">Try codeEdit (beta)</a>
     </div>
 
     <div class="spacer" style="height:60px"></div>
