@@ -147,7 +147,7 @@
         }
 
         .card:hover{
-            background:rgba(255,255,255,0.5);
+            background:rgba(46,109,164,0.5);
         }
 
         .card:hover .chatTitle{
