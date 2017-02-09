@@ -146,16 +146,12 @@
             display:flex;
         }
 
-        .leftside{
-            transition:inherit;
-        }
-
         .card:hover{
             background:rgba(46,109,164,0.1);
         }
 
-        .card:active .leftside{
-            transform:scale(0.9);
+        .card:active{
+            transform:scale(0.9, 0.9);
         }
 
         .card:hover .chatTitle{
