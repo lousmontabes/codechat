@@ -6,7 +6,7 @@
         </div>
         <div class="stats">
             <!--<li class="highlighted">[AMOUNT] new messages</li>-->
-            <li><?php echo $chat['messages'] ?> message<?php if($chat['messages'] > 1){?>s<? } ?></li>
+            <li><?php echo $chat['messages'] ?> message<?php if($chat['messages'] > 1 && $chat['messages'] != 0){?>s<? } ?></li>
             <!--<li>[AMOUNT] users</li>-->
             <!--<li>[AMOUNT] active right now</li>-->
         </div>
