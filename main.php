@@ -141,7 +141,6 @@
             /*background:white;*/
             user-select:none;
             animation:fly-in-from-left .5s 1s ease both;
-            transform-origin:top left;
             cursor:pointer;
             display:flex;
         }
@@ -151,7 +150,7 @@
         }
 
         .card:active{
-            transform:scale(0.9, 0.9);
+            transform:scale(0.9);
         }
 
         .card:hover .chatTitle{
