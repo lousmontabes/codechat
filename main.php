@@ -135,16 +135,19 @@
         }
 
         .card {
-            padding: .5em 1.5em;
+            transition:0.2s;
+            padding: 1em 2em;
             /*box-shadow:0 1px 2px #aaa;*/
             /*background:white;*/
-            margin:0 1rem 1rem;
-            border-radius:3px;
             user-select:none;
             animation:fly-in-from-left .5s 1s ease both;
             transform-origin:top left;
             cursor:pointer;
             display:flex;
+        }
+
+        .card:hover{
+            background:white;
         }
 
         .card:hover .chatTitle{
