@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4bdde7f8-1dcd-4c07-822c-a06b0766a97e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ajaxchatbox.php" afterPath="$PROJECT_DIR$/ajaxchatbox.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/generic.css" afterPath="$PROJECT_DIR$/css/generic.css" />
     </list>
     <ignored path="codechat.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -103,10 +102,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ajaxchatbox.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ajaxchatbox.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ajaxchatbox.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1965">
+            <state relative-caret-position="-54">
               <caret line="265" column="80" selection-start-line="265" selection-start-column="80" selection-end-line="265" selection-end-column="80" />
               <folding>
                 <marker date="1486684365000" expanded="true" signature="355:402" placeholder="SELECT * FRO... chats" />
@@ -140,11 +139,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="generic.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="generic.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/generic.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="333">
-              <caret line="584" column="18" selection-start-line="584" selection-start-column="18" selection-end-line="584" selection-end-column="18" />
+            <state relative-caret-position="363">
+              <caret line="264" column="16" selection-start-line="264" selection-start-column="16" selection-end-line="264" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -206,8 +205,8 @@
         <option value="$PROJECT_DIR$/getuserchatlist.php" />
         <option value="$PROJECT_DIR$/modules/chatview.php" />
         <option value="$PROJECT_DIR$/main.php" />
-        <option value="$PROJECT_DIR$/css/generic.css" />
         <option value="$PROJECT_DIR$/ajaxchatbox.php" />
+        <option value="$PROJECT_DIR$/css/generic.css" />
       </list>
     </option>
   </component>
@@ -386,12 +385,12 @@
       <workItem from="1481634935141" duration="16493000" />
       <workItem from="1485109322204" duration="65000" />
       <workItem from="1485117228709" duration="218000" />
-      <workItem from="1485356129515" duration="13246000" />
+      <workItem from="1485356129515" duration="13509000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="160503000" />
+    <option name="totallyTimeSpent" value="160766000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -813,17 +812,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/generic.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="584" column="18" selection-start-line="584" selection-start-column="18" selection-end-line="584" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ajaxchatbox.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1965">
+        <state relative-caret-position="-54">
           <caret line="265" column="80" selection-start-line="265" selection-start-column="80" selection-end-line="265" selection-end-column="80" />
           <folding>
             <marker date="1486684365000" expanded="true" signature="355:402" placeholder="SELECT * FRO... chats" />
@@ -831,6 +822,14 @@
             <marker date="1486684365000" expanded="true" signature="1590:1621" placeholder="SELECT * FRO... users" />
             <marker date="1486684365000" expanded="true" signature="9355:9392" placeholder="SELECT * FRO... relations" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/generic.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="264" column="16" selection-start-line="264" selection-start-column="16" selection-end-line="264" selection-end-column="16" />
+          <folding />
         </state>
       </provider>
     </entry>

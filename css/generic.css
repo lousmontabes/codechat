@@ -262,7 +262,7 @@ pre::-webkit-scrollbar-thumb:hover {
 	border-radius: 4px;
 	padding: 20px;
 	font-family: droid sans mono;
-	font-size: 24px;
+	font-size: 14px;
 	color: grey;
 	resize: none;
 	box-shadow: 0 1px 2px #aaa;
@@ -276,7 +276,7 @@ pre::-webkit-scrollbar-thumb:hover {
 #usercontrols:focus{
 	outline:none;
 	color:black;
-	height:200px;
+	height:80px;
 }
 
 #usercontrols::-webkit-input-placeholder {
