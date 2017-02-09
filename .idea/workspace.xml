@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="4bdde7f8-1dcd-4c07-822c-a06b0766a97e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/generic.css" afterPath="$PROJECT_DIR$/css/generic.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.php" afterPath="$PROJECT_DIR$/main.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/chatview.php" afterPath="$PROJECT_DIR$/modules/chatview.php" />
     </list>
     <ignored path="codechat.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -119,7 +117,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="chatview.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="chatview.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/modules/chatview.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
@@ -141,11 +139,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="generic.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="generic.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/generic.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="575" column="21" selection-start-line="575" selection-start-column="21" selection-end-line="575" selection-end-column="21" />
+            <state relative-caret-position="264">
+              <caret line="554" column="17" selection-start-line="554" selection-start-column="17" selection-end-line="554" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -207,8 +205,8 @@
         <option value="$PROJECT_DIR$/getuserchatlist.php" />
         <option value="$PROJECT_DIR$/ajaxchatbox.php" />
         <option value="$PROJECT_DIR$/main.php" />
-        <option value="$PROJECT_DIR$/css/generic.css" />
         <option value="$PROJECT_DIR$/modules/chatview.php" />
+        <option value="$PROJECT_DIR$/css/generic.css" />
       </list>
     </option>
   </component>
@@ -387,12 +385,12 @@
       <workItem from="1481634935141" duration="16493000" />
       <workItem from="1485109322204" duration="65000" />
       <workItem from="1485117228709" duration="218000" />
-      <workItem from="1485356129515" duration="11803000" />
+      <workItem from="1485356129515" duration="11828000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="159060000" />
+    <option name="totallyTimeSpent" value="159085000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -819,18 +817,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/generic.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="575" column="21" selection-start-line="575" selection-start-column="21" selection-end-line="575" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/modules/chatview.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="97" selection-start-line="1" selection-start-column="97" selection-end-line="1" selection-end-column="97" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/generic.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="554" column="17" selection-start-line="554" selection-start-column="17" selection-end-line="554" selection-end-column="17" />
           <folding />
         </state>
       </provider>

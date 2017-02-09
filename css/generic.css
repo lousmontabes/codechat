@@ -552,7 +552,7 @@ pre::-webkit-scrollbar-thumb:hover {
 }
 
 #tokenArea{
-
+	display:none;
 }
 
 #columnheader{
