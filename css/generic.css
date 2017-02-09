@@ -33,6 +33,7 @@ code{
 	display:inline-block;
 	max-width:730px;
 	overflow:hidden;
+	font-size:14px;
 }
 
 pre::-webkit-scrollbar {
@@ -198,7 +199,8 @@ pre::-webkit-scrollbar-thumb:hover {
 
 .sender{
 	color:black;
-	font-weight:600;
+	font-weight:400;
+	font-size:14px;
 }
 
 .sender a{
