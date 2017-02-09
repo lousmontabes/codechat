@@ -144,11 +144,15 @@
             display:flex;
         }
 
+        .leftside{
+            transition:0.2s;
+        }
+
         .card:hover{
             background:rgba(46,109,164,0.1);
         }
 
-        .card:active{
+        .card:active .leftside{
             transform:scale(0.9);
         }
 
@@ -253,6 +257,7 @@
             text-align:center;
             font-size:12px;
             padding-bottom: 1rem;
+            display:none;
         }
 
         #footer a{

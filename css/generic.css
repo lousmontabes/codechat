@@ -468,7 +468,7 @@ pre::-webkit-scrollbar-thumb:hover {
     opacity:0;
     overflow:hidden;
     white-space:nowrap;
-    width:0px;
+    width:0;
 }
 
 #savePrompt{
