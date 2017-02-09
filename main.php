@@ -136,7 +136,6 @@
 
         .card {
             transition:0.2s;
-            padding: 1em 2em;
             /*box-shadow:0 1px 2px #aaa;*/
             /*background:white;*/
             user-select:none;

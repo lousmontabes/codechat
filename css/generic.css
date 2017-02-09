@@ -571,8 +571,9 @@ pre::-webkit-scrollbar-thumb:hover {
 }
 
 .leftside{
-	width:85%;
+	width:65%;
 	display:inline-block;
+	padding: 1em 2em;
 }
 
 .rightside{
