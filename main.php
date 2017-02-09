@@ -146,11 +146,15 @@
             display:flex;
         }
 
+        .leftside{
+            transition:inherit;
+        }
+
         .card:hover{
             background:rgba(46,109,164,0.1);
         }
 
-        .card:active{
+        .card:active .leftside{
             transform:scale(0.9);
         }
 
