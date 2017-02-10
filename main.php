@@ -442,11 +442,10 @@
                 url: "sql_removerelation.php?chat_id=" + chatId,
                 success: function(result){
                     console.log("Chat removed successfully");
+                    fadeoutCard(cardId);
+                    updateChatrooms();
                 }
             });
-
-            fadeoutCard(cardId);
-            updateChatrooms();
 
         }
 
