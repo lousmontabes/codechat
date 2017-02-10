@@ -437,6 +437,8 @@
 
         function removeChat(cardId, chatId){
 
+            fadeCard(cardId);
+
             $.ajax({
                 type: "GET",
                 url: "sql_removerelation.php?chat_id=" + chatId,
@@ -491,6 +493,13 @@
 
         // DESIGN AND ANIMATION FUNCTIONS
 
+        // Makes a card fade to 50% opacity
+        function fadeCard(cardId){
+            var card = $("#card" + cardId);
+            card.css("opacity", 0.5);
+        }
+
+        // Makes a card disappear
         function fadeoutCard(cardId){
             var card = $("#card" + cardId);
             card.css("opacity", 0);
