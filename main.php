@@ -421,7 +421,7 @@
 
         });
 
-        function saveChat(chatId){
+        function saveChat(cardId, chatId){
 
             $.ajax({
                 type: "GET",
@@ -435,7 +435,7 @@
 
         }
 
-        function removeChat(chatId){
+        function removeChat(cardId, chatId){
 
             $.ajax({
                 type: "GET",
@@ -445,6 +445,7 @@
                 }
             });
 
+            fadeoutCard(cardId);
             updateChatrooms();
 
         }
@@ -487,6 +488,13 @@
         function getHashValue(key) {
             var matches = location.hash.match(new RegExp(key + '([^&]*)'));
             return matches ? matches[1] : null;
+        }
+
+        // DESIGN AND ANIMATION FUNCTIONS
+
+        function fadeoutCard(cardId){
+            var card = $("#card" + cardId);
+            card.css("opacity", 0);
         }
 
     </script>

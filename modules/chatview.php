@@ -13,9 +13,9 @@
     </div>
     <div class="rightside">
         <?php if ($isSaved){ ?>
-            <img src="/images/remove.svg" width="15" onclick="removeChat(<?php echo $chat['id'] ?>)">
+            <img src="/images/remove.svg" width="15" onclick="removeChat(<?php echo $i ?>, <?php echo $chat['id'] ?>)">
         <? }else{ ?>
-            <img src="/images/add.svg" width="20" onclick="saveChat(<?php $chat['id']?>)">
+            <img src="/images/add.svg" width="20" onclick="saveChat(<?php echo $i ?>, <?php $chat['id']?>)">
         <?php } ?>
     </div>
 </div>
