@@ -215,7 +215,7 @@ else echo "<img src='images/placeholder". $author_id % 5 .".gif'>";
 
     // User pressed enter while focused on the input textarea.
     $('#usercontrols').keydown(function(e) {
-        if(e.which == 13 && status != MessageStatus.COOLDOWN) {
+        if(e.which == 13 && status == MessageStatus.AVAILABLE) {
             sendMessage();
             status = MessageStatus.COOLDOWN;
         }
