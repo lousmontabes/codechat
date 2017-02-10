@@ -219,15 +219,14 @@
             transition:0.2s;
             background:transparent;
             box-shadow: none;
-            border: 1px solid lightgray;
             text-align: center;
             font-size:22px;
             font-weight: 100;
             color:grey;
-            padding:1.5rem;
+            padding:1.5em;
             position:absolute;
             bottom:0;
-            width:19.3vw;
+            width: 20.4vw;
         }
 
         #newChatCard:hover, #newChatCard.highlighted{
