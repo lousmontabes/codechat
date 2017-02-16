@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4bdde7f8-1dcd-4c07-822c-a06b0766a97e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/generic.css" afterPath="$PROJECT_DIR$/css/generic.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/chatbanner.php" afterPath="$PROJECT_DIR$/modules/chatbanner.php" />
     </list>
     <ignored path="codechat.iws" />
@@ -96,11 +95,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="chatbanner.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="chatbanner.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/modules/chatbanner.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+            <state relative-caret-position="120">
+              <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
               <folding>
                 <element signature="e#6#92#0#PHP" expanded="true" />
               </folding>
@@ -130,11 +129,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="generic.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="generic.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/generic.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="520" column="26" selection-start-line="520" selection-start-column="26" selection-end-line="520" selection-end-column="26" />
+            <state relative-caret-position="90">
+              <caret line="506" column="44" selection-start-line="506" selection-start-column="44" selection-end-line="506" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -197,8 +196,8 @@
         <option value="$PROJECT_DIR$/main.php" />
         <option value="$PROJECT_DIR$/ajaxnewchat.php" />
         <option value="$PROJECT_DIR$/ajaxchatbox.php" />
-        <option value="$PROJECT_DIR$/modules/chatbanner.php" />
         <option value="$PROJECT_DIR$/css/generic.css" />
+        <option value="$PROJECT_DIR$/modules/chatbanner.php" />
       </list>
     </option>
   </component>
@@ -379,12 +378,12 @@
       <workItem from="1485117228709" duration="218000" />
       <workItem from="1485356129515" duration="14774000" />
       <workItem from="1487150606150" duration="278000" />
-      <workItem from="1487237407004" duration="1135000" />
+      <workItem from="1487237407004" duration="1233000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="163444000" />
+    <option name="totallyTimeSpent" value="163542000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -794,21 +793,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/chatbanner.php">
+    <entry file="file://$PROJECT_DIR$/css/generic.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
-          <folding>
-            <element signature="e#6#92#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="90">
+          <caret line="506" column="44" selection-start-line="506" selection-start-column="44" selection-end-line="506" selection-end-column="44" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/generic.css">
+    <entry file="file://$PROJECT_DIR$/modules/chatbanner.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="520" column="26" selection-start-line="520" selection-start-column="26" selection-end-line="520" selection-end-column="26" />
-          <folding />
+        <state relative-caret-position="120">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+          <folding>
+            <element signature="e#6#92#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
