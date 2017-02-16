@@ -28,8 +28,6 @@ $chat_language = $row['language'];
 
 <body>
 
-<div id="chatmenu">Token: <?php echo $chat_token?></div>
-
 <div id="everything">
 
 <div id="area" style="opacity:0; margin-bottom:250px;">
