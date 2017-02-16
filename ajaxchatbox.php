@@ -34,8 +34,8 @@ $chat_language = $row['language'];
 
 <div id="area" style="opacity:0; margin-bottom:250px;">
 
-    <div id="tokenmessage">
-        This chatroom's token is <b><?php echo $chat_token?></b>. Share it with whoever you want to invite them in.<br>
+    <div id="chatbanner">
+        <?php include "modules/chatbanner.php" ?>
     </div>
 
     <div class="spacer" style="height:60px"></div>
@@ -174,35 +174,35 @@ else echo "<img src='images/placeholder". $author_id % 5 .".gif'>";
             menuActive = true;
 
             // Token message appears at the top of the chat
-            $("#tokenmessage").css("opacity",1);
-            setTimeout('$("#tokenmessage").removeClass("floating")', 400);
+            $("#chatbanner").css("opacity",1);
+            setTimeout('$("#chatbanner").removeClass("floating")', 400);
 
         }else if ($(window).scrollTop() <= 35){
 
             menuActive = false;
 
             // Parallax effect
-            $("#tokenmessage").css("margin-top", -($(window).scrollTop() / 2));
+            $("#chatbanner").css("margin-top", -($(window).scrollTop() / 2));
 
             // Token message disappearance effect
-            $("#tokenmessage").css("opacity",  -($(window).scrollTop()) / 35 + 1);
+            $("#chatbanner").css("opacity",  -($(window).scrollTop()) / 35 + 1);
 
         }else if ($(window).scrollTop() > 35){
 
             menuActive = false;
 
             // Parallax effect
-            //$("#tokenmessage").css("margin-top",  anchor - ($(window).scrollTop()/ 2));
+            //$("#chatbanner").css("margin-top",  anchor - ($(window).scrollTop()/ 2));
 
 
             // Restore message back to original position
-            $("#tokenmessage").css("margin-top", 0);
+            $("#chatbanner").css("margin-top", 0);
 
             // Hide message every time the user scrolls after 36px from the top
-            $("#tokenmessage").css("opacity", 0);
+            $("#chatbanner").css("opacity", 0);
 
             // Remove animations
-            setTimeout('$("#tokenmessage").removeClass("bouncyEntranceFromTop")',400);
+            setTimeout('$("#chatbanner").removeClass("bouncyEntranceFromTop")',400);
 
         }
 
@@ -317,15 +317,15 @@ else echo "<img src='images/placeholder". $author_id % 5 .".gif'>";
         windowBlurred = true;
     });
 
-    function toggleTokenMessage(){
+    function togglechatbanner(){
 
         if ($(window).scrollTop() > 35){
 
             if (menuActive) {
                 menuActive = false;
 
-                $("#tokenmessage").css("opacity", 0);
-                setTimeout('$("#tokenmessage").removeClass("bouncyEntranceFromTop")', 400);
+                $("#chatbanner").css("opacity", 0);
+                setTimeout('$("#chatbanner").removeClass("bouncyEntranceFromTop")', 400);
 
             }
 
@@ -333,15 +333,15 @@ else echo "<img src='images/placeholder". $author_id % 5 .".gif'>";
                 menuActive = true;
                 anchor = $(window).scrollTop();
 
-                $("#tokenmessage").css("opacity", 1);
-                $("#tokenmessage").addClass("bouncyEntranceFromTop");
+                $("#chatbanner").css("opacity", 1);
+                $("#chatbanner").addClass("bouncyEntranceFromTop");
 
             }
 
         }else{
 
-            $("#tokenmessage").addClass("bouncy");
-            setTimeout('$("#tokenmessage").removeClass("bouncy")', 1000);
+            $("#chatbanner").addClass("bouncy");
+            setTimeout('$("#chatbanner").removeClass("bouncy")', 1000);
 
         }
 

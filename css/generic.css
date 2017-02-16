@@ -502,15 +502,17 @@ pre::-webkit-scrollbar-thumb:hover {
     z-index:10;
 }
 
-#tokenmessage{
+#chatbanner{
 	color: #2e6da4;
-	width: 75vw;
-	left: 25vw;
+	color: rgba(46, 109, 164, 0.4);
+	border-bottom: 1px solid rgba(46, 109, 164, 1);
+	width: 76vw;
+	left: 24vw;
 	text-align: center;
-	margin-bottom: 50px;
+	/* margin-bottom: 50px; */
 	position: fixed;
 	z-index: 10;
-	padding-top: 30px;
+	padding: 1em 0;
 }
 
 #tokenmessage a{
