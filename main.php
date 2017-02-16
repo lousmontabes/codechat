@@ -29,6 +29,7 @@
             /*transition:0.5s;*/
             min-width:300px;
             width:25vw;
+            max-width:350px;
             text-align: center;
             height:60px;
             line-height: 68px;
@@ -44,6 +45,7 @@
             min-height:100vh;
             min-width:300px;
             width:25vw;
+            max-width:350px;
             background: rgba(239, 239, 239, 1.00); /* #ebebeb */
             float:left;
             left:0;
@@ -227,6 +229,7 @@
             position:absolute;
             bottom:0;
             width: 20.32vw;
+            max-width:350px;
         }
 
         #newChatCard:hover, #newChatCard.highlighted{

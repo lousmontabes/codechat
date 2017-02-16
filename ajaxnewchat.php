@@ -16,6 +16,7 @@ h1{
 	font-size:28px;
 	font-weight:100;
 	color:grey;
+	overflow:hidden;
 }
 
 #newchatform input, #newchatform select{
