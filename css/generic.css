@@ -504,8 +504,7 @@ pre::-webkit-scrollbar-thumb:hover {
 
 #chatbanner{
 	color: #2e6da4;
-	color: rgba(46, 109, 164, 0.4);
-	border-bottom: 1px solid rgba(46, 109, 164, 1);
+	background: rgba(46, 109, 164, 0.4);
 	width: 76vw;
 	left: 24vw;
 	text-align: center;
