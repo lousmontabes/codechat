@@ -9,8 +9,6 @@
 include "../verification.php";
 
 echo $chat_name;
-echo $chat_id;
-echo $activeUser['id'];
 
 $result = mysqli_query($con, "SELECT * FROM relations WHERE user = {$activeUser['id']} ORDER BY id DESC");
 
@@ -21,7 +19,7 @@ if (mysqli_num_rows($result) == 0){
 }else{
 
     $chatFound = false;
-    while ($relation = mysqli_fetch_array($result) && !$chatFound) {
+    while (($relation = mysqli_fetch_array($result)) && !$chatFound) {
         echo $relation['chat'];
         $chatFound = ($relation['chat'] == $chat_id);
     }
