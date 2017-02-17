@@ -291,6 +291,10 @@
             color: #2e6da4;
         }
 
+        #chatlistview{
+            transition:0.2s;
+        }
+
     </style>
 
     <link href="css/generic.css" rel="stylesheet" />
