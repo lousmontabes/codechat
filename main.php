@@ -291,7 +291,7 @@
             color: #2e6da4;
         }
 
-        #chatlistview{
+        #chatListView{
             transition:0.2s;
         }
 
