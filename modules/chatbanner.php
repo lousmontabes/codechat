@@ -22,8 +22,8 @@ if (mysqli_num_rows($result) == 0){
 
     $chatFound = false;
     while ($relation = mysqli_fetch_array($result) && !$chatFound) {
-        echo $relation['chat']['id'];
-        $chatFound = ($relation['chat']['id'] == $chat_id);
+        echo $relation['chat'];
+        $chatFound = ($relation['chat'] == $chat_id);
     }
 
     if ($chatFound){
