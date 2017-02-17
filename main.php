@@ -292,7 +292,7 @@
         }
 
         #chatListView{
-            transition:0.2s;
+            transition:0.1s;
         }
 
     </style>
@@ -424,7 +424,7 @@
                 success: function(result){
                     console.log("Chat saved successfully");
                     updateChatrooms();
-                    updateBanner();
+                    updateBanner(chatId);
                 }
             });
 
@@ -461,11 +461,11 @@
 
         }
 
-        function updateBanner(){
+        function updateBanner(chatId){
 
             $.ajax({
                 type: "GET",
-                url: "modules/chatbanner.php?chat_id=<?php echo $chat_id ?>",
+                url: "modules/chatbanner.php?chat_id=" + chatId,
                 success: function(result){
                     chatBannerDiv.html(result);
                 }
