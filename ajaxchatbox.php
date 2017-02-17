@@ -459,13 +459,29 @@ $("#saveChatroomButton").addClass("clicked");
 
     }
 
-
     function displayMessage(message){
 
         $("#savePrompt").html(message);
 
         setTimeout("showPrompt()", 500);
         setTimeout("hidePrompt()", 3500);
+
+    }
+
+    function updateBanner(chatId){
+
+        var chatBannerDiv = $("#chatbanner");
+
+        console.log("Updating banner");
+        console.log(chatId);
+
+        $.ajax({
+            type: "GET",
+            url: "modules/chatbanner.php?chat_id=<?php echo $chat_id ?>&chat_name=<?php echo $chat_name?>",
+            success: function(result){
+                chatBannerDiv.html(result);
+            }
+        });
 
     }
 

@@ -461,23 +461,6 @@
 
         }
 
-        function updateBanner(chatId){
-
-            var chatBannerDiv = $("#chatbanner");
-
-            console.log("Updating banner");
-            console.log(chatId);
-
-            $.ajax({
-                type: "GET",
-                url: "modules/chatbanner.php?chat_id=" + chatId,
-                success: function(result){
-                    chatBannerDiv.html(result);
-                }
-            });
-
-        }
-
         // CHAT AND AJAX NAVIGATION FUNCTIONS
 
         function updateURL(token){
