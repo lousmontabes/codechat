@@ -9,6 +9,7 @@
 include "../verification.php";
 
 echo $chat_name;
+echo $chat_id;
 
 $result = mysqli_query($con, "SELECT * FROM relations WHERE user = {$activeUser['id']} ORDER BY id DESC");
 
