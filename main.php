@@ -463,6 +463,8 @@
 
         function updateBanner(chatId){
 
+            console.log(chatId);
+
             $.ajax({
                 type: "GET",
                 url: "modules/chatbanner.php?chat_id=" + chatId,
