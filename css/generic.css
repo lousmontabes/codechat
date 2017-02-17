@@ -602,6 +602,11 @@ pre::-webkit-scrollbar-thumb:hover {
 	border-radius: 4px;
 }
 
+.bannerbox img{
+	margin-left:5px;
+	margin-top:7px;
+}
+
 /* ANIMATED CLASSES */
 
 .bouncy {
