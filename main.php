@@ -430,10 +430,9 @@
                 url: "sql_createrelation.php?chat_id=" + chatId,
                 success: function(result){
                     console.log("Chat saved successfully");
+                    updateChatrooms();
                 }
             });
-
-            updateChatrooms();
 
         }
 
