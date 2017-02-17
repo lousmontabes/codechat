@@ -595,6 +595,13 @@ pre::-webkit-scrollbar-thumb:hover {
 	opacity:1;
 }
 
+.bannerbox{
+	background:rgba(239, 239, 239, 1.00);
+	display: inline-block;
+	padding: 1em 1.5em;
+	border-radius: 4px;
+}
+
 /* ANIMATED CLASSES */
 
 .bouncy {
