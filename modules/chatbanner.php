@@ -19,6 +19,7 @@ if (mysqli_num_rows($result) == 0){
     <img src="../images/add.svg" width="20" onclick="saveChat(<?php echo $i ?>, <?php $chat_id ?>)">
     <?php
 }else{
+    echo "HELLO";
     $chatFound = false;
     while ($relation = mysqli_fetch_array($result) && !$chatFound) {
         $chatFound = ($relation['chat']['id'] == $chat_id);
