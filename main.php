@@ -463,7 +463,7 @@
 
         function updateBanner(chatId){
 
-            var chatBannerDiv = $("#chatBanner");
+            var chatBannerDiv = $("#chatbanner");
 
             console.log("Updating banner");
             console.log(chatId);
