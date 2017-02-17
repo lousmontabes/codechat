@@ -98,11 +98,11 @@
       <file leaf-file-name="chatbanner.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/modules/chatbanner.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+            <state relative-caret-position="150">
+              <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
               <folding>
                 <element signature="e#6#92#0#PHP" expanded="true" />
-                <marker date="1487326421000" expanded="true" signature="189:262" placeholder="SELECT * FRO... relations" />
+                <marker date="1487326474000" expanded="true" signature="174:247" placeholder="SELECT * FRO... relations" />
               </folding>
             </state>
           </provider>
@@ -381,12 +381,12 @@
       <workItem from="1485356129515" duration="14774000" />
       <workItem from="1487150606150" duration="278000" />
       <workItem from="1487237407004" duration="2351000" />
-      <workItem from="1487324889354" duration="1399000" />
+      <workItem from="1487324889354" duration="1451000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="166059000" />
+    <option name="totallyTimeSpent" value="166111000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -806,11 +806,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/chatbanner.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+        <state relative-caret-position="150">
+          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
           <folding>
             <element signature="e#6#92#0#PHP" expanded="true" />
-            <marker date="1487326421000" expanded="true" signature="189:262" placeholder="SELECT * FRO... relations" />
+            <marker date="1487326474000" expanded="true" signature="174:247" placeholder="SELECT * FRO... relations" />
           </folding>
         </state>
       </provider>

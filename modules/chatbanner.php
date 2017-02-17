@@ -9,7 +9,6 @@
 include "../verification.php";
 
 echo $chat_name;
-echo $chat_id;
 
 $result = mysqli_query($con, "SELECT * FROM relations WHERE user = {$activeUser['id']} ORDER BY id DESC");
 
@@ -18,7 +17,7 @@ if (mysqli_num_rows($result) == 0){
     // User has no saved chats. Show save option.
 
     ?>
-    <img src="../images/add.svg" width="20" onclick="saveChat(0, <?php $chat_id ?>)">
+    <img src="../images/add.svg" width="20" onclick="saveChat(0, <?php echo $chat_id ?>)">
     <?php
 }else{
 
@@ -41,7 +40,7 @@ if (mysqli_num_rows($result) == 0){
         // User does not have this chat in his saved chats. Show add option.
 
         ?>
-        <img src="../images/add.svg" width="20" onclick="saveChat(0, <?php $chat_id ?>)">
+        <img src="../images/add.svg" width="20" onclick="saveChat(0, <?php echo $chat_id ?>)">
         <?php
 
 
