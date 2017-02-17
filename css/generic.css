@@ -603,8 +603,8 @@ pre::-webkit-scrollbar-thumb:hover {
 }
 
 .bannerbox img{
-	margin-left:5px;
-	margin-top:7px;
+	margin-left:1em;
+	margin-bottom:-1.5px;
 }
 
 /* ANIMATED CLASSES */
