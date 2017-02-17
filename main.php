@@ -441,6 +441,7 @@
                     console.log("Chat removed successfully");
                     fadeoutCard(cardId);
                     updateChatrooms();
+                    updateBanner(chatId);
                 }
             });
 
