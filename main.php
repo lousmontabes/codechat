@@ -362,7 +362,6 @@
 
         var ajaxZone = $("#centercolumn");
         var chatListView = $("#chatListView");
-        var chatBannerDiv = $("#chatBanner");
 
         function updateAjax(source){
 
@@ -463,6 +462,8 @@
         }
 
         function updateBanner(chatId){
+
+            var chatBannerDiv = $("#chatBanner");
 
             console.log("Updating banner");
             console.log(chatId);
