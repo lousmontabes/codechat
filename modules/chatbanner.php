@@ -1,3 +1,5 @@
+<div class="bannerbox">
+
 <?php
 /**
  * Created by PhpStorm.
@@ -57,3 +59,5 @@ if (mysqli_num_rows($result) == 0){
 }
 
 ?>
+
+</div>
