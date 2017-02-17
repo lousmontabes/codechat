@@ -463,6 +463,7 @@
 
         function updateBanner(chatId){
 
+            console.log("Updating banner");
             console.log(chatId);
 
             $.ajax({
