@@ -13,21 +13,37 @@ echo $chat_name;
 $result = mysqli_query($con, "SELECT * FROM relations WHERE user = {$activeUser['id']} ORDER BY id DESC");
 
 if (mysqli_num_rows($result) == 0){
+
+    // User has no saved chats. Show save option.
+
     ?>
-    <img src="../images/add.svg" width="20" onclick="saveChat(<?php echo $i ?>, <?php $chat_id ?>)">
+    <img src="../images/add.svg" width="20" onclick="saveChat(0, <?php $chat_id ?>)">
     <?php
 }else{
 
+    // User does have saved chats. Look for the current one in their relations.
+
     $chatFound = false;
     while (($relation = mysqli_fetch_array($result)) && !$chatFound) {
-        echo $relation['chat'];
         $chatFound = ($relation['chat'] == $chat_id);
     }
 
     if ($chatFound){
+
+        // User has this chat in his saved chats. Show remove option.
+
         ?>
-        <img src="../images/remove.svg" width="15" onclick="removeChat(<?php echo $i ?>, <?php echo $chat['id'] ?>)">
+        <img src="../images/remove.svg" width="15" onclick="removeChat(0, <?php echo $chat['id'] ?>)">
         <?php
+    }else{
+
+        // User does not have this chat in his saved chats. Show add option.
+
+        ?>
+        <img src="../images/add.svg" width="20" onclick="saveChat(0, <?php $chat_id ?>)">
+        <?php
+
+
     }
 
 }
