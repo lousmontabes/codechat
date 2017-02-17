@@ -9,13 +9,14 @@
 include "../verification.php";
 
 echo $chat_name;
-echo $chat['id'];
+echo $chat_id;
+echo $activeUser['id'];
 
 $result = mysqli_query($con, "SELECT * FROM relations WHERE user = {$activeUser['id']} ORDER BY id DESC");
 
 if (mysqli_num_rows($result) == 0){
     ?>
-    <img src="../images/add.svg" width="20" onclick="saveChat(<?php echo $i ?>, <?php $chat['id']?>)">
+    <img src="../images/add.svg" width="20" onclick="saveChat(<?php echo $i ?>, <?php $chat_id ?>)">
     <?php
 }else{
     $chatFound = false;
