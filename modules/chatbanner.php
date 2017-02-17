@@ -33,7 +33,7 @@ if (mysqli_num_rows($result) == 0){
         // User has this chat in his saved chats. Show remove option.
 
         ?>
-        <img src="../images/remove.svg" width="15" onclick="removeChat(0, <?php echo $chat['id'] ?>)">
+        <img src="../images/remove.svg" width="15" onclick="removeChat(0, <?php echo $chat_id ?>)">
         <?php
     }else{
 
