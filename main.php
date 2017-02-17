@@ -358,6 +358,7 @@
 
         var ajaxZone = $("#centercolumn");
         var chatListView = $("#chatListView");
+        var chatBannerDiv = $("#chatBanner");
 
         function updateAjax(source){
 
@@ -371,18 +372,6 @@
                 }
             });
 
-        }
-        
-        function updateChatrooms(){
-
-            $.ajax({
-                type: "GET",
-                url: "getuserchatlist.php?user_id=<?php echo $activeUser['id'];?>",
-                success: function(result){
-                    chatListView.html(result);
-                }
-            });
-            
         }
 
         function showChat(token){
@@ -431,6 +420,7 @@
                 success: function(result){
                     console.log("Chat saved successfully");
                     updateChatrooms();
+                    updateBanner();
                 }
             });
 
@@ -447,6 +437,30 @@
                     console.log("Chat removed successfully");
                     fadeoutCard(cardId);
                     updateChatrooms();
+                }
+            });
+
+        }
+
+        function updateChatrooms(){
+
+            $.ajax({
+                type: "GET",
+                url: "getuserchatlist.php?user_id=<?php echo $activeUser['id'] ?>",
+                success: function(result){
+                    chatListView.html(result);
+                }
+            });
+
+        }
+
+        function updateBanner(){
+
+            $.ajax({
+                type: "GET",
+                url: "modules/chatbanner.php?chat_id=<?php echo $chat_id ?>",
+                success: function(result){
+                    chatBannerDiv.html(result);
                 }
             });
 
