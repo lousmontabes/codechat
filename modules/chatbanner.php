@@ -8,10 +8,9 @@
 
 include "../verification.php";
 
-echo $_GET['chat_id'];
-
 if (!isset($chat_id)){
     $chat_id = $_GET['chat_id'];
+    echo $chat_id;
 }
 
 echo $chat_name;
