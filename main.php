@@ -444,11 +444,14 @@
 
         function updateChatrooms(){
 
+            chatListView.css("opacity", 0);
+
             $.ajax({
                 type: "GET",
                 url: "getuserchatlist.php?user_id=<?php echo $activeUser['id'] ?>",
                 success: function(result){
                     chatListView.html(result);
+                    chatListView.css("opacity", 1);
                 }
             });
 
