@@ -12,7 +12,7 @@ if (!isset($chat_id)){
     $chat_id = $_GET['chat_id'];
 }
 
-echo $chat_name;
+//echo $chat_name;
 
 $result = mysqli_query($con, "SELECT * FROM relations WHERE user = {$activeUser['id']} ORDER BY id DESC");
 
