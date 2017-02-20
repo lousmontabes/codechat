@@ -611,7 +611,12 @@ pre::-webkit-scrollbar-thumb:hover {
 	display:inline-block;
 	background:rgba(235,235,235,1);
 	border-radius:3px;
-	margin:0px 4px;
+	margin:0 4px;
+	transition:0.2s;
+}
+
+.tag:hover{
+	background:rgba(215,215,215,1);
 }
 
 /* ANIMATED CLASSES */
