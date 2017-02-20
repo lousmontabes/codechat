@@ -2,7 +2,7 @@
     <div class="leftside" onclick="cardClicked(<?php echo $i ?>, '<?php echo $chat['token'] ?>')">
         <div class="row">
             <span class="chatTitle"><?php echo $chat['name'] ?></span>
-            <div class="tag"><?php echo $chat['language'] ?></div>
+            <div class="languageTag"><?php echo $chat['language'] ?></div>
         </div>
         <div class="stats">
             <!--<li class="highlighted">[AMOUNT] new messages</li>-->

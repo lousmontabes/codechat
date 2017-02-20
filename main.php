@@ -162,7 +162,7 @@
             color: #2e6da4;
         }
 
-        .tag{
+        .languageTag{
             display:inline-block;
             background:lightgray;
             border-radius:3px;

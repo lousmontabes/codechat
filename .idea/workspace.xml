@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="4bdde7f8-1dcd-4c07-822c-a06b0766a97e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/generic.css" afterPath="$PROJECT_DIR$/css/generic.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.php" afterPath="$PROJECT_DIR$/main.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/chatview.php" afterPath="$PROJECT_DIR$/modules/chatview.php" />
     </list>
     <ignored path="codechat.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,8 +29,8 @@
       <file leaf-file-name="main.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
-              <caret line="461" column="9" selection-start-line="461" selection-start-column="9" selection-end-line="461" selection-end-column="9" />
+            <state relative-caret-position="273">
+              <caret line="165" column="12" selection-start-line="165" selection-start-column="12" selection-end-line="172" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -124,8 +126,8 @@
       <file leaf-file-name="chatview.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/modules/chatview.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="119" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="119" />
+            <state relative-caret-position="60">
+              <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -134,8 +136,8 @@
       <file leaf-file-name="generic.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/generic.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="605" column="19" selection-start-line="605" selection-start-column="19" selection-end-line="605" selection-end-column="19" />
+            <state relative-caret-position="564">
+              <caret line="611" column="29" selection-start-line="611" selection-start-column="29" selection-end-line="611" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -194,11 +196,11 @@
         <option value="$PROJECT_DIR$/verification.php" />
         <option value="$PROJECT_DIR$/modules/userchatlistview.php" />
         <option value="$PROJECT_DIR$/getuserchatlist.php" />
-        <option value="$PROJECT_DIR$/modules/chatview.php" />
         <option value="$PROJECT_DIR$/ajaxnewchat.php" />
-        <option value="$PROJECT_DIR$/main.php" />
         <option value="$PROJECT_DIR$/ajaxchatbox.php" />
         <option value="$PROJECT_DIR$/modules/chatbanner.php" />
+        <option value="$PROJECT_DIR$/main.php" />
+        <option value="$PROJECT_DIR$/modules/chatview.php" />
         <option value="$PROJECT_DIR$/css/generic.css" />
       </list>
     </option>
@@ -381,12 +383,12 @@
       <workItem from="1485356129515" duration="14774000" />
       <workItem from="1487150606150" duration="278000" />
       <workItem from="1487237407004" duration="2351000" />
-      <workItem from="1487324889354" duration="4632000" />
+      <workItem from="1487324889354" duration="4999000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="169292000" />
+    <option name="totallyTimeSpent" value="169659000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -729,14 +731,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/chatview.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="119" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="119" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/verification.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -788,14 +782,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="461" column="9" selection-start-line="461" selection-start-column="9" selection-end-line="461" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/modules/chatbanner.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="930">
@@ -807,10 +793,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/modules/chatview.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="165" column="12" selection-start-line="165" selection-start-column="12" selection-end-line="172" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/generic.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="605" column="19" selection-start-line="605" selection-start-column="19" selection-end-line="605" selection-end-column="19" />
+        <state relative-caret-position="564">
+          <caret line="611" column="29" selection-start-line="611" selection-start-column="29" selection-end-line="611" selection-end-column="29" />
           <folding />
         </state>
       </provider>
