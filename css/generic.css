@@ -609,7 +609,7 @@ pre::-webkit-scrollbar-thumb:hover {
 
 .tag{
 	display:inline-block;
-	background:rgba(210,210,210,1);
+	background:rgba(235,235,235,1);
 	border-radius:3px;
 	margin:0px 4px;
 }
