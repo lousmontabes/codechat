@@ -616,6 +616,7 @@ pre::-webkit-scrollbar-thumb:hover {
 }
 
 .tag:hover, .tag:hover .tag .tag{
+	/* Alguns tags contenen tags dintre. Ressaltar aquests també. */
 	background:rgba(215,215,215,1);
 }
 
