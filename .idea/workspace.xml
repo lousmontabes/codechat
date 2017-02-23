@@ -2,33 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4bdde7f8-1dcd-4c07-822c-a06b0766a97e" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/LkmcILl.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/P9OOMAn.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dygraphs.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/favicon.psd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/Sin título-1.ai" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/Sin título-2.ai" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/bottom.ai" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/bottom.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/clouds-airplane1-nostroke.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/clouds-airplane1.ai" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/clouds-airplane1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/clouds-airplane1b-nostroke.ai" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/clouds-airplane1b.ai" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/clouds-airplane2.ai" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/clouds.ai" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/clouds.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/clouds2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/logo.ai" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/logo.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/logo2.ai" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/logo_pis.ai" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/logo_pis2.ai" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/pixelheart.ai" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test-table.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.php" afterPath="$PROJECT_DIR$/main.php" />
     </list>
     <ignored path="codechat.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -50,11 +24,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2475">
-              <caret line="165" column="12" selection-start-line="165" selection-start-column="12" selection-end-line="172" selection-end-column="27" />
+            <state relative-caret-position="453">
+              <caret line="230" column="24" selection-start-line="230" selection-start-column="24" selection-end-line="230" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -116,7 +90,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
@@ -211,11 +185,11 @@
         <option value="$PROJECT_DIR$/ajaxnewchat.php" />
         <option value="$PROJECT_DIR$/ajaxchatbox.php" />
         <option value="$PROJECT_DIR$/modules/chatbanner.php" />
-        <option value="$PROJECT_DIR$/main.php" />
         <option value="$PROJECT_DIR$/modules/chatview.php" />
         <option value="$PROJECT_DIR$/css/generic.css" />
         <option value="$PROJECT_DIR$/test/chatviewtest.html" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/main.php" />
       </list>
     </option>
   </component>
@@ -398,12 +372,12 @@
       <workItem from="1487150606150" duration="278000" />
       <workItem from="1487237407004" duration="2351000" />
       <workItem from="1487324889354" duration="5844000" />
-      <workItem from="1487768285178" duration="734000" />
+      <workItem from="1487768285178" duration="839000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="171238000" />
+    <option name="totallyTimeSpent" value="171343000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -748,14 +722,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2475">
-          <caret line="165" column="12" selection-start-line="165" selection-start-column="12" selection-end-line="172" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/generic.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-420">
@@ -819,6 +785,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="453">
+          <caret line="230" column="24" selection-start-line="230" selection-start-column="24" selection-end-line="230" selection-end-column="24" />
           <folding />
         </state>
       </provider>

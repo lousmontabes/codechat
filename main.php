@@ -215,21 +215,20 @@
             font-weight: bold;
         }
 
-        #newChatCard{
-            display:block;
+        #newChatCard {
+            display: block;
             cursor: pointer;
-            transition:0.2s;
-            background:transparent;
+            transition: 0.2s;
+            background: transparent;
             box-shadow: none;
             text-align: center;
-            font-size:22px;
+            font-size: 22px;
             font-weight: 100;
-            color:grey;
-            padding:1.5em;
-            position:absolute;
-            bottom:0;
-            width: 20.32vw;
-            max-width:350px;
+            color: grey;
+            padding: 1.5em 0;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
         }
 
         #newChatCard:hover, #newChatCard.highlighted{
