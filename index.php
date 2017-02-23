@@ -6,7 +6,7 @@
  * Time: 12:43
  */
 
-header('Location: home.php');
+header('Location: main.php');
 exit;
 
 ?>
