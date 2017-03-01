@@ -28,6 +28,7 @@ if (mysqli_num_rows($result) == 0){
 
     ?>
     <img src="../images/add.svg" width="20" onclick="saveChat(0, <?php echo $chat_id ?>)">
+    <icon class="save"></icon>
     <?php
 }else{
 

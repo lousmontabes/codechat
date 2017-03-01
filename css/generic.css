@@ -627,6 +627,37 @@ pre::-webkit-scrollbar-thumb:hover {
 	background:rgba(215,215,215,1);
 }
 
+/* ICONS */
+
+icon{
+	width:20px;
+	height:20px;
+	display:inline;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+icon a{
+	text-transform: none;
+}
+
+icon.save{
+	background-image:url(../images/add.svg);
+}
+
+icon.remove{
+
+}
+
+icon.share{
+
+}
+
+icon.search{
+
+}
+
 /* ANIMATED CLASSES */
 
 .bouncy {
