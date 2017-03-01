@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4bdde7f8-1dcd-4c07-822c-a06b0766a97e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ajaxchatbox.php" afterPath="$PROJECT_DIR$/ajaxchatbox.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sql_postcomment.php" afterPath="$PROJECT_DIR$/sql_postcomment.php" />
     </list>
     <ignored path="codechat.iws" />
@@ -59,10 +57,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ajaxchatbox.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ajaxchatbox.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ajaxchatbox.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="636">
+            <state relative-caret-position="306">
               <caret line="255" column="101" selection-start-line="255" selection-start-column="101" selection-end-line="255" selection-end-column="101" />
               <folding>
                 <marker date="1488360396000" expanded="true" signature="355:402" placeholder="SELECT * FRO... chats" />
@@ -74,15 +72,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sql_postcomment.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="sql_postcomment.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sql_postcomment.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="195">
-              <caret line="13" column="57" selection-start-line="13" selection-start-column="57" selection-end-line="13" selection-end-column="57" />
+              <caret line="13" column="31" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
               <folding>
-                <marker date="1488360338000" expanded="true" signature="496:579" placeholder="INSERT INTO messages... " />
-                <marker date="1488360338000" expanded="true" signature="603:655" placeholder="UPDATE chats... " />
-                <marker date="1488360338000" expanded="true" signature="689:785" placeholder="UPDATE user_... " />
+                <marker date="1488360524000" expanded="true" signature="504:587" placeholder="INSERT INTO messages... " />
+                <marker date="1488360524000" expanded="true" signature="611:663" placeholder="UPDATE chats... " />
+                <marker date="1488360524000" expanded="true" signature="697:793" placeholder="UPDATE user_... " />
               </folding>
             </state>
           </provider>
@@ -200,8 +198,8 @@
         <option value="$PROJECT_DIR$/main.php" />
         <option value="$PROJECT_DIR$/css/generic.css" />
         <option value="$PROJECT_DIR$/API_JSON/get_user_chat_list.php" />
-        <option value="$PROJECT_DIR$/sql_postcomment.php" />
         <option value="$PROJECT_DIR$/ajaxchatbox.php" />
+        <option value="$PROJECT_DIR$/sql_postcomment.php" />
       </list>
     </option>
   </component>
@@ -400,12 +398,12 @@
       <workItem from="1487324889354" duration="5844000" />
       <workItem from="1487768285178" duration="2081000" />
       <workItem from="1488018817820" duration="544000" />
-      <workItem from="1488360201438" duration="202000" />
+      <workItem from="1488360201438" duration="325000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="173331000" />
+    <option name="totallyTimeSpent" value="173454000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -794,27 +792,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sql_postcomment.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="57" selection-start-line="13" selection-start-column="57" selection-end-line="13" selection-end-column="57" />
-          <folding>
-            <marker date="1488360338000" expanded="true" signature="496:579" placeholder="INSERT INTO messages... " />
-            <marker date="1488360338000" expanded="true" signature="603:655" placeholder="UPDATE chats... " />
-            <marker date="1488360338000" expanded="true" signature="689:785" placeholder="UPDATE user_... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ajaxchatbox.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="636">
+        <state relative-caret-position="306">
           <caret line="255" column="101" selection-start-line="255" selection-start-column="101" selection-end-line="255" selection-end-column="101" />
           <folding>
             <marker date="1488360396000" expanded="true" signature="355:402" placeholder="SELECT * FRO... chats" />
             <marker date="1488360396000" expanded="true" signature="972:1008" placeholder="SELECT * FRO... messages" />
             <marker date="1488360396000" expanded="true" signature="1460:1491" placeholder="SELECT * FRO... users" />
             <marker date="1488360396000" expanded="true" signature="9380:9417" placeholder="SELECT * FRO... relations" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sql_postcomment.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="31" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
+          <folding>
+            <marker date="1488360524000" expanded="true" signature="504:587" placeholder="INSERT INTO messages... " />
+            <marker date="1488360524000" expanded="true" signature="611:663" placeholder="UPDATE chats... " />
+            <marker date="1488360524000" expanded="true" signature="697:793" placeholder="UPDATE user_... " />
           </folding>
         </state>
       </provider>
