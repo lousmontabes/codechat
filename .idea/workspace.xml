@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4bdde7f8-1dcd-4c07-822c-a06b0766a97e" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sql_postcomment.php" afterPath="$PROJECT_DIR$/sql_postcomment.php" />
     </list>
     <ignored path="codechat.iws" />
@@ -75,12 +76,12 @@
       <file leaf-file-name="sql_postcomment.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sql_postcomment.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="31" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
+            <state relative-caret-position="270">
+              <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
               <folding>
-                <marker date="1488360524000" expanded="true" signature="504:587" placeholder="INSERT INTO messages... " />
-                <marker date="1488360524000" expanded="true" signature="611:663" placeholder="UPDATE chats... " />
-                <marker date="1488360524000" expanded="true" signature="697:793" placeholder="UPDATE user_... " />
+                <marker date="1488360955000" expanded="true" signature="504:608" placeholder="INSERT INTO messages... " />
+                <marker date="1488360955000" expanded="true" signature="632:684" placeholder="UPDATE chats... " />
+                <marker date="1488360955000" expanded="true" signature="718:814" placeholder="UPDATE user_... " />
               </folding>
             </state>
           </provider>
@@ -398,12 +399,12 @@
       <workItem from="1487324889354" duration="5844000" />
       <workItem from="1487768285178" duration="2081000" />
       <workItem from="1488018817820" duration="544000" />
-      <workItem from="1488360201438" duration="325000" />
+      <workItem from="1488360201438" duration="760000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="173454000" />
+    <option name="totallyTimeSpent" value="173889000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -807,12 +808,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sql_postcomment.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="31" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
+        <state relative-caret-position="270">
+          <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
           <folding>
-            <marker date="1488360524000" expanded="true" signature="504:587" placeholder="INSERT INTO messages... " />
-            <marker date="1488360524000" expanded="true" signature="611:663" placeholder="UPDATE chats... " />
-            <marker date="1488360524000" expanded="true" signature="697:793" placeholder="UPDATE user_... " />
+            <marker date="1488360955000" expanded="true" signature="504:608" placeholder="INSERT INTO messages... " />
+            <marker date="1488360955000" expanded="true" signature="632:684" placeholder="UPDATE chats... " />
+            <marker date="1488360955000" expanded="true" signature="718:814" placeholder="UPDATE user_... " />
           </folding>
         </state>
       </provider>
