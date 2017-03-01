@@ -124,8 +124,6 @@ else echo "<img src='images/placeholder". $author_id % 5 .".gif'>";
 
 <?php } ?>
 
-<br>
-
 </div>
 
 <?php
