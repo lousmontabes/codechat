@@ -118,7 +118,7 @@ else echo "<img src='images/placeholder". $author_id % 5 .".gif'>";
     <?php }?>
 <?php }else if ($type == 1){ // Message is plain text ?>
 
-    <div class="text">
+    <div class="notcode">
     <?php echo htmlspecialchars($content) ?>
     </div>
 
