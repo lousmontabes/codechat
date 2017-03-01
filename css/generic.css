@@ -36,6 +36,13 @@ code{
 	font-size:14px;
 }
 
+.text{
+	transition:0.5s;
+	padding:5px;
+	max-width:730px;
+	font-size:18px;
+}
+
 pre::-webkit-scrollbar {
     height: 0.5em;
 }
