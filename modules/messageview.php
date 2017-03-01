@@ -8,7 +8,7 @@
     <div class="content">
         <?php echo $content?>
     </div>
-    <div class="time">
+    <!--<div class="time">
         <?php
         /*
         if ($time >= strtotime("today"))
@@ -21,5 +21,5 @@
             echo $month." ".$day.", ".$hour.":".$minute;
         */
         ?>
-    </div>
+    </div>-->
 </div>
