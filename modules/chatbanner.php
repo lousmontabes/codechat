@@ -28,7 +28,7 @@ if (mysqli_num_rows($result) == 0){
 
     ?>
     <img src="../images/add.svg" width="20" onclick="saveChat(0, <?php echo $chat_id ?>)">
-    <icon class="save"></icon>hi
+    <icon class="save"></icon>
     <?php
 }else{
 
@@ -45,6 +45,7 @@ if (mysqli_num_rows($result) == 0){
 
         ?>
         <img src="../images/remove.svg" width="15" onclick="removeChat(0, <?php echo $chat_id ?>)">
+        <icon class="save"></icon>
         <?php
     }else{
 
@@ -52,6 +53,7 @@ if (mysqli_num_rows($result) == 0){
 
         ?>
         <img src="../images/add.svg" width="20" onclick="saveChat(0, <?php echo $chat_id ?>)">
+        <icon class="save"></icon>
         <?php
 
 
