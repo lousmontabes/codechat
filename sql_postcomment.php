@@ -11,6 +11,7 @@ $con = new mysqli($server, $username, $password, $db);
 
 $chat_id = $_GET['chat_id'];
 $user_id = $_GET['user_id'];
+$message_type = $_GET['type']; // 0: Code - 1: Plain text
 $message = mysqli_real_escape_string($con, $_GET['message']);
 
 $code_lines = substr_count( $_GET['message'], "\n" ) + 1;

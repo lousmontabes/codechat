@@ -251,7 +251,9 @@ else echo "<img src='images/placeholder". $author_id % 5 .".gif'>";
 
             $.ajax({
                 type: "GET",
-                url: "sql_postcomment.php?message=" + encodeURIComponent(message) + "&chat_id=" + <?php echo $chat_id ?> +"&user_id=<?php echo $activeuser_id ?>",
+                url: "sql_postcomment.php?message=" + encodeURIComponent(message) + "&chat_id=" + <?php echo $chat_id ?>
+                                                                                  + "&user_id=<?php echo $activeuser_id ?>
+                                                                                  + "&message_type=0",
                 dataType: "html",   //expect html to be returned
                 success: function (response) {
                     //$("#responsecontainer").html(response);
