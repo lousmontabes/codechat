@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4bdde7f8-1dcd-4c07-822c-a06b0766a97e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sql_createrelation.php" afterPath="$PROJECT_DIR$/sql_createrelation.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/generic.css" afterPath="$PROJECT_DIR$/css/generic.css" />
     </list>
     <ignored path="codechat.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -73,7 +73,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sql_createrelation.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="sql_createrelation.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sql_createrelation.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="375">
@@ -137,11 +137,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="generic.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="generic.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/generic.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="419">
-              <caret line="652" column="11" selection-start-line="652" selection-start-column="11" selection-end-line="652" selection-end-column="11" />
+            <state relative-caret-position="288">
+              <caret line="593" column="19" selection-start-line="593" selection-start-column="19" selection-end-line="593" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -205,9 +205,9 @@
         <option value="$PROJECT_DIR$/register.php" />
         <option value="$PROJECT_DIR$/ajaxchatbox.php" />
         <option value="$PROJECT_DIR$/chatbox.php" />
-        <option value="$PROJECT_DIR$/css/generic.css" />
         <option value="$PROJECT_DIR$/sql_retrievemessages.php" />
         <option value="$PROJECT_DIR$/sql_createrelation.php" />
+        <option value="$PROJECT_DIR$/css/generic.css" />
       </list>
     </option>
   </component>
@@ -435,7 +435,7 @@
       <workItem from="1487768285178" duration="2081000" />
       <workItem from="1488018817820" duration="544000" />
       <workItem from="1488360201438" duration="2702000" />
-      <workItem from="1489652853398" duration="3500000" />
+      <workItem from="1489652853398" duration="3720000" />
     </task>
     <task id="LOCAL-00001" summary="Moved unused content to folder">
       <created>1489653612356</created>
@@ -483,7 +483,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="179331000" />
+    <option name="totallyTimeSpent" value="179551000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -806,14 +806,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/generic.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="652" column="11" selection-start-line="652" selection-start-column="11" selection-end-line="652" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/chatbox.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="735">
@@ -872,6 +864,14 @@
             <marker date="1489658774000" expanded="true" signature="428:479" placeholder="SELECT * FRO... relations" />
             <marker date="1489658774000" expanded="true" signature="786:859" placeholder="INSERT INTO `relations`... " />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/generic.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="593" column="19" selection-start-line="593" selection-start-column="19" selection-end-line="593" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>
