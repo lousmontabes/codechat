@@ -2,8 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4bdde7f8-1dcd-4c07-822c-a06b0766a97e" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MOCKUP-codechat-v2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/about.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/3024-day.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/codemirror.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/colorful.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/generic - copia.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/generic-old.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/generic_withfont.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ip_test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/live_old.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mockup-liveediting.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test-ajaxjquery.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test-checkemail.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test-height.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test-stickyview.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test-table2.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test-table3.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test-textarea.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/testajaxfinder.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/testchat.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/testcode.php" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/chatbanner.php" afterPath="$PROJECT_DIR$/modules/chatbanner.php" />
     </list>
     <ignored path="codechat.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -48,7 +69,7 @@
       <file leaf-file-name="ajaxchatbox.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ajaxchatbox.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
+            <state relative-caret-position="525">
               <caret line="35" column="35" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
               <folding>
                 <marker date="1488389740000" expanded="true" signature="355:402" placeholder="SELECT * FRO... chats" />
@@ -119,7 +140,7 @@
       <file leaf-file-name="generic.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/generic.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="507">
+            <state relative-caret-position="9675">
               <caret line="645" column="28" selection-start-line="645" selection-start-column="28" selection-end-line="645" selection-end-column="28" />
               <folding />
             </state>
@@ -241,7 +262,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -333,6 +353,7 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -427,17 +448,18 @@
       <workItem from="1487768285178" duration="2081000" />
       <workItem from="1488018817820" duration="544000" />
       <workItem from="1488360201438" duration="2702000" />
+      <workItem from="1489652853398" duration="344000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="175831000" />
+    <option name="totallyTimeSpent" value="176175000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -488,13 +510,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/colorful.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/css/colorful.css" />
     <entry file="file://$PROJECT_DIR$/header.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -509,13 +525,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test-stickyview.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3465">
-          <caret line="231" column="12" selection-start-line="231" selection-start-column="12" selection-end-line="232" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/test-stickyview.html" />
     <entry file="file://$PROJECT_DIR$/profile.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1935">
@@ -530,13 +540,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MOCKUP-codechat-v2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="297" column="4" selection-start-line="297" selection-start-column="4" selection-end-line="317" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/MOCKUP-codechat-v2.html" />
     <entry file="file://$PROJECT_DIR$/chatbox-old.php" />
     <entry file="file://$PROJECT_DIR$/enter.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -567,13 +571,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/testajaxfinder.php" />
-    <entry file="file://$PROJECT_DIR$/testajaxfinder.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="717">
-          <caret line="180" column="13" selection-start-line="151" selection-start-column="4" selection-end-line="180" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/testajaxfinder.html" />
     <entry file="file://$PROJECT_DIR$/sql-getchatbytoken.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -588,13 +586,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/about.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="25" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/about.html" />
     <entry file="file://$PROJECT_DIR$/modules/tokensearchview.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -623,13 +615,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mockup-liveediting.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="202" column="12" selection-start-line="202" selection-start-column="12" selection-end-line="212" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/mockup-liveediting.html" />
     <entry file="file://$PROJECT_DIR$/chatbox.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-435">
@@ -658,13 +644,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/generic-old.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/css/generic-old.css" />
     <entry file="file://$PROJECT_DIR$/sql_createrelation.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -679,13 +659,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/live_old.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/live_old.php" />
     <entry file="file://$PROJECT_DIR$/sql_removerelation.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -732,7 +706,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="20" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -740,7 +713,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="30" column="50" selection-start-line="30" selection-start-column="50" selection-end-line="30" selection-end-column="50" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -748,10 +720,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" column="56" selection-start-line="18" selection-start-column="56" selection-end-line="18" selection-end-column="56" />
-          <folding>
-            <marker date="1486497919000" expanded="true" signature="515:549" placeholder="SELECT * FRO... sessions" />
-            <marker date="1486497919000" expanded="true" signature="787:832" placeholder="SELECT id, n... users" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -820,7 +788,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/generic.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="507">
+        <state relative-caret-position="9675">
           <caret line="645" column="28" selection-start-line="645" selection-start-column="28" selection-end-line="645" selection-end-column="28" />
           <folding />
         </state>
@@ -828,7 +796,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ajaxchatbox.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
+        <state relative-caret-position="525">
           <caret line="35" column="35" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
           <folding>
             <marker date="1488389740000" expanded="true" signature="355:402" placeholder="SELECT * FRO... chats" />
