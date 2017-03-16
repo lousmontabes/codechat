@@ -156,12 +156,18 @@ else echo "<img src='images/placeholder". $author_id % 5 .".gif'>";
         COOLDOWN: 4
     };
 
+    WritingMode = {
+        CODE: 0,
+        TEXT: 1
+    };
+
     var currentChat = <?php echo $chat_id ?>;
     var messageCount = <?php echo $messagecount ?>;
     var missedMessages = 0;
     var windowBlurred = false;
     var saved = false;
     var status = MessageStatus.AVAILABLE;
+    var writingMode = WritingMode.CODE;
 
     $(document).ready(function() {
         document.title = 'Codechat / <?php echo html_entity_decode($chat_name)?>';
@@ -207,7 +213,7 @@ else echo "<img src='images/placeholder". $author_id % 5 .".gif'>";
             $("#chatbanner").css("opacity", 0);
 
             // Remove animations
-            setTimeout('$("#chatbanner").removeClass("bouncyEntranceFromTop")',400);
+            setTimeout('$("#chatbanner").removeClass("bouncyEntranceFromTop")', 400);
 
         }
 
@@ -220,10 +226,31 @@ else echo "<img src='images/placeholder". $author_id % 5 .".gif'>";
 
     // User pressed enter while focused on the input textarea.
     $('#usercontrols').keydown(function(e) {
-        if(e.which == 13 && status == MessageStatus.AVAILABLE) {
-            sendMessage();
-            status = MessageStatus.COOLDOWN;
+
+        switch(e.which){
+
+            case 13:
+                // ENTER
+                if (status == MessageStatus.AVAILABLE){
+                    sendMessage();
+                    status = MessageStatus.COOLDOWN;
+                }
+                break;
+
+            case 18:
+                // ALT
+                if (writingMode == WritingMode.CODE){
+                    writingMode = WritingMode.TEXT;
+                    $('#usercontrols').css("font-family", "Open Sans");
+                }
+                else{
+                    writingMode = WritingMode.CODE;
+                    $('#usercontrols').css("font-family", "droid sans mono");
+                }
+                break;
+
         }
+
     });
 
     function goToBottom(){
@@ -260,7 +287,7 @@ else echo "<img src='images/placeholder". $author_id % 5 .".gif'>";
                 type: "GET",
                 url: "sql_postcomment.php?message=" + encodeURIComponent(message) + "&chat_id=" + <?php echo $chat_id ?>
                                                                                   + "&user_id=" + <?php echo $activeuser_id ?>
-                                                                                  + "&message_type=0",
+                                                                                  + "&message_type=" + writingMode,
                 dataType: "html",   //expect html to be returned
                 success: function (response) {
                     //$("#responsecontainer").html(response);
