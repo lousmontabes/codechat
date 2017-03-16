@@ -28,7 +28,7 @@ if (mysqli_num_rows($result) == 0){
     while ($relation = mysqli_fetch_array($result) && !$alreadyExists) {
 
         $relation_chat = $relation['chat'];
-        $found = ($chat_id = $relation_chat);
+        $found = ($chat_id == $relation_chat);
 
     }
 }
