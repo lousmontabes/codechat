@@ -209,86 +209,11 @@ if( isset ($_COOKIE['sUser']) ) {
         <div class="message" id="message1">
             <div class="sender">
                 <a href="profile.php?u=1">
-                    Ada Lovelace
+                    Codebot
                 </a>
                 <a href="#message1"><span class="messagenumber">#1</span></a></div>
             <div class="code" style="max-width:none">
                 <pre style="margin-top:0; margin-bottom:0;"><code class="language-python">print ("Collaborate, share & review without missing a thing. As simple as chatting.")</code></pre>
-            </div>
-            <br>
-        </div>
-
-        <div class="avatar">
-            <img src='images/placeholder1.gif'>
-        </div>
-        <div class="message" id="message2">
-            <div class="sender">
-                <a href="profile.php?u=1">
-                    Hank
-                </a>
-                <a href="#message2"><span class="messagenumber">#2</span></a></div>
-            <div class="code" style="max-width:none">
-                <pre style="margin-top:0; margin-bottom:0;"><code class="language-python">Didn't you forget an ;?</code></pre>
-            </div>
-            <br>
-        </div>
-
-        <div class="avatar">
-            <img src='images/placeholder0.gif'>
-        </div>
-        <div class="message" id="message3">
-            <div class="sender">
-                <a href="profile.php?u=1">
-                    Ada Lovelace
-                </a>
-                <a href="#message3"><span class="messagenumber">#3</span></a></div>
-            <div class="code" style="max-width:none">
-                <pre style="margin-top:0; margin-bottom:0;"><code class="language-python">It's python, Hank.</code></pre>
-            </div>
-            <br>
-        </div>
-
-        <div class="avatar">
-            <img src='images/placeholder1.gif'>
-        </div>
-        <div class="message" id="message4">
-            <div class="sender">
-                <a href="profile.php?u=1">
-                    Hank
-                </a>
-                <a href="#message4"><span class="messagenumber">#4</span></a></div>
-            <div class="code" style="max-width:none">
-                <pre style="margin-top:0; margin-bottom:0;"><code class="language-python">Oh. What other languages can I use?</code></pre>
-            </div>
-            <br>
-        </div>
-
-        <div class="avatar">
-            <img src='images/placeholder0.gif'>
-        </div>
-        <div class="message" id="message3">
-            <div class="sender">
-                <a href="profile.php?u=1">
-                    Ada Lovelace
-                </a>
-                <a href="#message3"><span class="messagenumber">#3</span></a></div>
-            <div class="code" style="max-width:none">
-                <pre style="margin-top:0; margin-bottom:0;"><code class="language-python">Lots! C, C#, C++, Java, JavaScript, PHP, HTML, CSS, SQL...</code></pre>
-            </div>
-            <br>
-        </div>
-
-        <div class="avatar">
-            <img src='images/placeholder0.gif'>
-        </div>
-        <div class="message" id="message3">
-            <div class="sender">
-                <a href="profile.php?u=1">
-                    Ada Lovelace
-                </a>
-                <a href="#message3"><span class="messagenumber">#3</span></a></div>
-            <div class="code" style="max-width:none">
-                <pre style="margin-top:0; margin-bottom:0;"><code class="language-python">Swift, Ruby, Pascal, Processing, Perl...</code></pre>
             </div>
             <br>
         </div>
