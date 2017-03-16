@@ -137,7 +137,7 @@ else echo "<img src='images/placeholder". $author_id % 5 .".gif'>";
 </div>
 
 <div class="centerarea">
-    <textarea id="usercontrols" onclick="//blurBackground()" onblur="//restoreBackground()" spellcheck="false" placeholder="Reply in <?php echo $chat_language ?>"></textarea>
+    <textarea id="usercontrols" onclick="//blurBackground()" onblur="//restoreBackground()" spellcheck="false" placeholder="Share code in <?php echo $chat_language ?>"></textarea>
     <div id="bottomFade"></div>
 </div>
 
@@ -242,10 +242,12 @@ else echo "<img src='images/placeholder". $author_id % 5 .".gif'>";
                 if (writingMode == WritingMode.CODE){
                     writingMode = WritingMode.TEXT;
                     $('#usercontrols').css("font-family", "Open Sans");
+                    $("#usercontrols").attr("placeholder", "Reply in human");
                 }
                 else{
                     writingMode = WritingMode.CODE;
                     $('#usercontrols').css("font-family", "droid sans mono");
+                    $("#usercontrols").attr("placeholder", "Share code in <?php echo $chat_language ?>");
                 }
                 break;
 

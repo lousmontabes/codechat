@@ -151,19 +151,27 @@ else echo "<img src='images/placeholder". $author_id % 5 .".gif'>";
 
 </div>
 
-<?php if (strpos($content,"\n")) {?>
+    <?php if ($type == 0){ // Message is code ?>
+        <?php if (strpos($content,"\n")) {?>
 
-<div class="code">
-<pre class="line-numbers" style="margin-top:0; margin-bottom:0;"><code class="language-<?php echo strtolower ($chat_language) ?>"><?php echo htmlspecialchars($content) ?></code></pre>
-</div>
+            <div class="code">
+                <pre class="line-numbers" style="margin-top:0; margin-bottom:0;"><code class="language-<?php echo strtolower ($chat_language) ?>"><?php echo htmlspecialchars($content) ?></code></pre>
+            </div>
 
-<?php }else{ ?>
+        <?php }else{ ?>
 
-<div class="code">
-<pre style="margin-top:0; margin-bottom:0;"><code class="language-<?php echo strtolower ($chat_language) ?>"><?php echo htmlspecialchars($content) ?></code></pre>
-</div>
+            <div class="code">
+                <pre style="margin-top:0; margin-bottom:0;"><code class="language-<?php echo strtolower ($chat_language) ?>"><?php echo htmlspecialchars($content) ?></code></pre>
+            </div>
 
-<?php } // DISPLAY LINE NUMBERS IF CODE HAS AT LEAST ONE LINE BREAK ?>
+        <?php }?>
+    <?php }else if ($type == 1){ // Message is not code ?>
+
+        <div class="notcode">
+            <?php echo htmlspecialchars($content) ?>
+        </div>
+
+    <?php } ?>
 
 <br>
 

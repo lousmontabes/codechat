@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4bdde7f8-1dcd-4c07-822c-a06b0766a97e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+    <list default="true" id="4bdde7f8-1dcd-4c07-822c-a06b0766a97e" name="Default" comment="Improved ALT key functionality">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ajaxchatbox.php" afterPath="$PROJECT_DIR$/ajaxchatbox.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chatbox.php" afterPath="$PROJECT_DIR$/chatbox.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/generic.css" afterPath="$PROJECT_DIR$/css/generic.css" />
     </list>
     <ignored path="codechat.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -56,16 +57,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ajaxchatbox.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ajaxchatbox.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ajaxchatbox.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="558">
-              <caret line="247" column="74" selection-start-line="247" selection-start-column="74" selection-end-line="247" selection-end-column="74" />
+            <state relative-caret-position="318">
+              <caret line="104" column="0" selection-start-line="104" selection-start-column="0" selection-end-line="124" selection-end-column="10" />
               <folding>
-                <marker date="1489656225000" expanded="true" signature="355:402" placeholder="SELECT * FRO... chats" />
-                <marker date="1489656225000" expanded="true" signature="972:1008" placeholder="SELECT * FRO... messages" />
-                <marker date="1489656225000" expanded="true" signature="1490:1521" placeholder="SELECT * FRO... users" />
-                <marker date="1489656225000" expanded="true" signature="10250:10287" placeholder="SELECT * FRO... relations" />
+                <marker date="1489657289000" expanded="true" signature="355:402" placeholder="SELECT * FRO... chats" />
+                <marker date="1489657289000" expanded="true" signature="972:1008" placeholder="SELECT * FRO... messages" />
+                <marker date="1489657289000" expanded="true" signature="1490:1521" placeholder="SELECT * FRO... users" />
+                <marker date="1489657289000" expanded="true" signature="10439:10476" placeholder="SELECT * FRO... relations" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="chatbox.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chatbox.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="735">
+              <caret line="173" column="14" selection-start-line="173" selection-start-column="14" selection-end-line="173" selection-end-column="14" />
+              <folding>
+                <marker date="1489657375000" expanded="true" signature="380:427" placeholder="SELECT * FRO... chats" />
+                <marker date="1489657375000" expanded="true" signature="2796:2832" placeholder="SELECT * FRO... messages" />
+                <marker date="1489657375000" expanded="true" signature="3284:3315" placeholder="SELECT * FRO... users" />
+                <marker date="1489657375000" expanded="true" signature="11327:11364" placeholder="SELECT * FRO... relations" />
               </folding>
             </state>
           </provider>
@@ -107,21 +123,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="generic.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="generic.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/generic.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="9675">
-              <caret line="645" column="28" selection-start-line="645" selection-start-column="28" selection-end-line="645" selection-end-column="28" />
+            <state relative-caret-position="299">
+              <caret line="644" column="0" selection-start-line="644" selection-start-column="0" selection-end-line="644" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -168,7 +174,6 @@
         <option value="$PROJECT_DIR$/MOCKUP-codechat-v2.html" />
         <option value="$PROJECT_DIR$/chatbox-old.php" />
         <option value="$PROJECT_DIR$/chatboxid.php" />
-        <option value="$PROJECT_DIR$/chatbox.php" />
         <option value="$PROJECT_DIR$/sql_countmessages.php" />
         <option value="$PROJECT_DIR$/sql_retrievemessages.php" />
         <option value="$PROJECT_DIR$/home2.php" />
@@ -197,10 +202,11 @@
         <option value="$PROJECT_DIR$/API_JSON/get_user_chat_list.php" />
         <option value="$PROJECT_DIR$/sql_postcomment.php" />
         <option value="$PROJECT_DIR$/modules/messageview.php" />
-        <option value="$PROJECT_DIR$/css/generic.css" />
         <option value="$PROJECT_DIR$/modules/chatbanner.php" />
         <option value="$PROJECT_DIR$/register.php" />
         <option value="$PROJECT_DIR$/ajaxchatbox.php" />
+        <option value="$PROJECT_DIR$/chatbox.php" />
+        <option value="$PROJECT_DIR$/css/generic.css" />
       </list>
     </option>
   </component>
@@ -428,7 +434,7 @@
       <workItem from="1487768285178" duration="2081000" />
       <workItem from="1488018817820" duration="544000" />
       <workItem from="1488360201438" duration="2702000" />
-      <workItem from="1489652853398" duration="2038000" />
+      <workItem from="1489652853398" duration="2756000" />
     </task>
     <task id="LOCAL-00001" summary="Moved unused content to folder">
       <created>1489653612356</created>
@@ -458,11 +464,18 @@
       <option name="project" value="LOCAL" />
       <updated>1489655255355</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added functionality: pressing the ALT key now toggles between text mode and code mode. Text mode sends messages as plain text.">
+      <created>1489656477204</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1489656477204</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="177869000" />
+    <option name="totallyTimeSpent" value="178587000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -470,7 +483,7 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32942554" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -501,7 +514,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Moved unused content to folder" />
-    <option name="LAST_COMMIT_MESSAGE" value="Moved unused content to folder" />
+    <MESSAGE value="Added functionality: pressing the ALT key now toggles between text mode and code mode. Text mode sends messages as plain text." />
+    <MESSAGE value="Improved ALT key functionality" />
+    <option name="LAST_COMMIT_MESSAGE" value="Improved ALT key functionality" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -623,13 +638,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mockup-liveediting.html" />
-    <entry file="file://$PROJECT_DIR$/chatbox.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-435">
-          <caret line="107" column="34" selection-start-line="107" selection-start-column="34" selection-end-line="107" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/backend/updatecode.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -785,14 +793,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/generic.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9675">
-          <caret line="645" column="28" selection-start-line="645" selection-start-column="28" selection-end-line="645" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/modules/chatbanner.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="690">
@@ -821,14 +821,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ajaxchatbox.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="247" column="74" selection-start-line="247" selection-start-column="74" selection-end-line="247" selection-end-column="74" />
+        <state relative-caret-position="318">
+          <caret line="104" column="0" selection-start-line="104" selection-start-column="0" selection-end-line="124" selection-end-column="10" />
           <folding>
-            <marker date="1489656225000" expanded="true" signature="355:402" placeholder="SELECT * FRO... chats" />
-            <marker date="1489656225000" expanded="true" signature="972:1008" placeholder="SELECT * FRO... messages" />
-            <marker date="1489656225000" expanded="true" signature="1490:1521" placeholder="SELECT * FRO... users" />
-            <marker date="1489656225000" expanded="true" signature="10250:10287" placeholder="SELECT * FRO... relations" />
+            <marker date="1489657289000" expanded="true" signature="355:402" placeholder="SELECT * FRO... chats" />
+            <marker date="1489657289000" expanded="true" signature="972:1008" placeholder="SELECT * FRO... messages" />
+            <marker date="1489657289000" expanded="true" signature="1490:1521" placeholder="SELECT * FRO... users" />
+            <marker date="1489657289000" expanded="true" signature="10439:10476" placeholder="SELECT * FRO... relations" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chatbox.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="735">
+          <caret line="173" column="14" selection-start-line="173" selection-start-column="14" selection-end-line="173" selection-end-column="14" />
+          <folding>
+            <marker date="1489657375000" expanded="true" signature="380:427" placeholder="SELECT * FRO... chats" />
+            <marker date="1489657375000" expanded="true" signature="2796:2832" placeholder="SELECT * FRO... messages" />
+            <marker date="1489657375000" expanded="true" signature="3284:3315" placeholder="SELECT * FRO... users" />
+            <marker date="1489657375000" expanded="true" signature="11327:11364" placeholder="SELECT * FRO... relations" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/generic.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="644" column="0" selection-start-line="644" selection-start-column="0" selection-end-line="644" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -37,10 +37,14 @@ code{
 }
 
 .notcode{
-	transition:0.5s;
-	padding:5px;
-	max-width:730px;
-	font-size:18px;
+	transition: 0.5s;
+	max-width: 730px;
+	background: rgba(46, 109, 164, 0.85);
+	padding: 20px;
+	border: 1px solid transparent;
+	display: inline-block;
+	border-radius: 4px;
+	color: white;
 }
 
 pre::-webkit-scrollbar {
@@ -629,7 +633,7 @@ pre::-webkit-scrollbar-thumb:hover {
 
 /* ICONS */
 
-icon{
+/*icon{
 	width:20px;
 	height:20px;
 	display:inline;
@@ -656,7 +660,7 @@ icon.share{
 
 icon.search{
 
-}
+}*/
 
 /* ANIMATED CLASSES */
 
