@@ -29,6 +29,7 @@ while ($message = mysqli_fetch_array($result)){
 	
 	$author_id = $message['author'];
 	$content = $message['content'];
+    $type = $message['type'];
 	$time = strtotime($message['time']);
 	
 		$month = date( "F", $time);
