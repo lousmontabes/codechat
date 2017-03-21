@@ -226,7 +226,7 @@
             font-weight: 100;
             color: grey;
             padding: 1.5em 0;
-            position: absolute;
+            position: relative;
             bottom: 0;
             width: 100%;
         }
