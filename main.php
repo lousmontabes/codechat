@@ -297,6 +297,9 @@
 
         #toggleColumnButton{
             display:inline-block;
+            position: fixed;
+            left: 1.5em;
+            cursor: pointer;
         }
 
     </style>
