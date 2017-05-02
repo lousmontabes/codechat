@@ -34,11 +34,18 @@
             line-height: 68px;
             font-size: 18px;
             color:white;
-            background:#2e6da4;
             position:fixed;
             font-family: geometos;
-            z-index:21;
+            z-index:22;
             transition: color 0.4s;
+        }
+
+        #topbackground{
+            background:#2e6da4;
+            width:100%;
+            height:60px;
+            z-index:21;
+            position:fixed;
         }
 
         #leftcolumn{
@@ -318,6 +325,8 @@
     <!-- LEFT COLUMN: User bar, navigation, etc. -->
     <div id="leftcolumn">
 
+        <div id="topbackground"></div>
+
         <div id="columnheader">
             <?php include "modules/userview.php" ?>
             <?php include "modules/tokensearchview.php" ?>
@@ -531,12 +540,10 @@
 
             if(leftColumnVisible){
                 leftColumn.css("left", "-100%");
-                topBanner.css("background", "transparent");
                 topBanner.css("color", "#2e6da4");
             }else{
                 leftColumn.css("left", "0");
                 topBanner.css("color", "white");
-                setTimeout(topBanner.css("background", "#2e6da4"), 400);
             }
 
             leftColumnVisible = !leftColumnVisible;
