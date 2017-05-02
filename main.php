@@ -71,11 +71,12 @@
         }
 
         #centercolumn{
-            min-height:100vh;
-            margin-left:25vw;
-            background:white;
-            float:left;
-            display:block;
+            min-height: 100vh;
+            margin-left: auto;
+            margin-right: auto;
+            background: white;
+            width: 51.5em;
+            display: block;
         }
 
         .centered{
