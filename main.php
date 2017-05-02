@@ -294,6 +294,10 @@
             transition:0.1s;
         }
 
+        #toggleColumnButton{
+            display:inline-block;
+        }
+
     </style>
 
     <link href="css/generic.css" rel="stylesheet" />

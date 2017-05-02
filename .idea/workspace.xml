@@ -109,8 +109,8 @@
       <file leaf-file-name="main.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="522">
-              <caret line="530" column="45" lean-forward="false" selection-start-line="530" selection-start-column="45" selection-end-line="530" selection-end-column="45" />
+            <state relative-caret-position="366">
+              <caret line="297" column="33" lean-forward="false" selection-start-line="297" selection-start-column="33" selection-end-line="297" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -424,7 +424,7 @@
       <workItem from="1488360201438" duration="2702000" />
       <workItem from="1489652853398" duration="4140000" />
       <workItem from="1490093141306" duration="39000" />
-      <workItem from="1493722483596" duration="2565000" />
+      <workItem from="1493722483596" duration="2698000" />
     </task>
     <task id="LOCAL-00001" summary="Moved unused content to folder">
       <created>1489653612356</created>
@@ -503,11 +503,18 @@
       <option name="project" value="LOCAL" />
       <updated>1493724820103</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Added button that allows hiding of left column.">
+      <created>1493725275572</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1493725275572</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="182575000" />
+    <option name="totallyTimeSpent" value="182708000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="157" y="110" width="1547" height="883" extended-state="0" />
@@ -556,7 +563,8 @@
     <MESSAGE value="FIXED: The name input box is now automatically focused when the user clicks on new chat." />
     <MESSAGE value="Applied fade-in effect to new chat page." />
     <MESSAGE value="Left column and top banner now appear over any other content. TODO: Allow hiding of left column." />
-    <option name="LAST_COMMIT_MESSAGE" value="Left column and top banner now appear over any other content. TODO: Allow hiding of left column." />
+    <MESSAGE value="Added button that allows hiding of left column." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added button that allows hiding of left column." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -854,8 +862,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="530" column="45" lean-forward="false" selection-start-line="530" selection-start-column="45" selection-end-line="530" selection-end-column="45" />
+        <state relative-caret-position="366">
+          <caret line="297" column="33" lean-forward="false" selection-start-line="297" selection-start-column="33" selection-end-line="297" selection-end-column="33" />
           <folding />
         </state>
       </provider>
