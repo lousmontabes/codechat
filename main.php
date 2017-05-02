@@ -61,7 +61,6 @@
 
         #centercolumn{
             min-height:100vh;
-            width:75vw;
             margin-left:25vw;
             background:white;
             float:left;
