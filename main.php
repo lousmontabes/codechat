@@ -305,7 +305,7 @@
     <script src="scripts/jquery-1.7.1.min.js"></script>
     <script src="scripts/prism.js"></script>
 
-    <div id="topbanner">codechat</div>
+    <div id="topbanner"><div id="toggleColumnButton" onclick="toggleLeftColumn()">☰</div>codechat</div>
 
     <!-- LEFT COLUMN: User bar, navigation, etc. -->
     <div id="leftcolumn">
@@ -359,6 +359,7 @@
         var missedMessages = {};
         var saved = {};*/
 
+        var leftColumnVisible = true;
         var ajaxZone = $("#centercolumn");
         var chatListView = $("#chatListView");
 
@@ -512,6 +513,26 @@
         function fadeoutCard(cardId){
             var card = $("#card" + cardId);
             card.css("opacity", 0);
+        }
+
+        // Toggles left column
+        function toggleLeftColumn(){
+
+            var leftColumn = $("#leftcolumn");
+            var topBanner = $("#topbanner");
+
+            if(leftColumnVisible){
+                leftColumn.css("left", "-100%");
+                topBanner.css("background", "transparent");
+                topBanner.css("color", "#2e6da4");
+            }else{
+                leftColumn.css("left", "0");
+                topBanner.css("background", "#2e6da4");
+                topBanner.css("color", "white");
+            }
+
+            leftColumnVisible = !leftColumnVisible;
+
         }
 
     </script>
