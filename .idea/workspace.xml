@@ -110,7 +110,7 @@
         <entry file="file://$PROJECT_DIR$/main.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="420">
-              <caret line="538" column="67" lean-forward="false" selection-start-line="538" selection-start-column="67" selection-end-line="538" selection-end-column="67" />
+              <caret line="538" column="68" lean-forward="false" selection-start-line="538" selection-start-column="68" selection-end-line="538" selection-end-column="68" />
               <folding />
             </state>
           </provider>
@@ -424,7 +424,7 @@
       <workItem from="1488360201438" duration="2702000" />
       <workItem from="1489652853398" duration="4140000" />
       <workItem from="1490093141306" duration="39000" />
-      <workItem from="1493722483596" duration="3728000" />
+      <workItem from="1493722483596" duration="4036000" />
     </task>
     <task id="LOCAL-00001" summary="Moved unused content to folder">
       <created>1489653612356</created>
@@ -531,11 +531,18 @@
       <option name="project" value="LOCAL" />
       <updated>1493730517302</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Fixing toggle animation">
+      <created>1493730660648</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1493730660648</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="183738000" />
+    <option name="totallyTimeSpent" value="184046000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="157" y="110" width="1547" height="883" extended-state="0" />
@@ -587,7 +594,8 @@
     <MESSAGE value="Added button that allows hiding of left column." />
     <MESSAGE value="Added animation to the left column toggle." />
     <MESSAGE value="Changed placement of the toggle left column button." />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed placement of the toggle left column button." />
+    <MESSAGE value="Fixing toggle animation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixing toggle animation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -886,7 +894,7 @@
     <entry file="file://$PROJECT_DIR$/main.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
-          <caret line="538" column="67" lean-forward="false" selection-start-line="538" selection-start-column="67" selection-end-line="538" selection-end-column="67" />
+          <caret line="538" column="68" lean-forward="false" selection-start-line="538" selection-start-column="68" selection-end-line="538" selection-end-column="68" />
           <folding />
         </state>
       </provider>
