@@ -42,7 +42,9 @@
 
         #topbackground{
             background:#2e6da4;
-            width:100%;
+            width: inherit;
+            min-width: inherit;
+            max-width: inherit;
             height:60px;
             z-index:21;
             position:fixed;
