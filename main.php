@@ -536,7 +536,7 @@
             }else{
                 leftColumn.css("left", "0");
                 topBanner.css("color", "white");
-                setTimeout(topBanner.css("background", "#2e6da4"), 400);
+                setTimeout('topBanner.css("background", "#2e6da4")', 400);
             }
 
             leftColumnVisible = !leftColumnVisible;
