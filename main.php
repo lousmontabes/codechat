@@ -538,13 +538,16 @@
         function toggleLeftColumn(){
 
             var leftColumn = $("#leftcolumn");
+            var centerColumn = $("#centercolumn");
             var topBanner = $("#topbanner");
 
             if(leftColumnVisible){
                 leftColumn.css("left", "-100%");
+                centerColumn.css("margin-left", "10vw");
                 topBanner.css("color", "#2e6da4");
             }else{
                 leftColumn.css("left", "0");
+                centerColumn.css("margin-left", "25vw");
                 topBanner.css("color", "white");
             }
 
