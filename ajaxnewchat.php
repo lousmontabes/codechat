@@ -152,10 +152,9 @@ option{
 <script>
 
  $("#newchatform").submit(function (e) { 
-	 if ($("#nameinput").val() == ""){
+	 if ($("#nameinput").val() === ""){
 		 e.preventDefault();
-		 $("#namewarning").css("opacity","1");
-		 $("#namewarning").css("width","290px");
+		 $("#namewarning").css("opacity","1").css("width","290px");
 	 }
  });
  

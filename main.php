@@ -395,6 +395,7 @@
             $(".card.highlighted").removeClass("highlighted"); // Remove highlight from previous highlighted card.
             $("#newChatCard").addClass("highlighted"); // Highlight new card.
             updateAjax("ajaxnewchat.php");
+            $("#nameinput").focus();
         }
 
         $("#leftcolumn").scroll(function(event) {
