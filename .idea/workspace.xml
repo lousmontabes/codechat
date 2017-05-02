@@ -48,8 +48,8 @@
       <file leaf-file-name="ajaxchatbox.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ajaxchatbox.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="918">
-              <caret line="54" column="4" lean-forward="false" selection-start-line="54" selection-start-column="4" selection-end-line="54" selection-end-column="29" />
+            <state relative-caret-position="-1887">
+              <caret line="36" column="10" lean-forward="true" selection-start-line="36" selection-start-column="10" selection-end-line="36" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -108,8 +108,8 @@
       <file leaf-file-name="main.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="404">
-              <caret line="396" column="42" lean-forward="true" selection-start-line="396" selection-start-column="42" selection-end-line="396" selection-end-column="42" />
+            <state relative-caret-position="277">
+              <caret line="376" column="8" lean-forward="false" selection-start-line="376" selection-start-column="8" selection-end-line="376" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -118,8 +118,8 @@
       <file leaf-file-name="ajaxnewchat.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ajaxnewchat.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="515">
-              <caret line="154" column="24" lean-forward="true" selection-start-line="154" selection-start-column="9" selection-end-line="154" selection-end-column="24" />
+            <state relative-caret-position="447">
+              <caret line="154" column="66" lean-forward="false" selection-start-line="154" selection-start-column="66" selection-end-line="154" selection-end-column="66" />
               <folding />
             </state>
           </provider>
@@ -419,7 +419,7 @@
       <workItem from="1488360201438" duration="2702000" />
       <workItem from="1489652853398" duration="4140000" />
       <workItem from="1490093141306" duration="39000" />
-      <workItem from="1493722483596" duration="795000" />
+      <workItem from="1493722483596" duration="1059000" />
     </task>
     <task id="LOCAL-00001" summary="Moved unused content to folder">
       <created>1489653612356</created>
@@ -470,11 +470,18 @@
       <option name="project" value="LOCAL" />
       <updated>1493722634960</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="The name input box is now automatically focused when the user clicks on new chat.">
+      <created>1493723322856</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1493723322856</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="180805000" />
+    <option name="totallyTimeSpent" value="181069000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="192" y="117" width="1547" height="883" extended-state="0" />
@@ -519,7 +526,8 @@
     <MESSAGE value="Added functionality: pressing the ALT key now toggles between text mode and code mode. Text mode sends messages as plain text." />
     <MESSAGE value="Improved ALT key functionality" />
     <MESSAGE value="Fixed chatroom spanning horizontally out of viewport." />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed chatroom spanning horizontally out of viewport." />
+    <MESSAGE value="The name input box is now automatically focused when the user clicks on new chat." />
+    <option name="LAST_COMMIT_MESSAGE" value="The name input box is now automatically focused when the user clicks on new chat." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -787,14 +795,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ajaxchatbox.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
-          <caret line="54" column="4" lean-forward="false" selection-start-line="54" selection-start-column="4" selection-end-line="54" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/generic.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
@@ -803,18 +803,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ajaxchatbox.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1887">
+          <caret line="36" column="10" lean-forward="true" selection-start-line="36" selection-start-column="10" selection-end-line="36" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ajaxnewchat.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="515">
-          <caret line="154" column="24" lean-forward="true" selection-start-line="154" selection-start-column="9" selection-end-line="154" selection-end-column="24" />
+        <state relative-caret-position="447">
+          <caret line="154" column="66" lean-forward="false" selection-start-line="154" selection-start-column="66" selection-end-line="154" selection-end-column="66" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="396" column="42" lean-forward="true" selection-start-line="396" selection-start-column="42" selection-end-line="396" selection-end-column="42" />
+        <state relative-caret-position="277">
+          <caret line="376" column="8" lean-forward="false" selection-start-line="376" selection-start-column="8" selection-end-line="376" selection-end-column="8" />
           <folding />
         </state>
       </provider>

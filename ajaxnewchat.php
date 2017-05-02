@@ -151,11 +151,16 @@ option{
 
 <script>
 
- $("#newchatform").submit(function (e) { 
-	 if ($("#nameinput").val() === ""){
-		 e.preventDefault();
-		 $("#namewarning").css("opacity","1").css("width","290px");
-	 }
- });
+    $(document).ready(function(){
+        // Focus on the name input as soon as the page has loaded.
+        $("#nameinput").focus();
+    });
+
+     $("#newchatform").submit(function (e) {
+         if ($("#nameinput").val() === ""){
+             e.preventDefault();
+             $("#namewarning").css("opacity","1").css("width","290px");
+         }
+     });
  
 </script>
