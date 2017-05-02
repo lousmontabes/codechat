@@ -310,6 +310,11 @@
             position: fixed;
             left: 1.5em;
             cursor: pointer;
+            transition: transform 0.1s;
+        }
+
+        #toggleColumnButton:active{
+            transform: scale(0.8);
         }
 
     </style>
