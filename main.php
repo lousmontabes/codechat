@@ -38,7 +38,7 @@
             background:#2e6da4;
             position:fixed;
             font-family: geometos;
-            z-index:10;
+            z-index:21;
         }
 
         #leftcolumn{
@@ -53,6 +53,7 @@
             position:fixed;
             height:100%;
             overflow-y: scroll;
+            z-index:20;
         }
 
         #leftcolumn::-webkit-scrollbar {
