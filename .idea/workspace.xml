@@ -109,8 +109,8 @@
       <file leaf-file-name="main.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="366">
-              <caret line="297" column="33" lean-forward="false" selection-start-line="297" selection-start-column="33" selection-end-line="297" selection-end-column="33" />
+            <state relative-caret-position="512">
+              <caret line="535" column="27" lean-forward="false" selection-start-line="535" selection-start-column="27" selection-end-line="535" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -424,7 +424,7 @@
       <workItem from="1488360201438" duration="2702000" />
       <workItem from="1489652853398" duration="4140000" />
       <workItem from="1490093141306" duration="39000" />
-      <workItem from="1493722483596" duration="2698000" />
+      <workItem from="1493722483596" duration="3367000" />
     </task>
     <task id="LOCAL-00001" summary="Moved unused content to folder">
       <created>1489653612356</created>
@@ -510,11 +510,18 @@
       <option name="project" value="LOCAL" />
       <updated>1493725275572</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Added button that allows hiding of left column.">
+      <created>1493725395619</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1493725395619</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="182708000" />
+    <option name="totallyTimeSpent" value="183377000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="157" y="110" width="1547" height="883" extended-state="0" />
@@ -862,8 +869,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="297" column="33" lean-forward="false" selection-start-line="297" selection-start-column="33" selection-end-line="297" selection-end-column="33" />
+        <state relative-caret-position="512">
+          <caret line="535" column="27" lean-forward="false" selection-start-line="535" selection-start-column="27" selection-end-line="535" selection-end-column="27" />
           <folding />
         </state>
       </provider>

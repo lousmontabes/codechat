@@ -26,7 +26,6 @@
         }
 
         #topbanner{
-            /*transition:0.5s;*/
             min-width:300px;
             width:25vw;
             max-width:350px;
@@ -39,6 +38,7 @@
             position:fixed;
             font-family: geometos;
             z-index:21;
+            transition: color 0.4s;
         }
 
         #leftcolumn{
@@ -54,6 +54,7 @@
             height:100%;
             overflow-y: scroll;
             z-index:20;
+            transition: left 0.4s;
         }
 
         #leftcolumn::-webkit-scrollbar {
@@ -531,8 +532,8 @@
                 topBanner.css("color", "#2e6da4");
             }else{
                 leftColumn.css("left", "0");
-                topBanner.css("background", "#2e6da4");
                 topBanner.css("color", "white");
+                setTimeout(topBanner.css("background", "#2e6da4"), 400);
             }
 
             leftColumnVisible = !leftColumnVisible;
