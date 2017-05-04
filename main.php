@@ -72,10 +72,10 @@
 
         #centercolumn{
             min-height: 100vh;
-            margin-left: auto;
-            margin-right: auto;
             background: white;
-            width: 51.5em;
+            width: 75vw;
+            max-width: 1000px;
+            margin-left: 25vw;
             display: block;
         }
 
@@ -545,13 +545,17 @@
 
             var leftColumn = $("#leftcolumn");
             var topBanner = $("#topbanner");
+            var centerColumn = $("#centercolumn");
 
             if(leftColumnVisible){
                 leftColumn.css("left", "-100%");
                 topBanner.css("color", "#2e6da4");
+                centerColumn.css("margin-left", "auto");
+                centerColumn.css("margin-right", "auto");
             }else{
                 leftColumn.css("left", "0");
                 topBanner.css("color", "white");
+                centerColumn.css("margin-left", "25vw");
             }
 
             leftColumnVisible = !leftColumnVisible;
