@@ -514,6 +514,27 @@
             card.css("opacity", 0);
         }
 
+        $("#leftcolumn").scroll(function(){
+
+            var topBackground = $("#topbackground");
+            var scrolled = $("#leftcolumn").scrollTop();
+            var max = $("#columnheader").height;
+            var opacity = 1;
+
+            if (scrolled <= 0) opacity = 1;
+            else if (scrolled > 0 && scrolled < max){
+                opacity = max / scrolled;
+                topBackground.css("background", transparent);
+            }
+            else {
+                opacity = 0;
+                topBackground.css("background", "#2e6da4");
+            }
+
+            $("#userbar").css("opacity", opacity);
+
+        });
+
     </script>
 
 </body>
