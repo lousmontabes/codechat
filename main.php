@@ -573,6 +573,7 @@
             if (scrolled <= 0) opacity = 1;
             else if (scrolled > 0 && scrolled < max){
                 opacity = max / scrolled;
+                alert(opacity);
                 topBackground.css("background", transparent);
             }
             else {
