@@ -38,6 +38,7 @@
             font-family: geometos;
             z-index:22;
             transition: color 0.4s;
+            text-rendering: geometricPrecision;
         }
 
         #topbackground{
