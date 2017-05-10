@@ -567,12 +567,12 @@
 
             var topBackground = $("#topbackground");
             var scrolled = $("#leftcolumn").scrollTop();
-            var max = 255;
+            var max = 230;
             var opacity = 1;
 
             if (scrolled <= 0) opacity = 1;
             else if (scrolled > 0 && scrolled < max){
-                opacity = max / scrolled;
+                opacity = (1 / scrolled);
                 alert(opacity);
                 topBackground.css("background", transparent);
             }

@@ -108,8 +108,8 @@
       <file leaf-file-name="main.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="575" column="31" selection-start-line="575" selection-start-column="31" selection-end-line="575" selection-end-column="31" />
+            <state relative-caret-position="460">
+              <caret line="574" column="41" selection-start-line="574" selection-start-column="41" selection-end-line="574" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -437,7 +437,7 @@
       <workItem from="1490093141306" duration="39000" />
       <workItem from="1493722483596" duration="7404000" />
       <workItem from="1493886694037" duration="476000" />
-      <workItem from="1494400958760" duration="541000" />
+      <workItem from="1494400958760" duration="885000" />
     </task>
     <task id="LOCAL-00001" summary="Moved unused content to folder">
       <created>1489653612356</created>
@@ -621,11 +621,18 @@
       <option name="project" value="LOCAL" />
       <updated>1494401138891</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Fixing fade effect">
+      <created>1494401520659</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1494401520659</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="188431000" />
+    <option name="totallyTimeSpent" value="188775000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -975,8 +982,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="575" column="31" selection-start-line="575" selection-start-column="31" selection-end-line="575" selection-end-column="31" />
+        <state relative-caret-position="460">
+          <caret line="574" column="41" selection-start-line="574" selection-start-column="41" selection-end-line="574" selection-end-column="41" />
           <folding />
         </state>
       </provider>
