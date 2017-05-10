@@ -266,7 +266,7 @@ pre::-webkit-scrollbar-thumb:hover {
 	position: fixed;
 	bottom: 10px;
 	height: 50px;
-	max-width: 800px;
+	width: 800px;
 	margin-left: auto;
 	margin-right: auto;
 	text-align: left;
