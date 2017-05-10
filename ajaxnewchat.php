@@ -98,7 +98,7 @@ option{
 
 <div id="everything">
 
-    <div id="area" style="overflow:hidden">
+    <div id="area" style="opacity:0; overflow:hidden">
 
         <div class="inthemiddle" id="newchatform">
 
@@ -151,12 +151,24 @@ option{
 
 <script>
 
- $("#newchatform").submit(function (e) { 
-	 if ($("#nameinput").val() == ""){
-		 e.preventDefault();
-		 $("#namewarning").css("opacity","1");
-		 $("#namewarning").css("width","290px");
-	 }
- });
+    $(document).ready(function(){
+
+        // Change tab title
+        document.title = 'Codechat / New chat';
+
+        // Focus on the name input as soon as the page has loaded.
+        $("#nameinput").focus();
+
+        // Fade-in effect
+        setTimeout('$("#area").css("opacity",1)',20);
+
+    });
+
+     $("#newchatform").submit(function (e) {
+         if ($("#nameinput").val() === ""){
+             e.preventDefault();
+             $("#namewarning").css("opacity","1").css("width","290px");
+         }
+     });
  
 </script>

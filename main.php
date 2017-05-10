@@ -26,7 +26,6 @@
         }
 
         #topbanner{
-            /*transition:0.5s;*/
             min-width:300px;
             width:25vw;
             max-width:350px;
@@ -35,10 +34,20 @@
             line-height: 68px;
             font-size: 18px;
             color:white;
-            background:#2e6da4;
             position:fixed;
             font-family: geometos;
-            z-index:10;
+            z-index:22;
+            transition: color 0.4s;
+        }
+
+        #topbackground{
+            background:#2e6da4;
+            width: inherit;
+            min-width: inherit;
+            max-width: inherit;
+            height:60px;
+            z-index:21;
+            position:fixed;
         }
 
         #leftcolumn{
@@ -53,6 +62,8 @@
             position:fixed;
             height:100%;
             overflow-y: scroll;
+            z-index:20;
+            transition: left 0.4s;
         }
 
         #leftcolumn::-webkit-scrollbar {
@@ -60,12 +71,12 @@
         }
 
         #centercolumn{
-            min-height:100vh;
-            width:75vw;
-            margin-left:25vw;
-            background:white;
-            float:left;
-            display:block;
+            min-height: 100vh;
+            background: white;
+            width: 75vw;
+            max-width: 1000px;
+            margin-left: 25vw;
+            display: block;
         }
 
         .centered{
@@ -294,6 +305,18 @@
             transition:0.1s;
         }
 
+        #toggleColumnButton{
+            display:inline-block;
+            position: fixed;
+            left: 1.5em;
+            cursor: pointer;
+            transition: transform 0.1s;
+        }
+
+        #toggleColumnButton:active{
+            transform: scale(0.8);
+        }
+
     </style>
 
     <link href="css/generic.css" rel="stylesheet" />
@@ -305,10 +328,12 @@
     <script src="scripts/jquery-1.7.1.min.js"></script>
     <script src="scripts/prism.js"></script>
 
-    <div id="topbanner">codechat</div>
+    <div id="topbanner"><div id="toggleColumnButton" onclick="toggleLeftColumn()">☰</div>codechat</div>
 
     <!-- LEFT COLUMN: User bar, navigation, etc. -->
     <div id="leftcolumn">
+
+        <div id="topbackground"></div>
 
         <div id="columnheader">
             <?php include "modules/userview.php" ?>
@@ -359,6 +384,7 @@
         var missedMessages = {};
         var saved = {};*/
 
+        var leftColumnVisible = true;
         var ajaxZone = $("#centercolumn");
         var chatListView = $("#chatListView");
 
@@ -514,6 +540,29 @@
             card.css("opacity", 0);
         }
 
+        // Toggles left column
+        function toggleLeftColumn(){
+
+            var leftColumn = $("#leftcolumn");
+            var topBanner = $("#topbanner");
+            var centerColumn = $("#centercolumn");
+
+            if(leftColumnVisible){
+                leftColumn.css("left", "-100%");
+                topBanner.css("color", "#2e6da4");
+                centerColumn.css("margin-left", "auto");
+                centerColumn.css("margin-right", "auto");
+            }else{
+                leftColumn.css("left", "0");
+                topBanner.css("color", "white");
+                centerColumn.css("margin-left", "25vw");
+            }
+
+            leftColumnVisible = !leftColumnVisible;
+
+        }
+
+        // topBackground fade effect
         $("#leftcolumn").scroll(function(){
 
             var topBackground = $("#topbackground");
