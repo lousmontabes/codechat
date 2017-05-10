@@ -437,7 +437,7 @@
       <workItem from="1490093141306" duration="39000" />
       <workItem from="1493722483596" duration="7404000" />
       <workItem from="1493886694037" duration="476000" />
-      <workItem from="1494400958760" duration="1320000" />
+      <workItem from="1494400958760" duration="1417000" />
     </task>
     <task id="LOCAL-00001" summary="Moved unused content to folder">
       <created>1489653612356</created>
@@ -642,11 +642,18 @@
       <option name="project" value="LOCAL" />
       <updated>1494402619794</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Fixing fade effect">
+      <created>1494402729382</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1494402729382</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="189210000" />
+    <option name="totallyTimeSpent" value="189307000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />

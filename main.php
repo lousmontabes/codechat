@@ -567,7 +567,7 @@
 
             var topBackground = $("#topbackground");
             var scrolled = $("#leftcolumn").scrollTop();
-            var max = 83;
+            var max = 60;
             var opacity = 1;
 
             if (scrolled <= 0) opacity = 1;
