@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4bdde7f8-1dcd-4c07-822c-a06b0766a97e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ajaxnewchat.php" afterPath="$PROJECT_DIR$/ajaxnewchat.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.php" afterPath="$PROJECT_DIR$/main.php" />
     </list>
     <ignored path="codechat.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -231,21 +231,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1394">
-              <caret line="552" column="50" lean-forward="true" selection-start-line="552" selection-start-column="50" selection-end-line="552" selection-end-column="50" />
-              <folding>
-                <marker date="1495265321168" expanded="true" signature="611:968" ph="{...}" />
-                <marker date="1495265321168" expanded="true" signature="14749:14763" ph="..." />
-                <marker date="1495265321168" expanded="true" signature="14749:14772" ph="..." />
-              </folding>
+            <state relative-caret-position="239">
+              <caret line="495" column="17" lean-forward="false" selection-start-line="495" selection-start-column="17" selection-end-line="495" selection-end-column="17" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ajaxnewchat.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ajaxnewchat.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ajaxnewchat.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="277">
@@ -322,9 +318,9 @@
         <option value="$PROJECT_DIR$/sql_createrelation.php" />
         <option value="$PROJECT_DIR$/css/generic.css" />
         <option value="$PROJECT_DIR$/ajaxchatbox.php" />
-        <option value="$PROJECT_DIR$/main.php" />
         <option value="$PROJECT_DIR$/sql_newchat.php" />
         <option value="$PROJECT_DIR$/ajaxnewchat.php" />
+        <option value="$PROJECT_DIR$/main.php" />
       </list>
     </option>
   </component>
@@ -339,8 +335,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-185" />
-    <option name="y" value="44" />
+    <option name="x" value="296" />
+    <option name="y" value="144" />
     <option name="width" value="1606" />
     <option name="height" value="883" />
   </component>
@@ -875,14 +871,21 @@
       <option name="project" value="LOCAL" />
       <updated>1495268466635</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="Added hash symbol to custom token preview">
+      <created>1495268705502</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1495268705502</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="193544000" />
+    <option name="totallyTimeSpent" value="193626000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-185" y="44" width="1606" height="883" extended-state="0" />
+    <frame x="296" y="144" width="1606" height="883" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3018868" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -954,7 +957,8 @@
     <MESSAGE value="Fixed typo in code." />
     <MESSAGE value="Testing" />
     <MESSAGE value="Fixed keyup method" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed keyup method" />
+    <MESSAGE value="Added hash symbol to custom token preview" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added hash symbol to custom token preview" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1350,18 +1354,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1394">
-          <caret line="552" column="50" lean-forward="true" selection-start-line="552" selection-start-column="50" selection-end-line="552" selection-end-column="50" />
-          <folding>
-            <marker date="1495265321168" expanded="true" signature="611:968" ph="{...}" />
-            <marker date="1495265321168" expanded="true" signature="14749:14763" ph="..." />
-            <marker date="1495265321168" expanded="true" signature="14749:14772" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sql_newchat.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
@@ -1379,6 +1371,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="277">
           <caret line="179" column="35" lean-forward="false" selection-start-line="179" selection-start-column="35" selection-end-line="179" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="495" column="17" lean-forward="false" selection-start-line="495" selection-start-column="17" selection-end-line="495" selection-end-column="17" />
           <folding />
         </state>
       </provider>

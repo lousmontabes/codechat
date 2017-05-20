@@ -501,7 +501,7 @@
 
             var hash = getHashValue('#');
 
-            if (hash.length == 7 && isValidToken(hash)){
+            if (isValidToken(hash)){
 
                 // The hash contains a valid token.
                 showChat(hash);
