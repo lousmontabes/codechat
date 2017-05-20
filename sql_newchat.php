@@ -17,20 +17,17 @@ $language = $_POST['language'];
 
 $customTokenSpecified = ($token != '');
 
-if (!$customTokenSpecified){
-    // Generate random 7 characters long string as a token.
-    $chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
-    $tokenLength = 7;
-    $token = substr(str_shuffle( $chars ), 0, $tokenLength);
-}
-
 // If the token coincides with another in the database, generate another random token.
 $occurrences = -1;
 
 while($occurrences != 0){
-    $chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
-    $tokenLength = 7;
-    $token = substr(str_shuffle($chars), 0, $tokenLength);
+
+    if (($occurrences != -1) || (!$customTokenSpecified)){
+        // Generate random 7 characters long string as a token.
+        $chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
+        $tokenLength = 7;
+        $token = substr(str_shuffle( $chars ), 0, $tokenLength);
+    }
 
     $result = mysqli_query($con, "SELECT * FROM chats WHERE token = '$token'");
 
