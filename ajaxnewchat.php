@@ -177,6 +177,7 @@ option{
     });
 
     $("#nameinput").keyup(function(){
+        console.log(toUpperCamelCase($("#nameinput").val()));
         $("#tokeninput").value = toUpperCamelCase($("#nameinput").val());
     });
 
