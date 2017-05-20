@@ -248,8 +248,8 @@
       <file leaf-file-name="ajaxnewchat.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ajaxnewchat.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="180" column="69" lean-forward="false" selection-start-line="180" selection-start-column="69" selection-end-line="180" selection-end-column="69" />
+            <state relative-caret-position="277">
+              <caret line="179" column="35" lean-forward="false" selection-start-line="179" selection-start-column="35" selection-end-line="179" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -868,11 +868,18 @@
       <option name="project" value="LOCAL" />
       <updated>1495268319174</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="Fixed keyup method">
+      <created>1495268466635</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1495268466635</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="193307000" />
+    <option name="totallyTimeSpent" value="193544000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-185" y="44" width="1606" height="883" extended-state="0" />
@@ -946,7 +953,8 @@
     <MESSAGE value="Added real-time automatic token generation based on title when creating a new chat.&#10;Added further comprovation that the title is not empty or whitespace when submitting a chat." />
     <MESSAGE value="Fixed typo in code." />
     <MESSAGE value="Testing" />
-    <option name="LAST_COMMIT_MESSAGE" value="Testing" />
+    <MESSAGE value="Fixed keyup method" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed keyup method" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1369,8 +1377,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ajaxnewchat.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="180" column="69" lean-forward="false" selection-start-line="180" selection-start-column="69" selection-end-line="180" selection-end-column="69" />
+        <state relative-caret-position="277">
+          <caret line="179" column="35" lean-forward="false" selection-start-line="179" selection-start-column="35" selection-end-line="179" selection-end-column="35" />
           <folding />
         </state>
       </provider>
