@@ -38,6 +38,7 @@
             font-family: geometos;
             z-index:22;
             transition: color 0.4s;
+            text-rendering: geometricPrecision;
         }
 
         #topbackground{
@@ -561,6 +562,28 @@
             leftColumnVisible = !leftColumnVisible;
 
         }
+
+        // topBackground fade effect
+        $("#leftcolumn").scroll(function(){
+
+            var topBackground = $("#topbackground");
+            var scrolled = $("#leftcolumn").scrollTop();
+            var max = 60;
+            var opacity = 1;
+
+            if (scrolled <= 0) opacity = 1;
+            else if (scrolled > 0 && scrolled < max){
+                opacity = -(scrolled / max) + 1;
+                topBackground.css("background", "transparent");
+            }
+            else {
+                opacity = 0;
+                topBackground.css("background", "#2e6da4");
+            }
+
+            $("#userbar").css("opacity", opacity);
+
+        });
 
     </script>
 

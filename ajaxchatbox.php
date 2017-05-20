@@ -30,7 +30,12 @@ $chat_language = $row['language'];
 
 <div id="everything">
 
-<div id="area" style="opacity:0; margin-bottom:250px;">
+    <div class="centerarea">
+        <textarea id="usercontrols" onclick="//blurBackground()" onblur="//restoreBackground()" spellcheck="false" placeholder="Share code in <?php echo $chat_language ?>"></textarea>
+        <div id="bottomFade"></div>
+    </div>
+
+    <div id="area" style="opacity:0; margin-bottom:250px;">
 
     <div id="chatbanner">
         <?php include "modules/chatbanner.php" ?>
@@ -134,11 +139,6 @@ else echo "<img src='images/placeholder". $author_id % 5 .".gif'>";
 
 </div>
 
-</div>
-
-<div class="centerarea">
-    <textarea id="usercontrols" onclick="//blurBackground()" onblur="//restoreBackground()" spellcheck="false" placeholder="Share code in <?php echo $chat_language ?>"></textarea>
-    <div id="bottomFade"></div>
 </div>
 
 <script type="text/javascript">

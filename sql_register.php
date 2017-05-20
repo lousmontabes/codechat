@@ -22,7 +22,7 @@ if ($rowemail[0] == 1){
 	
 	header('Location: register.php#alreadyexists');
 	exit;
-	
+
 	mysqli_close($con);
 	
 }

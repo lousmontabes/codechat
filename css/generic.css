@@ -266,8 +266,7 @@ pre::-webkit-scrollbar-thumb:hover {
 	position: fixed;
 	bottom: 10px;
 	height: 50px;
-	width: 64vw;
-	left: 29vw;
+	width: 800px;
 	margin-left: auto;
 	margin-right: auto;
 	text-align: left;
@@ -490,6 +489,7 @@ pre::-webkit-scrollbar-thumb:hover {
 }
 
 #bottomFade{
+	display:none;
     position:fixed;
     left:25vw;
     bottom:0;
