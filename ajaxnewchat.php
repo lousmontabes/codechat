@@ -11,7 +11,7 @@ h1{
 }
 
 #newchatform{
-    width:300px;
+    width:11.5em;
     height:300px;
 	font-size:28px;
 	font-weight:100;
@@ -138,6 +138,8 @@ option{
                     <option value="VHDL">VHDL</option>
                     <option value="vim">vim</option>
                 </select>
+
+                <input id="tokeninput" type="text" spellcheck="false" class="noborder" placeholder="Enter custom token (optional)" name="token">
 
                 <input type="submit" class="bigbutton" value="Done">
 
