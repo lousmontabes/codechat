@@ -94,6 +94,16 @@ option{
 	font-size:16px;	
 }
 
+    #tokeninput{
+        transition:0.2s;
+        font-size:18px;
+        opacity:0.5;
+    }
+
+    #tokeninput:hover{
+        opacity: 1;
+    }
+
 </style>
 
 <div id="everything">
@@ -166,11 +176,25 @@ option{
 
     });
 
+    $("#nameinput").keyup(function(){
+        $("#tokeninput").value = toUpperCamelCase("#nameinput").val());
+    });
+
      $("#newchatform").submit(function (e) {
-         if ($("#nameinput").val() === ""){
+         if ($("#nameinput").val().replace(/\s+/g, '') === ""){
              e.preventDefault();
              $("#namewarning").css("opacity","1").css("width","290px");
          }
      });
+
+    function toUpperCamelCase(str) {
+
+        camelized = str.replace(/(?:^|\s)\w/g, function(match) {
+            return match.toUpperCase();
+        });
+
+        return camelized.replace(/\s+/g, '');
+
+    }
  
 </script>

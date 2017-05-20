@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4bdde7f8-1dcd-4c07-822c-a06b0766a97e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sql_newchat.php" afterPath="$PROJECT_DIR$/sql_newchat.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ajaxnewchat.php" afterPath="$PROJECT_DIR$/ajaxnewchat.php" />
     </list>
     <ignored path="codechat.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -128,10 +128,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sql_newchat.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="sql_newchat.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sql_newchat.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
+            <state relative-caret-position="294">
               <caret line="24" column="31" lean-forward="false" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
               <folding>
                 <marker date="1495265704317" expanded="true" signature="953:995" ph="SELECT * FRO... chats" />
@@ -245,11 +245,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ajaxnewchat.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ajaxnewchat.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ajaxnewchat.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="838">
-              <caret line="141" column="142" lean-forward="false" selection-start-line="141" selection-start-column="142" selection-end-line="141" selection-end-column="142" />
+            <state relative-caret-position="277">
+              <caret line="97" column="24" lean-forward="false" selection-start-line="97" selection-start-column="24" selection-end-line="97" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -320,11 +320,11 @@
         <option value="$PROJECT_DIR$/chatbox.php" />
         <option value="$PROJECT_DIR$/sql_retrievemessages.php" />
         <option value="$PROJECT_DIR$/sql_createrelation.php" />
-        <option value="$PROJECT_DIR$/ajaxnewchat.php" />
         <option value="$PROJECT_DIR$/css/generic.css" />
         <option value="$PROJECT_DIR$/ajaxchatbox.php" />
         <option value="$PROJECT_DIR$/main.php" />
         <option value="$PROJECT_DIR$/sql_newchat.php" />
+        <option value="$PROJECT_DIR$/ajaxnewchat.php" />
       </list>
     </option>
   </component>
@@ -339,8 +339,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="198" />
-    <option name="y" value="106" />
+    <option name="x" value="190" />
+    <option name="y" value="76" />
     <option name="width" value="1606" />
     <option name="height" value="883" />
   </component>
@@ -789,14 +789,21 @@
       <option name="project" value="LOCAL" />
       <updated>1494433882326</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Fixed error that prevented custom tokens from being applied.">
+      <created>1495265723262</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1495265723263</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="190557000" />
+    <option name="totallyTimeSpent" value="191686000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="198" y="106" width="1606" height="883" extended-state="0" />
+    <frame x="190" y="76" width="1606" height="883" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3018868" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -863,7 +870,8 @@
     <MESSAGE value="Fixing fade effect" />
     <MESSAGE value="Tweaking fade effect parameters" />
     <MESSAGE value="Changing user input area style" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changing user input area style" />
+    <MESSAGE value="Fixed error that prevented custom tokens from being applied." />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed error that prevented custom tokens from being applied." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -948,19 +956,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="24" lean-forward="false" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sql_newchat.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="24" column="31" lean-forward="false" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
-          <folding>
-            <marker date="1495265704317" expanded="true" signature="953:995" ph="SELECT * FRO... chats" />
-            <marker date="1495265704317" expanded="true" signature="1068:1161" ph="INSERT INTO chats... " />
-            <marker date="1495265704317" expanded="true" signature="1224:1280" ph="UPDATE user_... " />
-            <marker date="1495265704317" expanded="true" signature="1319:1395" ph="INSERT INTO `relations`... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1134,14 +1129,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ajaxnewchat.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="838">
-          <caret line="141" column="142" lean-forward="false" selection-start-line="141" selection-start-column="142" selection-end-line="141" selection-end-column="142" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/generic.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1224">
@@ -1289,6 +1276,27 @@
             <marker date="1495265321168" expanded="true" signature="14749:14763" ph="..." />
             <marker date="1495265321168" expanded="true" signature="14749:14772" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sql_newchat.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="24" column="31" lean-forward="false" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+          <folding>
+            <marker date="1495265704317" expanded="true" signature="953:995" ph="SELECT * FRO... chats" />
+            <marker date="1495265704317" expanded="true" signature="1068:1161" ph="INSERT INTO chats... " />
+            <marker date="1495265704317" expanded="true" signature="1224:1280" ph="UPDATE user_... " />
+            <marker date="1495265704317" expanded="true" signature="1319:1395" ph="INSERT INTO `relations`... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajaxnewchat.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="97" column="24" lean-forward="false" selection-start-line="97" selection-start-column="24" selection-end-line="97" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>
