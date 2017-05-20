@@ -248,8 +248,8 @@
       <file leaf-file-name="ajaxnewchat.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ajaxnewchat.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="97" column="24" lean-forward="false" selection-start-line="97" selection-start-column="24" selection-end-line="97" selection-end-column="24" />
+            <state relative-caret-position="323">
+              <caret line="180" column="7" lean-forward="true" selection-start-line="180" selection-start-column="7" selection-end-line="180" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -339,8 +339,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="190" />
-    <option name="y" value="76" />
+    <option name="x" value="-185" />
+    <option name="y" value="44" />
     <option name="width" value="1606" />
     <option name="height" value="883" />
   </component>
@@ -796,14 +796,21 @@
       <option name="project" value="LOCAL" />
       <updated>1495265723263</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Added real-time automatic token generation based on title when creating a new chat.&#10;Added further comprovation that the title is not empty or whitespace when submitting a chat.">
+      <created>1495266893364</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1495266893364</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="191686000" />
+    <option name="totallyTimeSpent" value="192478000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="190" y="76" width="1606" height="883" extended-state="0" />
+    <frame x="-185" y="44" width="1606" height="883" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3018868" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -871,7 +878,8 @@
     <MESSAGE value="Tweaking fade effect parameters" />
     <MESSAGE value="Changing user input area style" />
     <MESSAGE value="Fixed error that prevented custom tokens from being applied." />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed error that prevented custom tokens from being applied." />
+    <MESSAGE value="Added real-time automatic token generation based on title when creating a new chat.&#10;Added further comprovation that the title is not empty or whitespace when submitting a chat." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added real-time automatic token generation based on title when creating a new chat.&#10;Added further comprovation that the title is not empty or whitespace when submitting a chat." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1294,8 +1302,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ajaxnewchat.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="97" column="24" lean-forward="false" selection-start-line="97" selection-start-column="24" selection-end-line="97" selection-end-column="24" />
+        <state relative-caret-position="323">
+          <caret line="180" column="7" lean-forward="true" selection-start-line="180" selection-start-column="7" selection-end-line="180" selection-end-column="7" />
           <folding />
         </state>
       </provider>

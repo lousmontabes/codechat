@@ -177,7 +177,7 @@ option{
     });
 
     $("#nameinput").keyup(function(){
-        $("#tokeninput").value = toUpperCamelCase("#nameinput").val());
+        $("#tokeninput").value = toUpperCamelCase("#nameinput").val();
     });
 
      $("#newchatform").submit(function (e) {
