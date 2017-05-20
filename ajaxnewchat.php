@@ -178,7 +178,7 @@ option{
 
     $("#nameinput").keyup(function(){
         console.log(toUpperCamelCase($("#nameinput").val()));
-        $("#tokeninput").value = toUpperCamelCase($("#nameinput").val());
+        $("#tokeninput").val(toUpperCamelCase($("#nameinput").val()));
     });
 
      $("#newchatform").submit(function (e) {
