@@ -114,7 +114,7 @@ option{
 
             <form id="newchatform" action="sql_newchat.php" method="post">
 
-                <div id="namewarning" class="warning"><b>!</b> Please choose a name for the chat</div><br>
+                <div id="namewarning" class="warning"><b>!</b> Please enter a name for the chat</div><br>
                 <input id="nameinput" type="text" spellcheck="false" class="noborder" placeholder="Enter chat name" name="name">
 
                 <select class="noborder" name="language">
