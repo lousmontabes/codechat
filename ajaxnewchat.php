@@ -7,7 +7,7 @@ h1{
 	margin:0;
 	padding:0;
 	font-weight:100;
-	font-size:36px;	
+	font-size:36px;
 }
 
 #newchatform{
@@ -26,7 +26,7 @@ h1{
 }
 
 #newchatform select{
-	border-bottom:none;	
+	border-bottom:none;
 	margin-left:-4px;
 }
 
@@ -34,7 +34,7 @@ h1{
 	border:none;
 	font-size:28px;
 	font-weight:300;
-	color:grey;	
+	color:grey;
 }
 
 #newchatform input:hover, #newchatform select:hover,
@@ -61,7 +61,7 @@ h1{
 }
 
 .bigbutton:hover{
-	border-color:grey;	
+	border-color:grey;
 }
 
 .warning{
@@ -91,7 +91,7 @@ h1{
 }
 
 option{
-	font-size:16px;	
+	font-size:16px;
 }
 
     #tokeninput{
@@ -151,7 +151,18 @@ option{
 
                 <input id="tokeninput" type="text" spellcheck="false" class="noborder" placeholder="Enter custom token (optional)" name="token">
 
-                <input type="submit" class="bigbutton" value="Done">
+                <input type="submit" class="bigbutton" value="Create chat">
+
+            </form>
+
+			...or join an existing chat:
+
+			<form id="existingchatform" method="post">
+
+                <div id="existingtokenwarning" class="warning"><b>!</b> Please enter a token</div><br>
+                <input id="existingtokeninput" type="text" spellcheck="false" class="noborder" placeholder="Enter token" name="token">
+
+                <input type="submit" class="bigbutton" value="Join existing chat">
 
             </form>
 
@@ -187,6 +198,16 @@ option{
          }
      });
 
+	 $("#existingchatform").submit(function (e) {
+         if ($("#existingtokeninput").val().replace(/\s+/g, '') === ""){
+             e.preventDefault();
+             $("#existingtokenwarning").css("opacity","1").css("width","290px");
+         } else {
+			 updateAjax("#" + $("#existingtokeninput").val());
+			 e.preventDefault();
+		 }
+     });
+
     function toUpperCamelCase(str) {
 
         camelized = str.replace(/(?:^|\s)\w/g, function(match) {
@@ -196,5 +217,5 @@ option{
         return camelized.replace(/\s+/g, '');
 
     }
- 
+
 </script>
