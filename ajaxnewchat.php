@@ -2,79 +2,79 @@
 
 <style>
 
-h1{
-	font-family:open sans;
-	margin:0;
-	padding:0;
-	font-weight:100;
-	font-size:36px;
-}
+	h1{
+		font-family:open sans;
+		margin:0;
+		padding:0;
+		font-weight:100;
+		font-size:36px;
+	}
 
-#newchatform{
-    width:11.5em;
-    height:300px;
-	font-size:28px;
-	font-weight:100;
-	color:grey;
-	overflow:hidden;
-}
+	#newchatform{
+	    width:11.5em;
+	    height:300px;
+		font-size:28px;
+		font-weight:100;
+		color:grey;
+		overflow:hidden;
+	}
 
-#newchatform input, #newchatform select{
-	transition:0.2s;
-	font-family:open sans;
-	margin-bottom:10px;
-}
+	#newchatform input, #newchatform select{
+		transition:0.2s;
+		font-family:open sans;
+		margin-bottom:10px;
+	}
 
-#newchatform select{
-	border-bottom:none;
-	margin-left:-4px;
-}
+	#newchatform select{
+		border-bottom:none;
+		margin-left:-4px;
+	}
 
-.noborder{
-	border:none;
-	font-size:28px;
-	font-weight:300;
-	color:grey;
-}
+	.noborder{
+		border:none;
+		font-size:28px;
+		font-weight:300;
+		color:grey;
+	}
 
-#newchatform input:hover, #newchatform select:hover,
-#newchatform input:focus, #newchatform select:focus{
-	color:black;
-}
+	#newchatform input:hover, #newchatform select:hover,
+	#newchatform input:focus, #newchatform select:focus{
+		color:black;
+	}
 
-#newchatform input:focus, #newchatform select{
-	outline:none;
-}
+	#newchatform input:focus, #newchatform select{
+		outline:none;
+	}
 
-.warning{
-	transition:0.2s;
-	background:#E9797B;
-	display:inline-block;
-	padding:5px 10px;
-	border-radius:6px;
-	font-size:16px;
-	font-weight:600;
-	color:white;
-	opacity:0;
-	overflow:hidden;
-	white-space:nowrap;
-	width:0px;
-}
+	.warning{
+		transition:0.2s;
+		background:#E9797B;
+		display:inline-block;
+		padding:5px 10px;
+		border-radius:6px;
+		font-size:16px;
+		font-weight:600;
+		color:white;
+		opacity:0;
+		overflow:hidden;
+		white-space:nowrap;
+		width:0px;
+	}
 
-.warning b{
-	background:white;
-	color:#E9797B;
-	display:inline-block;
-	border-radius:8px;
-	text-align:center;
-	line-height:16px;
-	width:16px;
-	height:16px;
-}
+	.warning b{
+		background:white;
+		color:#E9797B;
+		display:inline-block;
+		border-radius:8px;
+		text-align:center;
+		line-height:16px;
+		width:16px;
+		height:16px;
+	}
 
-option{
-	font-size:16px;
-}
+	option{
+		font-size:16px;
+	}
 
     #tokeninput{
         transition:0.2s;
@@ -85,6 +85,15 @@ option{
     #tokeninput:hover{
         opacity: 1;
     }
+
+	.bigbutton:hover{
+		transform: scale(1.05);
+		color: white;
+	}
+
+	.inthemiddle {
+		height: 600px;
+	}
 
 </style>
 
