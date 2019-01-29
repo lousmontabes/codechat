@@ -638,6 +638,12 @@ pre::-webkit-scrollbar-thumb:hover {
 	background:rgba(215,215,215,1);
 }
 
+.info-text {
+	color: rgb(46, 109, 164);
+	font-size: 16px;
+	font-weight: 600;
+}
+
 /* ICONS */
 
 /*icon{
