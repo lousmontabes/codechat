@@ -12,7 +12,6 @@
 
 	#newchatform{
 	    width:11.5em;
-	    height:300px;
 		font-size:28px;
 		font-weight:100;
 		color:grey;
