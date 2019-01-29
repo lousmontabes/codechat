@@ -145,7 +145,7 @@
 
             </form>
 
-			...or join an existing chat:
+			<div class="info-text">...or join an existing chat:</div>
 
 			<form id="existingchatform" method="post">
 
