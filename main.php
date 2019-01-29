@@ -345,7 +345,7 @@
             <div id="chatListView">
                 <?php include "modules/userchatlistview.php" ?>
             </div>
-            <div class="card" id="newChatCard" onclick="newChatClicked()">+ New chat</div>
+            <div class="card" id="newChatCard" onclick="newChatClicked()">Join or create chat</div>
         </div>
 
         <div id="footer">
