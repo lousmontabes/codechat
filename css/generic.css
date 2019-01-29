@@ -12,7 +12,8 @@
 }
 
 body{
-	margin:0;	
+	margin:0;
+	overflow-x: hidden;	
 }
 
 code{
@@ -28,7 +29,7 @@ code{
 	transition:0.5s;
 	background:rgba(249,249,249,1.00);
 	padding:5px;
-	border:1px solid transparent;	
+	border:1px solid transparent;
 	border-radius:8px;
 	display:inline-block;
 	max-width:730px;
@@ -50,11 +51,11 @@ code{
 pre::-webkit-scrollbar {
     height: 0.5em;
 }
- 
+
 pre::-webkit-scrollbar-track {
-    
+
 }
- 
+
 pre::-webkit-scrollbar-thumb {
     background-color: lightgrey;
 	border-radius:0.25em;
@@ -412,7 +413,7 @@ pre::-webkit-scrollbar-thumb:hover {
 
 .bigsearchbar:focus{
 	outline:none;
-	
+
 }
 
 #chatmenu{
@@ -428,7 +429,7 @@ pre::-webkit-scrollbar-thumb:hover {
   background:     -ms-linear-gradient(90deg, #606c88 10%, #3f4c6b 90%); /* IE10 */
   background:      -o-linear-gradient(90deg, #606c88 10%, #3f4c6b 90%); /* Opera 11.10+ */
   background:         linear-gradient(90deg, #606c88 10%, #3f4c6b 90%); /* W3C */
-        
+
 	color:white;
 	text-align:center;
 	line-height:100px;
@@ -884,7 +885,3 @@ icon.search{
     94.29% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.015, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.015, 0, 0, 1); }
     100% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
 }
-
-
-
-
