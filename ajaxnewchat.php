@@ -10,21 +10,22 @@
 		font-size:36px;
 	}
 
-	#newchatform{
+	.newchatform{
 	    width:11.5em;
 		font-size:28px;
 		font-weight:100;
 		color:grey;
 		overflow:hidden;
+		padding: 1.5em;
 	}
 
-	#newchatform input, #newchatform select{
+	.newchatform input, .newchatform select{
 		transition:0.2s;
 		font-family:open sans;
 		margin-bottom:10px;
 	}
 
-	#newchatform select{
+	.newchatform select{
 		border-bottom:none;
 		margin-left:-4px;
 	}
@@ -36,12 +37,12 @@
 		color:grey;
 	}
 
-	#newchatform input:hover, #newchatform select:hover,
-	#newchatform input:focus, #newchatform select:focus{
+	.newchatform input:hover, .newchatform select:hover,
+	.newchatform input:focus, .newchatform select:focus{
 		color:black;
 	}
 
-	#newchatform input:focus, #newchatform select{
+	.newchatform input:focus, .newchatform select{
 		outline:none;
 	}
 
@@ -100,9 +101,9 @@
 
     <div id="area" style="opacity:0; overflow:hidden">
 
-        <div class="inthemiddle" id="newchatform">
+        <div class="inthemiddle newchatform">
 
-            <form id="newchatform" action="sql_newchat.php" method="post">
+            <form id="newchatform" class="newchatform" action="sql_newchat.php" method="post">
 
                 <div id="namewarning" class="warning"><b>!</b> Please enter a name for the chat</div><br>
                 <input id="nameinput" type="text" spellcheck="false" class="noborder" placeholder="Enter chat name" name="name">
@@ -147,7 +148,7 @@
 
 			<div class="info-text">...or join an existing chat:</div>
 
-			<form id="existingchatform" method="post">
+			<form id="existingchatform" class="newchatform" method="post">
 
                 <div id="existingtokenwarning" class="warning"><b>!</b> Please enter a token</div><br>
                 <input id="existingtokeninput" type="text" spellcheck="false" class="noborder" placeholder="Enter token" name="token">
@@ -181,7 +182,7 @@
         $("#tokeninput").val(toUpperCamelCase($("#nameinput").val()));
     });
 
-     $("#newchatform").submit(function (e) {
+     $(".newchatform").submit(function (e) {
          if ($("#nameinput").val().replace(/\s+/g, '') === ""){
              e.preventDefault();
              $("#namewarning").css("opacity","1").css("width","290px");
