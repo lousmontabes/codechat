@@ -13,7 +13,7 @@
 
 body{
 	margin:0;
-	overflow-x: hidden;	
+	overflow-x: hidden;
 }
 
 code{
@@ -365,22 +365,20 @@ pre::-webkit-scrollbar-thumb:hover {
 }
 
 .bigbutton{
-	background:transparent;
-	border:1px solid lightgrey;
-	border-bottom:1px solid lightgrey;
+	background: rgb(46, 109, 164);
 	padding:5px 30px;
-	border-radius:30px;
+	border-radius:5px;
 	display:block;
 	font-family:open sans;
 	font-weight:100;
 	font-size:26px;
-	color:grey;
+	color:white;
 	margin-top:10px;
 	cursor:pointer;
 }
 
 .bigbutton:hover{
-	border-color:grey;
+	transform:scale(1.01);
 }
 
 #searcharea{

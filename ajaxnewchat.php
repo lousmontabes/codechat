@@ -46,24 +46,6 @@ h1{
 	outline:none;
 }
 
-.bigbutton{
-	background:transparent;
-	border:1px solid lightgrey;
-	border-bottom:1px solid lightgrey;
-	padding:5px 30px;
-	border-radius:30px;
-	display:block;
-	font-family:open sans;
-	font-weight:100;
-	font-size:36px;
-	color:grey;
-	margin-top:10px;
-}
-
-.bigbutton:hover{
-	border-color:grey;
-}
-
 .warning{
 	transition:0.2s;
 	background:#E9797B;
