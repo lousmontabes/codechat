@@ -93,7 +93,7 @@
 		color: white;
 	}
 
-	.bugbutton:active {
+	.bigbutton:active {
 		transform: scale(1.01);
 	}
 
