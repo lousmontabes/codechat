@@ -111,6 +111,8 @@
 
             <form id="newchatform" class="newchatform" action="sql_newchat.php" method="post">
 
+				<div class="info-text">Create a new chat:</div>
+
                 <div id="namewarning" class="warning"><b>!</b> Please enter a name for the chat</div><br>
                 <input id="nameinput" type="text" spellcheck="false" class="noborder" placeholder="Enter chat name" name="name">
 
