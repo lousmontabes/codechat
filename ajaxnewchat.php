@@ -93,6 +93,10 @@
 		color: white;
 	}
 
+	.bugbutton:active {
+		transform: scale(1.01);
+	}
+
 	.inthemiddle {
 		height: 600px;
 	}
