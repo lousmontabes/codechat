@@ -39,12 +39,12 @@
 		color:grey;
 	}
 
-	.newchatform input:hover, .newchatform select:hover,
-	.newchatform input:focus, .newchatform select:focus{
+	.noborder:hover, .noborder:hover,
+	.noborder:focus, .noborder:focus{
 		color:black;
 	}
 
-	.newchatform input:focus, .newchatform select{
+	.noborder:focus, .noborder select{
 		outline:none;
 	}
 
