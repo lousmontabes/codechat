@@ -17,6 +17,8 @@
 		color:grey;
 		overflow:hidden;
 		padding: 1.5em;
+		margin-left: auto;
+		margin-right: auto;
 	}
 
 	.newchatform input, .newchatform select{
@@ -146,9 +148,9 @@
 
             </form>
 
-			<div class="info-text">...or join an existing chat:</div>
-
 			<form id="existingchatform" class="newchatform" method="post">
+
+				<div class="info-text">...or join an existing chat:</div>
 
                 <div id="existingtokenwarning" class="warning"><b>!</b> Please enter a token</div><br>
                 <input id="existingtokeninput" type="text" spellcheck="false" class="noborder" placeholder="Enter token" name="token">
