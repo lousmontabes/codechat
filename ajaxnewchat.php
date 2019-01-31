@@ -186,7 +186,12 @@
 				<div class="info-text">...or join an existing chat:</div>
 
                 <div id="existingtokenwarning" class="warning"><b>!</b> Please enter a token</div><br>
-                <input id="existingtokeninput" type="text" spellcheck="false" class="noborder" placeholder="Enter token" name="token">
+
+				<div class="input-container">
+					<div class="input-section">
+                		<input id="existingtokeninput" type="text" spellcheck="false" class="noborder" placeholder="Enter token" name="token">
+					</div>
+				</div>
 
                 <input type="submit" class="bigbutton" value="Join existing chat">
 
