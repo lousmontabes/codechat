@@ -11,7 +11,7 @@
 	}
 
 	.newchatform{
-	    width:16em;
+	    width:19em;
 		font-size:28px;
 		font-weight:100;
 		color:grey;
@@ -82,6 +82,7 @@
         transition:0.2s;
         font-size:18px;
         opacity:0.5;
+		width: 100%;
     }
 
     #tokeninput:hover{
