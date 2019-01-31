@@ -11,7 +11,7 @@
 	}
 
 	.newchatform{
-	    width:11.5em;
+	    width:16em;
 		font-size:28px;
 		font-weight:100;
 		color:grey;
@@ -110,6 +110,10 @@
 		display: inline-block;
 		padding: .5em 1.5em;
 		border: 1px solid lightgrey;
+	}
+
+	.newchatform .noborder {
+		font-size: 20px;
 	}
 
 </style>
