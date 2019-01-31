@@ -231,7 +231,11 @@
             display: block;
             cursor: pointer;
             transition: 0.2s;
-            background: transparent;
+            /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#efefef+0,efefef+100&0+0,1+25 */
+            background: -moz-linear-gradient(top, rgba(239,239,239,0) 0%, rgba(239,239,239,1) 25%, rgba(239,239,239,1) 100%); /* FF3.6-15 */
+            background: -webkit-linear-gradient(top, rgba(239,239,239,0) 0%,rgba(239,239,239,1) 25%,rgba(239,239,239,1) 100%); /* Chrome10-25,Safari5.1-6 */
+            background: linear-gradient(to bottom, rgba(239,239,239,0) 0%,rgba(239,239,239,1) 25%,rgba(239,239,239,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00efefef', endColorstr='#efefef',GradientType=0 ); /* IE6-9 */
             box-shadow: none;
             text-align: center;
             font-size: 22px;
