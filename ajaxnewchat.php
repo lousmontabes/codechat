@@ -101,6 +101,17 @@
 		height: 600px;
 	}
 
+	.input-container {
+		display: inline-block;
+    	box-shadow: 1px 1px 2px;
+	}
+
+	.input-section {
+		display: inline-block;
+		padding: .5em 1.5em;
+		border: 1px solid lightgrey;
+	}
+
 </style>
 
 <div id="everything">
