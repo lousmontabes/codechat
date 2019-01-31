@@ -242,6 +242,7 @@
             font-weight: 100;
             color: grey;
             padding: 1.5em 0;
+            padding-top: 2em;
             position: fixed;
             bottom: 0;
             width: 100%;
@@ -253,10 +254,15 @@
         #newChatCard:hover, #newChatCard.highlighted{
             border-color: rgba(46, 109, 164, 0.5);
             color: #2e6da4;
+            /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#efefef+0,efefef+100&0+0,1+25 */
+            background: -moz-linear-gradient(top, rgba(18,43,64,0) 0%, rgba(18,43,64,1) 25%, rgba(18,43,64,1) 100%); /* FF3.6-15 */
+            background: -webkit-linear-gradient(top, rgba(18,43,64,0) 0%,rgba(18,43,64,1) 25%,rgba(18,43,64,1) 100%); /* Chrome10-25,Safari5.1-6 */
+            background: linear-gradient(to bottom, rgba(18,43,64,0) 0%,rgba(18,43,64,1) 25%,rgba(18,43,64,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00efefef', endColorstr='#efefef',GradientType=0 ); /* IE6-9 */
         }
 
         #newChatCard.highlighted{
-            background: rgba(46, 109, 164, 0.1);
+            background: rgba(46, 109, 164, 1);
         }
 
         .sender{
