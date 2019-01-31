@@ -121,6 +121,9 @@
 
 		                <input id="nameinput" type="text" spellcheck="false" class="noborder" placeholder="Enter chat name" name="name">
 
+					</div>
+					<div class="input-section">
+
 		                <select class="noborder" name="language">
 		                    <option value="Python">Python</option>
 		                    <option value="Markup">Markup</option>
