@@ -238,9 +238,12 @@
             font-weight: 100;
             color: grey;
             padding: 1.5em 0;
-            position: relative;
+            position: fixed;
             bottom: 0;
             width: 100%;
+            min-width: 300px;
+            width: 25vw;
+            max-width: 350px;
         }
 
         #newChatCard:hover, #newChatCard.highlighted{
@@ -304,6 +307,7 @@
 
         #chatListView{
             transition:0.1s;
+            padding-bottom: 100px;
         }
 
         #toggleColumnButton{
